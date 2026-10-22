@@ -1,0 +1,16 @@
+{
+  "_doc": "Eixos de estilo de jogo. Cada personagem recebe uma nota de 0 a 10 por eixo, na mesma ordem. 'peso' controla a importância do eixo no cálculo de compatibilidade.",
+  "axes": [
+    { "key": "alcance", "label": "Alcance", "peso": 1.4, "alto": "joga de longe", "baixo": "luta corpo a corpo" },
+    { "key": "mobilidade", "label": "Mobilidade", "peso": 1.2, "alto": "muita mobilidade", "baixo": "pouca mobilidade" },
+    { "key": "burst", "label": "Dano explosivo", "peso": 1.0, "alto": "dano explosivo alto", "baixo": "pouco burst" },
+    { "key": "dano_continuo", "label": "Dano contínuo", "peso": 0.8, "alto": "dano sustentado / DoT", "baixo": "pouco dano contínuo" },
+    { "key": "resistencia", "label": "Resistência", "peso": 1.2, "alto": "aguenta muito dano", "baixo": "frágil" },
+    { "key": "autocura", "label": "Autocura", "peso": 0.8, "alto": "se cura sozinho", "baixo": "pouca autocura" },
+    { "key": "controle", "label": "Controle de grupo", "peso": 1.0, "alto": "muito controle (stun, slow, puxão)", "baixo": "pouco controle" },
+    { "key": "suporte", "label": "Suporte ao time", "peso": 1.3, "alto": "cura ou protege aliados", "baixo": "joga para si" },
+    { "key": "furtividade", "label": "Furtividade", "peso": 0.9, "alto": "invisível / emboscada", "baixo": "joga às claras" },
+    { "key": "arma", "label": "Foco em arma", "peso": 1.3, "alto": "depende do ataque básico / arma", "baixo": "depende das habilidades" },
+    { "key": "zona", "label": "Controle de área", "peso": 0.8, "alto": "domina áreas do mapa", "baixo": "pouco controle de área" }
+  ]
+}
