@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --color-fundo: #0f0d0b;
+  --color-painel: #1a1714;
+  --color-borda: #34302a;
+  --color-texto: #ece6da;
+  --color-suave: #a39b8c;
+  --color-ouro: #d9b46a;
+
+  /* Tríade oficial do Deadlock */
+  --color-arma: #f08a24;
+  --color-espirito: #a35bf0;
+  --color-vitalidade: #6cc24a;
+}
+
+html {
+  background: var(--color-fundo);
+  color: var(--color-texto);
+  font-family: var(--font-sans);
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at top, rgb(217 180 106 / 0.08), transparent 60%),
+    var(--color-fundo);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}

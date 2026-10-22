@@ -1,0 +1,26 @@
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+</script>
+
+<template>
+  <div class="flex min-h-screen flex-col">
+    <header class="border-b border-borda/70">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <RouterLink to="/" class="font-display text-xl font-bold tracking-wide uppercase">
+          My Pick <span class="text-ouro">Deadlock</span>
+        </RouterLink>
+        <span class="hidden text-sm text-suave sm:block">Do seu main ao herói certo</span>
+      </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
+      <RouterView />
+    </main>
+
+    <footer class="border-t border-borda/70 px-4 py-6 text-center text-xs leading-relaxed text-suave">
+      Projeto de fã, sem afiliação com a Riot Games ou a Valve. League of Legends é marca da Riot Games, Inc.
+      Deadlock é marca da Valve Corporation. Imagens via Data Dragon e
+      <a href="https://deadlock-api.com" class="underline hover:text-texto" target="_blank" rel="noopener">deadlock-api.com</a>.
+    </footer>
+  </div>
+</template>

@@ -1,0 +1,9 @@
+{
+  "_doc": "Jogos de origem. Para adicionar um jogo: crie games/<id>.json e mappings/<id>.json e mude 'ativo' para true.",
+  "sources": [
+    { "id": "lol", "nome": "League of Legends", "sigla": "LoL", "ativo": true },
+    { "id": "dota2", "nome": "Dota 2", "sigla": "Dota 2", "ativo": false },
+    { "id": "overwatch2", "nome": "Overwatch 2", "sigla": "OW2", "ativo": false },
+    { "id": "valorant", "nome": "Valorant", "sigla": "Valorant", "ativo": false }
+  ]
+}

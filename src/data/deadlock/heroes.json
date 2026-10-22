@@ -1,0 +1,446 @@
+{
+  "_doc": "Heróis do Deadlock. 'id' é o id da Deadlock API (imagens vêm dela). 'vetor' segue a ordem de axes.json (0-10). 'dificuldade' vai de 1 (fácil) a 5 (extremo). 'triade' vai de 1 a 10: arma (laranja), espirito (roxo), vitalidade (verde). RASCUNHO para revisão.",
+  "revisado_em": "2026-10-22",
+  "heroes": [
+    {
+      "id": 1, "nome": "Infernus", "arquetipo": "Incendiário", "dificuldade": 1,
+      "vetor": [5, 7, 5, 9, 4, 2, 5, 1, 1, 5, 5],
+      "triade": { "arma": 6, "espirito": 8, "vitalidade": 5 },
+      "resumo": "Espalha queimaduras com a arma e as habilidades, corre atrás do alvo com Flame Dash e fecha a luta com o atordoamento em área da ultimate.",
+      "builds": [
+        { "nome": "Infernus Espiritual", "foco": "espirito", "descricao": "Duração e dano de habilidades. Napalm e Afterburn viram a principal fonte de dano e a ultimate atordoa por mais tempo." },
+        { "nome": "Infernus Atirador de Queimadura", "foco": "arma", "descricao": "Cadência de tiro para acumular Afterburn rápido. Joga como um atirador que derrete o alvo enquanto persegue." }
+      ]
+    },
+    {
+      "id": 2, "nome": "Seven", "arquetipo": "Mago elétrico", "dificuldade": 1,
+      "vetor": [6, 3, 6, 7, 4, 1, 6, 1, 0, 5, 7],
+      "triade": { "arma": 6, "espirito": 9, "vitalidade": 4 },
+      "resumo": "Bola de raio para farmar e cutucar, Static Charge para atordoar em grupo e Storm Cloud para dominar lutas em área.",
+      "builds": [
+        { "nome": "Seven Tempestade", "foco": "espirito", "descricao": "Poder espiritual e alcance de habilidade. A Storm Cloud vira a ameaça principal das lutas em equipe." },
+        { "nome": "Seven Power Surge", "foco": "arma", "descricao": "Itens de arma com Power Surge: cada tiro ricocheteia em inimigos próximos. Ótimo para empurrar rotas." }
+      ]
+    },
+    {
+      "id": 3, "nome": "Vindicta", "arquetipo": "Atiradora de elite", "dificuldade": 2,
+      "vetor": [10, 8, 8, 4, 2, 1, 4, 0, 2, 9, 1],
+      "triade": { "arma": 10, "espirito": 5, "vitalidade": 3 },
+      "resumo": "Voa sobre o campo de batalha e executa alvos feridos a longa distância com Assassinate.",
+      "builds": [
+        { "nome": "Vindicta Sniper", "foco": "arma", "descricao": "Dano por tiro e headshots. Fica no ar com Flight e pune quem se expõe." },
+        { "nome": "Vindicta Corvo", "foco": "espirito", "descricao": "Crow Familiar e Stake fortes: sangramento por vida atual e controle com a estaca." }
+      ]
+    },
+    {
+      "id": 4, "nome": "Lady Geist", "arquetipo": "Bruxa de sangue", "dificuldade": 2,
+      "vetor": [4, 3, 8, 5, 5, 8, 4, 1, 0, 2, 3],
+      "triade": { "arma": 3, "espirito": 9, "vitalidade": 7 },
+      "resumo": "Gasta a própria vida para causar dano e recupera tudo drenando o inimigo. Soul Exchange troca a vida com o alvo e vira lutas perdidas.",
+      "builds": [
+        { "nome": "Geist Burst", "foco": "espirito", "descricao": "Poder espiritual para Essence Bomb e Malice explodirem o alvo." },
+        { "nome": "Geist Drenadora", "foco": "vitalidade", "descricao": "Vida, resistências e roubo de vida espiritual. Fica na luta com Life Drain e troca vida no momento certo." }
+      ]
+    },
+    {
+      "id": 6, "nome": "Abrams", "arquetipo": "Tanque brigão", "dificuldade": 2,
+      "vetor": [2, 5, 4, 6, 9, 8, 7, 2, 0, 5, 2],
+      "triade": { "arma": 6, "espirito": 5, "vitalidade": 10 },
+      "resumo": "Entra no meio do time inimigo com Shoulder Charge e Seismic Impact, segura dano e se cura com Siphon Life.",
+      "builds": [
+        { "nome": "Abrams Full Tank", "foco": "vitalidade", "descricao": "Vida, resistências e regeneração. Inicia lutas e absorve o foco do time inimigo." },
+        { "nome": "Abrams Boxeador Heavy Melee", "foco": "arma", "descricao": "Itens de corpo a corpo e Heavy Melee. Combina Shoulder Charge na parede com socos pesados." }
+      ]
+    },
+    {
+      "id": 7, "nome": "Wraith", "arquetipo": "Duelista ilusionista", "dificuldade": 1,
+      "vetor": [6, 7, 6, 7, 3, 2, 6, 1, 1, 7, 2],
+      "triade": { "arma": 8, "espirito": 6, "vitalidade": 4 },
+      "resumo": "Gera cartas atirando, isola alvos com Telekinesis e se teleporta para dentro ou para fora da luta com Project Mind.",
+      "builds": [
+        { "nome": "Wraith Full Auto", "foco": "arma", "descricao": "Cadência de tiro e munição. Full Auto derrete alvos isolados." },
+        { "nome": "Wraith Cartas", "foco": "espirito", "descricao": "Poder espiritual para Card Trick e Telekinesis: dano de longe e controle forte." }
+      ]
+    },
+    {
+      "id": 8, "nome": "McGinnis", "arquetipo": "Engenheira de torretas", "dificuldade": 1,
+      "vetor": [6, 2, 4, 7, 4, 2, 5, 7, 0, 4, 9],
+      "triade": { "arma": 6, "espirito": 7, "vitalidade": 5 },
+      "resumo": "Constrói torretas, cura aliados com Medicinal Specter e divide o time inimigo com Spectral Wall.",
+      "builds": [
+        { "nome": "McGinnis Torreta", "foco": "espirito", "descricao": "Itens que fortalecem invocações e duração. Segura rotas e objetivos sozinha." },
+        { "nome": "McGinnis Suporte de Muralha", "foco": "vitalidade", "descricao": "Cura, recarga e utilidade. Controla o terreno da luta e mantém o time vivo." }
+      ]
+    },
+    {
+      "id": 10, "nome": "Paradox", "arquetipo": "Manipuladora do tempo", "dificuldade": 3,
+      "vetor": [6, 5, 7, 5, 4, 1, 8, 2, 0, 6, 5],
+      "triade": { "arma": 7, "espirito": 8, "vitalidade": 4 },
+      "resumo": "Para o tempo com Kinetic Carbine e Time Wall e troca de posição com o inimigo para jogá-lo no meio do seu time.",
+      "builds": [
+        { "nome": "Paradox Carbine", "foco": "arma", "descricao": "Dano de arma escala o Kinetic Carbine. Tiro preciso que paralisa o alvo." },
+        { "nome": "Paradox Controle", "foco": "espirito", "descricao": "Recarga e duração para Pulse Grenade e Time Wall. Prepara jogadas para o time." }
+      ]
+    },
+    {
+      "id": 11, "nome": "Dynamo", "arquetipo": "Iniciador de suporte", "dificuldade": 2,
+      "vetor": [4, 6, 4, 3, 6, 4, 9, 8, 1, 3, 5],
+      "triade": { "arma": 4, "espirito": 7, "vitalidade": 7 },
+      "resumo": "Cura o time com Rejuvenating Aurora e vira lutas com a Singularity, que puxa e atordoa todos ao redor.",
+      "builds": [
+        { "nome": "Dynamo Suporte", "foco": "vitalidade", "descricao": "Cura, resistências e recarga. Mantém o time vivo e espera a Singularity perfeita." },
+        { "nome": "Dynamo Iniciador", "foco": "espirito", "descricao": "Dano espiritual e duração na Singularity, com Quantum Entanglement para entrar de surpresa." }
+      ]
+    },
+    {
+      "id": 12, "nome": "Kelvin", "arquetipo": "Protetor congelante", "dificuldade": 2,
+      "vetor": [5, 7, 4, 5, 6, 4, 6, 8, 0, 3, 6],
+      "triade": { "arma": 4, "espirito": 8, "vitalidade": 7 },
+      "resumo": "Desliza pelo mapa no Ice Path, cura aliados com Frost Grenade e protege o time com o domo do Frozen Shelter.",
+      "builds": [
+        { "nome": "Kelvin Suporte", "foco": "vitalidade", "descricao": "Cura e recarga. Joga para o time com granadas de cura e o domo no momento certo." },
+        { "nome": "Kelvin Mago Espiritual", "foco": "espirito", "descricao": "Poder espiritual no Arctic Beam e na Frost Grenade: dano e lentidão pesados." }
+      ]
+    },
+    {
+      "id": 13, "nome": "Haze", "arquetipo": "Assassina furtiva", "dificuldade": 1,
+      "vetor": [4, 6, 7, 8, 2, 2, 4, 0, 9, 9, 1],
+      "triade": { "arma": 10, "espirito": 4, "vitalidade": 4 },
+      "resumo": "Some com Smoke Bomb, adormece o alvo com Sleep Dagger e despeja balas com Fixation e Bullet Dance.",
+      "builds": [
+        { "nome": "Haze Bullet Dance", "foco": "arma", "descricao": "Cadência de tiro e efeitos ao acertar. A ultimate distribui dano em grupo." },
+        { "nome": "Haze Duelista", "foco": "vitalidade", "descricao": "Roubo de vida por bala e resistências para sobreviver a duelos longos." }
+      ]
+    },
+    {
+      "id": 14, "nome": "Holliday", "arquetipo": "Pistoleira de truques", "dificuldade": 3,
+      "vetor": [7, 8, 7, 5, 3, 1, 6, 1, 1, 8, 4],
+      "triade": { "arma": 9, "espirito": 6, "vitalidade": 4 },
+      "resumo": "Lança inimigos para o alto com Powder Keg, acerta headshots com Crackshot e puxa alvos com Spirit Lasso.",
+      "builds": [
+        { "nome": "Holliday Crackshot", "foco": "arma", "descricao": "Dano de headshot e precisão. Recompensa mira boa." },
+        { "nome": "Holliday Explosiva", "foco": "espirito", "descricao": "Powder Keg e Bounce Pad fortes: dano em área e mobilidade constante." }
+      ]
+    },
+    {
+      "id": 15, "nome": "Bebop", "arquetipo": "Robô do gancho", "dificuldade": 2,
+      "vetor": [5, 3, 8, 6, 6, 2, 8, 4, 0, 4, 4],
+      "triade": { "arma": 5, "espirito": 9, "vitalidade": 6 },
+      "resumo": "Puxa o alvo com Grapple Arm, explode com Sticky Bomb e Exploding Uppercut, e varre a área com Hyper Beam.",
+      "builds": [
+        { "nome": "Bebop Bomba", "foco": "espirito", "descricao": "Poder espiritual: a Sticky Bomb cresce a cada abate e vira um combo de morte." },
+        { "nome": "Bebop Hyper Beam", "foco": "vitalidade", "descricao": "Vida e resistências para canalizar o laser no meio da luta." }
+      ]
+    },
+    {
+      "id": 16, "nome": "Calico", "arquetipo": "Caçador das sombras", "dificuldade": 2,
+      "vetor": [4, 8, 8, 4, 3, 3, 3, 0, 8, 3, 2],
+      "triade": { "arma": 4, "espirito": 9, "vitalidade": 5 },
+      "resumo": "Possui a gata Ava para se mover escondida do minimapa, salta com Leaping Slash e escapa com Return to Shadows.",
+      "builds": [
+        { "nome": "Calico Burst", "foco": "espirito", "descricao": "Gloom Bombs e Return to Shadows com muito poder espiritual: entra, explode, some." },
+        { "nome": "Calico Lâmina", "foco": "arma", "descricao": "Itens de corpo a corpo para o Leaping Slash. Persegue e finaliza." }
+      ]
+    },
+    {
+      "id": 17, "nome": "Grey Talon", "arquetipo": "Arqueiro caçador", "dificuldade": 2,
+      "vetor": [10, 5, 8, 4, 2, 1, 6, 1, 2, 8, 5],
+      "triade": { "arma": 9, "espirito": 7, "vitalidade": 3 },
+      "resumo": "Arqueiro de longa distância com Charged Shot, armadilhas e uma coruja guiada que atordoa de qualquer lugar.",
+      "builds": [
+        { "nome": "Talon Charged Shot", "foco": "arma", "descricao": "Dano de arma no tiro carregado. Atravessa inimigos de longe." },
+        { "nome": "Talon Coruja", "foco": "espirito", "descricao": "Poder espiritual para Guided Owl e Spirit Snare: dano e atordoamento pelo mapa." }
+      ]
+    },
+    {
+      "id": 18, "nome": "Mo & Krill", "arquetipo": "Escavador iniciador", "dificuldade": 1,
+      "vetor": [1, 7, 5, 6, 8, 7, 9, 2, 6, 3, 2],
+      "triade": { "arma": 4, "espirito": 7, "vitalidade": 9 },
+      "resumo": "Avança por baixo da terra com Burrow, surge no meio do inimigo e segura o alvo no lugar com Combo.",
+      "builds": [
+        { "nome": "Mo & Krill Tanque", "foco": "vitalidade", "descricao": "Vida e resistências. Scorn cura e Combo prende o carregador inimigo." },
+        { "nome": "Mo & Krill Escavador", "foco": "espirito", "descricao": "Dano espiritual no Burrow e no Sand Blast para emboscadas." }
+      ]
+    },
+    {
+      "id": 19, "nome": "Shiv", "arquetipo": "Executor sanguinário", "dificuldade": 4,
+      "vetor": [2, 7, 8, 6, 7, 5, 3, 0, 1, 5, 1],
+      "triade": { "arma": 7, "espirito": 6, "vitalidade": 7 },
+      "resumo": "Acumula sangramento com facas, adia o dano recebido com Bloodletting e executa alvos com Killing Blow.",
+      "builds": [
+        { "nome": "Shiv Executor", "foco": "arma", "descricao": "Dano de arma e corpo a corpo para chegar rápido ao limite de execução." },
+        { "nome": "Shiv Durão", "foco": "vitalidade", "descricao": "Vida e resistências para aproveitar o dano adiado do Bloodletting." }
+      ]
+    },
+    {
+      "id": 20, "nome": "Ivy", "arquetipo": "Dupla com aliado", "dificuldade": 2,
+      "vetor": [6, 6, 5, 5, 5, 5, 6, 8, 0, 6, 5],
+      "triade": { "arma": 6, "espirito": 7, "vitalidade": 6 },
+      "resumo": "Se conecta a um aliado com Kudzu Connection, divide curas e bônus, e carrega aliados voando com Air Drop.",
+      "builds": [
+        { "nome": "Ivy Suporte", "foco": "vitalidade", "descricao": "Cura e utilidade. Potencializa o carregador do time." },
+        { "nome": "Ivy Atiradora", "foco": "arma", "descricao": "Dano de arma, aproveitando que Kudzu remove a penalidade de movimento ao atirar." }
+      ]
+    },
+    {
+      "id": 25, "nome": "Warden", "arquetipo": "Xerife implacável", "dificuldade": 1,
+      "vetor": [3, 5, 5, 6, 8, 6, 7, 1, 0, 6, 4],
+      "triade": { "arma": 7, "espirito": 6, "vitalidade": 8 },
+      "resumo": "Enfraquece inimigos com Alchemical Flask, prende quem não foge do Binding Word e se cura dentro da luta com Last Stand.",
+      "builds": [
+        { "nome": "Warden Linha de Frente", "foco": "vitalidade", "descricao": "Resistências e barreira. Last Stand no meio do time inimigo." },
+        { "nome": "Warden Pistoleiro", "foco": "arma", "descricao": "Dano de arma para perseguir e terminar alvos presos pelo Binding Word." }
+      ]
+    },
+    {
+      "id": 27, "nome": "Yamato", "arquetipo": "Espadachim acrobática", "dificuldade": 2,
+      "vetor": [2, 8, 9, 5, 4, 4, 4, 0, 1, 4, 1],
+      "triade": { "arma": 5, "espirito": 8, "vitalidade": 6 },
+      "resumo": "Gancho até o alvo com Flying Slash, golpes carregados com Power Slash e uma transformação que a deixa imune à morte por alguns segundos.",
+      "builds": [
+        { "nome": "Yamato Power Slash", "foco": "espirito", "descricao": "Poder espiritual para o golpe carregado apagar alvos de uma vez." },
+        { "nome": "Yamato Sombra", "foco": "vitalidade", "descricao": "Sobrevivência e recarga para aproveitar a ultimate ao máximo." }
+      ]
+    },
+    {
+      "id": 31, "nome": "Lash", "arquetipo": "Iniciador aéreo", "dificuldade": 3,
+      "vetor": [3, 10, 8, 4, 4, 4, 8, 1, 2, 3, 3],
+      "triade": { "arma": 4, "espirito": 8, "vitalidade": 6 },
+      "resumo": "Se puxa pelo ar com Grapple, cai sobre o alvo com Ground Strike e levanta o time inteiro com Death Slam.",
+      "builds": [
+        { "nome": "Lash Mergulho", "foco": "espirito", "descricao": "Dano no Ground Strike: quanto maior a queda, maior o dano." },
+        { "nome": "Lash Iniciador", "foco": "vitalidade", "descricao": "Resistências para entrar primeiro e conectar o Death Slam em vários alvos." }
+      ]
+    },
+    {
+      "id": 35, "nome": "Viscous", "arquetipo": "Gosma evasiva", "dificuldade": 3,
+      "vetor": [4, 6, 5, 5, 7, 6, 7, 6, 0, 3, 6],
+      "triade": { "arma": 4, "espirito": 8, "vitalidade": 7 },
+      "resumo": "Rola pelo mapa como Goo Ball atordoando quem atinge e protege a si ou a aliados dentro de The Cube.",
+      "builds": [
+        { "nome": "Viscous Goo Ball", "foco": "vitalidade", "descricao": "Resistências para rolar no meio do time inimigo e sair vivo." },
+        { "nome": "Viscous Puddle Punch", "foco": "espirito", "descricao": "Poder espiritual no soco e no Splatter: muito dano de longe." }
+      ]
+    },
+    {
+      "id": 50, "nome": "Pocket", "arquetipo": "Trapaceiro da mala", "dificuldade": 4,
+      "vetor": [4, 8, 9, 5, 2, 1, 3, 0, 4, 4, 5],
+      "triade": { "arma": 5, "espirito": 9, "vitalidade": 4 },
+      "resumo": "Entra na retaguarda inimiga com Flying Cloak, despeja Barrage e foge para dentro da mala com Enchanter's Satchel.",
+      "builds": [
+        { "nome": "Pocket Barrage", "foco": "espirito", "descricao": "Poder espiritual para a chuva de projéteis explodir grupos." },
+        { "nome": "Pocket Escopeta", "foco": "arma", "descricao": "Dano de arma de perto, usando a mala para escapar." }
+      ]
+    },
+    {
+      "id": 52, "nome": "Mirage", "arquetipo": "Andarilho do deserto", "dificuldade": 2,
+      "vetor": [7, 7, 5, 6, 4, 5, 5, 4, 1, 7, 2],
+      "triade": { "arma": 8, "espirito": 6, "vitalidade": 5 },
+      "resumo": "Persegue alvos girando como Dust Devil, drena vida com Fire Scarabs e se teleporta para qualquer ponto do mapa com Traveler.",
+      "builds": [
+        { "nome": "Mirage Djinn's Mark", "foco": "arma", "descricao": "Dano de arma e cadência para acumular marcas e explodir o alvo." },
+        { "nome": "Mirage Viajante", "foco": "vitalidade", "descricao": "Sobrevivência e recarga para aparecer em toda luta com Traveler." }
+      ]
+    },
+    {
+      "id": 58, "nome": "Vyper", "arquetipo": "Serpente atiradora", "dificuldade": 4,
+      "vetor": [4, 6, 8, 6, 3, 1, 7, 0, 4, 7, 3],
+      "triade": { "arma": 8, "espirito": 7, "vitalidade": 4 },
+      "resumo": "Desliza por trás do time inimigo, petrifica alvos com Petrifying Bola e finaliza com Lethal Venom e tiros.",
+      "builds": [
+        { "nome": "Vyper Metralhadora", "foco": "arma", "descricao": "Cadência e dano de arma contra alvos petrificados." },
+        { "nome": "Vyper Veneno", "foco": "espirito", "descricao": "Poder espiritual nas adagas e no Lethal Venom." }
+      ]
+    },
+    {
+      "id": 60, "nome": "Sinclair", "arquetipo": "Mágico trapaceiro", "dificuldade": 5,
+      "vetor": [6, 4, 7, 5, 3, 1, 8, 2, 0, 4, 5],
+      "triade": { "arma": 5, "espirito": 9, "vitalidade": 4 },
+      "resumo": "Transforma inimigos em coelhos com Rabbit Hex e copia a ultimate de um inimigo com Audience Participation.",
+      "builds": [
+        { "nome": "Sinclair Mago", "foco": "espirito", "descricao": "Poder espiritual no Vexing Bolt e na ultimate copiada." },
+        { "nome": "Sinclair Assistente", "foco": "arma", "descricao": "Dano de arma, que o Spectral Assistant repete a cada disparo." }
+      ]
+    },
+    {
+      "id": 63, "nome": "Mina", "arquetipo": "Vampira ágil", "dificuldade": 3,
+      "vetor": [6, 8, 7, 7, 3, 3, 4, 0, 1, 7, 2],
+      "triade": { "arma": 8, "espirito": 7, "vitalidade": 4 },
+      "resumo": "Cutuca com tiros que acumulam Love Bites, foge virando morcegos com Sanguine Retreat e silencia com Nox Nostra.",
+      "builds": [
+        { "nome": "Mina Atiradora", "foco": "arma", "descricao": "Cadência para ativar Love Bites o tempo todo." },
+        { "nome": "Mina Noturna", "foco": "espirito", "descricao": "Poder espiritual na mordida e na nuvem de morcegos." }
+      ]
+    },
+    {
+      "id": 64, "nome": "Drifter", "arquetipo": "Perseguidor noturno", "dificuldade": 2,
+      "vetor": [2, 7, 8, 5, 4, 4, 5, 0, 8, 3, 1],
+      "triade": { "arma": 4, "espirito": 8, "vitalidade": 6 },
+      "resumo": "Rastreia inimigos com Bloodscent, marca com Stalker's Mark e cega o time inimigo com Eternal Night para caçar isolados.",
+      "builds": [
+        { "nome": "Drifter Caçador", "foco": "espirito", "descricao": "Poder espiritual no Rend e no sangramento da marca." },
+        { "nome": "Drifter Brutal", "foco": "arma", "descricao": "Corpo a corpo para aproveitar o bônus de Rend de perto." }
+      ]
+    },
+    {
+      "id": 65, "nome": "Venator", "arquetipo": "Caçador devoto", "dificuldade": 2,
+      "vetor": [5, 4, 8, 6, 5, 2, 6, 1, 1, 8, 4],
+      "triade": { "arma": 9, "espirito": 5, "vitalidade": 6 },
+      "resumo": "Escopeta e besta: empurra inimigos contra paredes com Gutshot e executa alvos com a besta abençoada de Ira Domini.",
+      "builds": [
+        { "nome": "Venator Besta", "foco": "arma", "descricao": "Dano de arma bruto para as três estacas da ultimate." },
+        { "nome": "Venator Armadilheiro", "foco": "espirito", "descricao": "Snap Trap e granada fortes para controlar a área." }
+      ]
+    },
+    {
+      "id": 66, "nome": "Victor", "arquetipo": "Morto-vivo elétrico", "dificuldade": 2,
+      "vetor": [3, 4, 4, 7, 9, 8, 5, 1, 0, 4, 4],
+      "triade": { "arma": 4, "espirito": 7, "vitalidade": 10 },
+      "resumo": "Fica mais forte apanhando: carrega Pain Battery com o dano recebido e volta da morte com Shocking Reanimation.",
+      "builds": [
+        { "nome": "Victor Imortal", "foco": "vitalidade", "descricao": "Vida e regeneração. Aura of Suffering fere todos ao redor enquanto você aguenta." },
+        { "nome": "Victor Bateria", "foco": "espirito", "descricao": "Poder espiritual para a Pain Battery descarregar muito dano." }
+      ]
+    },
+    {
+      "id": 67, "nome": "Paige", "arquetipo": "Leitora protetora", "dificuldade": 2,
+      "vetor": [7, 3, 5, 5, 4, 2, 6, 9, 0, 2, 7],
+      "triade": { "arma": 3, "espirito": 8, "vitalidade": 6 },
+      "resumo": "Dá barreira e dano extra aos aliados com Plot Armor e cura o time pelo mapa inteiro com Rallying Charge.",
+      "builds": [
+        { "nome": "Paige Suporte", "foco": "vitalidade", "descricao": "Cura e recarga. Barreiras constantes no carregador." },
+        { "nome": "Paige Dragão", "foco": "espirito", "descricao": "Poder espiritual no Bookwyrm e no Captivating Read." }
+      ]
+    },
+    {
+      "id": 69, "nome": "The Doorman", "arquetipo": "Porteiro dos portais", "dificuldade": 5,
+      "vetor": [5, 6, 4, 4, 4, 2, 8, 8, 1, 3, 8],
+      "triade": { "arma": 3, "espirito": 8, "vitalidade": 6 },
+      "resumo": "Cria portais ligados com Doorway, arrasta inimigos com Luggage Cart e tira um alvo da luta com Hotel Guest.",
+      "builds": [
+        { "nome": "Doorman Estrategista", "foco": "vitalidade", "descricao": "Recarga e utilidade. Portais para rotacionar o time." },
+        { "nome": "Doorman Sineiro", "foco": "espirito", "descricao": "Poder espiritual no Call Bell e no Luggage Cart." }
+      ]
+    },
+    {
+      "id": 72, "nome": "Billy", "arquetipo": "Bode punk", "dificuldade": 2,
+      "vetor": [1, 6, 6, 6, 8, 5, 9, 1, 0, 4, 3],
+      "triade": { "arma": 6, "espirito": 6, "vitalidade": 8 },
+      "resumo": "Investe de cabeça com Rising Ram, martela o chão com Bashdown e acorrenta inimigos com Chain Gang.",
+      "builds": [
+        { "nome": "Billy Taco de Beisebol", "foco": "arma", "descricao": "Corpo a corpo: Blasted recarrega munição a cada golpe." },
+        { "nome": "Billy Iniciador", "foco": "vitalidade", "descricao": "Resistências para Chain Gang no meio do time inimigo." }
+      ]
+    },
+    {
+      "id": 76, "nome": "Graves", "arquetipo": "Necromante", "dificuldade": 1,
+      "vetor": [6, 3, 5, 8, 4, 3, 6, 2, 0, 4, 9],
+      "triade": { "arma": 5, "espirito": 9, "vitalidade": 5 },
+      "resumo": "Coleta mortes no Jar of Dead para invocar mortos-vivos e controla corredores com Grasping Hands.",
+      "builds": [
+        { "nome": "Graves Invocadora", "foco": "espirito", "descricao": "Poder espiritual nas invocações e nas mãos. Domina a área." },
+        { "nome": "Graves Ladra", "foco": "arma", "descricao": "Arma com Essence Theft roubando dano e resistência do alvo." }
+      ]
+    },
+    {
+      "id": 77, "nome": "Apollo", "arquetipo": "Esgrimista", "dificuldade": 2,
+      "vetor": [2, 9, 8, 5, 4, 3, 6, 0, 1, 4, 1],
+      "triade": { "arma": 5, "espirito": 8, "vitalidade": 6 },
+      "resumo": "Esgrima com estocadas em qualquer direção, aparo com Riposte e um golpe final que deixa o alvo em câmera lenta.",
+      "builds": [
+        { "nome": "Apollo Duelista", "foco": "espirito", "descricao": "Poder espiritual no Flawless Advance e na ultimate." },
+        { "nome": "Apollo Aparo", "foco": "vitalidade", "descricao": "Sobrevivência e recarga para usar Riposte em toda troca." }
+      ]
+    },
+    {
+      "id": 78, "nome": "Deadman Danny", "arquetipo": "Piloto de jetpack", "dificuldade": 2,
+      "vetor": [4, 9, 7, 7, 3, 2, 6, 0, 0, 6, 6],
+      "triade": { "arma": 7, "espirito": 7, "vitalidade": 4 },
+      "resumo": "Voa de jetpack, espalha mísseis com Strix Salvo e agarra um inimigo para voar e cair com ele em Close The Deal.",
+      "builds": [
+        { "nome": "Danny Mísseis", "foco": "espirito", "descricao": "Poder espiritual no Strix Salvo e na explosão do combustível." },
+        { "nome": "Danny Lança-chamas", "foco": "arma", "descricao": "Dano de arma no Jettison Fuel, que reduz a resistência a balas." }
+      ]
+    },
+    {
+      "id": 79, "nome": "Rem", "arquetipo": "Suporte de bolso", "dificuldade": 2,
+      "vetor": [4, 7, 2, 2, 4, 4, 6, 10, 4, 2, 3],
+      "triade": { "arma": 2, "espirito": 7, "vitalidade": 7 },
+      "resumo": "Pula em aliados para tirar uma soneca com Tag Along, curando os dois, e manda Lil Helpers ajudarem pelo mapa.",
+      "builds": [
+        { "nome": "Rem Cuidador", "foco": "vitalidade", "descricao": "Cura e regeneração. Gruda no carregador do time." },
+        { "nome": "Rem Travesseiro", "foco": "espirito", "descricao": "Recarga e poder espiritual para Pillow Toss e Naptime." }
+      ]
+    },
+    {
+      "id": 80, "nome": "Silver", "arquetipo": "Lobisomem", "dificuldade": 3,
+      "vetor": [2, 6, 7, 8, 7, 6, 5, 0, 0, 8, 1],
+      "triade": { "arma": 8, "espirito": 5, "vitalidade": 7 },
+      "resumo": "Acumula sede de sangue causando dano, se transforma automaticamente com Lycan Curse e prende alvos com Entangling Bola.",
+      "builds": [
+        { "nome": "Silver Slam Fire", "foco": "arma", "descricao": "Dano de arma e cadência para o Slam Fire." },
+        { "nome": "Silver Fera", "foco": "vitalidade", "descricao": "Vida e roubo de vida para lutar transformada por mais tempo." }
+      ]
+    },
+    {
+      "id": 81, "nome": "Celeste", "arquetipo": "Artista da luz", "dificuldade": 3,
+      "vetor": [6, 4, 8, 6, 4, 5, 6, 2, 0, 3, 5],
+      "triade": { "arma": 4, "espirito": 9, "vitalidade": 6 },
+      "resumo": "Explode inimigos com luz, ganha roubo de vida espiritual com Light Eater e silencia quem quebra sua barreira.",
+      "builds": [
+        { "nome": "Celeste Feixe", "foco": "espirito", "descricao": "Poder espiritual em Radiant Daggers e Shining Wonder." },
+        { "nome": "Celeste Prisma", "foco": "vitalidade", "descricao": "Barreira e roubo de vida espiritual para lutas longas." }
+      ]
+    },
+    {
+      "id": 84, "nome": "Rat King", "arquetipo": "Rei da sucata", "dificuldade": 1,
+      "vetor": [3, 4, 4, 7, 8, 6, 4, 6, 0, 6, 4],
+      "triade": { "arma": 6, "espirito": 6, "vitalidade": 8 },
+      "resumo": "Usa armadura de sucata que rebate balas, solta enxames de ratos e ergue o estandarte de Ratannia para fortalecer o time.",
+      "builds": [
+        { "nome": "Rat King Armadura", "foco": "vitalidade", "descricao": "Vida máxima para uma barreira maior no Royal Pestments." },
+        { "nome": "Rat King Enxame", "foco": "espirito", "descricao": "Poder espiritual no Rat Swarm, que derruba a resistência a balas." }
+      ]
+    },
+    {
+      "id": 85, "nome": "Solomon", "arquetipo": "Estrategista do xadrez", "dificuldade": 5,
+      "vetor": [6, 3, 6, 6, 4, 1, 7, 6, 0, 3, 8],
+      "triade": { "arma": 4, "espirito": 9, "vitalidade": 5 },
+      "resumo": "Posiciona peças de xadrez no mapa: bispo que patrulha, torres que imobilizam e um cavalo que protege aliados.",
+      "builds": [
+        { "nome": "Solomon Ataque", "foco": "espirito", "descricao": "Poder espiritual no bispo e no Rook Battery." },
+        { "nome": "Solomon Rei", "foco": "vitalidade", "descricao": "Barreiras do Kingside Knight para aliados e para si." }
+      ]
+    },
+    {
+      "id": 87, "nome": "Nurse Harrow", "arquetipo": "Enfermeira sombria", "dificuldade": 2,
+      "vetor": [6, 4, 4, 6, 4, 4, 6, 9, 0, 6, 5],
+      "triade": { "arma": 6, "espirito": 7, "vitalidade": 6 },
+      "resumo": "Cura aliados atirando com Healing Needles, coloca sanguessugas nos inimigos e aterroriza quem olha para ela.",
+      "builds": [
+        { "nome": "Harrow Curandeira", "foco": "vitalidade", "descricao": "Recarga e cura: agulhas em quem precisa." },
+        { "nome": "Harrow Terror", "foco": "espirito", "descricao": "Poder espiritual em Leech Therapy e Lurking Terrors." }
+      ]
+    },
+    {
+      "id": 86, "nome": "Violet", "arquetipo": "Pintora mística", "dificuldade": 3,
+      "vetor": [6, 7, 6, 7, 3, 1, 7, 4, 1, 2, 8],
+      "triade": { "arma": 3, "espirito": 9, "vitalidade": 4 },
+      "resumo": "Pinta o campo de batalha: o pincel de Flow State desacelera inimigos e acelera aliados, Still Life atordoa quem ela desenha e Abstract Landscape prende o time inimigo numa área de tinta.",
+      "builds": [
+        { "nome": "Violet Natureza-morta", "foco": "espirito", "descricao": "Poder espiritual e duração para completar desenhos com Still Life e ficar mais forte a cada esboço coletado." },
+        { "nome": "Violet Paisagem", "foco": "vitalidade", "descricao": "Recarga e sobrevivência para controlar lutas com Abstract Landscape e dar mobilidade ao time com Flow State." }
+      ]
+    },
+    {
+      "id": 88, "nome": "Baba", "arquetipo": "Bruxa do banquinho", "dificuldade": 3,
+      "vetor": [5, 6, 6, 6, 4, 2, 8, 6, 0, 4, 6],
+      "triade": { "arma": 5, "espirito": 8, "vitalidade": 5 },
+      "resumo": "Rouba espírito dos inimigos com Threadsap, anda de pernas compridas no banquinho, arremessa chás que alternam barreira, silêncio e queimadura e transforma inimigos em pombos com Feed The Birds.",
+      "builds": [
+        { "nome": "Baba Ladra de Espírito", "foco": "arma", "descricao": "Threadsap rouba espírito e cada tiro ganha dano espiritual extra. Cadência e dano de arma aproveitam o roubo." },
+        { "nome": "Baba Chá Mágico", "foco": "espirito", "descricao": "Poder espiritual e recarga em Baba's Brew e Feed The Birds: protege aliados e transforma o time inimigo em pombos." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "_doc": "Ajustes manuais LoL -> Deadlock. 'heroi' é o par recomendado (recebe o bônus padrão do matcher, ou 'bonus' se definido). 'ajustes' soma ou subtrai pontos de outros heróis. 'paralelos' liga habilidades parecidas. RASCUNHO para revisão.",
+  "mapeamentos": {
+    "Brand": {
+      "heroi": 1,
+      "motivo": "Os dois incendeiam tudo: o dano vem de queimaduras que acumulam e o alvo derrete com o tempo.",
+      "paralelos": [
+        { "origem": "Passiva – Chamas que acumulam e explodem", "destino": "Afterburn" },
+        { "origem": "W – Pilar de fogo em área", "destino": "Napalm" },
+        { "origem": "Q – Atordoa alvos em chamas", "destino": "Concussive Combustion" }
+      ]
+    },
+    "Kennen": {
+      "heroi": 2,
+      "motivo": "Mago elétrico que marca alvos para atordoar e tem uma tempestade como ultimate que domina lutas em grupo.",
+      "paralelos": [
+        { "origem": "Passiva – Marcas que atordoam", "destino": "Static Charge" },
+        { "origem": "R – Tempestade elétrica ao redor", "destino": "Storm Cloud" },
+        { "origem": "W – Ataques que carregam raio", "destino": "Power Surge" }
+      ]
+    },
+    "Caitlyn": {
+      "heroi": 3,
+      "motivo": "Sniper de alcance máximo. A ultimate é um tiro de execução de longe e ela controla a área com armadilhas.",
+      "paralelos": [
+        { "origem": "R – Tiro de execução a longa distância", "destino": "Assassinate" },
+        { "origem": "W – Armadilhas que prendem", "destino": "Stake" },
+        { "origem": "Passiva – Headshot", "destino": "Dano de headshot da arma" }
+      ]
+    },
+    "Vladimir": {
+      "heroi": 4,
+      "motivo": "Gasta a própria vida para lançar habilidades e se recupera drenando o inimigo. Mesma fantasia de mago de sangue.",
+      "paralelos": [
+        { "origem": "Q – Drena vida do alvo", "destino": "Life Drain" },
+        { "origem": "E – Custa vida para causar dano", "destino": "Essence Bomb / Malice" },
+        { "origem": "R – Aumenta o dano que o alvo recebe", "destino": "Malice" }
+      ]
+    },
+    "Sett": {
+      "heroi": 6,
+      "motivo": "Brigão corpo a corpo que absorve dano e devolve com socos. A ultimate agarra e arremessa, como a investida de Abrams.",
+      "paralelos": [
+        { "origem": "R – Agarra e esmaga no chão", "destino": "Shoulder Charge + Seismic Impact" },
+        { "origem": "W – Converte dano recebido em escudo", "destino": "Infernal Resilience" },
+        { "origem": "Passiva – Socos alternados", "destino": "Heavy Melee" }
+      ]
+    },
+    "TwistedFate": {
+      "heroi": 7,
+      "motivo": "Literalmente cartas e teletransporte. Wraith escolhe a luta e chega onde ninguém espera.",
+      "paralelos": [
+        { "origem": "W – Escolhe uma carta com efeito", "destino": "Card Trick" },
+        { "origem": "R – Teletransporte pelo mapa", "destino": "Project Mind" },
+        { "origem": "E – Ataques acumulam bônus", "destino": "Full Auto" }
+      ]
+    },
+    "Heimerdinger": {
+      "heroi": 8,
+      "motivo": "Inventor de torretas que transforma uma área em zona de morte e ainda solta foguetes.",
+      "paralelos": [
+        { "origem": "Q – Torretas", "destino": "Mini Turret" },
+        { "origem": "W – Salva de foguetes", "destino": "Heavy Barrage" },
+        { "origem": "Controle de área com estruturas", "destino": "Spectral Wall" }
+      ]
+    },
+    "Ekko": {
+      "heroi": 10,
+      "motivo": "Manipula o tempo para vencer duelos e cria zonas que paralisam o inimigo.",
+      "paralelos": [
+        { "origem": "W – Zona que atordoa", "destino": "Pulse Grenade / Time Wall" },
+        { "origem": "R – Volta no tempo", "destino": "Paradoxical Swap" },
+        { "origem": "Passiva – Terceiro acerto acelera", "destino": "Kinetic Carbine" }
+      ]
+    },
+    "Galio": {
+      "heroi": 11,
+      "motivo": "Iniciador que puxa o time inimigo para si e leva aliados junto. A Singularity tem o mesmo impacto do provocar em área.",
+      "paralelos": [
+        { "origem": "W – Provoca e prende inimigos ao redor", "destino": "Singularity" },
+        { "origem": "R – Voa até aliados", "destino": "Quantum Entanglement" },
+        { "origem": "E – Arremessa inimigos para cima", "destino": "Kinetic Pulse" }
+      ]
+    },
+    "Braum": {
+      "heroi": 12,
+      "motivo": "Protetor do gelo: desacelera, protege aliados com uma barreira e trava o avanço inimigo.",
+      "paralelos": [
+        { "origem": "E – Escudo que bloqueia projéteis", "destino": "Frozen Shelter" },
+        { "origem": "R – Rastro de gelo que desacelera", "destino": "Ice Path / Arctic Beam" },
+        { "origem": "W – Pula até aliados", "destino": "Ice Path (mobilidade de time)" }
+      ]
+    },
+    "Twitch": {
+      "heroi": 50,
+      "segunda": 13,
+      "bonus": 25,
+      "motivo": "Rato da retaguarda: aparece de surpresa atrás do time inimigo, despeja dano em área e some antes do revide. Se você joga o Twitch pelo DPS de tiro, a Haze é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Invisível até a emboscada", "destino": "Flying Cloak" },
+        { "origem": "W – Barril de veneno que desacelera", "destino": "Barrage" },
+        { "origem": "Passiva – Veneno que acumula dano", "destino": "Affliction" }
+      ]
+    },
+    "Samira": {
+      "heroi": 13,
+      "segunda": 19,
+      "bonus": 28,
+      "motivo": "Atiradora agressiva que entra no meio da luta e despeja balas em todo mundo ao redor: a ultimate da Samira é o Bullet Dance da Haze.",
+      "paralelos": [
+        { "origem": "R – Rajada de tiros em todos ao redor", "destino": "Bullet Dance" },
+        { "origem": "Passiva – Estilo acumula a cada acerto", "destino": "Fixation" }
+      ]
+    },
+    "MissFortune": {
+      "heroi": 14,
+      "motivo": "Pistoleira de truques: tiros que ricocheteiam, bônus no primeiro acerto e dano em área de longe.",
+      "paralelos": [
+        { "origem": "Q – Tiro que ricocheteia", "destino": "Crackshot" },
+        { "origem": "E – Área que desacelera", "destino": "Powder Keg" },
+        { "origem": "W – Velocidade de movimento", "destino": "Bounce Pad" }
+      ]
+    },
+    "Blitzcrank": {
+      "heroi": 15,
+      "motivo": "Robô do gancho. Puxa, levanta com um soco e explode o alvo. O combo é praticamente o mesmo.",
+      "paralelos": [
+        { "origem": "Q – Gancho", "destino": "Grapple Arm" },
+        { "origem": "E – Soco que levanta", "destino": "Exploding Uppercut" },
+        { "origem": "R – Explosão elétrica", "destino": "Hyper Beam" }
+      ]
+    },
+    "Rengar": {
+      "heroi": 16,
+      "motivo": "Felino caçador: some do mapa, ganha velocidade, salta no alvo e explode.",
+      "paralelos": [
+        { "origem": "R – Invisível e mais rápido até o alvo", "destino": "Ava" },
+        { "origem": "Passiva – Salto do arbusto", "destino": "Leaping Slash" },
+        { "origem": "Dano explosivo em um alvo", "destino": "Gloom Bombs" }
+      ]
+    },
+    "Ashe": {
+      "heroi": 17,
+      "motivo": "Arqueira de longe com flecha global que atordoa. Grey Talon guia uma coruja que faz o mesmo papel.",
+      "paralelos": [
+        { "origem": "R – Flecha que atordoa de longe", "destino": "Guided Owl" },
+        { "origem": "E – Gavião de visão", "destino": "Spirit Snare (controle de rota)" },
+        { "origem": "Q – Rajada de flechas", "destino": "Rain of Arrows" }
+      ]
+    },
+    "RekSai": {
+      "heroi": 18,
+      "motivo": "Escava por baixo da terra, surge no meio do inimigo e o levanta. Mo & Krill vive de emboscadas subterrâneas.",
+      "paralelos": [
+        { "origem": "W – Escavar e emergir derrubando", "destino": "Burrow" },
+        { "origem": "R – Mergulho em alvo marcado", "destino": "Combo" },
+        { "origem": "Passiva – Fúria que cura", "destino": "Scorn" }
+      ]
+    },
+    "Darius": {
+      "heroi": 19,
+      "motivo": "Sangramento que acumula e uma execução que reseta. Shiv joga com a mesma ideia.",
+      "paralelos": [
+        { "origem": "Passiva – Hemorragia em acúmulos", "destino": "Serrated Knives" },
+        { "origem": "R – Execução com reset", "destino": "Killing Blow" },
+        { "origem": "Q – Cura ao acertar", "destino": "Bloodletting" }
+      ]
+    },
+    "Kalista": {
+      "heroi": 63,
+      "motivo": "Atiradora de kite que não para de se mover enquanto atira e acumula dano no alvo até explodi-lo de uma vez: as lanças do Rend viram as mordidas do Love Bites.",
+      "paralelos": [
+        { "origem": "E – Lanças acumulam e explodem", "destino": "Love Bites" },
+        { "origem": "Passiva – Pula enquanto ataca", "destino": "Sanguine Retreat" }
+      ]
+    },
+    "Mordekaiser": {
+      "heroi": 25,
+      "motivo": "Lutador de linha de frente com barreira e cura no meio da luta, que isola o alvo para um duelo.",
+      "paralelos": [
+        { "origem": "W – Escudo a partir do dano", "destino": "Willpower" },
+        { "origem": "R – Isola o alvo", "destino": "Binding Word" },
+        { "origem": "Passiva – Aura que fere ao redor", "destino": "Last Stand" }
+      ]
+    },
+    "Yone": {
+      "heroi": 27,
+      "motivo": "Espadachim que entra, causa muito dano e tem uma forma espiritual que muda as regras da luta.",
+      "paralelos": [
+        { "origem": "E – Forma de alma", "destino": "Shadow Transformation" },
+        { "origem": "Q – Golpes que carregam", "destino": "Power Slash" },
+        { "origem": "R – Avanço até o alvo", "destino": "Flying Slash" }
+      ]
+    },
+    "LeeSin": {
+      "heroi": 31,
+      "motivo": "Mobilidade máxima: Lee Sin vai até o alvo e chuta, Lash se puxa pelo ar e despenca no inimigo.",
+      "paralelos": [
+        { "origem": "Q – Vai até o alvo marcado", "destino": "Grapple" },
+        { "origem": "R – Chute que arremessa", "destino": "Death Slam" },
+        { "origem": "E – Golpe no chão", "destino": "Ground Strike" }
+      ]
+    },
+    "Zac": {
+      "heroi": 35,
+      "motivo": "Gosma que salta de longe, quica no time inimigo e se regenera. Viscous é a versão Deadlock do Zac.",
+      "paralelos": [
+        { "origem": "R – Quicar derrubando inimigos", "destino": "Goo Ball" },
+        { "origem": "Passiva – Gotas que curam", "destino": "The Cube" },
+        { "origem": "Q – Estica o braço", "destino": "Puddle Punch" }
+      ]
+    },
+    "Fizz": {
+      "heroi": 50,
+      "motivo": "Trapaceiro frágil que entra, explode e fica intocável no momento certo.",
+      "paralelos": [
+        { "origem": "E – Fica intocável", "destino": "Enchanter's Satchel" },
+        { "origem": "Q – Avanço até o alvo", "destino": "Flying Cloak" },
+        { "origem": "R – Explosão em área", "destino": "Barrage" }
+      ]
+    },
+    "Pantheon": {
+      "heroi": 52,
+      "motivo": "Lutador de média distância que cai do céu em qualquer ponto do mapa para participar das lutas.",
+      "paralelos": [
+        { "origem": "R – Salto global", "destino": "Traveler" },
+        { "origem": "W – Salto que atordoa", "destino": "Dust Devil" },
+        { "origem": "Passiva – Ataque potencializado", "destino": "Djinn's Mark" }
+      ]
+    },
+    "Cassiopeia": {
+      "heroi": 86,
+      "segunda": 58,
+      "motivo": "Maga de dano contínuo que vive de usar habilidades sem parar e controlar a área. Se o que te atrai na Cassiopeia é a serpente que petrifica, a Vyper é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Dano contínuo repetido no alvo", "destino": "Still Life" },
+        { "origem": "W – Miasma que prende quem passa", "destino": "Flow State" },
+        { "origem": "R – Controle em área", "destino": "Abstract Landscape" }
+      ]
+    },
+    "Zeri": {
+      "heroi": 58,
+      "segunda": 63,
+      "bonus": 16,
+      "motivo": "Atiradora hypercarry de alta mobilidade: desliza pelo mapa, despeja tiros sem parar e escala para carregar o time no fim do jogo.",
+      "paralelos": [
+        { "origem": "E – Desliza e pula paredes", "destino": "Slither" },
+        { "origem": "W – Disparo que desacelera", "destino": "Screwjab Dagger" }
+      ]
+    },
+    "Sylas": {
+      "heroi": 60,
+      "motivo": "Rouba a ultimate do inimigo. Sinclair copia a ultimate do adversário com Audience Participation.",
+      "paralelos": [
+        { "origem": "R – Rouba a ultimate inimiga", "destino": "Audience Participation" },
+        { "origem": "Q – Correntes em área", "destino": "Vexing Bolt" },
+        { "origem": "Estilo – Mago de duelos", "destino": "Rabbit Hex" }
+      ]
+    },
+    "Vayne": {
+      "heroi": 63,
+      "motivo": "Caçadora noturna que acumula acertos para uma mordida extra de dano e foge com mobilidade curta.",
+      "paralelos": [
+        { "origem": "W – Terceiro acerto causa dano extra", "destino": "Love Bites" },
+        { "origem": "Q – Rolamento", "destino": "Sanguine Retreat" },
+        { "origem": "R – Invisibilidade e caça", "destino": "Nox Nostra" }
+      ]
+    },
+    "Nocturne": {
+      "heroi": 64,
+      "motivo": "A ultimate escurece a visão do inimigo e o caçador mergulha no alvo isolado. Drifter faz isso com Eternal Night.",
+      "paralelos": [
+        { "origem": "R – Escuridão que limita a visão", "destino": "Eternal Night" },
+        { "origem": "E – Medo depois de ligar ao alvo", "destino": "Stalker's Mark" },
+        { "origem": "Q – Rastro que persegue", "destino": "Bloodscent" }
+      ]
+    },
+    "Lucian": {
+      "heroi": 65,
+      "motivo": "Caçador de monstros com armas pesadas e muita rajada de dano.",
+      "paralelos": [
+        { "origem": "R – Rajada contínua", "destino": "Ira Domini" },
+        { "origem": "Passiva – Tiro duplo", "destino": "Gutshot" },
+        { "origem": "W – Marca que explode", "destino": "Consecrating Grenade" }
+      ]
+    },
+    "DrMundo": {
+      "heroi": 66,
+      "motivo": "Aguenta tudo e não morre. Ambos são monstros de laboratório que se machucam para ficar mais fortes.",
+      "paralelos": [
+        { "origem": "Passiva – Revive com o recipiente", "destino": "Shocking Reanimation" },
+        { "origem": "W – Dano em si e ao redor", "destino": "Aura of Suffering" },
+        { "origem": "R – Regeneração gigante", "destino": "Jumpstart" }
+      ]
+    },
+    "Karma": {
+      "heroi": 67,
+      "motivo": "Suporte que dá escudo ao aliado e ainda causa dano bom com magia.",
+      "paralelos": [
+        { "origem": "E – Escudo no aliado", "destino": "Plot Armor" },
+        { "origem": "W – Prende o alvo depois de um tempo", "destino": "Captivating Read" },
+        { "origem": "Q – Explosão em área", "destino": "Bookwyrm" }
+      ]
+    },
+    "Bard": {
+      "heroi": 69,
+      "motivo": "Portais pelo mapa e uma ultimate que tira alvos da luta temporariamente. The Doorman é o Bard de Deadlock.",
+      "paralelos": [
+        { "origem": "E – Portal mágico", "destino": "Doorway" },
+        { "origem": "R – Congela tudo na área", "destino": "Hotel Guest" },
+        { "origem": "Q – Prende contra a parede", "destino": "Luggage Cart" }
+      ]
+    },
+    "Alistar": {
+      "heroi": 72,
+      "motivo": "Brigão de chifres que dá cabeçada e lança o alvo. Billy investe de cabeça com Rising Ram.",
+      "paralelos": [
+        { "origem": "W – Cabeçada que arremessa", "destino": "Rising Ram" },
+        { "origem": "Q – Pancada no chão que levanta", "destino": "Bashdown" },
+        { "origem": "Iniciador de luta", "destino": "Chain Gang" }
+      ]
+    },
+    "Yorick": {
+      "heroi": 76,
+      "motivo": "Necromante com invocações de mortos-vivos e controle de área.",
+      "paralelos": [
+        { "origem": "Passiva – Ghouls dos túmulos", "destino": "Jar of Dead" },
+        { "origem": "W – Prende o alvo", "destino": "Grasping Hands" },
+        { "origem": "R – Invocação poderosa", "destino": "Borrowed Decree" }
+      ]
+    },
+    "Fiora": {
+      "heroi": 77,
+      "motivo": "Esgrimista de duelo. A Riposte de Fiora e a de Apollo bloqueiam o golpe e punem o atacante.",
+      "paralelos": [
+        { "origem": "W – Aparar e devolver", "destino": "Riposte" },
+        { "origem": "Q – Estocada em direção livre", "destino": "Flawless Advance" },
+        { "origem": "R – Desafio decisivo", "destino": "Itani Lo Sahn" }
+      ]
+    },
+    "Corki": {
+      "heroi": 78,
+      "motivo": "Piloto barulhento: mísseis, lança-chamas e voo pelo mapa.",
+      "paralelos": [
+        { "origem": "R – Mísseis", "destino": "Strix Salvo" },
+        { "origem": "E – Lança-chamas que reduz resistência", "destino": "Jettison Fuel" },
+        { "origem": "W – Voo explosivo", "destino": "Chimera Mk1" }
+      ]
+    },
+    "Yuumi": {
+      "heroi": 79,
+      "motivo": "Pequeno, fofo e grudado no aliado. Rem pula em aliados para curá-los.",
+      "paralelos": [
+        { "origem": "W – Grudar no aliado", "destino": "Tag Along" },
+        { "origem": "E – Cura", "destino": "Tag Along (cura)" },
+        { "origem": "R – Prende inimigos", "destino": "Naptime" }
+      ]
+    },
+    "Warwick": {
+      "heroi": 80,
+      "motivo": "Lobisomem que fica mais perigoso com pouca vida e caça alvos feridos.",
+      "paralelos": [
+        { "origem": "Passiva – Mais forte com pouca vida", "destino": "Lycan Curse (sede de sangue)" },
+        { "origem": "R – Prende o alvo", "destino": "Entangling Bola" },
+        { "origem": "Q – Dano por vida do alvo", "destino": "Slam Fire" }
+      ]
+    },
+    "Lux": {
+      "heroi": 81,
+      "motivo": "Maga da luz, com explosões de longe e escudo próprio.",
+      "paralelos": [
+        { "origem": "R – Laser de luz", "destino": "Radiant Daggers" },
+        { "origem": "W – Escudo", "destino": "Dazzling Trick" },
+        { "origem": "Passiva – Marca de luz que causa dano extra", "destino": "Light Eater" }
+      ]
+    },
+    "JarvanIV": {
+      "heroi": 84,
+      "motivo": "Rei de linha de frente com estandarte e armadura que fortalece o time.",
+      "paralelos": [
+        { "origem": "E – Estandarte", "destino": "Rule, Ratannia!" },
+        { "origem": "W – Escudo", "destino": "Royal Pestments" },
+        { "origem": "Q – Reduz a armadura do alvo", "destino": "Rat Swarm" }
+      ]
+    },
+    "Azir": {
+      "heroi": 85,
+      "motivo": "Imperador estrategista que posiciona peças no tabuleiro e controla a área à distância.",
+      "paralelos": [
+        { "origem": "W – Soldados posicionados", "destino": "Setup Bishop" },
+        { "origem": "R – Parede de soldados", "destino": "Rook Battery" },
+        { "origem": "Controle de área", "destino": "Develop Queen" }
+      ]
+    },
+    "Senna": {
+      "heroi": 87,
+      "motivo": "Suporte atiradora que cura aliados com os próprios tiros e tem um visual sombrio.",
+      "paralelos": [
+        { "origem": "Q – Tiro que cura aliados", "destino": "Healing Needles" },
+        { "origem": "W – Prende o alvo", "destino": "Leech Therapy" },
+        { "origem": "R – Escudo global", "destino": "Wretched Vapors" }
+      ]
+    }
+  }
+}
