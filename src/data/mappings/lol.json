@@ -183,6 +183,15 @@
         { "origem": "Passiva – Aura que fere ao redor", "destino": "Last Stand" }
       ]
     },
+    "Graves": {
+      "heroi": 65,
+      "motivo": "Atirador de escopeta que joga de perto, empurra os inimigos com os disparos e finaliza com tiros pesados. O Venator também carrega escopeta e besta e vive de rajadas de dano de arma.",
+      "paralelos": [
+        { "origem": "Q – Projétil que quica e explode", "destino": "Consecrating Grenade" },
+        { "origem": "Passiva – Escopeta que empurra de perto", "destino": "Gutshot" },
+        { "origem": "R – Disparo explosivo de dano pesado", "destino": "Ira Domini" }
+      ]
+    },
     "Yasuo": {
       "heroi": 27,
       "segunda": 77,
