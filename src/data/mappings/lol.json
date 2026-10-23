@@ -183,8 +183,19 @@
         { "origem": "Passiva – Aura que fere ao redor", "destino": "Last Stand" }
       ]
     },
+    "Yasuo": {
+      "heroi": 27,
+      "segunda": 77,
+      "motivo": "Espadachim de muita mobilidade que avança de alvo em alvo e decide a luta no corte. A Yamato pula até o inimigo com Flying Slash e finaliza com Power Slash, como os avanços e o Q do Yasuo.",
+      "paralelos": [
+        { "origem": "E – Avança pelos alvos", "destino": "Flying Slash" },
+        { "origem": "Q – Golpe de espada que acumula até o tornado", "destino": "Power Slash" },
+        { "origem": "R – Entra no inimigo para o all-in", "destino": "Shadow Transformation" }
+      ]
+    },
     "Yone": {
       "heroi": 27,
+      "segunda": 77,
       "motivo": "Espadachim que entra, causa muito dano e tem uma forma espiritual que muda as regras da luta.",
       "paralelos": [
         { "origem": "E – Forma de alma", "destino": "Shadow Transformation" },
