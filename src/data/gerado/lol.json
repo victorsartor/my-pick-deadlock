@@ -280,6 +280,98 @@
   "Swain": {
    "nome": "Swain",
    "titulo": "o Grande General Noxiano"
+  },
+  "Janna": {
+   "nome": "Janna",
+   "titulo": "a Fúria da Tormenta"
+  },
+  "Gragas": {
+   "nome": "Gragas",
+   "titulo": "o Badernista"
+  },
+  "Annie": {
+   "nome": "Annie",
+   "titulo": "a Criança Sombria"
+  },
+  "Aatrox": {
+   "nome": "Aatrox",
+   "titulo": "a Espada Darkin"
+  },
+  "Ambessa": {
+   "nome": "Ambessa",
+   "titulo": "Matriarca da Guerra"
+  },
+  "Amumu": {
+   "nome": "Amumu",
+   "titulo": "a Múmia Triste"
+  },
+  "Evelynn": {
+   "nome": "Evelynn",
+   "titulo": "o Abraço da Agonia"
+  },
+  "Fiddlesticks": {
+   "nome": "Fiddlesticks",
+   "titulo": "o Terror Ancestral"
+  },
+  "Rumble": {
+   "nome": "Rumble",
+   "titulo": "a Ameaça Mecânica"
+  },
+  "Riven": {
+   "nome": "Riven",
+   "titulo": "a Exilada"
+  },
+  "Renekton": {
+   "nome": "Renekton",
+   "titulo": "o Carniceiro das Areias"
+  },
+  "Nidalee": {
+   "nome": "Nidalee",
+   "titulo": "a Caçadora Bestial"
+  },
+  "Volibear": {
+   "nome": "Volibear",
+   "titulo": "a Tempestade Implacável"
+  },
+  "Viego": {
+   "nome": "Viego",
+   "titulo": "O Rei Destruído"
+  },
+  "Vi": {
+   "nome": "Vi",
+   "titulo": "a Defensora de Piltover"
+  },
+  "Velkoz": {
+   "nome": "Vel'Koz",
+   "titulo": "o Olho do Vazio"
+  },
+  "Kayn": {
+   "nome": "Kayn",
+   "titulo": "o Ceifador das Sombras"
+  },
+  "Zilean": {
+   "nome": "Zilean",
+   "titulo": "o Guardião do Tempo"
+  },
+  "Xerath": {
+   "nome": "Xerath",
+   "titulo": "o Mago Ascendente"
+  },
+  "Taric": {
+   "nome": "Taric",
+   "titulo": "o Escudo de Valoran"
+  },
+  "Zed": {
+   "nome": "Zed",
+   "titulo": "o Mestre das Sombras"
+  },
+  "Zyra": {
+   "nome": "Zyra",
+   "titulo": "a Ascensão dos Espinhos"
+  },
+  "Orianna": {
+   "nome": "Orianna",
+   "titulo": "a Donzela Mecânica"
   }
  }
 }
