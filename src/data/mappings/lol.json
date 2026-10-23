@@ -39,12 +39,13 @@
       ]
     },
     "Sett": {
-      "heroi": 6,
-      "motivo": "Brigão corpo a corpo que absorve dano e devolve com socos. A ultimate agarra e arremessa, como a investida de Abrams.",
+      "heroi": 72,
+      "segunda": 6,
+      "motivo": "O chefe da briga, na porrada: o Sett puxa os inimigos dos dois lados com o Quebra-Cara, como o Chain Gang do Billy, e agarra o alvo para levá-lo junto no ar como o Rising Ram. Os socos alternados da passiva viram os golpes do Blasted. Para segurar dano e iniciar com investida, o Abrams é a segunda opção.",
       "paralelos": [
-        { "origem": "R – Agarra e esmaga no chão", "destino": "Shoulder Charge + Seismic Impact" },
-        { "origem": "W – Converte dano recebido em escudo", "destino": "Infernal Resilience" },
-        { "origem": "Passiva – Socos alternados", "destino": "Heavy Melee" }
+        { "origem": "E – Puxa os inimigos dos dois lados", "destino": "Chain Gang" },
+        { "origem": "R – Agarra o alvo e salta com ele", "destino": "Rising Ram" },
+        { "origem": "Passiva – Socos alternados", "destino": "Blasted" }
       ]
     },
     "TwistedFate": {
@@ -321,6 +322,92 @@
         { "origem": "E – Gancho na parede e salto no alvo", "destino": "Grapple" },
         { "origem": "R – Salta e prende o alvo", "destino": "Death Slam" },
         { "origem": "W – Golpe em cone que cura", "destino": "Flog" }
+      ]
+    },
+    "Lissandra": {
+      "heroi": 50,
+      "segunda": null,
+      "motivo": "Maga que entra, explode e se protege na hora certa: a Garra Glacial da Lissandra é lançada e ela se teletransporta até ela, como o Flying Cloak do Pocket, e o Túmulo Congelado deixa ela intocável como a mala do Enchanter's Satchel.",
+      "paralelos": [
+        { "origem": "E – Garra lançada para se teletransportar", "destino": "Flying Cloak" },
+        { "origem": "R – Se congela e fica intocável", "destino": "Enchanter's Satchel" },
+        { "origem": "W – Anel que prende quem está perto", "destino": "Barrage" }
+      ]
+    },
+    "Jinx": {
+      "heroi": 7,
+      "segunda": null,
+      "motivo": "Atiradora que vive de cadência de tiro: a metralhadora da Jinx acelera a cada disparo, como o Full Auto da Wraith, e as duas viram máquinas de dano quando a luta engata.",
+      "paralelos": [
+        { "origem": "Q – Metralhadora que acelera", "destino": "Full Auto" },
+        { "origem": "W – Zap que desacelera de longe", "destino": "Card Trick" }
+      ]
+    },
+    "Ezreal": {
+      "heroi": 7,
+      "segunda": null,
+      "motivo": "Atirador de teletransporte e tiros de habilidade: a Mudança Arcana do Ezreal é o Project Mind da Wraith, e o Disparo Místico que aplica efeitos vira as cartas do Card Trick.",
+      "paralelos": [
+        { "origem": "E – Teletransporte curto", "destino": "Project Mind" },
+        { "origem": "Q – Disparo que aplica efeitos de ataque", "destino": "Card Trick" }
+      ]
+    },
+    "Chogath": {
+      "heroi": 18,
+      "segunda": 72,
+      "motivo": "Monstro que devora o inimigo e fica maior para sempre: o Banquete do Cho'Gath é o Combo do Mo & Krill, que prende o alvo e dá vida máxima permanente a cada abate. A Ruptura que sai do chão vira o Burrow. Para um brigão de controle, o Billy é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Devora o alvo e cresce para sempre", "destino": "Combo" },
+        { "origem": "Q – Ruptura que sai do chão", "destino": "Burrow" },
+        { "origem": "W – Grito que silencia", "destino": "Sand Blast" }
+      ]
+    },
+    "Varus": {
+      "heroi": 17,
+      "segunda": 25,
+      "motivo": "Arqueiro de longa distância com flecha carregada: o Q do Varus é o Charged Shot do Grey Talon, e a corrente que prende vira a Spirit Snare. Para quem gosta das maldições que acumulam, o Warden é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Flecha carregada de longe", "destino": "Charged Shot" },
+        { "origem": "E – Chuva de flechas", "destino": "Rain of Arrows" },
+        { "origem": "R – Corrente que prende", "destino": "Spirit Snare" }
+      ]
+    },
+    "Rell": {
+      "heroi": 72,
+      "segunda": 11,
+      "motivo": "Suporte de controle que puxa o time inimigo para perto: a Tempestade Magnética da Rell arrasta todos ao redor como o Chain Gang do Billy, e a queda montada levanta os inimigos como o Bashdown. Pela ultimate que puxa e prende, o Dynamo é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Tempestade que puxa todos ao redor", "destino": "Chain Gang" },
+        { "origem": "W – Cai e lança os inimigos para cima", "destino": "Bashdown" },
+        { "origem": "E – Investida com o aliado", "destino": "Rising Ram" }
+      ]
+    },
+    "TahmKench": {
+      "heroi": 35,
+      "segunda": 12,
+      "motivo": "Protege o aliado engolindo ele: o Devorar do Tahm Kench guarda o aliado como The Cube do Viscous, e os dois aguentam muito dano e desaceleram os inimigos. Para um protetor com cura e domo, o Kelvin é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Engole o aliado para protegê-lo", "destino": "The Cube" },
+        { "origem": "Q – Língua que desacelera", "destino": "Splatter" },
+        { "origem": "E – Mergulho que lança os inimigos", "destino": "Puddle Punch" }
+      ]
+    },
+    "Sion": {
+      "heroi": 66,
+      "segunda": 6,
+      "motivo": "Morto-vivo que não para nem depois de morrer: a passiva do Sion faz ele voltar a lutar, como o Shocking Reanimation do Victor, e os dois aguentam uma quantidade absurda de dano. Pela investida imparável, o Abrams é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Volta da morte para lutar", "destino": "Shocking Reanimation" },
+        { "origem": "W – Escudo que explode depois", "destino": "Pain Battery" }
+      ]
+    },
+    "Swain": {
+      "heroi": 25,
+      "segunda": 66,
+      "motivo": "Comandante que drena todo mundo ao redor para se manter vivo: a ultimate do Swain drena e cura como o Last Stand do Warden, e o Nevermove prende o inimigo como o Binding Word. Para aguentar dano e ferir quem está perto, o Victor é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Drena todos ao redor e se cura", "destino": "Last Stand" },
+        { "origem": "E – Prende o inimigo", "destino": "Binding Word" }
       ]
     },
     "Poppy": {
