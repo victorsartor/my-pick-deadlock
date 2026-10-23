@@ -184,6 +184,16 @@
         { "origem": "Passiva – Aura que fere ao redor", "destino": "Last Stand" }
       ]
     },
+    "Poppy": {
+      "heroi": 6,
+      "segunda": 65,
+      "motivo": "Tanque que entra na luta prensando inimigos contra a parede: a investida da Poppy é o Shoulder Charge do Abrams. Se o que você mais curte é jogar inimigos na parede, o Gutshot do Venator faz o mesmo com a escopeta.",
+      "paralelos": [
+        { "origem": "E – Investida que atordoa contra a parede", "destino": "Shoulder Charge" },
+        { "origem": "R – Martelada que lança os inimigos", "destino": "Seismic Impact" },
+        { "origem": "W – Fica firme e ganha defesa", "destino": "Infernal Resilience" }
+      ]
+    },
     "Graves": {
       "heroi": 65,
       "segunda": 25,
