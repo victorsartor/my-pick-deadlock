@@ -365,8 +365,8 @@
     },
     "Varus": {
       "heroi": 17,
-      "segunda": null,
-      "motivo": "Arqueiro de longa distância com flecha carregada: o Q do Varus é o Charged Shot do Grey Talon, e a corrente que prende vira a Spirit Snare.",
+      "segunda": 3,
+      "motivo": "Arqueiro de longa distância com flecha carregada: o Q do Varus é o Charged Shot do Grey Talon, e a corrente que prende vira a Spirit Snare. Para tiros carregados de sniper, a Vindicta é a segunda opção.",
       "paralelos": [
         { "origem": "Q – Flecha carregada de longe", "destino": "Charged Shot" },
         { "origem": "E – Chuva de flechas", "destino": "Rain of Arrows" },
