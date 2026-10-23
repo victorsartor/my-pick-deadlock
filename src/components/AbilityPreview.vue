@@ -63,12 +63,6 @@ const atual = computed(() => props.habilidades?.[selecionada.value])
           </li>
         </ul>
         <p class="mt-3 text-sm leading-relaxed text-suave">{{ atual.descricao }}</p>
-        <ol v-if="atual.melhorias.length" class="mt-4 space-y-1.5 text-sm">
-          <li v-for="(m, i) in atual.melhorias" :key="i" class="flex gap-2">
-            <span class="h-5 shrink-0 self-start rounded bg-espirito/20 px-1.5 font-display text-xs leading-5 text-espirito">T{{ i + 1 }}</span>
-            <span>{{ m }}</span>
-          </li>
-        </ol>
       </div>
     </template>
   </section>
