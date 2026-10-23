@@ -55,6 +55,14 @@
     { "id": "Hwei", "funcao": "Meio", "dificuldade": 4, "vetor": [9, 3, 7, 6, 2, 1, 7, 2, 0, 0, 8] },
     { "id": "Ziggs", "funcao": "Meio", "dificuldade": 2, "vetor": [9, 4, 8, 5, 2, 1, 4, 0, 0, 1, 8] },
     { "id": "Jhin", "funcao": "Atirador", "dificuldade": 3, "vetor": [9, 3, 9, 4, 2, 1, 5, 1, 0, 9, 4] },
-    { "id": "Khazix", "funcao": "Selva", "dificuldade": 3, "vetor": [2, 9, 10, 3, 3, 3, 2, 0, 8, 6, 1] }
+    { "id": "Khazix", "funcao": "Selva", "dificuldade": 3, "vetor": [2, 9, 10, 3, 3, 3, 2, 0, 8, 6, 1] },
+    { "id": "Leblanc", "funcao": "Meio", "dificuldade": 4, "vetor": [6, 9, 9, 3, 2, 1, 5, 0, 4, 0, 2] },
+    { "id": "MasterYi", "funcao": "Selva", "dificuldade": 1, "vetor": [1, 8, 8, 8, 4, 5, 1, 0, 2, 9, 0] },
+    { "id": "Kled", "funcao": "Topo", "dificuldade": 3, "vetor": [2, 8, 7, 6, 8, 4, 6, 1, 0, 6, 2] },
+    { "id": "Nunu", "funcao": "Selva", "dificuldade": 2, "vetor": [2, 7, 6, 5, 8, 6, 8, 3, 0, 1, 4] },
+    { "id": "Seraphine", "funcao": "Suporte", "dificuldade": 2, "vetor": [8, 3, 6, 5, 3, 2, 7, 8, 0, 1, 6] },
+    { "id": "Nami", "funcao": "Suporte", "dificuldade": 2, "vetor": [7, 4, 5, 4, 3, 2, 8, 9, 0, 1, 6] },
+    { "id": "Teemo", "funcao": "Topo", "dificuldade": 2, "vetor": [7, 6, 5, 9, 3, 1, 4, 0, 7, 7, 8] },
+    { "id": "Camille", "funcao": "Topo", "dificuldade": 4, "vetor": [2, 9, 8, 6, 6, 3, 6, 0, 0, 6, 1] }
   ]
 }
