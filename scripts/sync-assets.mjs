@@ -2,6 +2,7 @@
 //   src/data/gerado/lol.json      → versão do Data Dragon e nome/título de cada campeão do site
 //   src/data/gerado/deadlock.json → imagens e ordem das habilidades de cada herói do site
 //   public/campeoes/<Id>.webp     → ícone de cada campeão em WebP (~3 KB, contra ~28 KB do PNG da Riot)
+//   public/herois/fundo/<id>.webp → fundo oficial do herói em 1600 px (~30 KB, contra ~1,4 MB do original 4096 px)
 // Assim o site abre sem esperar nenhuma API. Se a rede falhar, mantém os arquivos que já existem.
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
@@ -12,6 +13,7 @@ import sharp from 'sharp'
 const raiz = join(dirname(fileURLToPath(import.meta.url)), '..')
 const pasta = join(raiz, 'src/data/gerado')
 const pastaIcones = join(raiz, 'public/campeoes')
+const pastaFundos = join(raiz, 'public/herois/fundo')
 const lerJson = (arquivo) => JSON.parse(readFileSync(join(raiz, arquivo), 'utf8'))
 
 async function buscar(url) {
@@ -51,24 +53,54 @@ async function gerarIcones(ids, versao) {
 async function syncDeadlock() {
   const ids = new Set(lerJson('src/data/deadlock/heroes.json').heroes.map((h) => h.id))
   // Sem only_active: heróis já lançados como Violet e Baba ainda vêm marcados como "em desenvolvimento".
-  const herois = await buscar('https://api.deadlock-api.com/v1/assets/heroes?language=english')
+  const herois = (await buscar('https://api.deadlock-api.com/v1/assets/heroes?language=english')).filter((h) => ids.has(h.id))
+  const fundos = await gerarFundos(herois)
   return Object.fromEntries(
-    herois
-      .filter((h) => ids.has(h.id))
-      .map((h) => {
-        const img = h.images ?? {}
-        const items = h.items ?? {}
-        return [
-          h.id,
-          {
-            nome: h.name,
-            card: img.icon_hero_card_webp ?? img.icon_hero_card,
-            pequeno: img.icon_image_small_webp ?? img.icon_image_small,
-            habilidades: [1, 2, 3, 4].map((n) => items[`signature${n}`]).filter(Boolean),
-          },
-        ]
-      }),
+    herois.map((h) => {
+      const img = h.images ?? {}
+      const items = h.items ?? {}
+      return [
+        h.id,
+        {
+          nome: h.name,
+          card: img.icon_hero_card_webp ?? img.icon_hero_card,
+          pequeno: img.icon_image_small_webp ?? img.icon_image_small,
+          fundo: fundos[h.id],
+          habilidades: [1, 2, 3, 4].map((n) => items[`signature${n}`]).filter(Boolean),
+        },
+      ]
+    }),
   )
+}
+
+/**
+ * Baixa o fundo oficial de cada herói e salva reduzido. Refaz só quando a URL de origem muda
+ * (registrada em origens.json), para não baixar ~60 MB a cada build.
+ */
+async function gerarFundos(herois) {
+  mkdirSync(pastaFundos, { recursive: true })
+  const registro = join(pastaFundos, 'origens.json')
+  const origens = existsSync(registro) ? JSON.parse(readFileSync(registro, 'utf8')) : {}
+  const caminhos = {}
+  let gerados = 0
+  await Promise.all(
+    herois.map(async (h) => {
+      const origem = h.images?.background_image_webp ?? h.images?.background_image
+      if (!origem) return
+      const arquivo = join(pastaFundos, `${h.id}.webp`)
+      if (origens[h.id] !== origem || !existsSync(arquivo)) {
+        const r = await fetch(origem)
+        if (!r.ok) throw new Error(`fundo de ${h.name} respondeu ${r.status}`)
+        await sharp(Buffer.from(await r.arrayBuffer())).resize({ width: 1600, withoutEnlargement: true }).webp({ quality: 60 }).toFile(arquivo)
+        origens[h.id] = origem
+        gerados++
+      }
+      caminhos[h.id] = `/herois/fundo/${h.id}.webp`
+    }),
+  )
+  writeFileSync(registro, JSON.stringify(origens, null, 1) + '\n')
+  if (gerados) console.log(`sync-assets: ${gerados} fundo(s) gerado(s)`)
+  return caminhos
 }
 
 mkdirSync(pasta, { recursive: true })
