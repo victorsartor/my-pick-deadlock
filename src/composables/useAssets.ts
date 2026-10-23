@@ -14,6 +14,8 @@ export interface DeadlockHeroAssets {
   nome: string
   card?: string
   pequeno?: string
+  /** Fundo oficial do herói, reduzido no build (public/herois/fundo). */
+  fundo?: string
   /** class_name das habilidades 1 a 4, na ordem do jogo. */
   habilidades: string[]
 }

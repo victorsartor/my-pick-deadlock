@@ -37,6 +37,10 @@ const segunda = computed(() => (segundaPendente.value ? undefined : ranking.valu
 const origemInfo = computed(() => assets.lol.campeoes[props.personagem])
 const heroAssets = (id: number) => assets.deadlock[id]
 
+// Troca o card desfocado pelo fundo oficial quando ele termina de carregar.
+const fundoCarregado = ref(false)
+watch(() => top.value?.hero.id, () => (fundoCarregado.value = false))
+
 const habilidadesOrigem = ref<Habilidade[] | null>(null)
 const habilidadesHeroi = ref<Habilidade[] | null>(null)
 const erroOrigem = ref(false)
@@ -94,13 +98,26 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
   <template v-else>
     <!-- Destaque: origem → herói recomendado -->
     <section class="animar-secao relative overflow-hidden rounded-2xl border border-borda bg-painel" style="--ordem: 0">
-      <!-- Fundo: o próprio card do herói desfocado (já baixado), no lugar do background oficial de ~1,4 MB. -->
+      <!-- Fundo: o card do herói desfocado aparece na hora; o fundo oficial do jogo (reduzido no build,
+           ~30 KB) entra por cima com fade assim que carrega. -->
       <img
         v-if="heroAssets(top.hero.id)?.card"
         :src="heroAssets(top.hero.id)?.card"
         alt=""
         aria-hidden="true"
-        class="pointer-events-none absolute inset-0 h-full w-full scale-125 object-cover opacity-25 blur-2xl"
+        class="pointer-events-none absolute inset-0 h-full w-full scale-125 object-cover blur-2xl transition-opacity duration-700"
+        :class="fundoCarregado ? 'opacity-0' : 'opacity-25'"
+      />
+      <img
+        v-if="heroAssets(top.hero.id)?.fundo"
+        :key="top.hero.id"
+        :src="heroAssets(top.hero.id)?.fundo"
+        alt=""
+        aria-hidden="true"
+        decoding="async"
+        class="pointer-events-none absolute inset-0 h-full w-full object-cover transition-opacity duration-700"
+        :class="fundoCarregado ? 'opacity-20' : 'opacity-0'"
+        @load="fundoCarregado = true"
       />
       <div class="relative flex flex-col items-center gap-6 p-6 md:flex-row md:p-8">
         <HeroImage
