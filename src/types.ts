@@ -42,8 +42,8 @@ export interface Paralelo {
 
 export interface Mapping {
   heroi: number
-  /** Herói fixado como segunda opção. Sem ele, a segunda opção sai do cálculo. */
-  segunda?: number
+  /** Herói fixado como segunda opção. Sem ele, a segunda opção sai do cálculo; null = ainda não escolhida (placeholder). */
+  segunda?: number | null
   bonus?: number
   ajustes?: Record<string, number>
   motivo: string

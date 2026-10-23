@@ -3,7 +3,8 @@
   "mapeamentos": {
     "Brand": {
       "heroi": 1,
-      "motivo": "Os dois incendeiam tudo: o dano vem de queimaduras que acumulam e o alvo derrete com o tempo.",
+      "segunda": 81,
+      "motivo": "Os dois incendeiam tudo: o dano vem de queimaduras que acumulam e o alvo derrete com o tempo. Se o que você mais gosta é a ultimate que quica entre os inimigos, o Shining Wonder da Celeste faz o mesmo com luz.",
       "paralelos": [
         { "origem": "Passiva – Chamas que acumulam e explodem", "destino": "Afterburn" },
         { "origem": "W – Pilar de fogo em área", "destino": "Napalm" },
@@ -182,6 +183,65 @@
         { "origem": "W – Escudo a partir do dano", "destino": "Willpower" },
         { "origem": "R – Isola o alvo", "destino": "Binding Word" },
         { "origem": "Passiva – Aura que fere ao redor", "destino": "Last Stand" }
+      ]
+    },
+    "Pyke": {
+      "heroi": 19,
+      "segunda": null,
+      "motivo": "Assassino que vive de execuções: o Pyke finaliza quem está com pouca vida e a execução reseta para o próximo alvo, como o Killing Blow do Shiv. Os dois ainda adiam o dano recebido para sobreviver nas trocas.",
+      "paralelos": [
+        { "origem": "R – Executa alvos com pouca vida e reseta", "destino": "Killing Blow" },
+        { "origem": "Passiva – Dano recebido volta como vida", "destino": "Bloodletting" },
+        { "origem": "E – Atravessa os inimigos e atordoa", "destino": "Slice and Dice" }
+      ]
+    },
+    "Trundle": {
+      "heroi": 88,
+      "segunda": null,
+      "bonus": 26,
+      "motivo": "Rouba força do inimigo para ficar mais forte: a ultimate do Trundle drena as resistências do alvo, e o Threadsap da Baba rouba o espírito do inimigo. Os dois ainda criam áreas que favorecem quem está nelas.",
+      "paralelos": [
+        { "origem": "R – Rouba as resistências do alvo", "destino": "Threadsap" },
+        { "origem": "W – Área que fortalece o Trundle", "destino": "Baba's Brew" },
+        { "origem": "E – Pilar que desacelera os inimigos", "destino": "Feed The Birds" }
+      ]
+    },
+    "Hwei": {
+      "heroi": 86,
+      "segunda": 67,
+      "motivo": "Pintores! O Hwei e a Violet lutam com pincel e tinta: controlam o mapa de longe, prendem inimigos com as pinturas e transformam a área em armadilha. Para um lado mais de suporte e magia de livro, a Paige é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Área que desacelera e depois explode", "destino": "Abstract Landscape" },
+        { "origem": "E – Pinturas que prendem e assustam", "destino": "Still Life" },
+        { "origem": "W – Zonas de pincel para o time", "destino": "Flow State" }
+      ]
+    },
+    "Ziggs": {
+      "heroi": 78,
+      "segunda": null,
+      "motivo": "Especialista em explosivos que bombardeia de longe: o campo minado do Ziggs vira o Strix Salvo do Danny, mísseis que ficam no chão e explodem quando alguém passa. Os dois ainda se arremessam com as próprias explosões.",
+      "paralelos": [
+        { "origem": "E – Campo minado", "destino": "Strix Salvo" },
+        { "origem": "W – Explosão que te arremessa para trás", "destino": "Jettison Fuel" }
+      ]
+    },
+    "Jhin": {
+      "heroi": 3,
+      "segunda": 17,
+      "motivo": "Atirador de precisão que joga de longe e pune com tiros pesados: a ultimate do Jhin é um rifle de sniper, como o Assassinate da Vindicta. Para tiros carregados e armadilhas, o Grey Talon é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Tiros de sniper a longa distância", "destino": "Assassinate" },
+        { "origem": "W – Tiro longo que prende o alvo", "destino": "Stake" }
+      ]
+    },
+    "Khazix": {
+      "heroi": 64,
+      "segunda": 16,
+      "motivo": "Caçador que pune quem está sozinho: o Kha'Zix causa dano extra em alvos isolados, e o Eternal Night do Drifter cega o time inimigo e deixa as vítimas isoladas. Para entrar e sair das sombras com mais burst, o Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Dano extra em alvo isolado", "destino": "Eternal Night" },
+        { "origem": "E – Salta em cima do alvo", "destino": "Stalker's Mark" },
+        { "origem": "R – Fica invisível para caçar", "destino": "Bloodscent" }
       ]
     },
     "Poppy": {

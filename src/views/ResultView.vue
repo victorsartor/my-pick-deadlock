@@ -30,7 +30,9 @@ const origem = computed(() => game.value?.personagens.find((p) => p.id === props
 const mapping = computed(() => game.value?.mapeamentos[props.personagem])
 const ranking = computed(() => (origem.value ? ranquear(origem.value, heroes, axes, mapping.value) : []))
 const top = computed(() => ranking.value[0])
-const segunda = computed(() => ranking.value[1])
+// segunda: null no mapeamento = segunda opção ainda não escolhida; mostra um aviso no lugar.
+const segundaPendente = computed(() => mapping.value?.segunda === null)
+const segunda = computed(() => (segundaPendente.value ? undefined : ranking.value[1]))
 
 const origemInfo = computed(() => assets.lol?.campeoes[props.personagem])
 const heroAssets = (id: number) => assets.deadlock[id]
@@ -210,7 +212,18 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
     </section>
 
     <!-- Segunda opção: o próximo do ranking, já considerando a diferença de dificuldade -->
-    <section v-if="segunda" class="mt-8">
+    <section v-if="segundaPendente" class="mt-8">
+      <h2 class="mb-3 text-xl uppercase">Segunda opção</h2>
+      <div class="flex flex-col items-center gap-2 rounded-xl border border-dashed border-borda bg-painel/50 p-6 text-center">
+        <p class="font-display text-lg uppercase text-suave">Em breve</p>
+        <p class="max-w-md text-sm text-suave">
+          Ainda estamos escolhendo a segunda opção para {{ origemInfo?.nome ?? origem.id }}. Tem uma sugestão? Manda no X:
+          <a href="https://x.com/vitinhoosartor" target="_blank" rel="noopener" class="text-ouro underline hover:text-texto">@vitinhoosartor</a>
+        </p>
+      </div>
+    </section>
+
+    <section v-else-if="segunda" class="mt-8">
       <h2 class="mb-3 text-xl uppercase">Segunda opção</h2>
       <article class="flex flex-col gap-4 rounded-xl border border-borda bg-painel p-4 sm:flex-row sm:items-center">
         <HeroImage
