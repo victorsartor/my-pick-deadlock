@@ -10,6 +10,24 @@ const MAX_NOTA = 10
 
 export const NOMES_DIFICULDADE = ['', 'Fácil', 'Média', 'Desafiadora', 'Muito difícil', 'Extrema'] as const
 
+/**
+ * Converte os pontos do cálculo (0 a 100) na porcentagem mostrada no site, de 10% a 90%.
+ * Comprimir a escala evita que dois personagens de jogos diferentes pareçam "iguais" (95%+)
+ * sem mudar a ordem do ranking.
+ */
+export function escalaExibicao(pontos: number): number {
+  const limitado = Math.max(0, Math.min(100, pontos))
+  return Math.round(50 + (limitado - 50) * 0.8)
+}
+
+/** Rótulo que acompanha a porcentagem, para o número não ser lido ao pé da letra. */
+export function rotuloCompatibilidade(porcentagem: number): string {
+  if (porcentagem >= 85) return 'Combina muito'
+  if (porcentagem >= 75) return 'Combina bem'
+  if (porcentagem >= 65) return 'Parecido'
+  return 'Pouco parecido'
+}
+
 export function penalidadeDificuldade(origem: number, destino: number): number {
   return PENALIDADE_DIFICULDADE * Math.max(0, Math.abs(origem - destino) - 1)
 }
@@ -51,13 +69,16 @@ export function ranquear(
       pontos -= penalidadeDificuldade(personagem.dificuldade, hero.dificuldade)
       return {
         hero,
-        porcentagem: Math.max(1, Math.min(99, Math.round(pontos))),
+        pontos,
+        porcentagem: escalaExibicao(pontos),
         razoes: razoes(personagem.vetor, hero.vetor, axes),
         recomendado,
       }
     })
-    .sort((x, y) => y.porcentagem - x.porcentagem || Number(y.recomendado) - Number(x.recomendado))
+    // Ordena pelos pontos exatos: dois heróis com a mesma % arredondada não trocam de lugar à toa.
+    .sort((x, y) => y.pontos - x.pontos || Number(y.recomendado) - Number(x.recomendado))
     .sort((x, y) => peso(y, mapping) - peso(x, mapping))
+    .map(({ pontos: _pontos, ...resultado }) => resultado)
 }
 
 /** Escolhas manuais vêm antes do cálculo: o par principal em 1º e a segunda opção fixada em 2º. */
