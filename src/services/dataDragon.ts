@@ -61,7 +61,6 @@ export async function carregarHabilidadesLol(versao: string, id: string): Promis
       icone: `${BASE}/cdn/${versao}/img/passive/${c.passive.image.full}`,
       descricao: descricao(c.passive.description),
       stats: [],
-      melhorias: [],
     },
     ...c.spells.map((s, i) => ({
       tecla: TECLAS[i] ?? '',
@@ -74,13 +73,12 @@ export async function carregarHabilidadesLol(versao: string, id: string): Promis
           ? [{ label: 'Alcance', valor: Number(s.rangeBurn) >= 25000 ? 'Global' : s.rangeBurn }]
           : []),
       ],
-      melhorias: [],
     })),
   ]
   gravarCache(chave, habilidades)
   return habilidades
 }
 
-export const lolIcone =(versao: string, id: string) => `${BASE}/cdn/${versao}/img/champion/${id}.png`
+export const lolIcone = (versao: string, id: string) => `${BASE}/cdn/${versao}/img/champion/${id}.png`
 export const lolSplash = (id: string) => `${BASE}/cdn/img/champion/splash/${id}_0.jpg`
 export const lolLoading = (id: string) => `${BASE}/cdn/img/champion/loading/${id}_0.jpg`

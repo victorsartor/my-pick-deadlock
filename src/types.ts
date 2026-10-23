@@ -66,7 +66,6 @@ export interface Habilidade {
   icone: string
   descricao: string
   stats: { label: string; valor: string }[]
-  melhorias: string[]
 }
 
 export interface MatchResult {

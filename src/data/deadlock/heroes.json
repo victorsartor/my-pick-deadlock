@@ -108,7 +108,7 @@
       "triade": { "arma": 10, "espirito": 4, "vitalidade": 4 },
       "resumo": "Some com Smoke Bomb, adormece o alvo com Sleep Dagger e despeja balas com Fixation e Bullet Dance.",
       "builds": [
-        { "nome": "Haze Bullet Dance", "foco": "arma", "descricao": "Cadência de tiro e efeitos ao acertar. A ultimate distribui dano em grupo." },
+        { "nome": "Haze Bullet Dance", "foco": "arma", "descricao": "Cadência de tiro e efeitos ao acertar. Na ultimate, ela se move atirando em todos os inimigos à frente." },
         { "nome": "Haze Duelista", "foco": "vitalidade", "descricao": "Roubo de vida por bala e resistências para sobreviver a duelos longos." }
       ]
     },

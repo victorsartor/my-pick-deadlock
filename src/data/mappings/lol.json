@@ -106,9 +106,9 @@
       "heroi": 13,
       "segunda": 19,
       "bonus": 28,
-      "motivo": "Atiradora agressiva que entra no meio da luta e despeja balas em todo mundo ao redor: a ultimate da Samira é o Bullet Dance da Haze.",
+      "motivo": "Atiradora agressiva que entra no meio da luta e despeja uma rajada de balas sem parar de se mover. A ultimate da Samira atira em volta; o Bullet Dance da Haze atira em quem está à frente, mas a sensação de metralhar andando é a mesma.",
       "paralelos": [
-        { "origem": "R – Rajada de tiros em todos ao redor", "destino": "Bullet Dance" },
+        { "origem": "R – Rajada de tiros enquanto se move", "destino": "Bullet Dance" },
         { "origem": "Passiva – Estilo acumula a cada acerto", "destino": "Fixation" }
       ]
     },

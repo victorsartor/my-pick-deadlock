@@ -106,7 +106,6 @@ export async function carregarHabilidadesDeadlock(heroId: number, ordem: string[
         icone: a.image_webp ?? a.image ?? '',
         descricao: textoLimpo(d.desc),
         stats: stats(a.properties),
-        melhorias: [d.t1_desc, d.t2_desc, d.t3_desc].map(textoLimpo).filter(Boolean),
       },
     ]
   })
