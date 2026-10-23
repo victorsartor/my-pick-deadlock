@@ -23,7 +23,18 @@ const atual = computed(() => props.habilidades?.[selecionada.value])
     <h3 class="mb-4 text-lg uppercase">{{ titulo }}</h3>
 
     <p v-if="erro" class="text-sm text-suave">Não foi possível carregar as habilidades agora.</p>
-    <p v-else-if="!habilidades" class="text-sm text-suave">Carregando habilidades…</p>
+    <!-- Esqueleto pulsando enquanto as habilidades chegam, no mesmo formato da lista final. -->
+    <div v-else-if="!habilidades" aria-label="Carregando habilidades…" class="animate-pulse">
+      <div class="mb-4 flex gap-2">
+        <div v-for="n in 4" :key="n" class="h-14 w-14 rounded-lg bg-borda/70" />
+      </div>
+      <div class="mb-3 h-4 w-40 rounded bg-borda/70" />
+      <div class="space-y-2">
+        <div class="h-3 rounded bg-borda/50" />
+        <div class="h-3 w-11/12 rounded bg-borda/50" />
+        <div class="h-3 w-3/4 rounded bg-borda/50" />
+      </div>
+    </div>
 
     <template v-else>
       <div class="mb-4 flex flex-wrap gap-2" role="tablist">
@@ -34,9 +45,9 @@ const atual = computed(() => props.habilidades?.[selecionada.value])
           role="tab"
           :aria-selected="selecionada === i"
           :title="h.nome"
-          class="relative h-14 w-14 overflow-hidden rounded-lg border-2 transition"
+          class="relative h-14 w-14 overflow-hidden rounded-lg border-2 transition duration-200 active:scale-95"
           :class="[
-            selecionada === i ? 'border-ouro' : 'border-borda opacity-70 hover:opacity-100',
+            selecionada === i ? 'scale-105 border-ouro shadow-[0_0_14px_-4px] shadow-ouro/70' : 'border-borda opacity-70 hover:-translate-y-0.5 hover:opacity-100',
             estilo === 'deadlock' ? 'bg-gradient-to-b from-[#3a3128] to-[#1f1a15] p-2' : '',
           ]"
           @click="selecionada = i"
@@ -49,21 +60,22 @@ const atual = computed(() => props.habilidades?.[selecionada.value])
       </div>
 
       <!-- Altura fixa com rolagem interna: trocar de habilidade não mexe no layout da página -->
-      <div v-if="atual" role="tabpanel" class="min-h-0 flex-1 overflow-y-auto pr-2">
-
-        <p class="font-semibold">
-          {{ atual.nome }}
-          <span v-if="atual.nomeOriginal && atual.nomeOriginal !== atual.nome" class="ml-1 text-sm font-normal text-suave">
-            ({{ atual.nomeOriginal }})
-          </span>
-        </p>
-        <ul v-if="atual.stats.length" class="mt-2 flex flex-wrap gap-2">
-          <li v-for="s in atual.stats" :key="s.label" class="rounded bg-borda/60 px-2 py-0.5 text-xs">
-            <span class="text-suave">{{ s.label }}:</span> {{ s.valor }}
-          </li>
-        </ul>
-        <p class="mt-3 text-sm leading-relaxed text-suave">{{ atual.descricao }}</p>
-      </div>
+      <Transition name="troca" mode="out-in">
+        <div v-if="atual" :key="atual.tecla" role="tabpanel" class="min-h-0 flex-1 overflow-y-auto pr-2">
+          <p class="font-semibold">
+            {{ atual.nome }}
+            <span v-if="atual.nomeOriginal && atual.nomeOriginal !== atual.nome" class="ml-1 text-sm font-normal text-suave">
+              ({{ atual.nomeOriginal }})
+            </span>
+          </p>
+          <ul v-if="atual.stats.length" class="mt-2 flex flex-wrap gap-2">
+            <li v-for="s in atual.stats" :key="s.label" class="rounded bg-borda/60 px-2 py-0.5 text-xs">
+              <span class="text-suave">{{ s.label }}:</span> {{ s.valor }}
+            </li>
+          </ul>
+          <p class="mt-3 text-sm leading-relaxed text-suave">{{ atual.descricao }}</p>
+        </div>
+      </Transition>
     </template>
   </section>
 </template>

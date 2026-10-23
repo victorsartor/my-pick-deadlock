@@ -14,7 +14,12 @@ import { RouterLink, RouterView } from 'vue-router'
     </header>
 
     <main class="mx-auto w-full max-w-6xl flex-1 px-4 py-8">
-      <RouterView />
+      <!-- A chave muda só ao trocar de tela ou de campeão (filtros na URL não reanimam a Home). -->
+      <RouterView v-slot="{ Component, route }">
+        <div :key="`${String(route.name)}/${route.params.personagem ?? ''}`" class="animar-entrada">
+          <component :is="Component" />
+        </div>
+      </RouterView>
     </main>
 
     <footer class="border-t border-borda/70 px-4 py-6 text-center text-xs leading-relaxed text-suave">

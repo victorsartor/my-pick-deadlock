@@ -1,38 +1,12 @@
 import type { Habilidade } from '../types'
-import { gravarCache, lerCache } from './cache'
+import { gravarCache, lerCache, semDuplicar } from './cache'
 import { textoLimpo } from './texto'
 
 // Data Dragon: CDN oficial e gratuito da Riot com artes e dados dos campeões.
+// A versão e os nomes vêm de src/data/gerado/lol.json (scripts/sync-assets.mjs).
 const BASE = 'https://ddragon.leagueoflegends.com'
 const LOCALE = 'pt_BR'
 const UM_DIA = 24 * 60 * 60 * 1000
-
-export interface LolChampionInfo {
-  nome: string
-  titulo: string
-}
-
-export interface LolCatalogo {
-  versao: string
-  campeoes: Record<string, LolChampionInfo>
-}
-
-export async function carregarCatalogoLol(): Promise<LolCatalogo> {
-  const emCache = lerCache<LolCatalogo>('ddragon-catalogo', UM_DIA)
-  if (emCache) return emCache
-
-  const versoes: string[] = await fetch(`${BASE}/api/versions.json`).then((r) => r.json())
-  const versao = versoes[0]!
-  const resposta = await fetch(`${BASE}/cdn/${versao}/data/${LOCALE}/champion.json`).then((r) => r.json())
-
-  const campeoes: Record<string, LolChampionInfo> = {}
-  for (const [id, c] of Object.entries<{ name: string; title: string }>(resposta.data)) {
-    campeoes[id] = { nome: c.name, titulo: c.title }
-  }
-  const catalogo = { versao, campeoes }
-  gravarCache('ddragon-catalogo', catalogo)
-  return catalogo
-}
 
 interface DdSpell {
   name: string
@@ -45,10 +19,14 @@ interface DdSpell {
 const TECLAS = ['Q', 'W', 'E', 'R']
 
 /** Passiva e Q/W/E/R do campeão, em pt-BR. */
-export async function carregarHabilidadesLol(versao: string, id: string): Promise<Habilidade[]> {
+export function carregarHabilidadesLol(versao: string, id: string): Promise<Habilidade[]> {
   const chave = `ddragon-habilidades-${versao}-${id}`
   const emCache = lerCache<Habilidade[]>(chave, UM_DIA)
-  if (emCache) return emCache
+  if (emCache) return Promise.resolve(emCache)
+  return semDuplicar(chave, () => buscarHabilidadesLol(versao, id, chave))
+}
+
+async function buscarHabilidadesLol(versao: string, id: string, chave: string): Promise<Habilidade[]> {
 
   const resposta = await fetch(`${BASE}/cdn/${versao}/data/${LOCALE}/champion/${id}.json`).then((r) => r.json())
   const c = resposta.data[id] as { passive: DdSpell; spells: DdSpell[] }
@@ -79,6 +57,16 @@ export async function carregarHabilidadesLol(versao: string, id: string): Promis
   return habilidades
 }
 
-export const lolIcone = (versao: string, id: string) => `${BASE}/cdn/${versao}/img/champion/${id}.png`
+/** Ícone em WebP gerado no build (public/campeoes). */
+export const lolIcone = (id: string) => `/campeoes/${id}.webp`
+/** PNG original da Riot, usado se o WebP local faltar (ex.: campeão novo antes do próximo build). */
+export const lolIconeRiot = (versao: string, id: string) => `${BASE}/cdn/${versao}/img/champion/${id}.png`
+
+/** Handler de @error para <img>: troca o WebP local pelo PNG da Riot uma única vez. */
+export function usarIconeRiot(evento: Event, versao: string, id: string) {
+  const img = evento.target as HTMLImageElement
+  const reserva = lolIconeRiot(versao, id)
+  if (img.src !== reserva) img.src = reserva
+}
 export const lolSplash = (id: string) => `${BASE}/cdn/img/champion/splash/${id}_0.jpg`
 export const lolLoading = (id: string) => `${BASE}/cdn/img/champion/loading/${id}_0.jpg`
