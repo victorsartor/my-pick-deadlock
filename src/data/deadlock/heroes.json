@@ -439,7 +439,8 @@
       "resumo": "Rouba espírito dos inimigos com Threadsap, anda de pernas compridas no banquinho, arremessa chás que alternam barreira, silêncio e queimadura e transforma inimigos em pombos com Feed The Birds.",
       "builds": [
         { "nome": "Baba Ladra de Espírito", "foco": "arma", "descricao": "Threadsap rouba espírito e cada tiro ganha dano espiritual extra. Cadência e dano de arma aproveitam o roubo." },
-        { "nome": "Baba Chá Mágico", "foco": "espirito", "descricao": "Poder espiritual e recarga em Baba's Brew e Feed The Birds: protege aliados e transforma o time inimigo em pombos." }
+        { "nome": "Baba Chá Mágico", "foco": "espirito", "descricao": "Poder espiritual e recarga em Baba's Brew e Feed The Birds: protege aliados e transforma o time inimigo em pombos." },
+        { "nome": "Baba Pernas Longas", "foco": "vitalidade", "descricao": "Build corpo a corpo: resistências e itens de golpe pesado para chutar e pisotear com Granny Long Legs enquanto o Threadsap rouba o espírito do inimigo." }
       ]
     }
   ]

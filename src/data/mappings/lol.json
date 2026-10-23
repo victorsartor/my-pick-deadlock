@@ -199,11 +199,11 @@
       "heroi": 88,
       "segunda": null,
       "bonus": 26,
-      "motivo": "Rouba força do inimigo para ficar mais forte: a ultimate do Trundle drena as resistências do alvo, e o Threadsap da Baba rouba o espírito do inimigo. Os dois ainda criam áreas que favorecem quem está nelas.",
+      "motivo": "Ladrão de status que resolve na porrada. Na build corpo a corpo da Baba, o Threadsap rouba o espírito do inimigo e as pernas do banquinho distribuem chutes e pisões, assim como o Q e o R do Trundle roubam força do alvo enquanto ele bate. O kit é diferente, mas a sensação de ficar mais forte drenando o inimigo é a mesma.",
       "paralelos": [
-        { "origem": "R – Rouba as resistências do alvo", "destino": "Threadsap" },
-        { "origem": "W – Área que fortalece o Trundle", "destino": "Baba's Brew" },
-        { "origem": "E – Pilar que desacelera os inimigos", "destino": "Feed The Birds" }
+        { "origem": "R – Rouba resistências e vida do alvo", "destino": "Threadsap" },
+        { "origem": "Q – Mordida que rouba dano e desacelera", "destino": "Granny Long Legs" },
+        { "origem": "W – Área que fortalece o Trundle", "destino": "Baba's Brew" }
       ]
     },
     "Hwei": {
