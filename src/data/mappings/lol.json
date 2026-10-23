@@ -265,12 +265,13 @@
       ]
     },
     "Kled": {
-      "heroi": 72,
-      "segunda": 18,
-      "motivo": "Doido montado que puxa o inimigo e entra de cabeça: a armadilha na corda do Kled vira o Chain Gang do Billy, que acorrenta e arrasta os inimigos, e a investida gigante vira o Rising Ram. Para quem gosta de surgir em cima do alvo, o Mo & Krill é a segunda opção.",
+      "heroi": 84,
+      "segunda": 72,
+      "bonus": 18,
+      "motivo": "Nanico teimoso que lidera o ataque: a investida do Kled acelera os aliados que vêm atrás, como o estandarte de Ratannia do Rat King, e o Skaarl funciona como a armadura de sucata que segura o dano. Para puxar e acorrentar inimigos como a armadilha na corda, o Billy é a segunda opção.",
       "paralelos": [
-        { "origem": "Q – Armadilha na corda que puxa", "destino": "Chain Gang" },
-        { "origem": "R – Investida gigante", "destino": "Rising Ram" }
+        { "origem": "R – Investida que acelera os aliados", "destino": "Rule, Ratannia!" },
+        { "origem": "Passiva – Skaarl como vida extra", "destino": "Royal Pestments" }
       ]
     },
     "Nunu": {
