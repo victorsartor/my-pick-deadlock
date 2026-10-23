@@ -11,7 +11,7 @@ import { useAssets } from '../composables/useAssets'
 import { axes, games, heroes } from '../data'
 import { carregarHabilidadesLol, lolIcone } from '../services/dataDragon'
 import { carregarHabilidadesDeadlock } from '../services/deadlockApi'
-import { ranquear } from '../services/matcher'
+import { ranquear, rotuloCompatibilidade } from '../services/matcher'
 import type { Foco, Habilidade } from '../types'
 
 const props = defineProps<{ jogo: string; personagem: string }>()
@@ -229,7 +229,10 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
             </li>
           </ul>
         </div>
-        <span class="font-display text-4xl text-ouro sm:px-4">{{ segunda.porcentagem }}%</span>
+        <div class="flex flex-col items-start sm:items-center sm:px-4">
+          <span class="font-display text-4xl text-ouro">{{ segunda.porcentagem }}%</span>
+          <span class="text-xs text-suave">{{ rotuloCompatibilidade(segunda.porcentagem) }}</span>
+        </div>
       </article>
       <VoteButtons
         :jogo="jogo"

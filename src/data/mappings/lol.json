@@ -48,6 +48,7 @@
     },
     "TwistedFate": {
       "heroi": 7,
+      "segunda": 52,
       "motivo": "Literalmente cartas e teletransporte. Wraith escolhe a luta e chega onde ninguém espera.",
       "paralelos": [
         { "origem": "W – Escolhe uma carta com efeito", "destino": "Card Trick" },
@@ -185,6 +186,7 @@
     },
     "Graves": {
       "heroi": 65,
+      "segunda": 25,
       "motivo": "Atirador de escopeta que joga de perto, empurra os inimigos com os disparos e finaliza com tiros pesados. O Venator também carrega escopeta e besta e vive de rajadas de dano de arma.",
       "paralelos": [
         { "origem": "Q – Projétil que quica e explode", "destino": "Consecrating Grenade" },
@@ -240,12 +242,13 @@
       ]
     },
     "Pantheon": {
-      "heroi": 52,
-      "motivo": "Lutador de média distância que cai do céu em qualquer ponto do mapa para participar das lutas.",
+      "heroi": 20,
+      "segunda": 52,
+      "motivo": "Chega à luta caindo do céu e segura a frente com uma defesa impenetrável: a ultimate do Pantheon e o Air Drop da Ivy despencam explodindo, e o escudo dele vira o Stone Form dela. Se você gosta do salto global, o Mirage é a segunda opção.",
       "paralelos": [
-        { "origem": "R – Salto global", "destino": "Traveler" },
-        { "origem": "W – Salto que atordoa", "destino": "Dust Devil" },
-        { "origem": "Passiva – Ataque potencializado", "destino": "Djinn's Mark" }
+        { "origem": "R – Cai do céu e explode na aterrissagem", "destino": "Air Drop" },
+        { "origem": "E – Escudo que bloqueia tudo à frente", "destino": "Stone Form" },
+        { "origem": "Q fortalecido – Lança que desacelera", "destino": "Entangling Thorns" }
       ]
     },
     "Cassiopeia": {
@@ -396,6 +399,7 @@
     },
     "JarvanIV": {
       "heroi": 84,
+      "segunda": 72,
       "motivo": "Rei de linha de frente com estandarte e armadura que fortalece o time.",
       "paralelos": [
         { "origem": "E – Estandarte", "destino": "Rule, Ratannia!" },

@@ -39,7 +39,16 @@ A estrutura já está pronta para receber jogadores de outros jogos no futuro, c
 
 **4. Dificuldade.** Campeões e heróis têm uma dificuldade de 1 (Fácil) a 5 (Extrema). Quando a diferença entre os dois passa de um nível, o herói perde pontos. Assim, quem joga um campeão simples não recebe como sugestão um herói que exige muita mecânica.
 
-O resultado final fica entre 1% e 99%. Os motivos em destaque na tela, como "Muita mobilidade" ou "Aguenta muito dano", são os eixos em que os dois personagens são fortes ao mesmo tempo.
+**5. Escala final.** Os pontos são convertidos para uma escala de 10% a 90%. Personagens de jogos diferentes nunca são idênticos, então nenhum par passa de 90%. A ordem dos heróis não muda, só o número fica mais realista. Junto da porcentagem aparece um rótulo:
+
+| Porcentagem | Rótulo |
+|---|---|
+| 85% ou mais | Combina muito |
+| 75% a 84% | Combina bem |
+| 65% a 74% | Parecido |
+| abaixo de 65% | Pouco parecido |
+
+Os motivos em destaque na tela, como "Muita mobilidade" ou "Aguenta muito dano", são os eixos em que os dois personagens são fortes ao mesmo tempo.
 
 ## Feedback da comunidade
 
