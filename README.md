@@ -1,60 +1,62 @@
 # My Pick Deadlock
 
-Recomenda um herói do Deadlock a partir do campeão que você joga no League of Legends.
-Vue 3 + Vite + Tailwind, 100% estático (Vercel/Netlify).
+**Do seu main no LoL ao herói certo no Deadlock.**
 
-## Rodar
+🔗 https://my-pick-deadlock.vercel.app
 
-```bash
-npm install
-npm run dev     # http://localhost:5173
-npm test        # valida dados e motor de match
-npm run build   # gera dist/ para deploy
-```
+## A ideia
 
-## Onde fica cada coisa
+Quem chega ao Deadlock vindo de outro jogo já tem anos de memória muscular e um jeito próprio de jogar. O My Pick Deadlock usa isso a favor: você escolhe o campeão que joga no League of Legends e o site recomenda o herói do Deadlock que mais combina com o seu estilo.
 
-| Arquivo | O que é |
-|---|---|
-| `src/data/axes.json` | Os 11 eixos de estilo (alcance, mobilidade…) e o peso de cada um |
-| `src/data/deadlock/heroes.json` | Heróis: vetor de estilo, tríade (arma/espírito/vitalidade), resumo e builds |
-| `src/data/games/lol.json` | Campeões do LoL: função e vetor de estilo |
-| `src/data/mappings/lol.json` | Par recomendado, motivo e habilidades paralelas por campeão |
-| `src/data/sources.json` | Jogos de origem (LoL ativo; Dota 2, OW2, Valorant "em breve") |
-| `src/services/matcher.ts` | Cálculo da compatibilidade |
+Para cada recomendação, o site mostra:
 
-**Como o % é calculado:** similaridade ponderada entre os vetores (0 a 10 em cada eixo) × 100,
-mais um bônus de 12 pontos para o herói indicado no mapeamento. Limitado a 1–99%.
+- **Porcentagem de compatibilidade** entre o campeão e o herói.
+- **Por que combina**: o motivo do par e quais habilidades de um lembram as do outro.
+- **Tríade de atributos** do herói, nas três cores do jogo: 🟠 Arma, 🟣 Espírito e 🟢 Vitalidade.
+- **Habilidades lado a lado**: o kit do campeão e o do herói, com descrição, recarga e melhorias.
+- **Vertentes de build**: formas diferentes de jogar o mesmo herói.
+- **Dificuldade** do herói, de Fácil a Extrema.
+- **Uma segunda opção**, para quem quiser explorar outro caminho.
 
-**Revisando os dados:** altere os números dos vetores ou o texto e rode `npm test`.
-O teste avisa se algum vetor ficou fora de 0–10, se faltou mapeamento ou se um herói ficou sem par.
+A estrutura já está pronta para receber jogadores de outros jogos no futuro, como Dota 2, Overwatch 2 e Valorant.
 
-## APIs usadas
+## Como a porcentagem é calculada
 
-### Data Dragon (Riot, oficial)
-- Versões: `https://ddragon.leagueoflegends.com/api/versions.json` (a primeira é a atual)
-- Campeões em pt-BR: `https://ddragon.leagueoflegends.com/cdn/<versão>/data/pt_BR/champion.json`
-- Ícone: `https://ddragon.leagueoflegends.com/cdn/<versão>/img/champion/<Id>.png`
-- Splash: `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/<Id>_0.jpg`
-- Habilidades (Passiva + Q/W/E/R): `https://ddragon.leagueoflegends.com/cdn/<versão>/data/pt_BR/champion/<Id>.json`
+**1. Notas de estilo.** Cada campeão e cada herói recebe uma nota de 0 a 10 em 11 eixos de jogabilidade. Cada eixo tem um peso, que define o quanto ele conta no cálculo:
 
-Não precisa de chave. O `<Id>` é o campo `id` do champion.json (ex.: `MissFortune`, `DrMundo`).
+| Eixo | Peso | Eixo | Peso |
+|---|---|---|---|
+| Alcance | 1,4 | Autocura | 0,8 |
+| Mobilidade | 1,2 | Controle de grupo | 1,0 |
+| Dano explosivo | 1,0 | Suporte ao time | 1,3 |
+| Dano contínuo | 0,8 | Furtividade | 0,9 |
+| Resistência | 1,2 | Foco em arma | 1,3 |
+| | | Controle de área | 0,8 |
 
-### Deadlock API (comunidade, não oficial)
-- Documentação: https://api.deadlock-api.com/docs
-- Heróis: `https://api.deadlock-api.com/v1/assets/heroes?language=english&only_active=true`
-- Habilidades de um herói: `https://api.deadlock-api.com/v1/assets/items/by-hero-id/<id>?language=brazilian`
-  (a ordem 1–4 vem de `items.signature1..4` no endpoint de heróis)
+**2. Similaridade.** O site compara as notas eixo a eixo. Quanto menor a diferença entre os dois personagens, maior a porcentagem. Diferenças grandes pesam mais do que várias diferenças pequenas: um herói muito diferente em um ponto central do estilo perde mais pontos do que um herói levemente diferente em vários pontos.
 
-Não precisa de chave. O antigo `assets.deadlock-api.com` foi desativado; tudo agora fica em `api.deadlock-api.com/v1/assets/...`.
-O app guarda as respostas no `localStorage` (6 h Deadlock, 24 h Riot).
+**3. Curadoria.** Números não captam tudo. Por isso, cada campeão tem um herói principal escolhido à mão, com bônus de pontos e uma explicação do porquê. Também dá para fixar a segunda opção quando a temática ou o kit fazem mais sentido do que o cálculo puro.
 
-## Adicionar um jogo de origem
+**4. Dificuldade.** Campeões e heróis têm uma dificuldade de 1 (Fácil) a 5 (Extrema). Quando a diferença entre os dois passa de um nível, o herói perde pontos. Assim, quem joga um campeão simples não recebe como sugestão um herói que exige muita mecânica.
 
-1. Crie `src/data/games/<jogo>.json` e `src/data/mappings/<jogo>.json` no mesmo formato do LoL.
-2. Registre em `src/data/index.ts` e mude `ativo` para `true` em `sources.json`.
-3. Crie um serviço de imagens para o jogo, como `dataDragon.ts`.
+O resultado final fica entre 1% e 99%. Os motivos em destaque na tela, como "Muita mobilidade" ou "Aguenta muito dano", são os eixos em que os dois personagens são fortes ao mesmo tempo.
+
+## Feedback da comunidade
+
+Cada recomendação tem os botões **Concordo** e **Não concordo**. Quem discorda pode indicar qual herói acha que combina mais. Esses votos são usados para revisar os pares.
+
+Tem uma sugestão de par, encontrou algo estranho ou quer ver outro jogo no site? Me chama no X: **[@vitinhoosartor](https://x.com/vitinhoosartor)**.
+
+## APIs e serviços usados
+
+- **[Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon)** (Riot Games, oficial): nomes, artes e habilidades dos campeões do League of Legends, em português.
+- **[Deadlock API](https://deadlock-api.com)** (projeto da comunidade, não oficial): imagens, nomes e habilidades dos heróis do Deadlock. Como o jogo está em beta, o site se atualiza sozinho quando a Valve muda algo.
+- **[Community Dragon](https://www.communitydragon.org)**: ícones das posições do LoL.
+- **[Supabase](https://supabase.com)**: armazenamento dos votos, de forma anônima.
+- **[Vercel](https://vercel.com)**: hospedagem do site.
 
 ## Aviso legal
 
-Projeto de fã, sem afiliação com a Riot Games ou a Valve.
+O My Pick Deadlock é um projeto de fã, sem fins lucrativos, e não é afiliado, patrocinado ou endossado pela Riot Games ou pela Valve.
+
+League of Legends e todos os seus personagens, nomes e artes são marcas e propriedade da Riot Games, Inc. Deadlock e todos os seus personagens, nomes e artes são marcas e propriedade da Valve Corporation. As imagens e textos dos jogos são carregados dos serviços listados acima e pertencem aos seus respectivos donos.
