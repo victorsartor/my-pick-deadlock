@@ -197,7 +197,7 @@
     },
     "Trundle": {
       "heroi": 88,
-      "segunda": null,
+      "segunda": 4,
       "bonus": 26,
       "motivo": "Ladrão de status que resolve na porrada. Na build corpo a corpo da Baba, o Threadsap rouba o espírito do inimigo e as pernas do banquinho distribuem chutes e pisões, assim como o Q e o R do Trundle roubam força do alvo enquanto ele bate. O kit é diferente, mas a sensação de ficar mais forte drenando o inimigo é a mesma.",
       "paralelos": [
@@ -242,6 +242,84 @@
         { "origem": "Q – Dano extra em alvo isolado", "destino": "Eternal Night" },
         { "origem": "E – Salta em cima do alvo", "destino": "Stalker's Mark" },
         { "origem": "R – Fica invisível para caçar", "destino": "Bloodscent" }
+      ]
+    },
+    "Leblanc": {
+      "heroi": 60,
+      "segunda": 16,
+      "motivo": "Ilusionista que engana o inimigo e copia habilidades: o Mimetismo da LeBlanc repete a última magia dela, e o Audience Participation do Sinclair copia a ultimate do adversário. Os dois ainda confundem com clones. Para o lado assassina que entra e some, o Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Repete uma habilidade", "destino": "Audience Participation" },
+        { "origem": "Passiva – Clone que confunde o inimigo", "destino": "Spectral Assistant" },
+        { "origem": "Q – Marca que explode no próximo golpe", "destino": "Vexing Bolt" }
+      ]
+    },
+    "MasterYi": {
+      "heroi": 27,
+      "segunda": 64,
+      "motivo": "Espadachim que corta tudo e reseta com abates: o Master Yi entra intocável no meio da luta, e a Yamato pula até o alvo com Flying Slash e tem uma ultimate que acelera e reinicia as habilidades. Para caçar alvos sozinhos, o Drifter é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Ataque relâmpago intocável", "destino": "Flying Slash" },
+        { "origem": "R – Fica mais rápido e reseta com abates", "destino": "Shadow Transformation" },
+        { "origem": "E – Golpes de espada mais fortes", "destino": "Power Slash" }
+      ]
+    },
+    "Kled": {
+      "heroi": 72,
+      "segunda": 18,
+      "motivo": "Doido montado que puxa o inimigo e entra de cabeça: a armadilha na corda do Kled vira o Chain Gang do Billy, que acorrenta e arrasta os inimigos, e a investida gigante vira o Rising Ram. Para quem gosta de surgir em cima do alvo, o Mo & Krill é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Armadilha na corda que puxa", "destino": "Chain Gang" },
+        { "origem": "R – Investida gigante", "destino": "Rising Ram" }
+      ]
+    },
+    "Nunu": {
+      "heroi": 18,
+      "segunda": 12,
+      "motivo": "Dupla que chega rolando e prende o inimigo: a bola de neve do Nunu & Willump faz o gank que o Mo & Krill faz por baixo da terra, e os dois se curam mordendo e seguram o alvo com uma canalização. Pelo tema de gelo, o Kelvin é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Bola de neve que rola até o inimigo", "destino": "Burrow" },
+        { "origem": "Q – Morde e se cura", "destino": "Scorn" },
+        { "origem": "R – Canaliza e prende os inimigos", "destino": "Combo" }
+      ]
+    },
+    "Seraphine": {
+      "heroi": 67,
+      "segunda": 12,
+      "motivo": "Suporte que protege o time de longe e muda a luta com uma onda: a Seraphine dá escudo e cura aos aliados como o Plot Armor da Paige, e as duas têm ondas que atravessam o campo. Para um suporte mais perto da luta, o Kelvin é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Escudo e cura para os aliados", "destino": "Plot Armor" },
+        { "origem": "E – Onda que desacelera e prende", "destino": "Captivating Read" },
+        { "origem": "R – Onda longa que encanta", "destino": "Rallying Charge" }
+      ]
+    },
+    "Nami": {
+      "heroi": 67,
+      "segunda": 11,
+      "motivo": "Suporte que fortalece o carregador e vira a luta com uma onda: a bênção da Nami dá dano extra aos ataques do aliado como o Plot Armor da Paige, e o Maremoto vira a carga de cavaleiros que atravessa o mapa. Para iniciar lutas, o Dynamo é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Fortalece os ataques do aliado", "destino": "Plot Armor" },
+        { "origem": "R – Onda gigante que atravessa o mapa", "destino": "Rallying Charge" },
+        { "origem": "Q – Bolha que prende depois de um tempo", "destino": "Captivating Read" }
+      ]
+    },
+    "Teemo": {
+      "heroi": 1,
+      "segunda": 17,
+      "motivo": "Corre pelo mapa deixando o inimigo queimando: o veneno do Teemo nos ataques vira o Afterburn do Infernus, e a corrida do Teemo vira o Flame Dash. Para quem ama os cogumelos, as armadilhas do Grey Talon são a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Ataques envenenam com o tempo", "destino": "Afterburn" },
+        { "origem": "W – Corrida rápida", "destino": "Flame Dash" }
+      ]
+    },
+    "Camille": {
+      "heroi": 31,
+      "segunda": 27,
+      "motivo": "Lutadora de gancho que voa até o alvo e não deixa ele escapar: o Gancho da Camille vira o Grapple do Lash, e a ultimate que isola o inimigo vira o Death Slam. Para duelos de espada, a Yamato é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Gancho na parede e salto no alvo", "destino": "Grapple" },
+        { "origem": "R – Salta e prende o alvo", "destino": "Death Slam" },
+        { "origem": "W – Golpe em cone que cura", "destino": "Flog" }
       ]
     },
     "Poppy": {
