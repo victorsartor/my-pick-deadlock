@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { heroes } from '../data'
+import HeroPicker from './HeroPicker.vue'
 import { carregarContagem, chaveVoto, lerVoto, registrarVoto, type Contagem, type Opiniao, type Par, type Voto } from '../services/votos'
 
 const props = defineProps<{
@@ -48,10 +49,9 @@ function votar(opiniao: Opiniao) {
   }
 }
 
-function sugerir(evento: Event) {
+function sugerir(id: number) {
   if (!voto.value) return
-  const id = Number((evento.target as HTMLSelectElement).value)
-  voto.value = registrarVoto(par.value, voto.value.opiniao, id || undefined)
+  voto.value = registrarVoto(par.value, voto.value.opiniao, id)
 }
 </script>
 
@@ -95,16 +95,8 @@ function sugerir(evento: Event) {
     <p v-if="voto?.opiniao === 'like'" class="mt-2 text-xs text-vitalidade">Valeu pelo voto!</p>
 
     <div v-else-if="voto?.opiniao === 'dislike'" class="mt-3 flex flex-wrap items-center gap-2">
-      <label :for="`sugestao-${heroi.id}`" class="text-xs text-suave">Quem combina mais com {{ nomeOrigem }}?</label>
-      <select
-        :id="`sugestao-${heroi.id}`"
-        class="rounded-md border border-borda bg-fundo px-2 py-1 text-sm outline-none focus:border-ouro"
-        :value="voto.sugestao ?? ''"
-        @change="sugerir"
-      >
-        <option value="">Escolha um herói…</option>
-        <option v-for="h in outrosHerois" :key="h.id" :value="h.id">{{ h.nome }}</option>
-      </select>
+      <span class="text-xs text-suave">Quem combina mais com {{ nomeOrigem }}?</span>
+      <HeroPicker :herois="outrosHerois" :model-value="voto.sugestao" @update:model-value="sugerir" />
       <span v-if="voto.sugestao" class="text-xs text-vitalidade">Sugestão registrada!</span>
     </div>
   </div>
