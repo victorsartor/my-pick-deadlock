@@ -4,7 +4,7 @@ import '@fontsource-variable/oswald'
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import App from './App.vue'
-import { carregarTelaResultado } from './services/preCarregar'
+import { carregarTelaResultado, preconectarVotos } from './services/preCarregar'
 import './style.css'
 import HomeView from './views/HomeView.vue'
 
@@ -21,3 +21,4 @@ const router = createRouter({
 })
 
 createApp(App).use(router).mount('#app')
+preconectarVotos()
