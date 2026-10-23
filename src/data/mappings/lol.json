@@ -326,8 +326,9 @@
     },
     "Lissandra": {
       "heroi": 50,
-      "segunda": null,
-      "motivo": "Maga que entra, explode e se protege na hora certa: a Garra Glacial da Lissandra é lançada e ela se teletransporta até ela, como o Flying Cloak do Pocket, e o Túmulo Congelado deixa ela intocável como a mala do Enchanter's Satchel.",
+      "segunda": 81,
+      "bonus": 14,
+      "motivo": "Maga que entra, explode e se protege na hora certa: a Garra Glacial da Lissandra é lançada e ela se teletransporta até ela, como o Flying Cloak do Pocket, e o Túmulo Congelado deixa ela intocável como a mala do Enchanter's Satchel. Pelo estilo de maga de controle com burst, a Celeste é a segunda opção.",
       "paralelos": [
         { "origem": "E – Garra lançada para se teletransportar", "destino": "Flying Cloak" },
         { "origem": "R – Se congela e fica intocável", "destino": "Enchanter's Satchel" },
@@ -354,8 +355,8 @@
     },
     "Chogath": {
       "heroi": 18,
-      "segunda": 72,
-      "motivo": "Monstro que devora o inimigo e fica maior para sempre: o Banquete do Cho'Gath é o Combo do Mo & Krill, que prende o alvo e dá vida máxima permanente a cada abate. A Ruptura que sai do chão vira o Burrow. Para um brigão de controle, o Billy é a segunda opção.",
+      "segunda": 66,
+      "motivo": "Monstro que devora o inimigo e fica maior para sempre: o Banquete do Cho'Gath é o Combo do Mo & Krill, que prende o alvo e dá vida máxima permanente a cada abate. A Ruptura que sai do chão vira o Burrow. Para um tanque que aguenta tudo e fere quem está perto, o Victor é a segunda opção.",
       "paralelos": [
         { "origem": "R – Devora o alvo e cresce para sempre", "destino": "Combo" },
         { "origem": "Q – Ruptura que sai do chão", "destino": "Burrow" },
@@ -364,8 +365,8 @@
     },
     "Varus": {
       "heroi": 17,
-      "segunda": 25,
-      "motivo": "Arqueiro de longa distância com flecha carregada: o Q do Varus é o Charged Shot do Grey Talon, e a corrente que prende vira a Spirit Snare. Para quem gosta das maldições que acumulam, o Warden é a segunda opção.",
+      "segunda": null,
+      "motivo": "Arqueiro de longa distância com flecha carregada: o Q do Varus é o Charged Shot do Grey Talon, e a corrente que prende vira a Spirit Snare.",
       "paralelos": [
         { "origem": "Q – Flecha carregada de longe", "destino": "Charged Shot" },
         { "origem": "E – Chuva de flechas", "destino": "Rain of Arrows" },
