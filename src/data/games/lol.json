@@ -63,6 +63,15 @@
     { "id": "Seraphine", "funcao": "Suporte", "dificuldade": 2, "vetor": [8, 3, 6, 5, 3, 2, 7, 8, 0, 1, 6] },
     { "id": "Nami", "funcao": "Suporte", "dificuldade": 2, "vetor": [7, 4, 5, 4, 3, 2, 8, 9, 0, 1, 6] },
     { "id": "Teemo", "funcao": "Topo", "dificuldade": 2, "vetor": [7, 6, 5, 9, 3, 1, 4, 0, 7, 7, 8] },
-    { "id": "Camille", "funcao": "Topo", "dificuldade": 4, "vetor": [2, 9, 8, 6, 6, 3, 6, 0, 0, 6, 1] }
+    { "id": "Camille", "funcao": "Topo", "dificuldade": 4, "vetor": [2, 9, 8, 6, 6, 3, 6, 0, 0, 6, 1] },
+    { "id": "Lissandra", "funcao": "Meio", "dificuldade": 3, "vetor": [6, 6, 8, 4, 4, 3, 8, 1, 0, 0, 5] },
+    { "id": "Jinx", "funcao": "Atirador", "dificuldade": 2, "vetor": [9, 5, 7, 9, 2, 1, 4, 0, 0, 10, 4] },
+    { "id": "Ezreal", "funcao": "Atirador", "dificuldade": 3, "vetor": [8, 8, 7, 6, 2, 1, 2, 0, 0, 6, 2] },
+    { "id": "Chogath", "funcao": "Topo", "dificuldade": 1, "vetor": [3, 3, 6, 5, 10, 5, 8, 2, 0, 2, 6] },
+    { "id": "Varus", "funcao": "Atirador", "dificuldade": 3, "vetor": [9, 3, 8, 6, 2, 1, 6, 1, 0, 7, 5] },
+    { "id": "Rell", "funcao": "Suporte", "dificuldade": 2, "vetor": [2, 5, 4, 3, 9, 3, 10, 7, 0, 1, 4] },
+    { "id": "TahmKench", "funcao": "Suporte", "dificuldade": 2, "vetor": [2, 5, 5, 5, 9, 6, 7, 7, 0, 3, 3] },
+    { "id": "Sion", "funcao": "Topo", "dificuldade": 2, "vetor": [2, 5, 6, 5, 10, 6, 8, 2, 0, 4, 3] },
+    { "id": "Swain", "funcao": "Meio", "dificuldade": 3, "vetor": [5, 3, 6, 8, 8, 9, 7, 1, 0, 1, 6] }
   ]
 }
