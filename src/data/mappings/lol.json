@@ -219,8 +219,8 @@
     },
     "Ziggs": {
       "heroi": 78,
-      "segunda": null,
-      "motivo": "Especialista em explosivos que bombardeia de longe: o campo minado do Ziggs vira o Strix Salvo do Danny, mísseis que ficam no chão e explodem quando alguém passa. Os dois ainda se arremessam com as próprias explosões.",
+      "segunda": 10,
+      "motivo": "Especialista em explosivos que bombardeia de longe: o campo minado do Ziggs vira o Strix Salvo do Danny, mísseis que ficam no chão e explodem quando alguém passa. Os dois ainda se arremessam com as próprias explosões. Para granadas que pulsam e controlam a área, a Paradox é a segunda opção.",
       "paralelos": [
         { "origem": "E – Campo minado", "destino": "Strix Salvo" },
         { "origem": "W – Explosão que te arremessa para trás", "destino": "Jettison Fuel" }
@@ -346,8 +346,8 @@
     },
     "Ezreal": {
       "heroi": 7,
-      "segunda": null,
-      "motivo": "Atirador de teletransporte e tiros de habilidade: a Mudança Arcana do Ezreal é o Project Mind da Wraith, e o Disparo Místico que aplica efeitos vira as cartas do Card Trick.",
+      "segunda": 2,
+      "motivo": "Atirador de teletransporte e tiros de habilidade: a Mudança Arcana do Ezreal é o Project Mind da Wraith, e o Disparo Místico que aplica efeitos vira as cartas do Card Trick. Para quem joga de Ezreal pelos tiros de habilidade de longe, o Seven é a segunda opção.",
       "paralelos": [
         { "origem": "E – Teletransporte curto", "destino": "Project Mind" },
         { "origem": "Q – Disparo que aplica efeitos de ataque", "destino": "Card Trick" }
@@ -409,6 +409,231 @@
       "paralelos": [
         { "origem": "R – Drena todos ao redor e se cura", "destino": "Last Stand" },
         { "origem": "E – Prende o inimigo", "destino": "Binding Word" }
+      ]
+    },
+    "Janna": {
+      "heroi": 67,
+      "segunda": 79,
+      "motivo": "Suporte que protege e fortalece o carregador: o escudo da Janna dá dano extra ao aliado como o Plot Armor da Paige, e a Monção cura o time como a Rallying Charge. Para um suporte grudado no aliado, o Rem é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Escudo que dá dano extra ao aliado", "destino": "Plot Armor" },
+        { "origem": "R – Cura o time e empurra os inimigos", "destino": "Rallying Charge" },
+        { "origem": "Q – Tornado em linha que lança", "destino": "Captivating Read" }
+      ]
+    },
+    "Gragas": {
+      "heroi": 35,
+      "segunda": 18,
+      "motivo": "Tanque bonachão que rola para cima do inimigo: a Pancada Corporal do Gragas vira o Goo Ball do Viscous, e o barril arremessado vira o Splatter. Para quem gosta de iniciar de surpresa, o Mo & Krill é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Investida com a barriga que atordoa", "destino": "Goo Ball" },
+        { "origem": "Q – Barril arremessado que desacelera", "destino": "Splatter" },
+        { "origem": "R – Barril explosivo que lança", "destino": "Puddle Punch" }
+      ]
+    },
+    "Annie": {
+      "heroi": 2,
+      "segunda": 16,
+      "motivo": "Maga de burst que atordoa e queima a área: a passiva da Annie atordoa depois de algumas magias como o Static Charge do Seven, e o Tibbers vira a Storm Cloud que fere todos ao redor. Para o lado de entrar e explodir, o Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Atordoa depois de algumas magias", "destino": "Static Charge" },
+        { "origem": "R – Invoca o Tibbers em área", "destino": "Storm Cloud" },
+        { "origem": "Q – Bola de fogo", "destino": "Lightning Ball" }
+      ]
+    },
+    "Aatrox": {
+      "heroi": 27,
+      "segunda": 19,
+      "motivo": "Espadachim de golpes carregados que se cura lutando: os três golpes da Lâmina Darkin viram o Power Slash da Yamato, e a ultimate que transforma vira a Shadow Transformation. Para executar alvos e adiar dano, o Shiv é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Golpes de espada carregados", "destino": "Power Slash" },
+        { "origem": "R – Transformação para o all-in", "destino": "Shadow Transformation" },
+        { "origem": "E – Avanço curto", "destino": "Flying Slash" }
+      ]
+    },
+    "Ambessa": {
+      "heroi": 16,
+      "segunda": 6,
+      "motivo": "Lutadora que avança a cada habilidade e cai em cima do alvo: os avanços da Ambessa viram o Leaping Slash do Calico, e a Execução Pública que some e reaparece no inimigo vira o Return to Shadows. Para um lado mais tanque, o Abrams é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Avança a cada habilidade", "destino": "Leaping Slash" },
+        { "origem": "R – Some e reaparece no alvo", "destino": "Return to Shadows" }
+      ]
+    },
+    "Amumu": {
+      "heroi": 66,
+      "segunda": 11,
+      "motivo": "Tanque que fere todo mundo por perto e prende o time inimigo: o Desespero do Amumu é a Aura of Suffering do Victor, e a Maldição da Múmia Triste atordoa em volta como o Shocking Reanimation. Pela ultimate em área que vira lutas, o Dynamo é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Aura que fere quem está perto", "destino": "Aura of Suffering" },
+        { "origem": "R – Atordoa todos ao redor", "destino": "Shocking Reanimation" }
+      ]
+    },
+    "Evelynn": {
+      "heroi": 63,
+      "segunda": 16,
+      "bonus": 25,
+      "motivo": "Caçadora que acumula dano até a mordida final e some depois: o charme da Evelynn prepara um golpe forte como o Love Bites da Mina, e a ultimate que a deixa intocável vira o Sanguine Retreat. Para emboscadas escondidas, o Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Encanta e prepara um golpe forte", "destino": "Love Bites" },
+        { "origem": "R – Fica intocável e recua", "destino": "Sanguine Retreat" },
+        { "origem": "E – Chicotada no alvo", "destino": "Rake" }
+      ]
+    },
+    "Fiddlesticks": {
+      "heroi": 4,
+      "segunda": null,
+      "motivo": "Assombração que drena a vida dos inimigos para se manter: a Colheita Farta do Fiddlesticks é o Life Drain da Lady Geist, e o medo que deixa o alvo vulnerável vira o Malice.",
+      "paralelos": [
+        { "origem": "W – Drena vida dos inimigos por perto", "destino": "Life Drain" },
+        { "origem": "Q – Medo que deixa o alvo vulnerável", "destino": "Malice" }
+      ]
+    },
+    "Rumble": {
+      "heroi": 78,
+      "segunda": null,
+      "motivo": "Piloto de máquina que esquenta e queima tudo: o lança-chamas do Rumble vira o Jettison Fuel do Danny, a ultimate de foguetes em linha vira o Strix Salvo, e os dois controlam o calor da máquina para não superaquecer.",
+      "paralelos": [
+        { "origem": "Q – Lança-chamas", "destino": "Jettison Fuel" },
+        { "origem": "R – Foguetes em linha que queimam o chão", "destino": "Strix Salvo" },
+        { "origem": "Passiva – Calor que superaquece", "destino": "Chimera Mk1" }
+      ]
+    },
+    "Riven": {
+      "heroi": 27,
+      "segunda": 64,
+      "motivo": "Espadachim de combos com avanços seguidos: as Asas Partidas da Riven viram o Flying Slash da Yamato, e a Lâmina do Exílio fortalece tudo como a Shadow Transformation. Para caçar alvos isolados, o Drifter é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Três avanços com golpes", "destino": "Flying Slash" },
+        { "origem": "R – Fortalece a espada para o all-in", "destino": "Shadow Transformation" },
+        { "origem": "W – Explosão que atordoa ao redor", "destino": "Crimson Slash" }
+      ]
+    },
+    "Renekton": {
+      "heroi": 6,
+      "segunda": 31,
+      "motivo": "Brigão que avança, se cura batendo e cresce na ultimate: o Cortar e Fatiar do Renekton vira o Shoulder Charge do Abrams, o Q que cura vira o Siphon Life e a transformação vira o Infernal Resilience. Para avançar e cair em cima, o Lash é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Avanço pelos inimigos", "destino": "Shoulder Charge" },
+        { "origem": "Q – Golpe em área que cura", "destino": "Siphon Life" },
+        { "origem": "R – Cresce e fica mais resistente", "destino": "Infernal Resilience" }
+      ]
+    },
+    "Nidalee": {
+      "heroi": 16,
+      "segunda": 63,
+      "motivo": "Assassina de dano mágico que vira felina para pular no alvo: a transformação da Nidalee é o Ava do Calico, e o Bote vira o Leaping Slash. A lança de longe abre o combo como as Gloom Bombs. Para o lado atiradora ágil, a Mina é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Vira felina", "destino": "Ava" },
+        { "origem": "W (felina) – Bote no alvo", "destino": "Leaping Slash" },
+        { "origem": "Q – Lança de longe", "destino": "Gloom Bombs" }
+      ]
+    },
+    "Volibear": {
+      "heroi": 2,
+      "segunda": 6,
+      "bonus": 16,
+      "motivo": "O urso da tempestade: os ataques do Volibear soltam raios em cadeia como o Power Surge do Seven, o raio que cai do céu vira o Static Charge e a ultimate vira a Storm Cloud. Para o lado tanque que pula no meio da luta, o Abrams é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Ataques com raios em cadeia", "destino": "Power Surge" },
+        { "origem": "E – Raio que cai do céu", "destino": "Static Charge" },
+        { "origem": "R – Salta virando tempestade", "destino": "Storm Cloud" }
+      ]
+    },
+    "Viego": {
+      "heroi": 27,
+      "segunda": 64,
+      "motivo": "Espadachim que se transforma e reseta a luta a cada abate: a possessão do Viego vira a Shadow Transformation da Yamato, e o Partir Corações que avança no alvo vira o Flying Slash. Para caçar isolados, o Drifter é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Possui o inimigo abatido", "destino": "Shadow Transformation" },
+        { "origem": "R – Avança e finaliza o alvo", "destino": "Flying Slash" },
+        { "origem": "Q – Golpe de espada", "destino": "Power Slash" }
+      ]
+    },
+    "Vi": {
+      "heroi": 72,
+      "segunda": 6,
+      "motivo": "Brigona que entra de cabeça e lança o alvo: o Arrombador da Vi vira o Rising Ram do Billy, a ultimate que levanta o inimigo vira o Bashdown, e os socos que quebram armadura viram o Blasted. Para segurar dano na frente, o Abrams é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Investida carregada", "destino": "Rising Ram" },
+        { "origem": "R – Avança no alvo e lança para cima", "destino": "Bashdown" },
+        { "origem": "W – Socos que quebram a armadura", "destino": "Blasted" }
+      ]
+    },
+    "Velkoz": {
+      "heroi": 15,
+      "segunda": 60,
+      "motivo": "Mago do laser: a ultimate do Vel'Koz é um raio canalizado como o Hyper Beam do Bebop, e a Ruptura Tectônica levanta os inimigos como o Exploding Uppercut. Para um mago de controle e truques, o Sinclair é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Raio canalizado", "destino": "Hyper Beam" },
+        { "origem": "E – Ruptura que lança para cima", "destino": "Exploding Uppercut" },
+        { "origem": "Q – Projétil que se divide", "destino": "Sticky Bomb" }
+      ]
+    },
+    "Kayn": {
+      "heroi": 19,
+      "segunda": 64,
+      "motivo": "Caçador que atravessa e executa: a Invasão Umbral do Kayn entra no alvo e finaliza como o Killing Blow do Shiv, e o Corte Ceifador vira o Slice and Dice. Para caçar pelas sombras, o Drifter é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Entra no alvo e finaliza", "destino": "Killing Blow" },
+        { "origem": "Q – Avanço que corta", "destino": "Slice and Dice" }
+      ]
+    },
+    "Zilean": {
+      "heroi": 10,
+      "segunda": 67,
+      "bonus": 19,
+      "motivo": "Mestre do tempo: a Bomba-Relógio do Zilean gruda e explode como a Pulse Grenade da Paradox, e a Distorção Temporal desacelera inimigos e acelera aliados como a Time Wall. Para o lado suporte que protege o time, a Paige é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Bomba que explode depois de um tempo", "destino": "Pulse Grenade" },
+        { "origem": "E – Desacelera inimigos e acelera aliados", "destino": "Time Wall" }
+      ]
+    },
+    "Xerath": {
+      "heroi": 2,
+      "segunda": 10,
+      "motivo": "Mago de artilharia elétrica que joga muito de longe: o Pulso Arcano do Xerath vira o Lightning Ball do Seven, o orbe que atordoa vira o Static Charge e a ultimate canalizada vira a Storm Cloud. Para controle a distância, a Paradox é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Raio em linha", "destino": "Lightning Ball" },
+        { "origem": "E – Orbe que atordoa", "destino": "Static Charge" },
+        { "origem": "R – Bombardeio canalizado", "destino": "Storm Cloud" }
+      ]
+    },
+    "Taric": {
+      "heroi": 35,
+      "segunda": 11,
+      "motivo": "Protetor que deixa os aliados intocáveis: o Esplendor Cósmico do Taric protege o time como The Cube do Viscous, e o atordoamento em linha vira o Puddle Punch. Para curar e iniciar lutas, o Dynamo é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Deixa os aliados intocáveis", "destino": "The Cube" },
+        { "origem": "E – Atordoa em linha", "destino": "Puddle Punch" }
+      ]
+    },
+    "Zed": {
+      "heroi": 64,
+      "segunda": 58,
+      "motivo": "Assassino das sombras que marca o alvo e volta para finalizar: a Marca da Morte do Zed vira o Stalker's Mark do Drifter, que marca e deixa saltar até a vítima, e os dois isolam quem estiver sozinho. Para assassinar com arma e veneno, a Vyper é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Marca o alvo e salta até ele", "destino": "Stalker's Mark" },
+        { "origem": "E – Golpe em área ao redor", "destino": "Rend" }
+      ]
+    },
+    "Zyra": {
+      "heroi": 67,
+      "segunda": 8,
+      "motivo": "Maga de controle de área que prende inimigos de longe: as Raízes da Zyra prendem como o Captivating Read da Paige, e os espinhos em área viram o Bookwyrm. Para quem gosta de invocar plantas que atiram sozinhas, as torretas da McGinnis são a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Raízes que prendem", "destino": "Captivating Read" },
+        { "origem": "Q – Espinhos em área", "destino": "Bookwyrm" }
+      ]
+    },
+    "Orianna": {
+      "heroi": 10,
+      "segunda": 67,
+      "motivo": "Maga de controle que posiciona a bola e vira a luta: o Comando: Dissonância acelera aliados e desacelera inimigos como a Time Wall da Paradox, e a Onda de Choque puxa o inimigo como o Paradoxical Swap. Para proteger aliados com escudo, a Paige é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Bola que fica e pulsa na área", "destino": "Pulse Grenade" },
+        { "origem": "W – Acelera aliados e desacelera inimigos", "destino": "Time Wall" },
+        { "origem": "R – Onda que puxa os inimigos", "destino": "Paradoxical Swap" }
       ]
     },
     "Poppy": {
