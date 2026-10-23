@@ -25,7 +25,7 @@ export interface Contagem {
   dislikes: number
 }
 
-const SUPABASE_URL: string | undefined = import.meta.env.VITE_SUPABASE_URL
+export const SUPABASE_URL: string | undefined = import.meta.env.VITE_SUPABASE_URL
 const SUPABASE_KEY: string | undefined = import.meta.env.VITE_SUPABASE_ANON_KEY
 export const votosOnline = Boolean(SUPABASE_URL && SUPABASE_KEY)
 
