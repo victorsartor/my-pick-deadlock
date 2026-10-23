@@ -8,9 +8,14 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
-    "relatorio": "node scripts/relatorio-votos.mjs"
+    "relatorio": "node scripts/relatorio-votos.mjs",
+    "sync": "node scripts/sync-assets.mjs",
+    "predev": "node scripts/sync-assets.mjs",
+    "prebuild": "node scripts/sync-assets.mjs"
   },
   "dependencies": {
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/oswald": "^5.3.0",
     "vue": "^3.5.44",
     "vue-router": "^4.6.4"
   },
@@ -19,6 +24,7 @@
     "@types/node": "^24.19.2",
     "@vitejs/plugin-vue": "^6.0.10",
     "@vue/tsconfig": "^0.9.1",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.3",
     "vite": "^8.3.4",

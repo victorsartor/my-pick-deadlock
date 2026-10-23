@@ -1,0 +1,486 @@
+{
+ "1": {
+  "nome": "Infernus",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/inferno_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/inferno_sm.webp",
+  "habilidades": [
+   "ability_incendiary_projectile",
+   "ability_flame_dash",
+   "ability_afterburn",
+   "ability_fire_bomb"
+  ]
+ },
+ "2": {
+  "nome": "Seven",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/gigawatt_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/gigawatt_sm.webp",
+  "habilidades": [
+   "citadel_ability_lightning_ball",
+   "citadel_ability_static_charge",
+   "ability_power_surge",
+   "citadel_ability_storm_cloud"
+  ]
+ },
+ "3": {
+  "nome": "Vindicta",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/hornet_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/hornet_sm.webp",
+  "habilidades": [
+   "citadel_ability_hornet_chain",
+   "citadel_ability_hornet_leap",
+   "citadel_ability_hornet_sting",
+   "citadel_ability_hornet_snipe"
+  ]
+ },
+ "4": {
+  "nome": "Lady Geist",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/spectre_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/spectre_sm.webp",
+  "habilidades": [
+   "ability_blood_bomb",
+   "ability_life_drain",
+   "ability_blood_shards",
+   "ability_health_swap"
+  ]
+ },
+ "6": {
+  "nome": "Abrams",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bull_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bull_sm.webp",
+  "habilidades": [
+   "citadel_ability_bull_heal",
+   "citadel_ability_bull_charge",
+   "citadel_ability_passive_beefy",
+   "citadel_ability_bull_leap"
+  ]
+ },
+ "7": {
+  "nome": "Wraith",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/wraith_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/wraith_sm.webp",
+  "habilidades": [
+   "citadel_ability_card_toss",
+   "citadel_ability_projectmind",
+   "citadel_ability_wraith_rapidfire",
+   "citadel_ability_psychic_lift"
+  ]
+ },
+ "8": {
+  "nome": "McGinnis",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/engineer_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/engineer_sm.webp",
+  "habilidades": [
+   "citadel_ability_shieldedsentry",
+   "citadel_ability_mobile_resupply",
+   "citadel_ability_fissure_wall",
+   "citadel_ability_rocket_barrage"
+  ]
+ },
+ "10": {
+  "nome": "Paradox",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chrono_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chrono_sm.webp",
+  "habilidades": [
+   "citadel_ability_chrono_pulse_grenade",
+   "citadel_ability_chrono_time_wall",
+   "citadel_ability_chrono_kinetic_carbine",
+   "citadel_ability_chrono_swap"
+  ]
+ },
+ "11": {
+  "nome": "Dynamo",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/sumo_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/sumo_sm.webp",
+  "habilidades": [
+   "citadel_ability_stomp",
+   "citadel_ability_void_sphere",
+   "citadel_ability_nikuman",
+   "citadel_ability_self_vacuum"
+  ]
+ },
+ "12": {
+  "nome": "Kelvin",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kelvin_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kelvin_sm.webp",
+  "habilidades": [
+   "ability_ice_grenade",
+   "ability_icepath",
+   "ability_icebeam",
+   "ability_ice_dome"
+  ]
+ },
+ "13": {
+  "nome": "Haze",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/haze_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/haze_sm.webp",
+  "habilidades": [
+   "ability_sleep_dagger",
+   "ability_smoke_bomb",
+   "ability_stacking_damage",
+   "ability_bullet_flurry"
+  ]
+ },
+ "14": {
+  "nome": "Holliday",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/astro_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/astro_sm.webp",
+  "habilidades": [
+   "ability_explosive_barrel",
+   "ability_bounce_pad",
+   "ability_crackshot",
+   "ability_gravity_lasso"
+  ]
+ },
+ "15": {
+  "nome": "Bebop",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bebop_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bebop_sm.webp",
+  "habilidades": [
+   "citadel_ability_uppercut",
+   "citadel_ability_sticky_bomb",
+   "citadel_ability_hook",
+   "citadel_ability_bebop_laser_beam"
+  ]
+ },
+ "16": {
+  "nome": "Calico",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nano_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nano_sm.webp",
+  "habilidades": [
+   "ability_nano_clustergrenade",
+   "ability_nano_dash",
+   "ability_nano_catform",
+   "ability_nano_shadow_pulse"
+  ]
+ },
+ "17": {
+  "nome": "Grey Talon",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/archer_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/archer_sm.webp",
+  "habilidades": [
+   "ability_charged_shot",
+   "ability_power_jump",
+   "ability_immobilize_trap",
+   "ability_guided_arrow"
+  ]
+ },
+ "18": {
+  "nome": "Mo & Krill",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/digger_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/digger_sm.webp",
+  "habilidades": [
+   "ability_intimidate",
+   "ability_burrow",
+   "ability_throw_sand",
+   "ability_ult_combo"
+  ]
+ },
+ "19": {
+  "nome": "Shiv",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/shiv_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/shiv_sm.webp",
+  "habilidades": [
+   "citadel_ability_shiv_dagger",
+   "citadel_ability_shiv_dash",
+   "citadel_ability_shiv_defer_damage",
+   "citadel_ability_shiv_killing_blow"
+  ]
+ },
+ "20": {
+  "nome": "Ivy",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/tengu_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/tengu_sm.webp",
+  "habilidades": [
+   "citadel_ability_tengu_urn",
+   "citadel_ability_tangotether",
+   "citadel_ability_tengu_stone_form",
+   "citadel_ability_tengu_airlift"
+  ]
+ },
+ "25": {
+  "nome": "Warden",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/warden_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/warden_sm.webp",
+  "habilidades": [
+   "ability_warden_crowd_control",
+   "ability_warden_high_alert",
+   "ability_warden_lock_down",
+   "ability_warden_riot_protocol"
+  ]
+ },
+ "27": {
+  "nome": "Yamato",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/yamato_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/yamato_sm.webp",
+  "habilidades": [
+   "citadel_ability_power_slash",
+   "citadel_ability_flying_strike",
+   "citadel_ability_healing_slash",
+   "citadel_ability_infinity_slash"
+  ]
+ },
+ "31": {
+  "nome": "Lash",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/lash_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/lash_sm.webp",
+  "habilidades": [
+   "citadel_ability_lash_down_strike",
+   "citadel_ability_lash",
+   "ability_lash_flog",
+   "citadel_ability_lash_ultimate"
+  ]
+ },
+ "35": {
+  "nome": "Viscous",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/viscous_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/viscous_sm.webp",
+  "habilidades": [
+   "viscous_goo_grenade",
+   "viscous_restorative_goo",
+   "viscous_telepunch",
+   "viscous_goo_bowling_ball"
+  ]
+ },
+ "50": {
+  "nome": "Pocket",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/synth_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/synth_sm.webp",
+  "habilidades": [
+   "synth_barrage",
+   "synth_plasma_flux",
+   "synth_pulse",
+   "synth_affliction"
+  ]
+ },
+ "52": {
+  "nome": "Mirage",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/mirage_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/mirage_sm.webp",
+  "habilidades": [
+   "mirage_fire_beetles",
+   "mirage_tornado",
+   "mirage_sand_phantom",
+   "mirage_teleport"
+  ]
+ },
+ "58": {
+  "nome": "Vyper",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kali_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/kali_sm.webp",
+  "habilidades": [
+   "ability_viper_debuffdagger",
+   "ability_viper_venom",
+   "ability_viper_snakedash",
+   "ability_viper_petrifybola"
+  ]
+ },
+ "60": {
+  "nome": "Sinclair",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/magician_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/magician_sm.webp",
+  "habilidades": [
+   "ability_magician_magicbolt",
+   "ability_magician_cloneturret",
+   "ability_magician_animalhexarea",
+   "ability_magician_copyult"
+  ]
+ },
+ "63": {
+  "nome": "Mina",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/vampirebat_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/vampirebat_sm.webp",
+  "habilidades": [
+   "ability_vampirebat_steallife",
+   "ability_vampirebat_batblink",
+   "ability_vampirebat_lovebites",
+   "ability_vampirebat_batswarm"
+  ]
+ },
+ "64": {
+  "nome": "Drifter",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/drifter_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/drifter_sm.webp",
+  "habilidades": [
+   "drifter_blood_blast",
+   "drifter_shadow_mark",
+   "ability_drifter_hunger",
+   "drifter_darkness"
+  ]
+ },
+ "65": {
+  "nome": "Venator",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/priest_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/priest_sm.webp",
+  "habilidades": [
+   "ability_priest_flashbang",
+   "ability_priest_knockback",
+   "ability_priest_beartrap",
+   "ability_priest_weaponswap"
+  ]
+ },
+ "66": {
+  "nome": "Victor",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/frank_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/frank_sm.webp",
+  "habilidades": [
+   "ability_frank_shocktarget2",
+   "ability_frank_selfzap",
+   "ability_frank_painaura",
+   "ability_frank_revive"
+  ]
+ },
+ "67": {
+  "nome": "Paige",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bookworm_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/bookworm_sm.webp",
+  "habilidades": [
+   "ability_bookworm_dragonfire",
+   "ability_bookworm_knightbarrier",
+   "ability_bookworm_aoemagic",
+   "ability_bookworm_knightcharge"
+  ]
+ },
+ "69": {
+  "nome": "The Doorman",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/doorman_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/doorman_sm.webp",
+  "habilidades": [
+   "ability_doorman_bomb",
+   "ability_doorman_doorway",
+   "ability_doorman_luggage_cart",
+   "ability_doorman_hotel"
+  ]
+ },
+ "72": {
+  "nome": "Billy",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/punkgoat_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/punkgoat_sm.webp",
+  "habilidades": [
+   "ability_punkgoat_ult",
+   "ability_punkgoat_goatflip",
+   "ability_punkgoat_blasted",
+   "ability_punkgoat_tether"
+  ]
+ },
+ "76": {
+  "nome": "Graves",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/necro_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/necro_sm.webp",
+  "habilidades": [
+   "ability_necro_hauntingskull",
+   "ability_necro_zombiewall",
+   "ability_necro_fear",
+   "ability_necro_gravestone"
+  ]
+ },
+ "77": {
+  "nome": "Apollo",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/fencer_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/fencer_sm.webp",
+  "habilidades": [
+   "ability_fencer_throwblade",
+   "ability_fencer_riposte",
+   "ability_fencer_lunge",
+   "ability_fencer_ultimate"
+  ]
+ },
+ "78": {
+  "nome": "Deadman Danny",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/deadpack_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/deadpack_sm.webp",
+  "habilidades": [
+   "ability_deadpack_chargeblast",
+   "ability_deadpack_rocketeer",
+   "ability_deadpack_flamethrower",
+   "ability_deadpack_ultimate"
+  ]
+ },
+ "79": {
+  "nome": "Rem",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/familiar_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/familiar_sm.webp",
+  "habilidades": [
+   "ability_familiar_ability02",
+   "ability_familiar_attach",
+   "ability_familiar_helpinghands",
+   "ability_familiar_ability01"
+  ]
+ },
+ "80": {
+  "nome": "Silver",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/werewolf_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/werewolf_sm.webp",
+  "habilidades": [
+   "ability_werewolf_unloadgun",
+   "ability_werewolf_kickflip",
+   "ability_werewolf_netshot",
+   "ability_werewolf_transformation"
+  ]
+ },
+ "81": {
+  "nome": "Celeste",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/unicorn_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/unicorn_sm.webp",
+  "habilidades": [
+   "ability_unicorn_radiantblast",
+   "ability_unicorn_prismaticguard",
+   "ability_unicorn_luminousstrike",
+   "ability_unicorn_dazzlingorb"
+  ]
+ },
+ "84": {
+  "nome": "Rat King",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/ratking_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/ratking_sm.webp",
+  "habilidades": [
+   "ability_ratking_scrap_grenade",
+   "ability_ratking_ratnibble",
+   "ability_ratking_ratarmor",
+   "ability_ratking_standard_bearer"
+  ]
+ },
+ "85": {
+  "nome": "Solomon",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chessmaster_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/chessmaster_sm.webp",
+  "habilidades": [
+   "ability_chessmaster_throwbishop",
+   "ability_chessmaster_knightbuff",
+   "ability_chessmaster_forkpiece",
+   "ability_chessmaster_queen"
+  ]
+ },
+ "86": {
+  "nome": "Violet",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/artist_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/artist_sm.webp",
+  "habilidades": [
+   "ability_artist_homingbrush",
+   "ability_artist_rollingprojectile",
+   "ability_artist_tether",
+   "ability_artist_bamboogrove"
+  ]
+ },
+ "87": {
+  "nome": "Nurse Harrow",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nurse_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/nurse_sm.webp",
+  "habilidades": [
+   "ability_nurse_leech_therapy",
+   "ability_nurse_adrenaline_rush",
+   "ability_nurse_healing_needles",
+   "ability_nurse_fear"
+  ]
+ },
+ "88": {
+  "nome": "Baba",
+  "card": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/baba_card.webp",
+  "pequeno": "https://assets-bucket.deadlock-api.com/assets-api-res/images/heroes/baba_sm.webp",
+  "habilidades": [
+   "ability_baba_bubbling_brew",
+   "ability_baba_bench_run",
+   "ability_baba_hexing_brew",
+   "ability_baba_ultimate_2"
+  ]
+ }
+}

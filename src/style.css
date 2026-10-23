@@ -1,8 +1,8 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
-  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Oswald Variable', 'Arial Narrow', sans-serif;
+  --font-sans: 'Inter Variable', system-ui, sans-serif;
 
   --color-fundo: #0f0d0b;
   --color-painel: #1a1714;
@@ -37,4 +37,77 @@ h2,
 h3 {
   font-family: var(--font-display);
   letter-spacing: 0.02em;
+}
+
+/* ---------- Animações ---------- */
+
+/* Entrada de cada tela (troca de rota). */
+@keyframes surgir {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.animar-entrada {
+  animation: surgir 260ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+/* Seções da tela de resultado aparecendo em sequência (atraso via --ordem). */
+.animar-secao {
+  animation: surgir 380ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: calc(var(--ordem, 0) * 70ms);
+}
+
+/* Barras da tríade enchendo da esquerda (transform é mais leve que animar a largura). */
+@keyframes encher {
+  from {
+    transform: scaleX(0);
+  }
+}
+.animar-barra {
+  transform-origin: left;
+  animation: encher 700ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: calc(250ms + var(--ordem, 0) * 90ms);
+}
+
+/* Grade de campeões ao trocar de lane ou buscar: entram com leve zoom, os que ficam deslizam. */
+.card-enter-active {
+  transition:
+    opacity 260ms ease,
+    transform 300ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition-delay: calc(min(var(--ordem, 0), 14) * 18ms);
+}
+.card-enter-from {
+  opacity: 0;
+  transform: scale(0.92) translateY(6px);
+}
+.card-move {
+  transition: transform 320ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+/* Quem sai some na hora: numa grade, animar a saída faz os outros cards pularem. */
+.card-leave-active {
+  display: none;
+}
+
+/* Troca de conteúdo (ex.: habilidade selecionada). */
+.troca-enter-active {
+  transition:
+    opacity 180ms ease,
+    transform 220ms ease;
+}
+.troca-enter-from {
+  opacity: 0;
+  transform: translateX(6px);
+}
+
+/* Respeita quem pediu menos movimento no sistema. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 1ms !important;
+    transition-delay: 0ms !important;
+  }
 }

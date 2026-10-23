@@ -61,6 +61,8 @@ Tem uma sugestão de par, encontrou algo estranho ou quer ver outro jogo no site
 - **[Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon)** (Riot Games, oficial): nomes, artes e habilidades dos campeões do League of Legends, em português.
 - **[Deadlock API](https://deadlock-api.com)** (projeto da comunidade, não oficial): imagens, nomes e habilidades dos heróis do Deadlock. Como o jogo está em beta, o site se atualiza sozinho quando a Valve muda algo.
 - **[Community Dragon](https://www.communitydragon.org)**: ícones das posições do LoL.
+
+Para o site abrir rápido, o que quase nunca muda (versão do LoL, nomes dos campeões, ícones e imagens dos heróis) é baixado a cada publicação e servido pelo próprio site; os ícones dos campeões viram WebP de ~3 KB. As habilidades continuam vindo das APIs na hora, e são pré-carregadas quando o mouse passa sobre um campeão.
 - **[Supabase](https://supabase.com)**: armazenamento dos votos, de forma anônima.
 - **[Vercel](https://vercel.com)**: hospedagem do site.
 

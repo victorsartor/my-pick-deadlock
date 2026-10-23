@@ -9,7 +9,7 @@ import TriadBars from '../components/TriadBars.vue'
 import VoteButtons from '../components/VoteButtons.vue'
 import { useAssets } from '../composables/useAssets'
 import { axes, games, heroes } from '../data'
-import { carregarHabilidadesLol, lolIcone } from '../services/dataDragon'
+import { carregarHabilidadesLol, lolIcone, usarIconeRiot } from '../services/dataDragon'
 import { carregarHabilidadesDeadlock } from '../services/deadlockApi'
 import { ranquear, rotuloCompatibilidade } from '../services/matcher'
 import type { Foco, Habilidade } from '../types'
@@ -34,7 +34,7 @@ const top = computed(() => ranking.value[0])
 const segundaPendente = computed(() => mapping.value?.segunda === null)
 const segunda = computed(() => (segundaPendente.value ? undefined : ranking.value[1]))
 
-const origemInfo = computed(() => assets.lol?.campeoes[props.personagem])
+const origemInfo = computed(() => assets.lol.campeoes[props.personagem])
 const heroAssets = (id: number) => assets.deadlock[id]
 
 const habilidadesOrigem = ref<Habilidade[] | null>(null)
@@ -43,12 +43,11 @@ const erroOrigem = ref(false)
 const erroHeroi = ref(false)
 
 watch(
-  () => [assets.lol?.versao, props.personagem] as const,
-  ([versao, id]) => {
+  () => props.personagem,
+  (id) => {
     habilidadesOrigem.value = null
     erroOrigem.value = false
-    if (!versao) return
-    carregarHabilidadesLol(versao, id)
+    carregarHabilidadesLol(assets.lol.versao, id)
       .then((h) => (habilidadesOrigem.value = h))
       .catch(() => (erroOrigem.value = true))
   },
@@ -59,7 +58,7 @@ watch(
   () => [top.value?.hero.id, top.value && heroAssets(top.value.hero.id)?.habilidades] as const,
   ([id, ordem]) => {
     habilidadesHeroi.value = null
-    erroHeroi.value = assets.erroDeadlock
+    erroHeroi.value = false
     if (!id || !ordem) return
     carregarHabilidadesDeadlock(id, ordem)
       .then((h) => (habilidadesHeroi.value = h))
@@ -94,12 +93,14 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
 
   <template v-else>
     <!-- Destaque: origem → herói recomendado -->
-    <section class="relative overflow-hidden rounded-2xl border border-borda bg-painel">
+    <section class="animar-secao relative overflow-hidden rounded-2xl border border-borda bg-painel" style="--ordem: 0">
+      <!-- Fundo: o próprio card do herói desfocado (já baixado), no lugar do background oficial de ~1,4 MB. -->
       <img
-        v-if="heroAssets(top.hero.id)?.fundo"
-        :src="heroAssets(top.hero.id)?.fundo"
+        v-if="heroAssets(top.hero.id)?.card"
+        :src="heroAssets(top.hero.id)?.card"
         alt=""
-        class="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-20"
+        aria-hidden="true"
+        class="pointer-events-none absolute inset-0 h-full w-full scale-125 object-cover opacity-25 blur-2xl"
       />
       <div class="relative flex flex-col items-center gap-6 p-6 md:flex-row md:p-8">
         <HeroImage
@@ -111,8 +112,8 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
         <div class="flex-1 text-center md:text-left">
           <div class="mb-2 flex items-center justify-center gap-2 text-sm text-suave md:justify-start">
             <img
-              v-if="assets.lol"
-              :src="lolIcone(assets.lol.versao, origem.id)"
+              :src="lolIcone(origem.id)"
+              @error="usarIconeRiot($event, assets.lol.versao, origem.id)"
               :alt="origemInfo?.nome ?? origem.id"
               class="h-7 w-7 rounded-full"
             />
@@ -135,7 +136,7 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
       />
     </section>
 
-    <div class="mt-6 grid gap-6 lg:grid-cols-3">
+    <div class="animar-secao mt-6 grid gap-6 lg:grid-cols-3" style="--ordem: 1">
       <!-- Por que combina -->
       <section class="rounded-xl border border-borda bg-painel p-6 lg:col-span-2">
         <h2 class="mb-3 text-xl uppercase">Por que combina</h2>
@@ -181,13 +182,13 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
     </div>
 
     <!-- Habilidades lado a lado -->
-    <section class="mt-6">
+    <section class="animar-secao mt-6" style="--ordem: 2">
       <h2 class="mb-3 text-xl uppercase">Habilidades</h2>
       <div class="grid gap-4 md:grid-cols-2">
         <AbilityPreview
           :titulo="origemInfo?.nome ?? origem.id"
           :habilidades="habilidadesOrigem"
-          :erro="erroOrigem || assets.erroLol"
+          :erro="erroOrigem"
           estilo="lol"
         />
         <AbilityPreview :titulo="top.hero.nome" :habilidades="habilidadesHeroi" :erro="erroHeroi" estilo="deadlock" />
@@ -195,7 +196,7 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
     </section>
 
     <!-- Vertentes de build -->
-    <section class="mt-6">
+    <section class="animar-secao mt-6" style="--ordem: 3">
       <h2 class="mb-3 text-xl uppercase">Vertentes de build</h2>
       <div class="grid gap-4 md:grid-cols-2">
         <article
@@ -212,7 +213,7 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
     </section>
 
     <!-- Segunda opção: o próximo do ranking, já considerando a diferença de dificuldade -->
-    <section v-if="segundaPendente" class="mt-8">
+    <section v-if="segundaPendente" class="animar-secao mt-8" style="--ordem: 4">
       <h2 class="mb-3 text-xl uppercase">Segunda opção</h2>
       <div class="flex flex-col items-center gap-2 rounded-xl border border-dashed border-borda bg-painel/50 p-6 text-center">
         <p class="font-display text-lg uppercase text-suave">Em breve</p>
@@ -223,7 +224,7 @@ const textoFoco: Record<Foco, string> = { arma: 'text-arma', espirito: 'text-esp
       </div>
     </section>
 
-    <section v-else-if="segunda" class="mt-8">
+    <section v-else-if="segunda" class="animar-secao mt-8" style="--ordem: 4">
       <h2 class="mb-3 text-xl uppercase">Segunda opção</h2>
       <article class="flex flex-col gap-4 rounded-xl border border-borda bg-painel p-4 sm:flex-row sm:items-center">
         <HeroImage
