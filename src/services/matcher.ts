@@ -8,8 +8,6 @@ export const PENALIDADE_DIFICULDADE = 5
 
 const MAX_NOTA = 10
 
-export const NOMES_DIFICULDADE = ['', 'Fácil', 'Média', 'Desafiadora', 'Muito difícil', 'Extrema'] as const
-
 /**
  * Converte os pontos do cálculo (0 a 100) na porcentagem mostrada no site, de 10% a 90%.
  * Comprimir a escala evita que dois personagens de jogos diferentes pareçam "iguais" (95%+)
@@ -20,12 +18,12 @@ export function escalaExibicao(pontos: number): number {
   return Math.round(50 + (limitado - 50) * 0.8)
 }
 
-/** Rótulo que acompanha a porcentagem, para o número não ser lido ao pé da letra. */
-export function rotuloCompatibilidade(porcentagem: number): string {
-  if (porcentagem >= 85) return 'Combina muito'
-  if (porcentagem >= 75) return 'Combina bem'
-  if (porcentagem >= 65) return 'Parecido'
-  return 'Pouco parecido'
+/** Faixa que acompanha a porcentagem (o texto vem de i18n: rotulo.<faixa>), para o número não ser lido ao pé da letra. */
+export function faixaCompatibilidade(porcentagem: number): 'muito' | 'bem' | 'parecido' | 'pouco' {
+  if (porcentagem >= 85) return 'muito'
+  if (porcentagem >= 75) return 'bem'
+  if (porcentagem >= 65) return 'parecido'
+  return 'pouco'
 }
 
 export function penalidadeDificuldade(origem: number, destino: number): number {
@@ -44,14 +42,14 @@ export function similaridade(a: number[], b: number[], axes: Axis[]): number {
   return 1 - Math.sqrt(soma / pesos)
 }
 
-/** Eixos em que os dois personagens se destacam juntos, do mais forte para o mais fraco. */
+/** Chaves dos eixos em que os dois personagens se destacam juntos, do mais forte para o mais fraco (texto em i18n: eixo.<chave>). */
 export function razoes(a: number[], b: number[], axes: Axis[], limite = 3): string[] {
   return axes
     .map((axis, i) => ({ axis, media: ((a[i] ?? 0) + (b[i] ?? 0)) / 2, diff: Math.abs((a[i] ?? 0) - (b[i] ?? 0)) }))
     .filter((x) => x.diff <= 2 && x.media >= 6)
     .sort((x, y) => y.media - x.media || x.diff - y.diff)
     .slice(0, limite)
-    .map((x) => x.axis.alto)
+    .map((x) => x.axis.key)
 }
 
 export function ranquear(

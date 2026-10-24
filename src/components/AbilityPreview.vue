@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
+import { t } from '../i18n'
 import type { Habilidade } from '../types'
 
 const props = defineProps<{
@@ -22,9 +23,9 @@ const atual = computed(() => props.habilidades?.[selecionada.value])
   <section class="flex h-[26rem] flex-col rounded-xl border border-borda bg-painel p-5">
     <h3 class="mb-4 text-lg uppercase">{{ titulo }}</h3>
 
-    <p v-if="erro" class="text-sm text-suave">Não foi possível carregar as habilidades agora.</p>
+    <p v-if="erro" class="text-sm text-suave">{{ t('ability.erro') }}</p>
     <!-- Esqueleto pulsando enquanto as habilidades chegam, no mesmo formato da lista final. -->
-    <div v-else-if="!habilidades" aria-label="Carregando habilidades…" class="animate-pulse">
+    <div v-else-if="!habilidades" :aria-label="t('ability.carregando')" class="animate-pulse">
       <div class="mb-4 flex gap-2">
         <div v-for="n in 4" :key="n" class="h-14 w-14 rounded-lg bg-borda/70" />
       </div>

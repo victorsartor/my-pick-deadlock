@@ -50,6 +50,10 @@ A estrutura já está pronta para receber jogadores de outros jogos no futuro, c
 
 Os motivos em destaque na tela, como "Muita mobilidade" ou "Aguenta muito dano", são os eixos em que os dois personagens são fortes ao mesmo tempo.
 
+## Idiomas
+
+O site está em **português** e **inglês**. O seletor **PT | EN** fica no canto superior direito e a escolha fica salva no navegador; na primeira visita, o idioma segue o do navegador. Nomes e habilidades dos campeões e dos heróis vêm das APIs já no idioma escolhido, e os textos do site (motivos, resumos e builds) existem nas duas línguas.
+
 ## Feedback da comunidade
 
 Cada recomendação tem os botões **Concordo** e **Não concordo**. Quem discorda pode indicar qual herói acha que combina mais. Esses votos são usados para revisar os pares.
@@ -58,7 +62,7 @@ Tem uma sugestão de par, encontrou algo estranho ou quer ver outro jogo no site
 
 ## APIs e serviços usados
 
-- **[Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon)** (Riot Games, oficial): nomes, artes e habilidades dos campeões do League of Legends, em português.
+- **[Data Dragon](https://developer.riotgames.com/docs/lol#data-dragon)** (Riot Games, oficial): nomes, artes e habilidades dos campeões do League of Legends, em português e em inglês.
 - **[Deadlock API](https://deadlock-api.com)** (projeto da comunidade, não oficial): imagens, nomes e habilidades dos heróis do Deadlock. Como o jogo está em beta, o site se atualiza sozinho quando a Valve muda algo.
 - **[Community Dragon](https://www.communitydragon.org)**: ícones das posições do LoL.
 

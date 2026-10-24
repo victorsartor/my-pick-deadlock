@@ -1,0 +1,88 @@
+import type { ChaveTexto } from './pt'
+
+// Interface texts in English. Must have exactly the same keys as pt.ts (the compiler checks).
+export const en: Record<ChaveTexto, string> = {
+  'meta.descricao': 'Find out which Deadlock hero matches your League of Legends champion.',
+
+  'app.tagline': 'From your main to the right hero',
+  'app.rodape': 'Fan project, not affiliated with Riot Games or Valve. League of Legends is a trademark of Riot Games, Inc. Deadlock is a trademark of Valve Corporation. Images via Data Dragon and',
+  'logo.aria': 'My Pick Deadlock, home',
+  'idioma.aria': 'Language',
+
+  'home.titulo': 'Who do you play today?',
+  'home.intro': 'Pick your champion and find out which Deadlock hero matches your muscle memory and your playstyle.',
+  'home.jogoAria': 'Source game',
+  'home.embreve': 'coming soon',
+  'home.buscar': 'Search champion…',
+  'home.todas': 'All',
+  'home.vazio': 'No champions found.',
+
+  'lane.Topo': 'Top',
+  'lane.Selva': 'Jungle',
+  'lane.Meio': 'Mid',
+  'lane.Atirador': 'ADC',
+  'lane.Suporte': 'Support',
+
+  'result.voltar': '← Pick another champion',
+  'result.naoEncontrado': 'Champion not found.',
+  'result.paraQuem': 'If you play',
+  'result.porque': 'Why it fits',
+  'result.triade': 'Attribute triad',
+  'result.habilidades': 'Abilities',
+  'result.builds': 'Build styles',
+  'result.segunda': 'Second pick',
+  'result.embreve': 'Coming soon',
+  'result.segundaPendente': "We're still choosing a second pick for {nome}. Got a suggestion? Send it on X:",
+  'result.habilidadeN': 'Ability {n}',
+
+  'foco.arma': 'Weapon',
+  'foco.espirito': 'Spirit',
+  'foco.vitalidade': 'Vitality',
+  'triade.arma': 'Bullet damage',
+  'triade.espirito': 'Ability damage',
+  'triade.vitalidade': 'Health, shields and resistances',
+
+  'dificuldade.1': 'Easy',
+  'dificuldade.2': 'Medium',
+  'dificuldade.3': 'Challenging',
+  'dificuldade.4': 'Very hard',
+  'dificuldade.5': 'Extreme',
+  'dificuldade.titulo': 'Difficulty {n} of 5',
+
+  'rotulo.muito': 'Great match',
+  'rotulo.bem': 'Good match',
+  'rotulo.parecido': 'Similar',
+  'rotulo.pouco': 'Loose match',
+  'gauge.aria': '{valor}% match: {rotulo}',
+  'gauge.match': 'match',
+
+  'eixo.alcance': 'plays from range',
+  'eixo.mobilidade': 'high mobility',
+  'eixo.burst': 'high burst damage',
+  'eixo.dano_continuo': 'sustained damage / DoT',
+  'eixo.resistencia': 'tanks a lot of damage',
+  'eixo.autocura': 'heals itself',
+  'eixo.controle': 'lots of crowd control (stun, slow, pull)',
+  'eixo.suporte': 'heals or protects allies',
+  'eixo.furtividade': 'invisible / ambush',
+  'eixo.arma': 'relies on basic attacks / weapon',
+  'eixo.zona': 'controls areas of the map',
+
+  'ability.erro': "Couldn't load the abilities right now.",
+  'ability.carregando': 'Loading abilities…',
+  'stat.recarga': 'Cooldown',
+  'stat.alcance': 'Range',
+  'stat.global': 'Global',
+
+  'vote.pergunta': 'Does {origem} → {heroi} make sense?',
+  'vote.concordo': 'I agree',
+  'vote.discordo': 'I disagree',
+  'vote.pct': '{pct}% of the community agrees',
+  'vote.obrigado': 'Thanks for voting!',
+  'vote.quem': 'Who fits {origem} better?',
+  'vote.sugestaoOk': 'Suggestion saved!',
+
+  'picker.escolha': 'Pick a hero…',
+  'picker.buscar': 'Search hero…',
+  'picker.nenhum': 'No heroes found.',
+}

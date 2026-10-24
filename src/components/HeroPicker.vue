@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, ref, watch } from 'vue'
 import { useAssets } from '../composables/useAssets'
+import { t } from '../i18n'
 import HeroImage from './HeroImage.vue'
 
 // Lista de heróis com foto e busca, no lugar do <select> nativo (que não aceita imagens).
@@ -84,7 +85,7 @@ onBeforeUnmount(() => document.removeEventListener('mousedown', cliqueFora))
         <HeroImage :src="assets.deadlock[selecionado.id]?.pequeno" :nome="selecionado.nome" class="h-6 w-6 rounded object-cover text-[10px]" />
         <span class="flex-1">{{ selecionado.nome }}</span>
       </template>
-      <span v-else class="flex-1 text-suave">{{ placeholder ?? 'Escolha um herói…' }}</span>
+      <span v-else class="flex-1 text-suave">{{ placeholder ?? t('picker.escolha') }}</span>
       <svg viewBox="0 0 20 20" class="h-4 w-4 text-suave transition" :class="aberto ? 'rotate-180' : ''" fill="currentColor" aria-hidden="true">
         <path d="M5.3 7.3a1 1 0 0 1 1.4 0L10 10.6l3.3-3.3a1 1 0 1 1 1.4 1.4l-4 4a1 1 0 0 1-1.4 0l-4-4a1 1 0 0 1 0-1.4Z" />
       </svg>
@@ -98,8 +99,8 @@ onBeforeUnmount(() => document.removeEventListener('mousedown', cliqueFora))
         ref="campoBusca"
         v-model="busca"
         type="text"
-        placeholder="Buscar herói…"
-        aria-label="Buscar herói"
+        :placeholder="t('picker.buscar')"
+        :aria-label="t('picker.buscar')"
         class="w-full border-b border-borda bg-fundo px-3 py-2 text-sm outline-none placeholder:text-suave"
         @keydown="teclado"
       />
@@ -117,7 +118,7 @@ onBeforeUnmount(() => document.removeEventListener('mousedown', cliqueFora))
           <HeroImage :src="assets.deadlock[h.id]?.pequeno" :nome="h.nome" class="h-7 w-7 shrink-0 rounded object-cover text-[10px]" />
           {{ h.nome }}
         </li>
-        <li v-if="!filtrados.length" class="px-3 py-2 text-sm text-suave">Nenhum herói encontrado.</li>
+        <li v-if="!filtrados.length" class="px-3 py-2 text-sm text-suave">{{ t('picker.nenhum') }}</li>
       </ul>
     </div>
   </div>

@@ -1,0 +1,355 @@
+{
+  "1": {
+    "arquetipo": "Arsonist",
+    "resumo": "Spreads burns with his weapon and abilities, chases the target down with Flame Dash and closes the fight with the area stun of his ultimate.",
+    "builds": [
+      { "nome": "Spirit Infernus", "descricao": "Duration and ability damage. Napalm and Afterburn become the main source of damage and the ultimate stuns for longer." },
+      { "nome": "Burn Shooter Infernus", "descricao": "Fire rate to stack Afterburn fast. Plays like a shooter who melts the target while chasing." }
+    ]
+  },
+  "2": {
+    "arquetipo": "Lightning mage",
+    "resumo": "A lightning ball to farm and poke, Static Charge to stun groups and Storm Cloud to dominate area fights.",
+    "builds": [
+      { "nome": "Seven Storm", "descricao": "Spirit power and ability range. Storm Cloud becomes the main threat in team fights." },
+      { "nome": "Seven Power Surge", "descricao": "Weapon items with Power Surge: every shot ricochets to nearby enemies. Great for pushing lanes." }
+    ]
+  },
+  "3": {
+    "arquetipo": "Elite sniper",
+    "resumo": "Flies over the battlefield and executes wounded targets from long range with Assassinate.",
+    "builds": [
+      { "nome": "Vindicta Sniper", "descricao": "Damage per shot and headshots. Stays airborne with Flight and punishes anyone who exposes themselves." },
+      { "nome": "Vindicta Crow", "descricao": "Strong Crow Familiar and Stake: bleed based on current health and control with the stake." }
+    ]
+  },
+  "4": {
+    "arquetipo": "Blood witch",
+    "resumo": "Spends her own health to deal damage and recovers it all by draining the enemy. Soul Exchange swaps health with the target and turns lost fights around.",
+    "builds": [
+      { "nome": "Geist Burst", "descricao": "Spirit power so Essence Bomb and Malice blow the target up." },
+      { "nome": "Geist Drainer", "descricao": "Health, resistances and spirit lifesteal. Stays in the fight with Life Drain and trades health at the right moment." }
+    ]
+  },
+  "6": {
+    "arquetipo": "Bruiser tank",
+    "resumo": "Dives into the enemy team with Shoulder Charge and Seismic Impact, soaks damage and heals with Siphon Life.",
+    "builds": [
+      { "nome": "Abrams Full Tank", "descricao": "Health, resistances and regeneration. Starts fights and absorbs the enemy team's focus." },
+      { "nome": "Abrams Heavy Melee Boxer", "descricao": "Melee items and Heavy Melee. Combines Shoulder Charge into a wall with heavy punches." }
+    ]
+  },
+  "7": {
+    "arquetipo": "Illusionist duelist",
+    "resumo": "Generates cards by shooting, isolates targets with Telekinesis and teleports in or out of the fight with Project Mind.",
+    "builds": [
+      { "nome": "Wraith Full Auto", "descricao": "Fire rate and ammo. Full Auto melts isolated targets." },
+      { "nome": "Wraith Cards", "descricao": "Spirit power for Card Trick and Telekinesis: ranged damage and strong control." }
+    ]
+  },
+  "8": {
+    "arquetipo": "Turret engineer",
+    "resumo": "Builds turrets, heals allies with Medicinal Specter and splits the enemy team with Spectral Wall.",
+    "builds": [
+      { "nome": "McGinnis Turret", "descricao": "Items that boost summons and duration. Holds lanes and objectives on her own." },
+      { "nome": "McGinnis Wall Support", "descricao": "Healing, cooldowns and utility. Controls the terrain of the fight and keeps the team alive." }
+    ]
+  },
+  "10": {
+    "arquetipo": "Time manipulator",
+    "resumo": "Stops time with Kinetic Carbine and Time Wall and swaps places with the enemy to throw them into the middle of her team.",
+    "builds": [
+      { "nome": "Paradox Carbine", "descricao": "Weapon damage scales Kinetic Carbine. A precise shot that freezes the target." },
+      { "nome": "Paradox Control", "descricao": "Cooldowns and duration for Pulse Grenade and Time Wall. Sets up plays for the team." }
+    ]
+  },
+  "11": {
+    "arquetipo": "Support initiator",
+    "resumo": "Heals the team with Rejuvenating Aurora and turns fights around with Singularity, which pulls in and stuns everyone nearby.",
+    "builds": [
+      { "nome": "Dynamo Support", "descricao": "Healing, resistances and cooldowns. Keeps the team alive and waits for the perfect Singularity." },
+      { "nome": "Dynamo Initiator", "descricao": "Spirit damage and duration on Singularity, with Quantum Entanglement to dive in by surprise." }
+    ]
+  },
+  "12": {
+    "arquetipo": "Freezing protector",
+    "resumo": "Glides across the map on Ice Path, heals allies with Frost Grenade and protects the team with the Frozen Shelter dome.",
+    "builds": [
+      { "nome": "Kelvin Support", "descricao": "Healing and cooldowns. Plays for the team with healing grenades and the dome at the right time." },
+      { "nome": "Kelvin Spirit Mage", "descricao": "Spirit power on Arctic Beam and Frost Grenade: heavy damage and slow." }
+    ]
+  },
+  "13": {
+    "arquetipo": "Stealth assassin",
+    "resumo": "Vanishes with Smoke Bomb, puts the target to sleep with Sleep Dagger and pours out bullets with Fixation and Bullet Dance.",
+    "builds": [
+      { "nome": "Haze Bullet Dance", "descricao": "Fire rate and on-hit effects. In the ultimate, she moves while shooting every enemy in front of her." },
+      { "nome": "Haze Duelist", "descricao": "Lifesteal per bullet and resistances to survive long duels." }
+    ]
+  },
+  "14": {
+    "arquetipo": "Trick gunslinger",
+    "resumo": "Launches enemies into the air with Powder Keg, lands headshots with Crackshot and pulls targets in with Spirit Lasso.",
+    "builds": [
+      { "nome": "Holliday Crackshot", "descricao": "Headshot damage and precision. Rewards good aim." },
+      { "nome": "Explosive Holliday", "descricao": "Strong Powder Keg and Bounce Pad: area damage and constant mobility." }
+    ]
+  },
+  "15": {
+    "arquetipo": "Hook robot",
+    "resumo": "Pulls the target in with Grapple Arm, blows them up with Sticky Bomb and Exploding Uppercut, and sweeps the area with Hyper Beam.",
+    "builds": [
+      { "nome": "Bebop Bomb", "descricao": "Spirit power: Sticky Bomb grows with every kill and becomes a deadly combo." },
+      { "nome": "Bebop Hyper Beam", "descricao": "Health and resistances to channel the laser in the middle of the fight." }
+    ]
+  },
+  "16": {
+    "arquetipo": "Shadow hunter",
+    "resumo": "Possesses the cat Ava to move hidden from the minimap, leaps with Leaping Slash and escapes with Return to Shadows.",
+    "builds": [
+      { "nome": "Calico Burst", "descricao": "Gloom Bombs and Return to Shadows with lots of spirit power: dive in, explode, vanish." },
+      { "nome": "Calico Blade", "descricao": "Melee items for Leaping Slash. Chases and finishes." }
+    ]
+  },
+  "17": {
+    "arquetipo": "Hunter archer",
+    "resumo": "A long-range archer with Charged Shot, traps and a guided owl that stuns from anywhere.",
+    "builds": [
+      { "nome": "Talon Charged Shot", "descricao": "Weapon damage on the charged shot. Pierces enemies from afar." },
+      { "nome": "Talon Owl", "descricao": "Spirit power for Guided Owl and Spirit Snare: damage and stuns across the map." }
+    ]
+  },
+  "18": {
+    "arquetipo": "Burrowing initiator",
+    "resumo": "Advances underground with Burrow, pops up in the middle of the enemy and holds the target in place with Combo.",
+    "builds": [
+      { "nome": "Mo & Krill Tank", "descricao": "Health and resistances. Scorn heals and Combo pins the enemy carry." },
+      { "nome": "Mo & Krill Digger", "descricao": "Spirit damage on Burrow and Sand Blast for ambushes." }
+    ]
+  },
+  "19": {
+    "arquetipo": "Bloodthirsty executioner",
+    "resumo": "Stacks bleed with knives, delays incoming damage with Bloodletting and executes targets with Killing Blow.",
+    "builds": [
+      { "nome": "Shiv Executioner", "descricao": "Weapon and melee damage to reach the execution threshold quickly." },
+      { "nome": "Shiv Bruiser", "descricao": "Health and resistances to make the most of Bloodletting's delayed damage." }
+    ]
+  },
+  "20": {
+    "arquetipo": "Duo with an ally",
+    "resumo": "Links up with an ally through Kudzu Connection, shares heals and bonuses, and carries allies through the air with Air Drop.",
+    "builds": [
+      { "nome": "Ivy Support", "descricao": "Healing and utility. Empowers the team's carry." },
+      { "nome": "Ivy Shooter", "descricao": "Weapon damage, taking advantage of Kudzu removing the movement penalty while shooting." }
+    ]
+  },
+  "25": {
+    "arquetipo": "Relentless sheriff",
+    "resumo": "Weakens enemies with Alchemical Flask, pins anyone who doesn't move away from Binding Word and heals inside the fight with Last Stand.",
+    "builds": [
+      { "nome": "Warden Front Line", "descricao": "Resistances and barrier. Last Stand in the middle of the enemy team." },
+      { "nome": "Warden Gunslinger", "descricao": "Weapon damage to chase and finish targets pinned by Binding Word." }
+    ]
+  },
+  "27": {
+    "arquetipo": "Acrobatic swordswoman",
+    "resumo": "Hooks to the target with Flying Slash, lands charged strikes with Power Slash and has a transformation that makes her immune to death for a few seconds.",
+    "builds": [
+      { "nome": "Yamato Power Slash", "descricao": "Spirit power so the charged strike wipes out targets in one go." },
+      { "nome": "Yamato Shadow", "descricao": "Survivability and cooldowns to get the most out of the ultimate." }
+    ]
+  },
+  "31": {
+    "arquetipo": "Aerial initiator",
+    "resumo": "Pulls himself through the air with Grapple, drops on the target with Ground Strike and lifts the whole team with Death Slam.",
+    "builds": [
+      { "nome": "Lash Dive", "descricao": "Damage on Ground Strike: the bigger the fall, the bigger the damage." },
+      { "nome": "Lash Initiator", "descricao": "Resistances to go in first and connect Death Slam on several targets." }
+    ]
+  },
+  "35": {
+    "arquetipo": "Evasive goo",
+    "resumo": "Rolls across the map as Goo Ball stunning whoever he hits and protects himself or allies inside The Cube.",
+    "builds": [
+      { "nome": "Viscous Goo Ball", "descricao": "Resistances to roll through the enemy team and get out alive." },
+      { "nome": "Viscous Puddle Punch", "descricao": "Spirit power on the punch and Splatter: lots of damage from range." }
+    ]
+  },
+  "50": {
+    "arquetipo": "Suitcase trickster",
+    "resumo": "Slips into the enemy backline with Flying Cloak, pours out Barrage and escapes into the suitcase with Enchanter's Satchel.",
+    "builds": [
+      { "nome": "Pocket Barrage", "descricao": "Spirit power so the rain of projectiles blows up groups." },
+      { "nome": "Pocket Shotgun", "descricao": "Close-range weapon damage, using the suitcase to escape." }
+    ]
+  },
+  "52": {
+    "arquetipo": "Desert wanderer",
+    "resumo": "Chases targets by spinning as Dust Devil, drains health with Fire Scarabs and teleports anywhere on the map with Traveler.",
+    "builds": [
+      { "nome": "Mirage Djinn's Mark", "descricao": "Weapon damage and fire rate to stack marks and blow the target up." },
+      { "nome": "Mirage Traveler", "descricao": "Survivability and cooldowns to show up in every fight with Traveler." }
+    ]
+  },
+  "58": {
+    "arquetipo": "Gunner serpent",
+    "resumo": "Slithers behind the enemy team, petrifies targets with Petrifying Bola and finishes with Lethal Venom and gunfire.",
+    "builds": [
+      { "nome": "Vyper Machine Gun", "descricao": "Fire rate and weapon damage against petrified targets." },
+      { "nome": "Vyper Venom", "descricao": "Spirit power on the daggers and Lethal Venom." }
+    ]
+  },
+  "60": {
+    "arquetipo": "Trickster mage",
+    "resumo": "Turns enemies into rabbits with Rabbit Hex and copies an enemy's ultimate with Audience Participation.",
+    "builds": [
+      { "nome": "Sinclair Mage", "descricao": "Spirit power on Vexing Bolt and the copied ultimate." },
+      { "nome": "Sinclair Assistant", "descricao": "Weapon damage, which the Spectral Assistant repeats with every shot." }
+    ]
+  },
+  "63": {
+    "arquetipo": "Agile vampire",
+    "resumo": "Pokes with shots that stack Love Bites, flees as bats with Sanguine Retreat and silences with Nox Nostra.",
+    "builds": [
+      { "nome": "Mina Shooter", "descricao": "Fire rate to trigger Love Bites all the time." },
+      { "nome": "Mina Nocturne", "descricao": "Spirit power on the bite and the cloud of bats." }
+    ]
+  },
+  "64": {
+    "arquetipo": "Night stalker",
+    "resumo": "Tracks enemies with Bloodscent, marks with Stalker's Mark and blinds the enemy team with Eternal Night to hunt isolated targets.",
+    "builds": [
+      { "nome": "Drifter Hunter", "descricao": "Spirit power on Rend and the mark's bleed." },
+      { "nome": "Drifter Brutal", "descricao": "Melee to take advantage of Rend's close-range bonus." }
+    ]
+  },
+  "65": {
+    "arquetipo": "Devout hunter",
+    "resumo": "Shotgun and crossbow: slams enemies into walls with Gutshot and executes targets with the blessed crossbow of Ira Domini.",
+    "builds": [
+      { "nome": "Venator Crossbow", "descricao": "Raw weapon damage for the ultimate's three stakes." },
+      { "nome": "Venator Trapper", "descricao": "Strong Snap Trap and grenade to control the area." }
+    ]
+  },
+  "66": {
+    "arquetipo": "Electric undead",
+    "resumo": "Gets stronger by taking hits: charges Pain Battery with the damage he receives and comes back from death with Shocking Reanimation.",
+    "builds": [
+      { "nome": "Victor Immortal", "descricao": "Health and regeneration. Aura of Suffering hurts everyone around while you endure." },
+      { "nome": "Victor Battery", "descricao": "Spirit power so Pain Battery unloads huge damage." }
+    ]
+  },
+  "67": {
+    "arquetipo": "Protective reader",
+    "resumo": "Gives allies a barrier and extra damage with Plot Armor and heals the whole team across the map with Rallying Charge.",
+    "builds": [
+      { "nome": "Paige Support", "descricao": "Healing and cooldowns. Constant barriers on the carry." },
+      { "nome": "Paige Dragon", "descricao": "Spirit power on Bookwyrm and Captivating Read." }
+    ]
+  },
+  "69": {
+    "arquetipo": "Portal doorman",
+    "resumo": "Creates linked portals with Doorway, drags enemies with Luggage Cart and removes a target from the fight with Hotel Guest.",
+    "builds": [
+      { "nome": "Doorman Strategist", "descricao": "Cooldowns and utility. Portals to rotate the team." },
+      { "nome": "Doorman Bellringer", "descricao": "Spirit power on Call Bell and Luggage Cart." }
+    ]
+  },
+  "72": {
+    "arquetipo": "Punk goat",
+    "resumo": "Charges headfirst with Rising Ram, hammers the ground with Bashdown and chains enemies with Chain Gang.",
+    "builds": [
+      { "nome": "Billy Baseball Bat", "descricao": "Melee: Blasted refills ammo with every hit." },
+      { "nome": "Billy Initiator", "descricao": "Resistances for Chain Gang in the middle of the enemy team." }
+    ]
+  },
+  "76": {
+    "arquetipo": "Necromancer",
+    "resumo": "Collects deaths in the Jar of Dead to summon the undead and controls corridors with Grasping Hands.",
+    "builds": [
+      { "nome": "Graves Summoner", "descricao": "Spirit power on the summons and the hands. Dominates the area." },
+      { "nome": "Graves Thief", "descricao": "Weapon with Essence Theft stealing damage and resistance from the target." }
+    ]
+  },
+  "77": {
+    "arquetipo": "Fencer",
+    "resumo": "Fences with thrusts in any direction, parries with Riposte and lands a final strike that leaves the target in slow motion.",
+    "builds": [
+      { "nome": "Apollo Duelist", "descricao": "Spirit power on Flawless Advance and the ultimate." },
+      { "nome": "Apollo Parry", "descricao": "Survivability and cooldowns to use Riposte in every trade." }
+    ]
+  },
+  "78": {
+    "arquetipo": "Jetpack pilot",
+    "resumo": "Flies with a jetpack, scatters missiles with Strix Salvo and grabs an enemy to fly up and crash down with them in Close The Deal.",
+    "builds": [
+      { "nome": "Danny Missiles", "descricao": "Spirit power on Strix Salvo and the fuel explosion." },
+      { "nome": "Danny Flamethrower", "descricao": "Weapon damage on Jettison Fuel, which reduces bullet resistance." }
+    ]
+  },
+  "79": {
+    "arquetipo": "Pocket support",
+    "resumo": "Hops onto allies to take a nap with Tag Along, healing both of you, and sends Lil Helpers to lend a hand around the map.",
+    "builds": [
+      { "nome": "Rem Caretaker", "descricao": "Healing and regeneration. Sticks to the team's carry." },
+      { "nome": "Rem Pillow", "descricao": "Cooldowns and spirit power for Pillow Toss and Naptime." }
+    ]
+  },
+  "80": {
+    "arquetipo": "Werewolf",
+    "resumo": "Builds bloodlust by dealing damage, transforms automatically with Lycan Curse and pins targets with Entangling Bola.",
+    "builds": [
+      { "nome": "Silver Slam Fire", "descricao": "Weapon damage and fire rate for Slam Fire." },
+      { "nome": "Silver Beast", "descricao": "Health and lifesteal to fight transformed for longer." }
+    ]
+  },
+  "81": {
+    "arquetipo": "Light artist",
+    "resumo": "Blasts enemies with light, gains spirit lifesteal with Light Eater and silences whoever breaks her barrier.",
+    "builds": [
+      { "nome": "Celeste Beam", "descricao": "Spirit power on Radiant Daggers and Shining Wonder." },
+      { "nome": "Celeste Prism", "descricao": "Barrier and spirit lifesteal for long fights." }
+    ]
+  },
+  "84": {
+    "arquetipo": "Scrap king",
+    "resumo": "Wears scrap armor that reflects bullets, unleashes rat swarms and raises the banner of Ratannia to empower the team.",
+    "builds": [
+      { "nome": "Rat King Armor", "descricao": "Max health for a bigger barrier on Royal Pestments." },
+      { "nome": "Rat King Swarm", "descricao": "Spirit power on Rat Swarm, which shreds bullet resistance." }
+    ]
+  },
+  "85": {
+    "arquetipo": "Chess strategist",
+    "resumo": "Places chess pieces on the map: a patrolling bishop, rooks that immobilize and a knight that protects allies.",
+    "builds": [
+      { "nome": "Solomon Attack", "descricao": "Spirit power on the bishop and Rook Battery." },
+      { "nome": "Solomon King", "descricao": "Kingside Knight barriers for allies and himself." }
+    ]
+  },
+  "87": {
+    "arquetipo": "Dark nurse",
+    "resumo": "Heals allies by shooting with Healing Needles, puts leeches on enemies and terrifies anyone who looks at her.",
+    "builds": [
+      { "nome": "Harrow Healer", "descricao": "Cooldowns and healing: needles for whoever needs them." },
+      { "nome": "Harrow Terror", "descricao": "Spirit power on Leech Therapy and Lurking Terrors." }
+    ]
+  },
+  "86": {
+    "arquetipo": "Mystic painter",
+    "resumo": "Paints the battlefield: Flow State's brush slows enemies and speeds up allies, Still Life stuns whoever she draws and Abstract Landscape traps the enemy team in a field of ink.",
+    "builds": [
+      { "nome": "Violet Still Life", "descricao": "Spirit power and duration to complete drawings with Still Life and get stronger with every sketch collected." },
+      { "nome": "Violet Landscape", "descricao": "Cooldowns and survivability to control fights with Abstract Landscape and give the team mobility with Flow State." }
+    ]
+  },
+  "88": {
+    "arquetipo": "Bench witch",
+    "resumo": "Steals spirit from enemies with Threadsap, walks on the bench's long legs, throws teas that cycle between barrier, silence and burn, and turns enemies into pigeons with Feed The Birds.",
+    "builds": [
+      { "nome": "Baba Spirit Thief", "descricao": "Threadsap steals spirit and every shot gains extra spirit damage. Fire rate and weapon damage take advantage of the theft." },
+      { "nome": "Baba Magic Tea", "descricao": "Spirit power and cooldowns on Baba's Brew and Feed The Birds: protects allies and turns the enemy team into pigeons." },
+      { "nome": "Baba Long Legs", "descricao": "Melee build: resistances and heavy-hit items to kick and stomp with Granny Long Legs while Threadsap steals the enemy's spirit." }
+    ]
+  }
+}

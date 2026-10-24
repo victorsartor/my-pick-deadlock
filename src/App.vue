@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import LanguageSwitch from './components/LanguageSwitch.vue'
 import Logo from './components/Logo.vue'
+import { t } from './i18n'
 </script>
 
 <template>
@@ -8,7 +10,10 @@ import Logo from './components/Logo.vue'
     <header class="border-b border-borda/70">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
         <Logo />
-        <span class="hidden text-sm text-suave sm:block">Do seu main ao herói certo</span>
+        <div class="flex items-center gap-4">
+          <span class="hidden text-sm text-suave sm:block">{{ t('app.tagline') }}</span>
+          <LanguageSwitch />
+        </div>
       </div>
     </header>
 
@@ -22,8 +27,7 @@ import Logo from './components/Logo.vue'
     </main>
 
     <footer class="border-t border-borda/70 px-4 py-6 text-center text-xs leading-relaxed text-suave">
-      Projeto de fã, sem afiliação com a Riot Games ou a Valve. League of Legends é marca da Riot Games, Inc.
-      Deadlock é marca da Valve Corporation. Imagens via Data Dragon e
+      {{ t('app.rodape') }}
       <a href="https://deadlock-api.com" class="underline hover:text-texto" target="_blank" rel="noopener">deadlock-api.com</a>.
     </footer>
   </div>

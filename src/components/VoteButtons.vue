@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { heroes } from '../data'
+import { t } from '../i18n'
 import HeroPicker from './HeroPicker.vue'
 import { carregarContagem, chaveVoto, lerVoto, registrarVoto, type Contagem, type Opiniao, type Par, type Voto } from '../services/votos'
 
@@ -58,7 +59,7 @@ function sugerir(id: number) {
 <template>
   <div class="text-sm">
     <div class="flex flex-wrap items-center gap-2">
-      <span class="text-suave">{{ nomeOrigem }} → {{ heroi.nome }} faz sentido?</span>
+      <span class="text-suave">{{ t('vote.pergunta', { origem: nomeOrigem, heroi: heroi.nome }) }}</span>
       <button
         type="button"
         class="inline-flex items-center gap-1.5 rounded-md border px-3 py-1 transition"
@@ -70,7 +71,7 @@ function sugerir(id: number) {
           <path d="M7 10v12" />
           <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z" />
         </svg>
-        Concordo
+        {{ t('vote.concordo') }}
         <span v-if="contagem" class="font-display">{{ contagem.likes }}</span>
       </button>
       <button
@@ -84,20 +85,20 @@ function sugerir(id: number) {
           <path d="M17 14V2" />
           <path d="M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88Z" />
         </svg>
-        Não concordo
+        {{ t('vote.discordo') }}
         <span v-if="contagem" class="font-display">{{ contagem.dislikes }}</span>
       </button>
       <span v-if="contagem && contagem.likes + contagem.dislikes > 0" class="text-xs text-suave">
-        {{ Math.round((contagem.likes / (contagem.likes + contagem.dislikes)) * 100) }}% da comunidade concorda
+        {{ t('vote.pct', { pct: Math.round((contagem.likes / (contagem.likes + contagem.dislikes)) * 100) }) }}
       </span>
     </div>
 
-    <p v-if="voto?.opiniao === 'like'" class="mt-2 text-xs text-vitalidade">Valeu pelo voto!</p>
+    <p v-if="voto?.opiniao === 'like'" class="mt-2 text-xs text-vitalidade">{{ t('vote.obrigado') }}</p>
 
     <div v-else-if="voto?.opiniao === 'dislike'" class="mt-3 flex flex-wrap items-center gap-2">
-      <span class="text-xs text-suave">Quem combina mais com {{ nomeOrigem }}?</span>
+      <span class="text-xs text-suave">{{ t('vote.quem', { origem: nomeOrigem }) }}</span>
       <HeroPicker :herois="outrosHerois" :model-value="voto.sugestao" @update:model-value="sugerir" />
-      <span v-if="voto.sugestao" class="text-xs text-vitalidade">Sugestão registrada!</span>
+      <span v-if="voto.sugestao" class="text-xs text-vitalidade">{{ t('vote.sugestaoOk') }}</span>
     </div>
   </div>
 </template>
