@@ -825,6 +825,7 @@
       "motivo": "Maga de burst que explode o alvo de longe: as esferas da Syndra explodem depois de um tempo como a Radiant Daggers da Celeste, e a ultimate que despeja tudo no alvo vira o Shining Wonder. Para jogar a Paige focada em dano, ela é a segunda opção.",
       "paralelos": [
         { "origem": "Q – Esfera que explode depois de um tempo", "destino": "Radiant Daggers" },
+        { "origem": "E – Empurra os inimigos em cone", "destino": "Light Eater" },
         { "origem": "R – Despeja todas as esferas no alvo", "destino": "Shining Wonder" }
       ]
     },
