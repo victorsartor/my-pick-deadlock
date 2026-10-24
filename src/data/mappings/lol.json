@@ -442,13 +442,13 @@
       ]
     },
     "Aatrox": {
-      "heroi": 27,
-      "segunda": 19,
-      "motivo": "Espadachim de golpes carregados que se cura lutando: os três golpes da Lâmina Darkin viram o Power Slash da Yamato, e a ultimate que transforma vira a Shadow Transformation. Para executar alvos e adiar dano, o Shiv é a segunda opção.",
+      "heroi": 72,
+      "segunda": 27,
+      "motivo": "Brigão que bate pesado no chão e arrasta quem tenta fugir: os golpes da Lâmina Darkin lançam os inimigos para cima como o Bashdown do Billy, e as Correntes Infernais puxam o alvo de volta como o Chain Gang. Para golpes de espada carregados e a transformação, a Yamato é a segunda opção.",
       "paralelos": [
-        { "origem": "Q – Golpes de espada carregados", "destino": "Power Slash" },
-        { "origem": "R – Transformação para o all-in", "destino": "Shadow Transformation" },
-        { "origem": "E – Avanço curto", "destino": "Flying Slash" }
+        { "origem": "Q – Golpes pesados que lançam para cima", "destino": "Bashdown" },
+        { "origem": "W – Correntes que puxam o inimigo de volta", "destino": "Chain Gang" },
+        { "origem": "E – Avanço curto antes do golpe", "destino": "Rising Ram" }
       ]
     },
     "Ambessa": {
