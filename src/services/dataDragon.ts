@@ -1,3 +1,4 @@
+import { tEm, type Idioma } from '../i18n'
 import type { Habilidade } from '../types'
 import { gravarCache, lerCache, semDuplicar } from './cache'
 import { textoLimpo } from './texto'
@@ -5,7 +6,7 @@ import { textoLimpo } from './texto'
 // Data Dragon: CDN oficial e gratuito da Riot com artes e dados dos campeões.
 // A versão e os nomes vêm de src/data/gerado/lol.json (scripts/sync-assets.mjs).
 const BASE = 'https://ddragon.leagueoflegends.com'
-const LOCALE = 'pt_BR'
+const LOCALE: Record<Idioma, string> = { pt: 'pt_BR', en: 'en_US' }
 const UM_DIA = 24 * 60 * 60 * 1000
 
 interface DdSpell {
@@ -18,17 +19,16 @@ interface DdSpell {
 
 const TECLAS = ['Q', 'W', 'E', 'R']
 
-/** Passiva e Q/W/E/R do campeão, em pt-BR. */
-export function carregarHabilidadesLol(versao: string, id: string): Promise<Habilidade[]> {
-  const chave = `ddragon-habilidades-${versao}-${id}`
+/** Passiva e Q/W/E/R do campeão, no idioma pedido (pt-BR ou en-US). */
+export function carregarHabilidadesLol(versao: string, id: string, lingua: Idioma): Promise<Habilidade[]> {
+  const chave = `ddragon-habilidades-${versao}-${LOCALE[lingua]}-${id}`
   const emCache = lerCache<Habilidade[]>(chave, UM_DIA)
   if (emCache) return Promise.resolve(emCache)
-  return semDuplicar(chave, () => buscarHabilidadesLol(versao, id, chave))
+  return semDuplicar(chave, () => buscarHabilidadesLol(versao, id, chave, lingua))
 }
 
-async function buscarHabilidadesLol(versao: string, id: string, chave: string): Promise<Habilidade[]> {
-
-  const resposta = await fetch(`${BASE}/cdn/${versao}/data/${LOCALE}/champion/${id}.json`).then((r) => r.json())
+async function buscarHabilidadesLol(versao: string, id: string, chave: string, lingua: Idioma): Promise<Habilidade[]> {
+  const resposta = await fetch(`${BASE}/cdn/${versao}/data/${LOCALE[lingua]}/champion/${id}.json`).then((r) => r.json())
   const c = resposta.data[id] as { passive: DdSpell; spells: DdSpell[] }
   const descricao = (s: string) => textoLimpo(s).replace(/\{\{[^}]*\}\}/g, '?')
 
@@ -46,9 +46,9 @@ async function buscarHabilidadesLol(versao: string, id: string, chave: string): 
       icone: `${BASE}/cdn/${versao}/img/spell/${s.image.full}`,
       descricao: descricao(s.description),
       stats: [
-        ...(s.cooldownBurn && s.cooldownBurn !== '0' ? [{ label: 'Recarga', valor: `${s.cooldownBurn}s` }] : []),
+        ...(s.cooldownBurn && s.cooldownBurn !== '0' ? [{ label: tEm(lingua, 'stat.recarga'), valor: `${s.cooldownBurn}s` }] : []),
         ...(s.rangeBurn && s.rangeBurn !== 'self'
-          ? [{ label: 'Alcance', valor: Number(s.rangeBurn) >= 25000 ? 'Global' : s.rangeBurn }]
+          ? [{ label: tEm(lingua, 'stat.alcance'), valor: Number(s.rangeBurn) >= 25000 ? tEm(lingua, 'stat.global') : s.rangeBurn }]
           : []),
       ],
     })),

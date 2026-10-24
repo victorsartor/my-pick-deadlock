@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
-import { rotuloCompatibilidade } from '../services/matcher'
+import { t } from '../i18n'
+import { faixaCompatibilidade } from '../services/matcher'
 
 const props = defineProps<{ valor: number }>()
+const rotulo = computed(() => t(`rotulo.${faixaCompatibilidade(props.valor)}`))
 
 const RAIO = 52
 const circunferencia = 2 * Math.PI * RAIO
@@ -33,7 +35,7 @@ const traco = computed(() => circunferencia * (1 - exibido.value / 100))
 
 <template>
   <div class="flex shrink-0 flex-col items-center gap-2">
-    <div class="relative h-36 w-36" role="img" :aria-label="`${valor}% de compatibilidade: ${rotuloCompatibilidade(valor)}`">
+    <div class="relative h-36 w-36" role="img" :aria-label="t('gauge.aria', { valor, rotulo })">
       <svg viewBox="0 0 120 120" class="h-full w-full -rotate-90">
         <circle cx="60" cy="60" :r="RAIO" fill="none" stroke="currentColor" stroke-width="10" class="text-borda" />
         <circle
@@ -51,9 +53,9 @@ const traco = computed(() => circunferencia * (1 - exibido.value / 100))
       </svg>
       <div class="absolute inset-0 flex flex-col items-center justify-center">
         <span class="font-display text-4xl font-bold tabular-nums">{{ exibido }}%</span>
-        <span class="text-xs tracking-wider text-suave uppercase">match</span>
+        <span class="text-xs tracking-wider text-suave uppercase">{{ t('gauge.match') }}</span>
       </div>
     </div>
-    <span class="rounded-full bg-ouro/10 px-3 py-0.5 text-sm text-ouro">{{ rotuloCompatibilidade(valor) }}</span>
+    <span class="rounded-full bg-ouro/10 px-3 py-0.5 text-sm text-ouro">{{ rotulo }}</span>
   </div>
 </template>

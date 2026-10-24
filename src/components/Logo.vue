@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
+import { t } from '../i18n'
 
 // Marca: um hexágono (o mapa e o formato dos cards) com uma mira no centro (a escolha do herói).
 // As cores vêm do tema: ouro para a moldura e o ponto, texto claro para a mira.
 </script>
 
 <template>
-  <RouterLink to="/" class="group inline-flex items-center gap-3" aria-label="My Pick Deadlock, início">
+  <RouterLink to="/" class="group inline-flex items-center gap-3" :aria-label="t('logo.aria')">
     <svg viewBox="0 0 120 120" class="h-10 w-10 shrink-0 transition-transform duration-300 group-hover:rotate-6" aria-hidden="true">
       <polygon points="60,6 106,33 106,87 60,114 14,87 14,33" fill="var(--color-painel)" stroke="var(--color-ouro)" stroke-width="6" stroke-linejoin="round" />
       <circle cx="60" cy="60" r="24" fill="none" stroke="var(--color-texto)" stroke-width="4.5" />

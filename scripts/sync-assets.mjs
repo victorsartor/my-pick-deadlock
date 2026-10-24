@@ -1,5 +1,5 @@
 // Gera, antes do build (e do dev), os dados das APIs que quase nunca mudam:
-//   src/data/gerado/lol.json      → versão do Data Dragon e nome/título de cada campeão do site
+//   src/data/gerado/lol.json      → versão do Data Dragon e nome (pt e en)/título de cada campeão do site
 //   src/data/gerado/deadlock.json → imagens e ordem das habilidades de cada herói do site
 //   public/campeoes/<Id>.webp     → ícone de cada campeão em WebP (~3 KB, contra ~28 KB do PNG da Riot)
 //   public/herois/fundo/<id>.webp → fundo oficial do herói em 1600 px (~30 KB, contra ~1,4 MB do original 4096 px)
@@ -25,8 +25,13 @@ async function buscar(url) {
 async function syncLol() {
   const ids = lerJson('src/data/games/lol.json').personagens.map((p) => p.id)
   const [versao] = await buscar('https://ddragon.leagueoflegends.com/api/versions.json')
-  const { data } = await buscar(`https://ddragon.leagueoflegends.com/cdn/${versao}/data/pt_BR/champion.json`)
-  const campeoes = Object.fromEntries(ids.filter((id) => data[id]).map((id) => [id, { nome: data[id].name, titulo: data[id].title }]))
+  const [{ data }, { data: dataEn }] = await Promise.all([
+    buscar(`https://ddragon.leagueoflegends.com/cdn/${versao}/data/pt_BR/champion.json`),
+    buscar(`https://ddragon.leagueoflegends.com/cdn/${versao}/data/en_US/champion.json`),
+  ])
+  const campeoes = Object.fromEntries(
+    ids.filter((id) => data[id]).map((id) => [id, { nome: data[id].name, nomeEn: dataEn[id]?.name ?? data[id].name, titulo: data[id].title }]),
+  )
   const faltando = ids.filter((id) => !data[id])
   if (faltando.length) console.warn(`  ids que não existem no Data Dragon: ${faltando.join(', ')}`)
   await gerarIcones(Object.keys(campeoes), versao)

@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, ref, watch } from 'vue'
 import { RouterLink, useRoute, useRouter } from 'vue-router'
-import { useAssets } from '../composables/useAssets'
+import { nomeLol, useAssets } from '../composables/useAssets'
+import { idioma, localeDe, t } from '../i18n'
 import { personagensPorJogo, sources } from '../data/catalogo'
 import { lolIcone, usarIconeRiot } from '../services/dataDragon'
 import { preCarregarResultado } from '../services/preCarregar'
@@ -35,7 +36,7 @@ const funcoes = computed(() =>
   [...new Set(personagens.value.map((p) => p.funcao))].sort((a, b) => posicao(a) - posicao(b) || a.localeCompare(b)),
 )
 
-const nomeDe = (id: string) => assets.lol.campeoes[id]?.nome ?? id
+const nomeDe = nomeLol
 
 /** Ignora acentos e caixa: "kai sa" encontra "Kai'Sa". */
 const normalizar = (s: string) => s.normalize('NFD').replace(/[^a-zA-Z0-9]/g, '').toLowerCase()
@@ -45,19 +46,19 @@ const filtrados = computed(() => {
   return personagens.value
     .filter((p) => !funcao.value || p.funcao === funcao.value)
     .filter((p) => !termo || normalizar(nomeDe(p.id)).includes(termo))
-    .sort((a, b) => nomeDe(a.id).localeCompare(nomeDe(b.id), 'pt-BR'))
+    .sort((a, b) => nomeDe(a.id).localeCompare(nomeDe(b.id), localeDe(idioma.value)))
 })
 </script>
 
 <template>
   <section class="mb-8 text-center">
-    <h1 class="text-3xl font-bold uppercase sm:text-5xl">Quem você joga hoje?</h1>
+    <h1 class="text-3xl font-bold uppercase sm:text-5xl">{{ t('home.titulo') }}</h1>
     <p class="mx-auto mt-3 max-w-2xl text-suave">
-      Escolha seu campeão e descubra qual herói do Deadlock combina com a sua memória muscular e o seu estilo de jogo.
+      {{ t('home.intro') }}
     </p>
   </section>
 
-  <nav class="mb-6 flex flex-wrap justify-center gap-2" aria-label="Jogo de origem">
+  <nav class="mb-6 flex flex-wrap justify-center gap-2" :aria-label="t('home.jogoAria')">
     <button
       v-for="s in sources"
       :key="s.id"
@@ -73,7 +74,7 @@ const filtrados = computed(() => {
       "
       @click="jogo = s.id"
     >
-      {{ s.sigla }}<span v-if="!s.ativo" class="ml-1 text-xs">· em breve</span>
+      {{ s.sigla }}<span v-if="!s.ativo" class="ml-1 text-xs">· {{ t('home.embreve') }}</span>
     </button>
   </nav>
 
@@ -81,8 +82,8 @@ const filtrados = computed(() => {
     <input
       v-model="busca"
       type="search"
-      placeholder="Buscar campeão…"
-      aria-label="Buscar campeão"
+      :placeholder="t('home.buscar')"
+      :aria-label="t('home.buscar')"
       class="w-full rounded-lg border border-borda bg-painel px-4 py-2.5 outline-none placeholder:text-suave focus:border-ouro sm:max-w-xs"
     />
     <div class="flex flex-wrap gap-2">
@@ -104,7 +105,7 @@ const filtrados = computed(() => {
           class="h-4 w-4 transition duration-300"
           :class="funcao === f ? 'scale-110' : 'opacity-60 grayscale group-hover:opacity-100 group-hover:grayscale-0'"
         />
-        {{ f ?? 'Todas' }}
+        {{ f ? t('lane.' + f) : t('home.todas') }}
       </button>
     </div>
   </div>
@@ -131,10 +132,10 @@ const filtrados = computed(() => {
           />
         </div>
         <div class="mt-2 truncate text-sm font-medium">{{ nomeDe(p.id) }}</div>
-        <div class="text-xs text-suave">{{ p.funcao }}</div>
+        <div class="text-xs text-suave">{{ t('lane.' + p.funcao) }}</div>
       </RouterLink>
     </li>
   </TransitionGroup>
 
-  <p v-if="!filtrados.length" class="py-12 text-center text-suave">Nenhum campeão encontrado.</p>
+  <p v-if="!filtrados.length" class="py-12 text-center text-suave">{{ t('home.vazio') }}</p>
 </template>

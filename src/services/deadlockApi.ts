@@ -1,3 +1,4 @@
+import type { Idioma } from '../i18n'
 import type { Habilidade } from '../types'
 import { gravarCache, lerCache, semDuplicar } from './cache'
 import { textoLimpo } from './texto'
@@ -41,20 +42,18 @@ function stats(props: ApiAbility['properties'] = {}) {
   })
 }
 
-/** Habilidades 1 a 4 de um herói, com textos em pt-BR e nome original em inglês. */
-export function carregarHabilidadesDeadlock(heroId: number, ordem: string[]): Promise<Habilidade[]> {
-  const chave = `deadlock-habilidades-${heroId}`
+/** Habilidades 1 a 4 de um herói. Em português traz também o nome original em inglês; em inglês, uma busca só. */
+export function carregarHabilidadesDeadlock(heroId: number, ordem: string[], lingua: Idioma): Promise<Habilidade[]> {
+  const chave = `deadlock-habilidades-${lingua}-${heroId}`
   const emCache = lerCache<Habilidade[]>(chave, SEIS_HORAS)
   if (emCache) return Promise.resolve(emCache)
-  return semDuplicar(chave, () => buscarHabilidadesDeadlock(heroId, ordem, chave))
+  return semDuplicar(chave, () => buscarHabilidadesDeadlock(heroId, ordem, chave, lingua))
 }
 
-async function buscarHabilidadesDeadlock(heroId: number, ordem: string[], chave: string): Promise<Habilidade[]> {
-
-  const [br, en] = await Promise.all([
-    buscar<ApiAbility[]>(`/v1/assets/items/by-hero-id/${heroId}?language=brazilian`),
-    buscar<ApiAbility[]>(`/v1/assets/items/by-hero-id/${heroId}?language=english`),
-  ])
+async function buscarHabilidadesDeadlock(heroId: number, ordem: string[], chave: string, lingua: Idioma): Promise<Habilidade[]> {
+  const pedir = (language: string) => buscar<ApiAbility[]>(`/v1/assets/items/by-hero-id/${heroId}?language=${language}`)
+  const [en, brasileiro] = await Promise.all([pedir('english'), lingua === 'en' ? null : pedir('brazilian')])
+  const br = brasileiro ?? en
 
   const habilidades = ordem.flatMap((classe, i): Habilidade[] => {
     const a = br.find((x) => x.class_name === classe)

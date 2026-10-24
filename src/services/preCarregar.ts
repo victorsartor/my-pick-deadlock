@@ -1,4 +1,5 @@
 import { useAssets } from '../composables/useAssets'
+import { idioma } from '../i18n'
 import { carregarHabilidadesLol } from './dataDragon'
 import { carregarHabilidadesDeadlock } from './deadlockApi'
 import { carregarContagem, SUPABASE_URL } from './votos'
@@ -24,7 +25,7 @@ export function preconectarVotos() {
  * os dados já estão no cache (ou a busca em andamento é reaproveitada).
  */
 export function preCarregarResultado(jogo: string, personagem: string) {
-  const chave = `${jogo}/${personagem}`
+  const chave = `${jogo}/${personagem}/${idioma.value}`
   if (jaPedidos.has(chave)) return
   jaPedidos.add(chave)
 
@@ -32,7 +33,7 @@ export function preCarregarResultado(jogo: string, personagem: string) {
   const ignorar = () => {}
 
   carregarTelaResultado().catch(ignorar)
-  carregarHabilidadesLol(assets.lol.versao, personagem).catch(ignorar)
+  carregarHabilidadesLol(assets.lol.versao, personagem, idioma.value).catch(ignorar)
   carregarContagem(jogo, personagem)?.catch(ignorar)
   // Os pares ficam no mesmo pedaço de código da tela de resultado: importar aqui não pesa na Home.
   import('../data')
@@ -40,7 +41,7 @@ export function preCarregarResultado(jogo: string, personagem: string) {
       const heroiId = games[jogo]?.mapeamentos[personagem]?.heroi
       const heroi = heroiId ? assets.deadlock[heroiId] : undefined
       if (!heroiId || !heroi) return
-      carregarHabilidadesDeadlock(heroiId, heroi.habilidades).catch(ignorar)
+      carregarHabilidadesDeadlock(heroiId, heroi.habilidades, idioma.value).catch(ignorar)
       if (heroi.card) new Image().src = heroi.card
     })
     .catch(ignorar)

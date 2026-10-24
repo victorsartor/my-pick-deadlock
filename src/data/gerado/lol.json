@@ -3,454 +3,567 @@
  "campeoes": {
   "Brand": {
    "nome": "Brand",
+   "nomeEn": "Brand",
    "titulo": "a Vingança Flamejante"
   },
   "Kennen": {
    "nome": "Kennen",
+   "nomeEn": "Kennen",
    "titulo": "o Coração da Tempestade"
   },
   "Caitlyn": {
    "nome": "Caitlyn",
+   "nomeEn": "Caitlyn",
    "titulo": "a Xerife de Piltover"
   },
   "Vladimir": {
    "nome": "Vladimir",
+   "nomeEn": "Vladimir",
    "titulo": "o Sanguinário Escarlate"
   },
   "Sett": {
    "nome": "Sett",
+   "nomeEn": "Sett",
    "titulo": "o Chefe"
   },
   "TwistedFate": {
    "nome": "Twisted Fate",
+   "nomeEn": "Twisted Fate",
    "titulo": "o Mestre das Cartas"
   },
   "Heimerdinger": {
    "nome": "Heimerdinger",
+   "nomeEn": "Heimerdinger",
    "titulo": "o Inventor Idolatrado"
   },
   "Ekko": {
    "nome": "Ekko",
+   "nomeEn": "Ekko",
    "titulo": "o Rapaz que Estilhaçou o Tempo"
   },
   "Galio": {
    "nome": "Galio",
+   "nomeEn": "Galio",
    "titulo": "o Colosso"
   },
   "Braum": {
    "nome": "Braum",
+   "nomeEn": "Braum",
    "titulo": "o Coração de Freljord"
   },
   "Twitch": {
    "nome": "Twitch",
+   "nomeEn": "Twitch",
    "titulo": "o Semeador da Peste"
   },
   "MissFortune": {
    "nome": "Miss Fortune",
+   "nomeEn": "Miss Fortune",
    "titulo": "a Caçadora de Recompensas"
   },
   "Blitzcrank": {
    "nome": "Blitzcrank",
+   "nomeEn": "Blitzcrank",
    "titulo": "o Grande Golem a Vapor"
   },
   "Rengar": {
    "nome": "Rengar",
+   "nomeEn": "Rengar",
    "titulo": "o Acossador da Alcateia"
   },
   "Ashe": {
    "nome": "Ashe",
+   "nomeEn": "Ashe",
    "titulo": "a Arqueira do Gelo"
   },
   "RekSai": {
    "nome": "Rek'Sai",
+   "nomeEn": "Rek'Sai",
    "titulo": "a Escavadora do Vazio"
   },
   "Darius": {
    "nome": "Darius",
+   "nomeEn": "Darius",
    "titulo": "a Mão de Noxus"
   },
   "Kalista": {
    "nome": "Kalista",
+   "nomeEn": "Kalista",
    "titulo": "a Lança da Vingança"
   },
   "Mordekaiser": {
    "nome": "Mordekaiser",
+   "nomeEn": "Mordekaiser",
    "titulo": "o Revenã de Ferro"
   },
   "Yone": {
    "nome": "Yone",
+   "nomeEn": "Yone",
    "titulo": "o Inesquecido"
   },
   "LeeSin": {
    "nome": "Lee Sin",
+   "nomeEn": "Lee Sin",
    "titulo": "o Monge Cego"
   },
   "Zac": {
    "nome": "Zac",
+   "nomeEn": "Zac",
    "titulo": "a Arma Secreta"
   },
   "Fizz": {
    "nome": "Fizz",
+   "nomeEn": "Fizz",
    "titulo": "o Trapaceiro das Marés"
   },
   "Pantheon": {
    "nome": "Pantheon",
+   "nomeEn": "Pantheon",
    "titulo": "a Lança Indestrutível"
   },
   "Cassiopeia": {
    "nome": "Cassiopeia",
+   "nomeEn": "Cassiopeia",
    "titulo": "o Abraço da Serpente"
   },
   "Sylas": {
    "nome": "Sylas",
+   "nomeEn": "Sylas",
    "titulo": "o Abjugado"
   },
   "Vayne": {
    "nome": "Vayne",
+   "nomeEn": "Vayne",
    "titulo": "a Caçadora Noturna"
   },
   "Nocturne": {
    "nome": "Nocturne",
+   "nomeEn": "Nocturne",
    "titulo": "o Eterno Pesadelo"
   },
   "Lucian": {
    "nome": "Lucian",
+   "nomeEn": "Lucian",
    "titulo": "o Purificador"
   },
   "DrMundo": {
    "nome": "Dr. Mundo",
+   "nomeEn": "Dr. Mundo",
    "titulo": "o Louco de Zaun"
   },
   "Karma": {
    "nome": "Karma",
+   "nomeEn": "Karma",
    "titulo": "a Iluminada"
   },
   "Bard": {
    "nome": "Bardo",
+   "nomeEn": "Bard",
    "titulo": "o Protetor Andarilho"
   },
   "Alistar": {
    "nome": "Alistar",
+   "nomeEn": "Alistar",
    "titulo": "o Minotauro"
   },
   "Yorick": {
    "nome": "Yorick",
+   "nomeEn": "Yorick",
    "titulo": "o Pastor de Almas"
   },
   "Fiora": {
    "nome": "Fiora",
+   "nomeEn": "Fiora",
    "titulo": "a Grande Duelista"
   },
   "Corki": {
    "nome": "Corki",
+   "nomeEn": "Corki",
    "titulo": "o Bombardeiro Ousado"
   },
   "Yuumi": {
    "nome": "Yuumi",
+   "nomeEn": "Yuumi",
    "titulo": "a Gata Mágica"
   },
   "Warwick": {
    "nome": "Warwick",
+   "nomeEn": "Warwick",
    "titulo": "a Ira Desimpedida de Zaun"
   },
   "Lux": {
    "nome": "Lux",
+   "nomeEn": "Lux",
    "titulo": "a Dama da Luz"
   },
   "JarvanIV": {
    "nome": "Jarvan IV",
+   "nomeEn": "Jarvan IV",
    "titulo": "o Exemplo de Demacia"
   },
   "Azir": {
    "nome": "Azir",
+   "nomeEn": "Azir",
    "titulo": "o Imperador das Areias"
   },
   "Senna": {
    "nome": "Senna",
+   "nomeEn": "Senna",
    "titulo": "A Redentora"
   },
   "Samira": {
    "nome": "Samira",
+   "nomeEn": "Samira",
    "titulo": "a Rosa do Deserto"
   },
   "Zeri": {
    "nome": "Zeri",
+   "nomeEn": "Zeri",
    "titulo": "A Faísca de Zaun"
   },
   "Yasuo": {
    "nome": "Yasuo",
+   "nomeEn": "Yasuo",
    "titulo": "o Imperdoável"
   },
   "Graves": {
    "nome": "Graves",
+   "nomeEn": "Graves",
    "titulo": "o Foragido"
   },
   "Poppy": {
    "nome": "Poppy",
+   "nomeEn": "Poppy",
    "titulo": "a Guardiã do Martelo"
   },
   "Pyke": {
    "nome": "Pyke",
+   "nomeEn": "Pyke",
    "titulo": "o Estripador das Águas Sangrentas"
   },
   "Trundle": {
    "nome": "Trundle",
+   "nomeEn": "Trundle",
    "titulo": "o Rei dos Trolls"
   },
   "Hwei": {
    "nome": "Hwei",
+   "nomeEn": "Hwei",
    "titulo": "o Visionário"
   },
   "Ziggs": {
    "nome": "Ziggs",
+   "nomeEn": "Ziggs",
    "titulo": "o Especialista em Hexplosivos"
   },
   "Jhin": {
    "nome": "Jhin",
+   "nomeEn": "Jhin",
    "titulo": "o Virtuoso"
   },
   "Khazix": {
    "nome": "Kha'Zix",
+   "nomeEn": "Kha'Zix",
    "titulo": "o Ceifador do Vazio"
   },
   "Leblanc": {
    "nome": "LeBlanc",
+   "nomeEn": "LeBlanc",
    "titulo": "a Farsante"
   },
   "MasterYi": {
    "nome": "Master Yi",
+   "nomeEn": "Master Yi",
    "titulo": "o Espadachim Wuju"
   },
   "Kled": {
    "nome": "Kled",
+   "nomeEn": "Kled",
    "titulo": "o Cavaleiro Intratável"
   },
   "Nunu": {
    "nome": "Nunu e Willump",
+   "nomeEn": "Nunu & Willump",
    "titulo": "o Garoto e seu Yeti"
   },
   "Seraphine": {
    "nome": "Seraphine",
+   "nomeEn": "Seraphine",
    "titulo": "a Cantora Sonhadora"
   },
   "Nami": {
    "nome": "Nami",
+   "nomeEn": "Nami",
    "titulo": "a Conjuradora das Marés"
   },
   "Teemo": {
    "nome": "Teemo",
+   "nomeEn": "Teemo",
    "titulo": "o Explorador Veloz"
   },
   "Camille": {
    "nome": "Camille",
+   "nomeEn": "Camille",
    "titulo": "a Sombra de Aço"
   },
   "Lissandra": {
    "nome": "Lissandra",
+   "nomeEn": "Lissandra",
    "titulo": "a Bruxa Gélida"
   },
   "Jinx": {
    "nome": "Jinx",
+   "nomeEn": "Jinx",
    "titulo": "o Gatilho Desenfreado"
   },
   "Ezreal": {
    "nome": "Ezreal",
+   "nomeEn": "Ezreal",
    "titulo": "o Explorador Pródigo"
   },
   "Chogath": {
    "nome": "Cho'Gath",
+   "nomeEn": "Cho'Gath",
    "titulo": "o Terror do Vazio"
   },
   "Varus": {
    "nome": "Varus",
+   "nomeEn": "Varus",
    "titulo": "a Flecha da Vingança"
   },
   "Rell": {
    "nome": "Rell",
+   "nomeEn": "Rell",
    "titulo": "a Dama de Ferro"
   },
   "TahmKench": {
    "nome": "Tahm Kench",
+   "nomeEn": "Tahm Kench",
    "titulo": "o Rei do Rio"
   },
   "Sion": {
    "nome": "Sion",
+   "nomeEn": "Sion",
    "titulo": "o Colosso Morto-Vivo"
   },
   "Swain": {
    "nome": "Swain",
+   "nomeEn": "Swain",
    "titulo": "o Grande General Noxiano"
   },
   "Janna": {
    "nome": "Janna",
+   "nomeEn": "Janna",
    "titulo": "a Fúria da Tormenta"
   },
   "Gragas": {
    "nome": "Gragas",
+   "nomeEn": "Gragas",
    "titulo": "o Badernista"
   },
   "Annie": {
    "nome": "Annie",
+   "nomeEn": "Annie",
    "titulo": "a Criança Sombria"
   },
   "Aatrox": {
    "nome": "Aatrox",
+   "nomeEn": "Aatrox",
    "titulo": "a Espada Darkin"
   },
   "Ambessa": {
    "nome": "Ambessa",
+   "nomeEn": "Ambessa",
    "titulo": "Matriarca da Guerra"
   },
   "Amumu": {
    "nome": "Amumu",
+   "nomeEn": "Amumu",
    "titulo": "a Múmia Triste"
   },
   "Evelynn": {
    "nome": "Evelynn",
+   "nomeEn": "Evelynn",
    "titulo": "o Abraço da Agonia"
   },
   "Fiddlesticks": {
    "nome": "Fiddlesticks",
+   "nomeEn": "Fiddlesticks",
    "titulo": "o Terror Ancestral"
   },
   "Rumble": {
    "nome": "Rumble",
+   "nomeEn": "Rumble",
    "titulo": "a Ameaça Mecânica"
   },
   "Riven": {
    "nome": "Riven",
+   "nomeEn": "Riven",
    "titulo": "a Exilada"
   },
   "Renekton": {
    "nome": "Renekton",
+   "nomeEn": "Renekton",
    "titulo": "o Carniceiro das Areias"
   },
   "Nidalee": {
    "nome": "Nidalee",
+   "nomeEn": "Nidalee",
    "titulo": "a Caçadora Bestial"
   },
   "Volibear": {
    "nome": "Volibear",
+   "nomeEn": "Volibear",
    "titulo": "a Tempestade Implacável"
   },
   "Viego": {
    "nome": "Viego",
+   "nomeEn": "Viego",
    "titulo": "O Rei Destruído"
   },
   "Vi": {
    "nome": "Vi",
+   "nomeEn": "Vi",
    "titulo": "a Defensora de Piltover"
   },
   "Velkoz": {
    "nome": "Vel'Koz",
+   "nomeEn": "Vel'Koz",
    "titulo": "o Olho do Vazio"
   },
   "Kayn": {
    "nome": "Kayn",
+   "nomeEn": "Kayn",
    "titulo": "o Ceifador das Sombras"
   },
   "Zilean": {
    "nome": "Zilean",
+   "nomeEn": "Zilean",
    "titulo": "o Guardião do Tempo"
   },
   "Xerath": {
    "nome": "Xerath",
+   "nomeEn": "Xerath",
    "titulo": "o Mago Ascendente"
   },
   "Taric": {
    "nome": "Taric",
+   "nomeEn": "Taric",
    "titulo": "o Escudo de Valoran"
   },
   "Zed": {
    "nome": "Zed",
+   "nomeEn": "Zed",
    "titulo": "o Mestre das Sombras"
   },
   "Zyra": {
    "nome": "Zyra",
+   "nomeEn": "Zyra",
    "titulo": "a Ascensão dos Espinhos"
   },
   "Orianna": {
    "nome": "Orianna",
+   "nomeEn": "Orianna",
    "titulo": "a Donzela Mecânica"
   },
   "Ivern": {
    "nome": "Ivern",
+   "nomeEn": "Ivern",
    "titulo": "o Pai do Verde"
   },
   "Lulu": {
    "nome": "Lulu",
+   "nomeEn": "Lulu",
    "titulo": "a Fada Feiticeira"
   },
   "Milio": {
    "nome": "Milio",
+   "nomeEn": "Milio",
    "titulo": "A Chama Gentil"
   },
   "Morgana": {
    "nome": "Morgana",
+   "nomeEn": "Morgana",
    "titulo": "a Caída"
   },
   "Rakan": {
    "nome": "Rakan",
+   "nomeEn": "Rakan",
    "titulo": "O Charmoso"
   },
   "Renata": {
    "nome": "Renata Glasc",
+   "nomeEn": "Renata Glasc",
    "titulo": "a Baronesa da Química"
   },
   "Sona": {
    "nome": "Sona",
+   "nomeEn": "Sona",
    "titulo": "a Mestra das Cordas"
   },
   "Soraka": {
    "nome": "Soraka",
+   "nomeEn": "Soraka",
    "titulo": "a Filha das Estrelas"
   },
   "Thresh": {
    "nome": "Thresh",
+   "nomeEn": "Thresh",
    "titulo": "o Guardião das Correntes"
   },
   "Akali": {
    "nome": "Akali",
+   "nomeEn": "Akali",
    "titulo": "a Assassina Renegada"
   },
   "Elise": {
    "nome": "Elise",
+   "nomeEn": "Elise",
    "titulo": "a Aranha Rainha"
   },
   "Kassadin": {
    "nome": "Kassadin",
+   "nomeEn": "Kassadin",
    "titulo": "o Andarilho do Vazio"
   },
   "Katarina": {
    "nome": "Katarina",
+   "nomeEn": "Katarina",
    "titulo": "a Lâmina Sinistra"
   },
   "Locke": {
    "nome": "Locke",
+   "nomeEn": "Locke",
    "titulo": "o Exorcista das Cinzas"
   },
   "Naafiri": {
    "nome": "Naafiri",
+   "nomeEn": "Naafiri",
    "titulo": "Fera das Cem Mordidas"
   },
   "Qiyana": {
    "nome": "Qiyana",
+   "nomeEn": "Qiyana",
    "titulo": "a Imperatriz dos Elementos"
   },
   "Shaco": {
    "nome": "Shaco",
+   "nomeEn": "Shaco",
    "titulo": "o Bufão Demoníaco"
   },
   "Talon": {
    "nome": "Talon",
+   "nomeEn": "Talon",
    "titulo": "a Sombra da Lâmina"
   },
   "Aurora": {
    "nome": "Aurora",
+   "nomeEn": "Aurora",
    "titulo": "a Bruxa Entre Mundos"
   },
   "Syndra": {
    "nome": "Syndra",
+   "nomeEn": "Syndra",
    "titulo": "a Soberana Sombria"
   }
  }

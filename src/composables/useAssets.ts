@@ -1,3 +1,4 @@
+import { idioma } from '../i18n'
 import deadlockGerado from '../data/gerado/deadlock.json'
 import lolGerado from '../data/gerado/lol.json'
 
@@ -7,7 +8,8 @@ import lolGerado from '../data/gerado/lol.json'
 
 export interface LolCatalogo {
   versao: string
-  campeoes: Record<string, { nome: string; titulo: string }>
+  /** nome em português (pt_BR) e nomeEn em inglês (en_US), como o Data Dragon escreve. */
+  campeoes: Record<string, { nome: string; nomeEn: string; titulo: string }>
 }
 
 export interface DeadlockHeroAssets {
@@ -27,4 +29,10 @@ const assets = {
 
 export function useAssets() {
   return assets
+}
+
+/** Nome do campeão do LoL no idioma atual. */
+export function nomeLol(id: string): string {
+  const c = assets.lol.campeoes[id]
+  return (idioma.value === 'en' ? c?.nomeEn : c?.nome) ?? id
 }

@@ -1,0 +1,88 @@
+// Textos da interface em português (idioma de origem). As chaves daqui definem as do inglês (en.ts).
+export const pt = {
+  'meta.descricao': 'Descubra qual herói do Deadlock combina com o seu campeão do League of Legends.',
+
+  'app.tagline': 'Do seu main ao herói certo',
+  'app.rodape': 'Projeto de fã, sem afiliação com a Riot Games ou a Valve. League of Legends é marca da Riot Games, Inc. Deadlock é marca da Valve Corporation. Imagens via Data Dragon e',
+  'logo.aria': 'My Pick Deadlock, início',
+  'idioma.aria': 'Idioma',
+
+  'home.titulo': 'Quem você joga hoje?',
+  'home.intro': 'Escolha seu campeão e descubra qual herói do Deadlock combina com a sua memória muscular e o seu estilo de jogo.',
+  'home.jogoAria': 'Jogo de origem',
+  'home.embreve': 'em breve',
+  'home.buscar': 'Buscar campeão…',
+  'home.todas': 'Todas',
+  'home.vazio': 'Nenhum campeão encontrado.',
+
+  'lane.Topo': 'Topo',
+  'lane.Selva': 'Selva',
+  'lane.Meio': 'Meio',
+  'lane.Atirador': 'Atirador',
+  'lane.Suporte': 'Suporte',
+
+  'result.voltar': '← Escolher outro campeão',
+  'result.naoEncontrado': 'Campeão não encontrado.',
+  'result.paraQuem': 'Para quem joga de',
+  'result.porque': 'Por que combina',
+  'result.triade': 'Tríade de atributos',
+  'result.habilidades': 'Habilidades',
+  'result.builds': 'Vertentes de build',
+  'result.segunda': 'Segunda opção',
+  'result.embreve': 'Em breve',
+  'result.segundaPendente': 'Ainda estamos escolhendo a segunda opção para {nome}. Tem uma sugestão? Manda no X:',
+  'result.habilidadeN': 'Habilidade {n}',
+
+  'foco.arma': 'Arma',
+  'foco.espirito': 'Espírito',
+  'foco.vitalidade': 'Vitalidade',
+  'triade.arma': 'Dano balístico',
+  'triade.espirito': 'Dano de habilidades',
+  'triade.vitalidade': 'Vida, escudos e resistências',
+
+  'dificuldade.1': 'Fácil',
+  'dificuldade.2': 'Média',
+  'dificuldade.3': 'Desafiadora',
+  'dificuldade.4': 'Muito difícil',
+  'dificuldade.5': 'Extrema',
+  'dificuldade.titulo': 'Dificuldade {n} de 5',
+
+  'rotulo.muito': 'Combina muito',
+  'rotulo.bem': 'Combina bem',
+  'rotulo.parecido': 'Parecido',
+  'rotulo.pouco': 'Pouco parecido',
+  'gauge.aria': '{valor}% de compatibilidade: {rotulo}',
+  'gauge.match': 'match',
+
+  'eixo.alcance': 'joga de longe',
+  'eixo.mobilidade': 'muita mobilidade',
+  'eixo.burst': 'dano explosivo alto',
+  'eixo.dano_continuo': 'dano sustentado / DoT',
+  'eixo.resistencia': 'aguenta muito dano',
+  'eixo.autocura': 'se cura sozinho',
+  'eixo.controle': 'muito controle (stun, slow, puxão)',
+  'eixo.suporte': 'cura ou protege aliados',
+  'eixo.furtividade': 'invisível / emboscada',
+  'eixo.arma': 'depende do ataque básico / arma',
+  'eixo.zona': 'domina áreas do mapa',
+
+  'ability.erro': 'Não foi possível carregar as habilidades agora.',
+  'ability.carregando': 'Carregando habilidades…',
+  'stat.recarga': 'Recarga',
+  'stat.alcance': 'Alcance',
+  'stat.global': 'Global',
+
+  'vote.pergunta': '{origem} → {heroi} faz sentido?',
+  'vote.concordo': 'Concordo',
+  'vote.discordo': 'Não concordo',
+  'vote.pct': '{pct}% da comunidade concorda',
+  'vote.obrigado': 'Valeu pelo voto!',
+  'vote.quem': 'Quem combina mais com {origem}?',
+  'vote.sugestaoOk': 'Sugestão registrada!',
+
+  'picker.escolha': 'Escolha um herói…',
+  'picker.buscar': 'Buscar herói…',
+  'picker.nenhum': 'Nenhum herói encontrado.',
+} as const
+
+export type ChaveTexto = keyof typeof pt
