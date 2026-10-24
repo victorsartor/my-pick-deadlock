@@ -171,7 +171,8 @@
     },
     "Kalista": {
       "heroi": 63,
-      "motivo": "Atiradora de kite que não para de se mover enquanto atira e acumula dano no alvo até explodi-lo de uma vez: as lanças do Rend viram as mordidas do Love Bites.",
+      "segunda": 52,
+      "motivo": "Atiradora de kite que não para de se mover enquanto atira e acumula dano no alvo até explodi-lo de uma vez: as lanças do Rend viram as mordidas do Love Bites. Para acumular marcas com tiros e explodir o alvo, o Djinn's Mark do Mirage é a segunda opção.",
       "paralelos": [
         { "origem": "E – Lanças acumulam e explodem", "destino": "Love Bites" },
         { "origem": "Passiva – Pula enquanto ataca", "destino": "Sanguine Retreat" }
@@ -720,6 +721,111 @@
       "paralelos": [
         { "origem": "Q – Gancho", "destino": "Grapple Arm" },
         { "origem": "E – Golpe que empurra o inimigo", "destino": "Exploding Uppercut" }
+      ]
+    },
+    "Akali": {
+      "heroi": 16,
+      "segunda": 13,
+      "motivo": "Ninja de burst mágico que entra, explode e some: os avanços da Akali viram o Leaping Slash do Calico, e a Névoa do Crepúsculo que esconde vira o Return to Shadows. Para invisibilidade e emboscada com arma, a Haze é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Dois avanços que atravessam o alvo", "destino": "Leaping Slash" },
+        { "origem": "W – Névoa que deixa invisível", "destino": "Return to Shadows" },
+        { "origem": "Q – Kunais em cone", "destino": "Gloom Bombs" }
+      ]
+    },
+    "Elise": {
+      "heroi": 16,
+      "segunda": 63,
+      "motivo": "Caçadora que muda de forma e fica intocável na hora certa: a forma de aranha da Elise é o Ava do Calico, e o Rapel que a tira da luta vira o Return to Shadows. Para a criatura da noite com burst, a Mina é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Muda para a forma de aranha", "destino": "Ava" },
+        { "origem": "E (aranha) – Rapel que deixa intocável", "destino": "Return to Shadows" },
+        { "origem": "Q – Neurotoxina de burst", "destino": "Gloom Bombs" }
+      ]
+    },
+    "Kassadin": {
+      "heroi": 50,
+      "segunda": 16,
+      "motivo": "Mago que se teletransporta para cima do alvo e explode: o Salto Fenda do Kassadin vira o Flying Cloak do Pocket, e a Esfera Nula que protege de magia combina com o Enchanter's Satchel. Para entrar e sumir com burst, o Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Teletransporte até o alvo", "destino": "Flying Cloak" },
+        { "origem": "Q – Esfera que protege de magia", "destino": "Enchanter's Satchel" },
+        { "origem": "E – Pulso que desacelera", "destino": "Barrage" }
+      ]
+    },
+    "Katarina": {
+      "heroi": 13,
+      "segunda": 16,
+      "bonus": 18,
+      "motivo": "Assassina de reset que gira no meio do time inimigo: a Lótus da Morte da Katarina é o Bullet Dance da Haze, e a adaga arremessada vira a Sleep Dagger. Para entrar, explodir com as adagas e sumir, o Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Gira atacando todos por perto", "destino": "Bullet Dance" },
+        { "origem": "Q – Adaga arremessada", "destino": "Sleep Dagger" }
+      ]
+    },
+    "Locke": {
+      "heroi": 65,
+      "segunda": 19,
+      "motivo": "Exorcista com estacas que executa os feridos: a Estaca de Prata do Locke causa mais dano em quem já perdeu vida, como a estaca abençoada do Ira Domini do Venator, e o Purgatório prende e pode executar. Pelo W que fere a si mesmo e depois cura, o Shiv é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Mais dano em inimigos feridos", "destino": "Ira Domini" },
+        { "origem": "R – Prende e pode executar", "destino": "Hex-Lined Snap Trap" }
+      ]
+    },
+    "Naafiri": {
+      "heroi": 64,
+      "segunda": 84,
+      "motivo": "Caçadora de matilha que marca, sangra e persegue: as adagas da Naafiri fazem sangrar como o Stalker's Mark do Drifter, e a Caça dos Cães revela os inimigos por perto como o Bloodscent. Pela matilha que ataca junto, o enxame do Rat King é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Adagas que fazem sangrar", "destino": "Stalker's Mark" },
+        { "origem": "R – Caçada que revela os inimigos", "destino": "Bloodscent" },
+        { "origem": "E – Golpe em área ao redor", "destino": "Rend" }
+      ]
+    },
+    "Qiyana": {
+      "heroi": 77,
+      "segunda": 27,
+      "motivo": "Lâmina com finesse e muitos avanços: a Audácia da Qiyana avança no inimigo como o Flawless Advance do Apollo, e a onda de choque que atordoa vira o Itani Lo Sahn. Para golpes de espada carregados, a Yamato é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Avança no inimigo", "destino": "Flawless Advance" },
+        { "origem": "R – Onda de choque que atordoa", "destino": "Itani Lo Sahn" }
+      ]
+    },
+    "Shaco": {
+      "heroi": 60,
+      "segunda": 19,
+      "motivo": "O palhaço trapaceiro: o clone da Alucinação vira o Spectral Assistant do Sinclair, e as caixas que assustam combinam com os truques do mágico. Para o lado assassino de punhal e veneno, o Shiv é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Clone que confunde o inimigo", "destino": "Spectral Assistant" },
+        { "origem": "W – Caixas que incapacitam", "destino": "Rabbit Hex" }
+      ]
+    },
+    "Talon": {
+      "heroi": 19,
+      "segunda": 64,
+      "motivo": "Sangramento que acumula até o golpe final: a passiva do Talon é o Serrated Knives do Shiv, e o salto que finaliza vira o Killing Blow. Para caçar alvos isolados, o Drifter é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Sangramento que acumula", "destino": "Serrated Knives" },
+        { "origem": "Q – Salta no alvo e finaliza", "destino": "Killing Blow" },
+        { "origem": "E – Pula paredes", "destino": "Slice and Dice" }
+      ]
+    },
+    "Aurora": {
+      "heroi": 10,
+      "segunda": 81,
+      "motivo": "Maga que dobra o espaço entre mundos e controla a área: a ultimate da Aurora cria uma zona que desacelera e prende os inimigos, como a Pulse Grenade da Paradox, e o Feitiço Dúplice que volta lembra o Kinetic Carbine. Para burst mágico de longe, a Celeste é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Área que desacelera e prende", "destino": "Pulse Grenade" },
+        { "origem": "Q – Maldição que puxa de volta", "destino": "Kinetic Carbine" }
+      ]
+    },
+    "Syndra": {
+      "heroi": 81,
+      "segunda": 67,
+      "motivo": "Maga de burst que explode o alvo de longe: as esferas da Syndra explodem depois de um tempo como a Radiant Daggers da Celeste, e a ultimate que despeja tudo no alvo vira o Shining Wonder. Para jogar a Paige focada em dano, ela é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Esfera que explode depois de um tempo", "destino": "Radiant Daggers" },
+        { "origem": "R – Despeja todas as esferas no alvo", "destino": "Shining Wonder" }
       ]
     },
     "Poppy": {
