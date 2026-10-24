@@ -1,14 +1,13 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import Logo from './components/Logo.vue'
 </script>
 
 <template>
   <div class="flex min-h-screen flex-col">
     <header class="border-b border-borda/70">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <RouterLink to="/" class="font-display text-xl font-bold tracking-wide uppercase">
-          My Pick <span class="text-ouro">Deadlock</span>
-        </RouterLink>
+        <Logo />
         <span class="hidden text-sm text-suave sm:block">Do seu main ao herói certo</span>
       </div>
     </header>
