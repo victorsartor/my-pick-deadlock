@@ -565,6 +565,61 @@
    "nome": "Syndra",
    "nomeEn": "Syndra",
    "titulo": "a Soberana Sombria"
+  },
+  "Skarner": {
+   "nome": "Skarner",
+   "nomeEn": "Skarner",
+   "titulo": "o Soberano Primordial"
+  },
+  "KSante": {
+   "nome": "K'Sante",
+   "nomeEn": "K'Sante",
+   "titulo": "o Orgulho de Nazumah."
+  },
+  "Leona": {
+   "nome": "Leona",
+   "nomeEn": "Leona",
+   "titulo": "a Alvorada Radiante"
+  },
+  "Malphite": {
+   "nome": "Malphite",
+   "nomeEn": "Malphite",
+   "titulo": "o Fragmento do Monolito"
+  },
+  "Maokai": {
+   "nome": "Maokai",
+   "nomeEn": "Maokai",
+   "titulo": "o Ente Sinistro"
+  },
+  "Nautilus": {
+   "nome": "Nautilus",
+   "nomeEn": "Nautilus",
+   "titulo": "o Titã das Profundezas"
+  },
+  "Ornn": {
+   "nome": "Ornn",
+   "nomeEn": "Ornn",
+   "titulo": "O Fogo sob a Montanha"
+  },
+  "Rammus": {
+   "nome": "Rammus",
+   "nomeEn": "Rammus",
+   "titulo": "o Tatu Blindado"
+  },
+  "Sejuani": {
+   "nome": "Sejuani",
+   "nomeEn": "Sejuani",
+   "titulo": "a Fúria do Norte"
+  },
+  "Shen": {
+   "nome": "Shen",
+   "nomeEn": "Shen",
+   "titulo": "o Olho do Crepúsculo"
+  },
+  "Singed": {
+   "nome": "Singed",
+   "nomeEn": "Singed",
+   "titulo": "o Químico Louco"
   }
  }
 }
