@@ -754,13 +754,13 @@
       ]
     },
     "Katarina": {
-      "heroi": 13,
-      "segunda": 16,
-      "bonus": 18,
-      "motivo": "Assassina de reset que gira no meio do time inimigo: a Lótus da Morte da Katarina é o Bullet Dance da Haze, e a adaga arremessada vira a Sleep Dagger. Para entrar, explodir com as adagas e sumir, o Calico é a segunda opção.",
+      "heroi": 16,
+      "segunda": 13,
+      "motivo": "Assassina de burst que entra, explode o alvo com as adagas e sai: o Shunpo da Katarina vira o Leaping Slash do Calico, e as adagas que caem no chão e explodem viram as Gloom Bombs. Se você joga a Katarina com build AD de ataques, a Haze é a segunda opção: a Lótus da Morte, que gira atacando todos por perto, é o Bullet Dance.",
       "paralelos": [
-        { "origem": "R – Gira atacando todos por perto", "destino": "Bullet Dance" },
-        { "origem": "Q – Adaga arremessada", "destino": "Sleep Dagger" }
+        { "origem": "E – Shunpo até o alvo", "destino": "Leaping Slash" },
+        { "origem": "Q/W – Adagas que caem e explodem", "destino": "Gloom Bombs" },
+        { "origem": "Passiva – Abates resetam e ela some de novo", "destino": "Return to Shadows" }
       ]
     },
     "Locke": {
