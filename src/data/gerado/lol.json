@@ -408,6 +408,50 @@
   "Thresh": {
    "nome": "Thresh",
    "titulo": "o Guardião das Correntes"
+  },
+  "Akali": {
+   "nome": "Akali",
+   "titulo": "a Assassina Renegada"
+  },
+  "Elise": {
+   "nome": "Elise",
+   "titulo": "a Aranha Rainha"
+  },
+  "Kassadin": {
+   "nome": "Kassadin",
+   "titulo": "o Andarilho do Vazio"
+  },
+  "Katarina": {
+   "nome": "Katarina",
+   "titulo": "a Lâmina Sinistra"
+  },
+  "Locke": {
+   "nome": "Locke",
+   "titulo": "o Exorcista das Cinzas"
+  },
+  "Naafiri": {
+   "nome": "Naafiri",
+   "titulo": "Fera das Cem Mordidas"
+  },
+  "Qiyana": {
+   "nome": "Qiyana",
+   "titulo": "a Imperatriz dos Elementos"
+  },
+  "Shaco": {
+   "nome": "Shaco",
+   "titulo": "o Bufão Demoníaco"
+  },
+  "Talon": {
+   "nome": "Talon",
+   "titulo": "a Sombra da Lâmina"
+  },
+  "Aurora": {
+   "nome": "Aurora",
+   "titulo": "a Bruxa Entre Mundos"
+  },
+  "Syndra": {
+   "nome": "Syndra",
+   "titulo": "a Soberana Sombria"
   }
  }
 }
