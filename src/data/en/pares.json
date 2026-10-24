@@ -2,877 +2,1637 @@
   "Brand": {
     "motivo": "Both set everything on fire: the damage comes from stacking burns and the target melts over time. If what you like most is the ultimate that bounces between enemies, Celeste's Shining Wonder does the same with light.",
     "paralelos": [
-      { "origem": "Passive – Flames that stack and explode" },
-      { "origem": "W – Pillar of fire in an area" },
-      { "origem": "Q – Stuns burning targets" }
+      {
+        "origem": "Passive – Flames that stack and explode"
+      },
+      {
+        "origem": "W – Pillar of fire in an area"
+      },
+      {
+        "origem": "Q – Stuns burning targets"
+      }
     ]
   },
   "Kennen": {
     "motivo": "An electric mage who marks targets to stun them and has a storm as an ultimate that dominates team fights.",
     "paralelos": [
-      { "origem": "Passive – Marks that stun" },
-      { "origem": "R – Electric storm around him" },
-      { "origem": "W – Attacks that charge lightning" }
+      {
+        "origem": "Passive – Marks that stun"
+      },
+      {
+        "origem": "R – Electric storm around him"
+      },
+      {
+        "origem": "W – Attacks that charge lightning"
+      }
     ]
   },
   "Caitlyn": {
     "motivo": "A maximum-range sniper. The ultimate is a long-distance execution shot and she controls the area with traps.",
     "paralelos": [
-      { "origem": "R – Long-range execution shot" },
-      { "origem": "W – Traps that root" },
-      { "origem": "Passive – Headshot", "destino": "Weapon headshot damage" }
+      {
+        "origem": "R – Long-range execution shot"
+      },
+      {
+        "origem": "W – Traps that root"
+      },
+      {
+        "origem": "Passive – Headshot",
+        "destino": "Weapon headshot damage"
+      }
     ]
   },
   "Vladimir": {
     "motivo": "Spends his own health to cast abilities and recovers by draining the enemy. The same blood mage fantasy.",
     "paralelos": [
-      { "origem": "Q – Drains the target's health" },
-      { "origem": "E – Costs health to deal damage" },
-      { "origem": "R – Increases the damage the target takes" }
+      {
+        "origem": "Q – Drains the target's health"
+      },
+      {
+        "origem": "E – Costs health to deal damage"
+      },
+      {
+        "origem": "R – Increases the damage the target takes"
+      }
     ]
   },
   "Sett": {
     "motivo": "The boss of the brawl, fists first: Sett pulls enemies in from both sides with Facebreaker, like Billy's Chain Gang, and grabs the target to take them along in the air like Rising Ram. The alternating punches of his passive become Blasted's hits. To soak damage and start fights with a charge, Abrams is the second pick.",
     "paralelos": [
-      { "origem": "E – Pulls enemies in from both sides" },
-      { "origem": "R – Grabs the target and leaps with them" },
-      { "origem": "Passive – Alternating punches" }
+      {
+        "origem": "E – Pulls enemies in from both sides"
+      },
+      {
+        "origem": "R – Grabs the target and leaps with them"
+      },
+      {
+        "origem": "Passive – Alternating punches"
+      }
     ]
   },
   "TwistedFate": {
     "motivo": "Literally cards and teleportation. Wraith picks the fight and shows up where nobody expects.",
     "paralelos": [
-      { "origem": "W – Picks a card with an effect" },
-      { "origem": "R – Teleports across the map" },
-      { "origem": "E – Attacks stack a bonus" }
+      {
+        "origem": "W – Picks a card with an effect"
+      },
+      {
+        "origem": "R – Teleports across the map"
+      },
+      {
+        "origem": "E – Attacks stack a bonus"
+      }
     ]
   },
   "Heimerdinger": {
     "motivo": "A turret inventor who turns an area into a kill zone and still launches rockets.",
     "paralelos": [
-      { "origem": "Q – Turrets" },
-      { "origem": "W – Rocket salvo" },
-      { "origem": "Area control with structures" }
+      {
+        "origem": "Q – Turrets"
+      },
+      {
+        "origem": "W – Rocket salvo"
+      },
+      {
+        "origem": "Area control with structures"
+      }
     ]
   },
   "Ekko": {
     "motivo": "Manipulates time to win duels and creates zones that freeze the enemy.",
     "paralelos": [
-      { "origem": "W – Zone that stuns" },
-      { "origem": "R – Rewinds time" },
-      { "origem": "Passive – Third hit speeds him up" }
+      {
+        "origem": "W – Zone that stuns"
+      },
+      {
+        "origem": "R – Rewinds time"
+      },
+      {
+        "origem": "Passive – Third hit speeds him up"
+      }
     ]
   },
   "Galio": {
     "motivo": "An initiator who pulls the enemy team toward himself and takes allies along. Singularity has the same impact as an area taunt.",
     "paralelos": [
-      { "origem": "W – Taunts and pins enemies around him" },
-      { "origem": "R – Flies to allies" },
-      { "origem": "E – Launches enemies into the air" }
+      {
+        "origem": "W – Taunts and pins enemies around him"
+      },
+      {
+        "origem": "R – Flies to allies"
+      },
+      {
+        "origem": "E – Launches enemies into the air"
+      }
     ]
   },
   "Braum": {
     "motivo": "An ice protector: he slows, shields allies with a barrier and blocks the enemy's advance.",
     "paralelos": [
-      { "origem": "E – Shield that blocks projectiles" },
-      { "origem": "R – Ice trail that slows" },
-      { "origem": "W – Jumps to allies", "destino": "Ice Path (team mobility)" }
+      {
+        "origem": "E – Shield that blocks projectiles"
+      },
+      {
+        "origem": "R – Ice trail that slows"
+      },
+      {
+        "origem": "W – Jumps to allies",
+        "destino": "Ice Path (team mobility)"
+      }
     ]
   },
   "Twitch": {
     "motivo": "The backline rat: shows up by surprise behind the enemy team, deals area damage and vanishes before the retaliation. If you play Twitch for the shooting DPS, Haze is the second pick.",
     "paralelos": [
-      { "origem": "Q – Invisible until the ambush" },
-      { "origem": "W – Poison barrel that slows" },
-      { "origem": "Passive – Poison that stacks damage" }
+      {
+        "origem": "Q – Invisible until the ambush"
+      },
+      {
+        "origem": "W – Poison barrel that slows"
+      },
+      {
+        "origem": "Passive – Poison that stacks damage"
+      }
     ]
   },
   "Samira": {
     "motivo": "An aggressive shooter who dives into the middle of the fight and unleashes a burst of bullets without ever stopping. Samira's ultimate fires all around; Haze's Bullet Dance fires at whoever is in front, but the feeling of gunning while moving is the same.",
     "paralelos": [
-      { "origem": "R – Burst of shots while moving" },
-      { "origem": "Passive – Style builds with every hit" }
+      {
+        "origem": "R – Burst of shots while moving"
+      },
+      {
+        "origem": "Passive – Style builds with every hit"
+      }
     ]
   },
   "MissFortune": {
     "motivo": "A trick gunslinger: ricocheting shots, a bonus on the first hit and area damage from range.",
     "paralelos": [
-      { "origem": "Q – Ricocheting shot" },
-      { "origem": "E – Area that slows" },
-      { "origem": "W – Movement speed" }
+      {
+        "origem": "Q – Ricocheting shot"
+      },
+      {
+        "origem": "E – Area that slows"
+      },
+      {
+        "origem": "W – Movement speed"
+      }
     ]
   },
   "Blitzcrank": {
     "motivo": "The hook robot. Pulls, pops up with a punch and blows the target up. The combo is practically the same.",
     "paralelos": [
-      { "origem": "Q – Hook" },
-      { "origem": "E – Punch that knocks up" },
-      { "origem": "R – Electric blast" }
+      {
+        "origem": "Q – Hook"
+      },
+      {
+        "origem": "E – Punch that knocks up"
+      },
+      {
+        "origem": "R – Electric blast"
+      }
     ]
   },
   "Rengar": {
     "motivo": "A hunting feline: vanishes from the map, gains speed, leaps at the target and bursts them.",
     "paralelos": [
-      { "origem": "R – Invisible and faster toward the target" },
-      { "origem": "Passive – Leap from the bush" },
-      { "origem": "Burst damage on one target" }
+      {
+        "origem": "R – Invisible and faster toward the target"
+      },
+      {
+        "origem": "Passive – Leap from the bush"
+      },
+      {
+        "origem": "Burst damage on one target"
+      }
     ]
   },
   "Ashe": {
     "motivo": "A long-range archer with a global arrow that stuns. Grey Talon steers an owl that plays the same role.",
     "paralelos": [
-      { "origem": "R – Arrow that stuns from afar" },
-      { "origem": "E – Vision hawk", "destino": "Spirit Snare (lane control)" },
-      { "origem": "Q – Volley of arrows" }
+      {
+        "origem": "R – Arrow that stuns from afar"
+      },
+      {
+        "origem": "E – Vision hawk",
+        "destino": "Spirit Snare (lane control)"
+      },
+      {
+        "origem": "Q – Volley of arrows"
+      }
     ]
   },
   "RekSai": {
     "motivo": "Digs underground, bursts out in the middle of the enemy and knocks them up. Mo & Krill lives on underground ambushes.",
     "paralelos": [
-      { "origem": "W – Burrow and emerge knocking up" },
-      { "origem": "R – Dive on a marked target" },
-      { "origem": "Passive – Fury that heals" }
+      {
+        "origem": "W – Burrow and emerge knocking up"
+      },
+      {
+        "origem": "R – Dive on a marked target"
+      },
+      {
+        "origem": "Passive – Fury that heals"
+      }
     ]
   },
   "Darius": {
     "motivo": "Bleed that stacks and an execution that resets. Shiv plays with the same idea.",
     "paralelos": [
-      { "origem": "Passive – Stacking hemorrhage" },
-      { "origem": "R – Execution with a reset" },
-      { "origem": "Q – Heals on hit" }
+      {
+        "origem": "Passive – Stacking hemorrhage"
+      },
+      {
+        "origem": "R – Execution with a reset"
+      },
+      {
+        "origem": "Q – Heals on hit"
+      }
     ]
   },
   "Kalista": {
     "motivo": "A kiting shooter who never stops moving while shooting and stacks damage on the target until blowing it up all at once: Rend's spears become Love Bites' bites. To stack marks with shots and detonate the target, Mirage's Djinn's Mark is the second pick.",
     "paralelos": [
-      { "origem": "E – Spears stack and explode" },
-      { "origem": "Passive – Hops while attacking" }
+      {
+        "origem": "E – Spears stack and explode"
+      },
+      {
+        "origem": "Passive – Hops while attacking"
+      }
     ]
   },
   "Mordekaiser": {
     "motivo": "A front-line fighter with a barrier and healing in the middle of the fight, who isolates the target for a duel.",
     "paralelos": [
-      { "origem": "W – Shield from damage" },
-      { "origem": "R – Isolates the target" },
-      { "origem": "Passive – Aura that hurts everyone around" }
+      {
+        "origem": "W – Shield from damage"
+      },
+      {
+        "origem": "R – Isolates the target"
+      },
+      {
+        "origem": "Passive – Aura that hurts everyone around"
+      }
     ]
   },
   "Pyke": {
     "motivo": "An assassin who lives for executions: Pyke finishes anyone low on health and the execution resets for the next target, like Shiv's Killing Blow. Both also delay incoming damage to survive the trades.",
     "paralelos": [
-      { "origem": "R – Executes low-health targets and resets" },
-      { "origem": "Passive – Damage taken comes back as health" },
-      { "origem": "E – Dashes through enemies and stuns" }
+      {
+        "origem": "R – Executes low-health targets and resets"
+      },
+      {
+        "origem": "Passive – Damage taken comes back as health"
+      },
+      {
+        "origem": "E – Dashes through enemies and stuns"
+      }
     ]
   },
   "Trundle": {
     "motivo": "A stat thief who settles things with his fists. On Baba's melee build, Threadsap steals the enemy's spirit and the bench's legs deal out kicks and stomps, just like Trundle's Q and R steal strength from the target while he hits. The kits are different, but the feeling of growing stronger by draining the enemy is the same.",
     "paralelos": [
-      { "origem": "R – Steals the target's resistances and health" },
-      { "origem": "Q – Bite that steals damage and slows" },
-      { "origem": "W – Area that empowers Trundle" }
+      {
+        "origem": "R – Steals the target's resistances and health"
+      },
+      {
+        "origem": "Q – Bite that steals damage and slows"
+      },
+      {
+        "origem": "W – Area that empowers Trundle"
+      }
     ]
   },
   "Hwei": {
     "motivo": "Painters! Hwei and Violet fight with brush and ink: they control the map from range, pin enemies with their paintings and turn the area into a trap. For more of a support and spellbook side, Paige is the second pick.",
     "paralelos": [
-      { "origem": "R – Area that slows and then explodes" },
-      { "origem": "E – Paintings that pin and frighten" },
-      { "origem": "W – Brush zones for the team" }
+      {
+        "origem": "R – Area that slows and then explodes"
+      },
+      {
+        "origem": "E – Paintings that pin and frighten"
+      },
+      {
+        "origem": "W – Brush zones for the team"
+      }
     ]
   },
   "Ziggs": {
     "motivo": "An explosives specialist who bombards from afar: Ziggs' minefield becomes Danny's Strix Salvo, missiles that stay on the ground and explode when someone walks by. Both also launch themselves with their own explosions. For pulsing grenades that control the area, Paradox is the second pick.",
     "paralelos": [
-      { "origem": "E – Minefield" },
-      { "origem": "W – Blast that throws you backward" }
+      {
+        "origem": "E – Minefield"
+      },
+      {
+        "origem": "W – Blast that throws you backward"
+      }
     ]
   },
   "Jhin": {
     "motivo": "A precision shooter who plays from range and punishes with heavy shots: Jhin's ultimate is a sniper rifle, like Vindicta's Assassinate. For charged shots and traps, Grey Talon is the second pick.",
     "paralelos": [
-      { "origem": "R – Long-range sniper shots" },
-      { "origem": "W – Long shot that roots the target" }
+      {
+        "origem": "R – Long-range sniper shots"
+      },
+      {
+        "origem": "W – Long shot that roots the target"
+      }
     ]
   },
   "Khazix": {
     "motivo": "A hunter who punishes anyone alone: Kha'Zix deals extra damage to isolated targets, and Drifter's Eternal Night blinds the enemy team and leaves victims isolated. To slip in and out of the shadows with more burst, Calico is the second pick.",
     "paralelos": [
-      { "origem": "Q – Extra damage on an isolated target" },
-      { "origem": "E – Leaps on top of the target" },
-      { "origem": "R – Turns invisible to hunt" }
+      {
+        "origem": "Q – Extra damage on an isolated target"
+      },
+      {
+        "origem": "E – Leaps on top of the target"
+      },
+      {
+        "origem": "R – Turns invisible to hunt"
+      }
     ]
   },
   "Leblanc": {
     "motivo": "An illusionist who fools the enemy and copies abilities: LeBlanc's Mimic repeats her last spell, and Sinclair's Audience Participation copies the opponent's ultimate. Both also confuse with clones. For the assassin side that dives in and vanishes, Calico is the second pick.",
     "paralelos": [
-      { "origem": "R – Repeats an ability" },
-      { "origem": "Passive – Clone that confuses the enemy" },
-      { "origem": "Q – Mark that explodes on the next hit" }
+      {
+        "origem": "R – Repeats an ability"
+      },
+      {
+        "origem": "Passive – Clone that confuses the enemy"
+      },
+      {
+        "origem": "Q – Mark that explodes on the next hit"
+      }
     ]
   },
   "MasterYi": {
     "motivo": "A swordsman who cuts down everything and resets on kills: Master Yi dives untouchable into the middle of the fight, and Yamato leaps to the target with Flying Slash and has an ultimate that speeds her up and resets abilities. To hunt lone targets, Drifter is the second pick.",
     "paralelos": [
-      { "origem": "Q – Untouchable lightning strike" },
-      { "origem": "R – Gets faster and resets on kills" },
-      { "origem": "E – Stronger sword strikes" }
+      {
+        "origem": "Q – Untouchable lightning strike"
+      },
+      {
+        "origem": "R – Gets faster and resets on kills"
+      },
+      {
+        "origem": "E – Stronger sword strikes"
+      }
     ]
   },
   "Kled": {
     "motivo": "A stubborn little fellow who leads the charge: Kled's charge speeds up the allies following behind, like the banner of Ratannia from Rat King, and Skaarl works like the scrap armor that soaks damage. To pull and chain enemies like the beartrap on a rope, Billy is the second pick.",
     "paralelos": [
-      { "origem": "R – Charge that speeds up allies" },
-      { "origem": "Passive – Skaarl as extra health" }
+      {
+        "origem": "R – Charge that speeds up allies"
+      },
+      {
+        "origem": "Passive – Skaarl as extra health"
+      }
     ]
   },
   "Nunu": {
     "motivo": "A duo that arrives rolling and pins the enemy: Nunu & Willump's snowball makes the gank that Mo & Krill makes from underground, and both heal by biting and hold the target with a channel. For the ice theme, Kelvin is the second pick.",
     "paralelos": [
-      { "origem": "W – Snowball that rolls to the enemy" },
-      { "origem": "Q – Bites and heals" },
-      { "origem": "R – Channels and pins the enemies" }
+      {
+        "origem": "W – Snowball that rolls to the enemy"
+      },
+      {
+        "origem": "Q – Bites and heals"
+      },
+      {
+        "origem": "R – Channels and pins the enemies"
+      }
     ]
   },
   "Seraphine": {
     "motivo": "A support who protects the team from range and changes the fight with a wave: Seraphine shields and heals allies like Paige's Plot Armor, and both have waves that cross the field. For a support closer to the fight, Kelvin is the second pick.",
     "paralelos": [
-      { "origem": "W – Shield and heal for allies" },
-      { "origem": "E – Wave that slows and roots" },
-      { "origem": "R – Long wave that charms" }
+      {
+        "origem": "W – Shield and heal for allies"
+      },
+      {
+        "origem": "E – Wave that slows and roots"
+      },
+      {
+        "origem": "R – Long wave that charms"
+      }
     ]
   },
   "Nami": {
     "motivo": "A support who empowers the carry and turns the fight with a wave: Nami's blessing gives allies' attacks extra damage like Paige's Plot Armor, and Tidal Wave becomes the charge of knights that sweeps the map. To start fights, Dynamo is the second pick.",
     "paralelos": [
-      { "origem": "E – Empowers the ally's attacks" },
-      { "origem": "R – Giant wave that crosses the map" },
-      { "origem": "Q – Bubble that pins after a delay" }
+      {
+        "origem": "E – Empowers the ally's attacks"
+      },
+      {
+        "origem": "R – Giant wave that crosses the map"
+      },
+      {
+        "origem": "Q – Bubble that pins after a delay"
+      }
     ]
   },
   "Teemo": {
     "motivo": "Runs around the map leaving the enemy burning: Teemo's poison on his attacks becomes Infernus' Afterburn, and Teemo's sprint becomes Flame Dash. For those who love the mushrooms, Grey Talon's traps are the second pick.",
     "paralelos": [
-      { "origem": "E – Attacks poison over time" },
-      { "origem": "W – Quick sprint" }
+      {
+        "origem": "E – Attacks poison over time"
+      },
+      {
+        "origem": "W – Quick sprint"
+      }
     ]
   },
   "Camille": {
     "motivo": "A hook fighter who flies to the target and won't let them escape: Camille's Hookshot becomes Lash's Grapple, and the ultimate that isolates the enemy becomes Death Slam. For sword duels, Yamato is the second pick.",
     "paralelos": [
-      { "origem": "E – Hook on a wall and leap to the target" },
-      { "origem": "R – Leaps and pins the target" },
-      { "origem": "W – Cone strike that heals" }
+      {
+        "origem": "E – Hook on a wall and leap to the target"
+      },
+      {
+        "origem": "R – Leaps and pins the target"
+      },
+      {
+        "origem": "W – Cone strike that heals"
+      }
     ]
   },
   "Lissandra": {
     "motivo": "A mage who dives in, bursts and protects herself at the right time: Lissandra's Glacial Path is thrown and she teleports to it, like Pocket's Flying Cloak, and Frozen Tomb makes her untouchable like the suitcase of Enchanter's Satchel. For the burst control mage style, Celeste is the second pick.",
     "paralelos": [
-      { "origem": "E – Claw thrown to teleport to" },
-      { "origem": "R – Freezes herself and becomes untouchable" },
-      { "origem": "W – Ring that pins anyone close" }
+      {
+        "origem": "E – Claw thrown to teleport to"
+      },
+      {
+        "origem": "R – Freezes herself and becomes untouchable"
+      },
+      {
+        "origem": "W – Ring that pins anyone close"
+      }
     ]
   },
   "Jinx": {
     "motivo": "A shooter who lives on fire rate: Jinx's minigun speeds up with every shot, like Wraith's Full Auto, and both become damage machines once the fight kicks off.",
     "paralelos": [
-      { "origem": "Q – Minigun that speeds up" },
-      { "origem": "W – Zap that slows from afar" }
+      {
+        "origem": "Q – Minigun that speeds up"
+      },
+      {
+        "origem": "W – Zap that slows from afar"
+      }
     ]
   },
   "Ezreal": {
     "motivo": "A shooter of teleports and ability shots: Ezreal's Arcane Shift is Wraith's Project Mind, and the Mystic Shot that applies effects becomes the cards of Card Trick. For those who play Ezreal for the long-range ability shots, Seven is the second pick.",
     "paralelos": [
-      { "origem": "E – Short teleport" },
-      { "origem": "Q – Shot that applies on-hit effects" }
+      {
+        "origem": "E – Short teleport"
+      },
+      {
+        "origem": "Q – Shot that applies on-hit effects"
+      }
     ]
   },
   "Chogath": {
     "motivo": "A monster that devours the enemy and grows bigger forever: Cho'Gath's Feast is Mo & Krill's Combo, which pins the target and grants permanent max health on every kill. The Rupture that comes out of the ground becomes Burrow. For a tank who takes everything and hurts whoever is nearby, Victor is the second pick.",
     "paralelos": [
-      { "origem": "R – Devours the target and grows forever" },
-      { "origem": "Q – Rupture that bursts out of the ground" },
-      { "origem": "W – Scream that silences" }
+      {
+        "origem": "R – Devours the target and grows forever"
+      },
+      {
+        "origem": "Q – Rupture that bursts out of the ground"
+      },
+      {
+        "origem": "W – Scream that silences"
+      }
     ]
   },
   "Varus": {
     "motivo": "A long-range archer with a charged arrow: Varus' Q is Grey Talon's Charged Shot, and the chain that roots becomes Spirit Snare. For sniper-style charged shots, Vindicta is the second pick.",
     "paralelos": [
-      { "origem": "Q – Charged arrow from afar" },
-      { "origem": "E – Rain of arrows" },
-      { "origem": "R – Chain that roots" }
+      {
+        "origem": "Q – Charged arrow from afar"
+      },
+      {
+        "origem": "E – Rain of arrows"
+      },
+      {
+        "origem": "R – Chain that roots"
+      }
     ]
   },
   "Rell": {
     "motivo": "A control support who pulls the enemy team close: Rell's Magnet Storm drags everyone around her like Billy's Chain Gang, and the mounted crash lifts enemies like Bashdown. For the ultimate that pulls and pins, Dynamo is the second pick.",
     "paralelos": [
-      { "origem": "R – Storm that pulls everyone around" },
-      { "origem": "W – Crashes down and launches enemies upward" },
-      { "origem": "E – Charge alongside an ally" }
+      {
+        "origem": "R – Storm that pulls everyone around"
+      },
+      {
+        "origem": "W – Crashes down and launches enemies upward"
+      },
+      {
+        "origem": "E – Charge alongside an ally"
+      }
     ]
   },
   "TahmKench": {
     "motivo": "Protects the ally by swallowing them: Tahm Kench's Devour keeps the ally safe like Viscous's The Cube, and both take lots of damage and slow enemies. For a protector with healing and a dome, Kelvin is the second pick.",
     "paralelos": [
-      { "origem": "W – Swallows the ally to protect them" },
-      { "origem": "Q – Tongue that slows" },
-      { "origem": "E – Dive that launches enemies" }
+      {
+        "origem": "W – Swallows the ally to protect them"
+      },
+      {
+        "origem": "Q – Tongue that slows"
+      },
+      {
+        "origem": "E – Dive that launches enemies"
+      }
     ]
   },
   "Sion": {
     "motivo": "An undead who doesn't stop even after dying: Sion's passive makes him get back up and keep fighting, like Victor's Shocking Reanimation, and both take an absurd amount of damage. For the unstoppable charge, Abrams is the second pick.",
     "paralelos": [
-      { "origem": "Passive – Returns from death to fight" },
-      { "origem": "W – Shield that explodes afterward" }
+      {
+        "origem": "Passive – Returns from death to fight"
+      },
+      {
+        "origem": "W – Shield that explodes afterward"
+      }
     ]
   },
   "Swain": {
     "motivo": "A commander who drains everyone around him to stay alive: Swain's ultimate drains and heals like Warden's Last Stand, and Nevermove roots the enemy like Binding Word. To take damage and hurt anyone nearby, Victor is the second pick.",
     "paralelos": [
-      { "origem": "R – Drains everyone around and heals" },
-      { "origem": "E – Roots the enemy" }
+      {
+        "origem": "R – Drains everyone around and heals"
+      },
+      {
+        "origem": "E – Roots the enemy"
+      }
     ]
   },
   "Janna": {
     "motivo": "A support who protects and empowers the carry: Janna's shield gives the ally extra damage like Paige's Plot Armor, and Monsoon heals the team like Rallying Charge. For a support glued to the ally, Rem is the second pick.",
     "paralelos": [
-      { "origem": "E – Shield that gives the ally extra damage" },
-      { "origem": "R – Heals the team and pushes enemies back" },
-      { "origem": "Q – Tornado in a line that launches" }
+      {
+        "origem": "E – Shield that gives the ally extra damage"
+      },
+      {
+        "origem": "R – Heals the team and pushes enemies back"
+      },
+      {
+        "origem": "Q – Tornado in a line that launches"
+      }
     ]
   },
   "Gragas": {
     "motivo": "A jolly tank who rolls onto the enemy: Gragas' Body Slam becomes Viscous's Goo Ball, and the thrown barrel becomes Splatter. For those who like to start fights by surprise, Mo & Krill is the second pick.",
     "paralelos": [
-      { "origem": "E – Belly charge that stuns" },
-      { "origem": "Q – Thrown barrel that slows" },
-      { "origem": "R – Explosive barrel that launches" }
+      {
+        "origem": "E – Belly charge that stuns"
+      },
+      {
+        "origem": "Q – Thrown barrel that slows"
+      },
+      {
+        "origem": "R – Explosive barrel that launches"
+      }
     ]
   },
   "Annie": {
     "motivo": "A burst mage who stuns and burns the area: Annie's passive stuns after a few spells like Seven's Static Charge, and Tibbers becomes the Storm Cloud that hurts everyone around. For the dive-in-and-explode side, Calico is the second pick.",
     "paralelos": [
-      { "origem": "Passive – Stuns after a few spells" },
-      { "origem": "R – Summons Tibbers in an area" },
-      { "origem": "Q – Fireball" }
+      {
+        "origem": "Passive – Stuns after a few spells"
+      },
+      {
+        "origem": "R – Summons Tibbers in an area"
+      },
+      {
+        "origem": "Q – Fireball"
+      }
     ]
   },
   "Aatrox": {
     "motivo": "A brawler who hits hard on the ground and drags back anyone who tries to flee: the Darkin Blade strikes launch enemies upward like Billy's Bashdown, and the Infernal Chains pull the target back like Chain Gang. For charged sword strikes and the transformation, Yamato is the second pick.",
     "paralelos": [
-      { "origem": "Q – Heavy strikes that launch upward" },
-      { "origem": "W – Chains that pull the enemy back" },
-      { "origem": "E – Short dash before the strike" }
+      {
+        "origem": "Q – Heavy strikes that launch upward"
+      },
+      {
+        "origem": "W – Chains that pull the enemy back"
+      },
+      {
+        "origem": "E – Short dash before the strike"
+      }
     ]
   },
   "Ambessa": {
     "motivo": "A fighter who dashes with every ability and lands on top of the target: Ambessa's dashes become Calico's Leaping Slash, and Public Execution, which vanishes and reappears on the enemy, becomes Return to Shadows. For a tankier side, Abrams is the second pick.",
     "paralelos": [
-      { "origem": "Passive – Dashes with every ability" },
-      { "origem": "R – Vanishes and reappears on the target" }
+      {
+        "origem": "Passive – Dashes with every ability"
+      },
+      {
+        "origem": "R – Vanishes and reappears on the target"
+      }
     ]
   },
   "Amumu": {
     "motivo": "A tank who hurts everyone nearby and pins the enemy team: Amumu's Despair is Victor's Aura of Suffering, and the Curse of the Sad Mummy stuns all around like Shocking Reanimation. For the area ultimate that turns fights around, Dynamo is the second pick.",
     "paralelos": [
-      { "origem": "W – Aura that hurts anyone nearby" },
-      { "origem": "R – Stuns everyone around" }
+      {
+        "origem": "W – Aura that hurts anyone nearby"
+      },
+      {
+        "origem": "R – Stuns everyone around"
+      }
     ]
   },
   "Evelynn": {
     "motivo": "A hunter who stacks damage until the final bite and disappears afterward: Evelynn's Allure prepares a strong strike like Mina's Love Bites, and the ultimate that makes her untouchable becomes Sanguine Retreat. For hidden ambushes, Calico is the second pick.",
     "paralelos": [
-      { "origem": "W – Charms and prepares a strong strike" },
-      { "origem": "R – Becomes untouchable and retreats" },
-      { "origem": "E – Whip on the target" }
+      {
+        "origem": "W – Charms and prepares a strong strike"
+      },
+      {
+        "origem": "R – Becomes untouchable and retreats"
+      },
+      {
+        "origem": "E – Whip on the target"
+      }
     ]
   },
   "Fiddlesticks": {
     "motivo": "A haunting that drains the enemies' life to sustain itself: Fiddlesticks' Bountiful Harvest is Lady Geist's Life Drain, and the fear that leaves the target vulnerable becomes Malice.",
     "paralelos": [
-      { "origem": "W – Drains health from enemies nearby" },
-      { "origem": "Q – Fear that leaves the target vulnerable" }
+      {
+        "origem": "W – Drains health from enemies nearby"
+      },
+      {
+        "origem": "Q – Fear that leaves the target vulnerable"
+      }
     ]
   },
   "Rumble": {
     "motivo": "A machine pilot who heats up and burns everything: Rumble's flamethrower becomes Danny's Jettison Fuel, the ultimate of rockets in a line becomes Strix Salvo, and both manage the machine's heat so it doesn't overheat.",
     "paralelos": [
-      { "origem": "Q – Flamethrower" },
-      { "origem": "R – Rockets in a line that burn the ground" },
-      { "origem": "Passive – Heat that overheats" }
+      {
+        "origem": "Q – Flamethrower"
+      },
+      {
+        "origem": "R – Rockets in a line that burn the ground"
+      },
+      {
+        "origem": "Passive – Heat that overheats"
+      }
     ]
   },
   "Riven": {
     "motivo": "A combo swordswoman with back-to-back dashes: Riven's Broken Wings become Yamato's Flying Slash, and the Blade of the Exile empowers everything like Shadow Transformation. To hunt isolated targets, Drifter is the second pick.",
     "paralelos": [
-      { "origem": "Q – Three dashes with strikes" },
-      { "origem": "R – Empowers the sword for the all-in" },
-      { "origem": "W – Burst that stuns all around" }
+      {
+        "origem": "Q – Three dashes with strikes"
+      },
+      {
+        "origem": "R – Empowers the sword for the all-in"
+      },
+      {
+        "origem": "W – Burst that stuns all around"
+      }
     ]
   },
   "Renekton": {
     "motivo": "A brawler who dashes, heals by hitting and grows in the ultimate: Renekton's Slice and Dice becomes Abrams' Shoulder Charge, the healing Q becomes Siphon Life and the transformation becomes Infernal Resilience. To dash in and land on top, Lash is the second pick.",
     "paralelos": [
-      { "origem": "E – Dash through enemies" },
-      { "origem": "Q – Area strike that heals" },
-      { "origem": "R – Grows and becomes sturdier" }
+      {
+        "origem": "E – Dash through enemies"
+      },
+      {
+        "origem": "Q – Area strike that heals"
+      },
+      {
+        "origem": "R – Grows and becomes sturdier"
+      }
     ]
   },
   "Nidalee": {
     "motivo": "A magic-damage assassin who turns into a feline to pounce on the target: Nidalee's transformation is Calico's Ava, and the Pounce becomes Leaping Slash. The long-range spear opens the combo like Gloom Bombs. For the agile shooter side, Mina is the second pick.",
     "paralelos": [
-      { "origem": "R – Turns into a feline" },
-      { "origem": "W (feline) – Pounce on the target" },
-      { "origem": "Q – Long-range spear" }
+      {
+        "origem": "R – Turns into a feline"
+      },
+      {
+        "origem": "W (feline) – Pounce on the target"
+      },
+      {
+        "origem": "Q – Long-range spear"
+      }
     ]
   },
   "Volibear": {
     "motivo": "The storm bear: Volibear's attacks release chain lightning like Seven's Power Surge, the lightning that strikes from the sky becomes Static Charge and the ultimate becomes Storm Cloud. For the tank side that leaps into the middle of the fight, Abrams is the second pick.",
     "paralelos": [
-      { "origem": "Passive – Attacks with chain lightning" },
-      { "origem": "E – Lightning that strikes from the sky" },
-      { "origem": "R – Leaps, turning into a storm" }
+      {
+        "origem": "Passive – Attacks with chain lightning"
+      },
+      {
+        "origem": "E – Lightning that strikes from the sky"
+      },
+      {
+        "origem": "R – Leaps, turning into a storm"
+      }
     ]
   },
   "Viego": {
     "motivo": "A swordsman who transforms and resets the fight on every kill: Viego's possession becomes Yamato's Shadow Transformation, and Heartbreaker, which dashes to the target, becomes Flying Slash. To hunt isolated targets, Drifter is the second pick.",
     "paralelos": [
-      { "origem": "Passive – Possesses the slain enemy" },
-      { "origem": "R – Dashes and finishes the target" },
-      { "origem": "Q – Sword strike" }
+      {
+        "origem": "Passive – Possesses the slain enemy"
+      },
+      {
+        "origem": "R – Dashes and finishes the target"
+      },
+      {
+        "origem": "Q – Sword strike"
+      }
     ]
   },
   "Vi": {
     "motivo": "A brawler who charges in headfirst and launches the target: Vi's Vault Breaker becomes Billy's Rising Ram, the ultimate that lifts the enemy becomes Bashdown, and the punches that break armor become Blasted. To soak damage up front, Abrams is the second pick.",
     "paralelos": [
-      { "origem": "Q – Charged rush" },
-      { "origem": "R – Dashes at the target and launches upward" },
-      { "origem": "W – Punches that break armor" }
+      {
+        "origem": "Q – Charged rush"
+      },
+      {
+        "origem": "R – Dashes at the target and launches upward"
+      },
+      {
+        "origem": "W – Punches that break armor"
+      }
     ]
   },
   "Velkoz": {
     "motivo": "The laser mage: Vel'Koz's ultimate is a channeled beam like Bebop's Hyper Beam, and Tectonic Disruption lifts enemies like Exploding Uppercut. For a control and tricks mage, Sinclair is the second pick.",
     "paralelos": [
-      { "origem": "R – Channeled beam" },
-      { "origem": "E – Rupture that launches upward" },
-      { "origem": "Q – Projectile that splits" }
+      {
+        "origem": "R – Channeled beam"
+      },
+      {
+        "origem": "E – Rupture that launches upward"
+      },
+      {
+        "origem": "Q – Projectile that splits"
+      }
     ]
   },
   "Kayn": {
     "motivo": "A hunter who passes through and executes: Kayn's Umbral Trespass enters the target and finishes like Shiv's Killing Blow, and Reaping Slash becomes Slice and Dice. To hunt through the shadows, Drifter is the second pick.",
     "paralelos": [
-      { "origem": "R – Enters the target and finishes" },
-      { "origem": "Q – Dash that cuts" }
+      {
+        "origem": "R – Enters the target and finishes"
+      },
+      {
+        "origem": "Q – Dash that cuts"
+      }
     ]
   },
   "Zilean": {
     "motivo": "A support who controls the rhythm of the fight and saves the ally at the right time: Zilean's Time Bomb becomes Kelvin's Frost Grenade, Time Warp speeds up allies and slows enemies like Ice Path, and Chronoshift protects the ally like Frozen Shelter. For the support side that heals and shields, Paige is the second pick.",
     "paralelos": [
-      { "origem": "Q – Thrown bomb that explodes" },
-      { "origem": "E – Speeds up allies and slows enemies" },
-      { "origem": "R – Protects the ally from dying" }
+      {
+        "origem": "Q – Thrown bomb that explodes"
+      },
+      {
+        "origem": "E – Speeds up allies and slows enemies"
+      },
+      {
+        "origem": "R – Protects the ally from dying"
+      }
     ]
   },
   "Xerath": {
     "motivo": "An electric artillery mage who plays from very far away: Xerath's Arcanopulse becomes Seven's Lightning Ball, the orb that stuns becomes Static Charge and the channeled ultimate becomes Storm Cloud. For control at a distance, Paradox is the second pick.",
     "paralelos": [
-      { "origem": "Q – Beam in a line" },
-      { "origem": "E – Orb that stuns" },
-      { "origem": "R – Channeled bombardment" }
+      {
+        "origem": "Q – Beam in a line"
+      },
+      {
+        "origem": "E – Orb that stuns"
+      },
+      {
+        "origem": "R – Channeled bombardment"
+      }
     ]
   },
   "Taric": {
     "motivo": "A protector who makes allies untouchable: Taric's Cosmic Radiance protects the team like Viscous's The Cube, and the stun in a line becomes Puddle Punch. To heal and start fights, Dynamo is the second pick.",
     "paralelos": [
-      { "origem": "R – Makes allies untouchable" },
-      { "origem": "E – Stuns in a line" }
+      {
+        "origem": "R – Makes allies untouchable"
+      },
+      {
+        "origem": "E – Stuns in a line"
+      }
     ]
   },
   "Zed": {
     "motivo": "A shadow assassin who marks the target and returns to finish: Zed's Death Mark becomes Drifter's Stalker's Mark, which marks and lets you leap to the victim, and both isolate anyone who is alone. To assassinate with weapon and venom, Vyper is the second pick.",
     "paralelos": [
-      { "origem": "R – Marks the target and leaps to them" },
-      { "origem": "E – Area strike all around" }
+      {
+        "origem": "R – Marks the target and leaps to them"
+      },
+      {
+        "origem": "E – Area strike all around"
+      }
     ]
   },
   "Zyra": {
     "motivo": "An area control mage who roots enemies from afar: Zyra's Grasping Roots pin like Paige's Captivating Read, and the area thorns become Bookwyrm. For those who like summoning plants that shoot on their own, McGinnis' turrets are the second pick.",
     "paralelos": [
-      { "origem": "E – Roots that pin" },
-      { "origem": "Q – Thorns in an area" }
+      {
+        "origem": "E – Roots that pin"
+      },
+      {
+        "origem": "Q – Thorns in an area"
+      }
     ]
   },
   "Orianna": {
     "motivo": "A control mage who places the ball and turns the fight: Command: Dissonance speeds up allies and slows enemies like Paradox's Time Wall, and Command: Shockwave pulls the enemy like Paradoxical Swap. To protect allies with a shield, Paige is the second pick.",
     "paralelos": [
-      { "origem": "Q – Ball that stays and pulses in the area" },
-      { "origem": "W – Speeds up allies and slows enemies" },
-      { "origem": "R – Wave that pulls the enemies" }
+      {
+        "origem": "Q – Ball that stays and pulses in the area"
+      },
+      {
+        "origem": "W – Speeds up allies and slows enemies"
+      },
+      {
+        "origem": "R – Wave that pulls the enemies"
+      }
     ]
   },
   "Ivern": {
     "motivo": "A nature-loving support who protects the ally and roots the enemy: Ivern's Triggerseed gives a shield that explodes, like Paige's Plot Armor, and the root becomes Captivating Read. For those who like Daisy fighting on her own, Graves' summons are the second pick.",
     "paralelos": [
-      { "origem": "E – Shield on the ally that explodes" },
-      { "origem": "Q – Root that pins the enemy" }
+      {
+        "origem": "E – Shield on the ally that explodes"
+      },
+      {
+        "origem": "Q – Root that pins the enemy"
+      }
     ]
   },
   "Lulu": {
     "motivo": "An enchanter support who protects and empowers the carry: Pix's shield becomes Paige's Plot Armor, and the slowing bolt becomes Captivating Read. For turning the enemy into a critter like Whimsy, Sinclair's Rabbit Hex is the second pick.",
     "paralelos": [
-      { "origem": "E – Pix's shield on the ally" },
-      { "origem": "Q – Bolt that slows" },
-      { "origem": "R – Empowers the ally in the middle of the fight" }
+      {
+        "origem": "E – Pix's shield on the ally"
+      },
+      {
+        "origem": "Q – Bolt that slows"
+      },
+      {
+        "origem": "R – Empowers the ally in the middle of the fight"
+      }
     ]
   },
   "Milio": {
     "motivo": "A small, cute support who heals and follows the ally: Milio's Cozy Campfire heals whoever he supports like Rem's Tag Along, and the kick that knocks back becomes Pillow Toss. To heal with shots, Nurse Harrow is the second pick.",
     "paralelos": [
-      { "origem": "Q – Kick that knocks the enemy back" },
-      { "origem": "W – Heals and follows the ally" },
-      { "origem": "E – Shields for allies" }
+      {
+        "origem": "Q – Kick that knocks the enemy back"
+      },
+      {
+        "origem": "W – Heals and follows the ally"
+      },
+      {
+        "origem": "E – Shields for allies"
+      }
     ]
   },
   "Morgana": {
     "motivo": "A dark sorceress who roots and drains the enemy: Morgana's Soul Shackles pin and hurt anyone nearby like Lady Geist's Life Drain, and the root that leaves the target vulnerable becomes Malice. For the shield and root side, Paige is the second pick.",
     "paralelos": [
-      { "origem": "R – Shackles that drain anyone nearby" },
-      { "origem": "Q – Root that leaves the target vulnerable" }
+      {
+        "origem": "R – Shackles that drain anyone nearby"
+      },
+      {
+        "origem": "Q – Root that leaves the target vulnerable"
+      }
     ]
   },
   "Rakan": {
     "motivo": "A support who plays as a duo and flies into the fight: Rakan's Battle Dance dashes to the ally and gives a shield like Ivy's Kudzu Connection, and the Grand Entrance lands launching enemies like Air Drop. To start fights in an area, Dynamo is the second pick.",
     "paralelos": [
-      { "origem": "E – Dashes to the ally and gives a shield" },
-      { "origem": "W – Leaps and launches the enemies" }
+      {
+        "origem": "E – Dashes to the ally and gives a shield"
+      },
+      {
+        "origem": "W – Leaps and launches the enemies"
+      }
     ]
   },
   "Renata": {
     "motivo": "A mind-games support who scrambles the enemy team: Renata's Handshake pulls and throws like The Doorman's Luggage Cart, and Hostile Takeover removes the enemy from the fight like Hotel Guest. For the chemistry and vapors side, Nurse Harrow is the second pick.",
     "paralelos": [
-      { "origem": "Q – Pulls and throws the enemy" },
-      { "origem": "R – Confuses the enemy team" }
+      {
+        "origem": "Q – Pulls and throws the enemy"
+      },
+      {
+        "origem": "R – Confuses the enemy team"
+      }
     ]
   },
   "Sona": {
     "motivo": "An aura support who protects the team and stuns in a line: Aria of Perseverance heals and shields like Paige's Plot Armor, and Crescendo pins the enemies like Captivating Read. To heal with shots, Nurse Harrow is the second pick.",
     "paralelos": [
-      { "origem": "W – Heal and shield for allies" },
-      { "origem": "R – Wave in a line that stuns" },
-      { "origem": "Q – Notes that hurt the enemies" }
+      {
+        "origem": "W – Heal and shield for allies"
+      },
+      {
+        "origem": "R – Wave in a line that stuns"
+      },
+      {
+        "origem": "Q – Notes that hurt the enemies"
+      }
     ]
   },
   "Soraka": {
     "motivo": "A pure healer: Soraka's Astral Infusion heals the ally like Nurse Harrow's Healing Needles, and both live to keep the team on its feet. For the ultimate's global heal, Paige's Rallying Charge is the second pick.",
     "paralelos": [
-      { "origem": "W – Heals the ally" },
-      { "origem": "Q – Star that hurts and recovers" }
+      {
+        "origem": "W – Heals the ally"
+      },
+      {
+        "origem": "Q – Star that hurts and recovers"
+      }
     ]
   },
   "Thresh": {
     "motivo": "The hook jailer: Thresh's Death Sentence is Bebop's Grapple Arm, and the Flay that throws the enemy backward becomes Exploding Uppercut. For the lantern that pulls allies and the box that traps, The Doorman is the second pick.",
     "paralelos": [
-      { "origem": "Q – Hook" },
-      { "origem": "E – Strike that knocks the enemy back" }
+      {
+        "origem": "Q – Hook"
+      },
+      {
+        "origem": "E – Strike that knocks the enemy back"
+      }
     ]
   },
   "Akali": {
     "motivo": "A burst-magic ninja who dives in, explodes and vanishes: Akali's dashes become Calico's Leaping Slash, and the Twilight Shroud that hides her becomes Return to Shadows. For invisibility and weapon ambushes, Haze is the second pick.",
     "paralelos": [
-      { "origem": "R – Two dashes that pass through the target" },
-      { "origem": "W – Shroud that turns her invisible" },
-      { "origem": "Q – Kunai in a cone" }
+      {
+        "origem": "R – Two dashes that pass through the target"
+      },
+      {
+        "origem": "W – Shroud that turns her invisible"
+      },
+      {
+        "origem": "Q – Kunai in a cone"
+      }
     ]
   },
   "Elise": {
     "motivo": "A hunter who changes form and becomes untouchable at the right time: Elise's spider form is Calico's Ava, and the Rappel that pulls her out of the fight becomes Return to Shadows. For the creature of the night with burst, Mina is the second pick.",
     "paralelos": [
-      { "origem": "R – Changes into spider form" },
-      { "origem": "E (spider) – Rappel that makes her untouchable" },
-      { "origem": "Q – Burst neurotoxin" }
+      {
+        "origem": "R – Changes into spider form"
+      },
+      {
+        "origem": "E (spider) – Rappel that makes her untouchable"
+      },
+      {
+        "origem": "Q – Burst neurotoxin"
+      }
     ]
   },
   "Kassadin": {
     "motivo": "A mage who teleports on top of the target and explodes: Kassadin's Riftwalk becomes Pocket's Flying Cloak, and the Null Sphere that protects against magic goes with Enchanter's Satchel. To dive in and vanish with burst, Calico is the second pick.",
     "paralelos": [
-      { "origem": "R – Teleports to the target" },
-      { "origem": "Q – Sphere that protects against magic" },
-      { "origem": "E – Pulse that slows" }
+      {
+        "origem": "R – Teleports to the target"
+      },
+      {
+        "origem": "Q – Sphere that protects against magic"
+      },
+      {
+        "origem": "E – Pulse that slows"
+      }
     ]
   },
   "Katarina": {
     "motivo": "A burst assassin who dives in, blows the target up with daggers and leaves: Katarina's Shunpo becomes Calico's Leaping Slash, and the daggers that fall to the ground and explode become Gloom Bombs. If you play Katarina with an AD attack build, Haze is the second pick: the Death Lotus, which spins attacking everyone nearby, is Bullet Dance.",
     "paralelos": [
-      { "origem": "E – Shunpo to the target" },
-      { "origem": "Q/W – Daggers that fall and explode" },
-      { "origem": "Passive – Kills reset and she vanishes again" }
+      {
+        "origem": "E – Shunpo to the target"
+      },
+      {
+        "origem": "Q/W – Daggers that fall and explode"
+      },
+      {
+        "origem": "Passive – Kills reset and she vanishes again"
+      }
     ]
   },
   "Locke": {
     "motivo": "An exorcist with stakes who executes the wounded: Locke's Silver Stake deals more damage to anyone who has already lost health, like the blessed stake of Venator's Ira Domini, and Purgatory pins and can execute. For the W that hurts himself and then heals, Shiv is the second pick.",
     "paralelos": [
-      { "origem": "Passive – More damage to wounded enemies" },
-      { "origem": "R – Pins and can execute" }
+      {
+        "origem": "Passive – More damage to wounded enemies"
+      },
+      {
+        "origem": "R – Pins and can execute"
+      }
     ]
   },
   "Naafiri": {
     "motivo": "A pack hunter who marks, bleeds and chases: Naafiri's daggers make enemies bleed like Drifter's Stalker's Mark, and Hounds' Pursuit reveals nearby enemies like Bloodscent. For the pack that attacks together, Rat King's swarm is the second pick.",
     "paralelos": [
-      { "origem": "Q – Daggers that cause bleeding" },
-      { "origem": "R – Hunt that reveals the enemies" },
-      { "origem": "E – Strike in an area around her" }
+      {
+        "origem": "Q – Daggers that cause bleeding"
+      },
+      {
+        "origem": "R – Hunt that reveals the enemies"
+      },
+      {
+        "origem": "E – Strike in an area around her"
+      }
     ]
   },
   "Qiyana": {
     "motivo": "A blade with finesse and plenty of dashes: Qiyana's Audacity dashes at the enemy like Apollo's Flawless Advance, and the shockwave that stuns becomes Itani Lo Sahn. For charged sword strikes, Yamato is the second pick.",
     "paralelos": [
-      { "origem": "E – Dashes at the enemy" },
-      { "origem": "R – Shockwave that stuns" }
+      {
+        "origem": "E – Dashes at the enemy"
+      },
+      {
+        "origem": "R – Shockwave that stuns"
+      }
     ]
   },
   "Shaco": {
     "motivo": "The trickster clown: the clone from Hallucinate becomes Sinclair's Spectral Assistant, and the boxes that frighten match the mage's tricks. For the assassin side of dagger and venom, Shiv is the second pick.",
     "paralelos": [
-      { "origem": "R – Clone that confuses the enemy" },
-      { "origem": "W – Boxes that incapacitate" }
+      {
+        "origem": "R – Clone that confuses the enemy"
+      },
+      {
+        "origem": "W – Boxes that incapacitate"
+      }
     ]
   },
   "Talon": {
     "motivo": "Bleed that stacks until the final strike: Talon's passive is Shiv's Serrated Knives, and the leap that finishes becomes Killing Blow. To hunt isolated targets, Drifter is the second pick.",
     "paralelos": [
-      { "origem": "Passive – Bleed that stacks" },
-      { "origem": "Q – Leaps on the target and finishes" },
-      { "origem": "E – Climbs walls" }
+      {
+        "origem": "Passive – Bleed that stacks"
+      },
+      {
+        "origem": "Q – Leaps on the target and finishes"
+      },
+      {
+        "origem": "E – Climbs walls"
+      }
     ]
   },
   "Aurora": {
     "motivo": "A mage who bends space between worlds and controls the area: Aurora's ultimate creates a zone that slows and pins the enemies, like Paradox's Pulse Grenade, and the Twofold Hex that comes back recalls the Kinetic Carbine. For ranged magic burst, Celeste is the second pick.",
     "paralelos": [
-      { "origem": "R – Area that slows and pins" },
-      { "origem": "Q – Curse that pulls back" }
+      {
+        "origem": "R – Area that slows and pins"
+      },
+      {
+        "origem": "Q – Curse that pulls back"
+      }
     ]
   },
   "Syndra": {
     "motivo": "A burst mage who blows the target up from afar: Syndra's spheres explode after a while like Celeste's Radiant Daggers, and the ultimate that dumps everything on the target becomes Shining Wonder. To play Paige focused on damage, she is the second pick.",
     "paralelos": [
-      { "origem": "Q – Sphere that explodes after a while" },
-      { "origem": "E – Pushes enemies in a cone" },
-      { "origem": "R – Dumps all the spheres on the target" }
+      {
+        "origem": "Q – Sphere that explodes after a while"
+      },
+      {
+        "origem": "E – Pushes enemies in a cone"
+      },
+      {
+        "origem": "R – Dumps all the spheres on the target"
+      }
     ]
   },
   "Poppy": {
     "motivo": "A tank who enters the fight pinning enemies against the wall: Poppy's charge is Abrams' Shoulder Charge. If what you like most is slamming enemies into the wall, Venator's Gutshot does the same with the shotgun.",
     "paralelos": [
-      { "origem": "E – Charge that stuns against the wall" },
-      { "origem": "R – Hammer blow that launches the enemies" },
-      { "origem": "W – Stands firm and gains defense" }
+      {
+        "origem": "E – Charge that stuns against the wall"
+      },
+      {
+        "origem": "R – Hammer blow that launches the enemies"
+      },
+      {
+        "origem": "W – Stands firm and gains defense"
+      }
     ]
   },
   "Graves": {
     "motivo": "A shotgun shooter who plays up close, pushes enemies back with his shots and finishes with heavy hits. Venator also carries a shotgun and a crossbow and lives on bursts of weapon damage.",
     "paralelos": [
-      { "origem": "Q – Projectile that bounces and explodes" },
-      { "origem": "Passive – Shotgun that pushes back up close" },
-      { "origem": "R – Explosive shot of heavy damage" }
+      {
+        "origem": "Q – Projectile that bounces and explodes"
+      },
+      {
+        "origem": "Passive – Shotgun that pushes back up close"
+      },
+      {
+        "origem": "R – Explosive shot of heavy damage"
+      }
     ]
   },
   "Yasuo": {
     "motivo": "A highly mobile swordsman who dashes from target to target and decides the fight with the cut. Yamato leaps to the enemy with Flying Slash and finishes with Power Slash, like Yasuo's dashes and Q.",
     "paralelos": [
-      { "origem": "E – Dashes through the targets" },
-      { "origem": "Q – Sword strike that stacks until the tornado" },
-      { "origem": "R – Dives into the enemy for the all-in" }
+      {
+        "origem": "E – Dashes through the targets"
+      },
+      {
+        "origem": "Q – Sword strike that stacks until the tornado"
+      },
+      {
+        "origem": "R – Dives into the enemy for the all-in"
+      }
     ]
   },
   "Yone": {
     "motivo": "A swordsman who dives in, deals a lot of damage and has a spirit form that changes the rules of the fight.",
     "paralelos": [
-      { "origem": "E – Soul form" },
-      { "origem": "Q – Strikes that charge up" },
-      { "origem": "R – Dash to the target" }
+      {
+        "origem": "E – Soul form"
+      },
+      {
+        "origem": "Q – Strikes that charge up"
+      },
+      {
+        "origem": "R – Dash to the target"
+      }
     ]
   },
   "LeeSin": {
     "motivo": "Maximum mobility: Lee Sin goes to the target and kicks, Lash pulls himself through the air and drops on the enemy.",
     "paralelos": [
-      { "origem": "Q – Goes to the marked target" },
-      { "origem": "R – Kick that sends the target flying" },
-      { "origem": "E – Strike on the ground" }
+      {
+        "origem": "Q – Goes to the marked target"
+      },
+      {
+        "origem": "R – Kick that sends the target flying"
+      },
+      {
+        "origem": "E – Strike on the ground"
+      }
     ]
   },
   "Zac": {
     "motivo": "A goo that leaps from afar, bounces on the enemy team and regenerates. Viscous is Deadlock's version of Zac.",
     "paralelos": [
-      { "origem": "R – Bounces, knocking enemies down" },
-      { "origem": "Passive – Droplets that heal" },
-      { "origem": "Q – Stretches an arm out" }
+      {
+        "origem": "R – Bounces, knocking enemies down"
+      },
+      {
+        "origem": "Passive – Droplets that heal"
+      },
+      {
+        "origem": "Q – Stretches an arm out"
+      }
     ]
   },
   "Fizz": {
     "motivo": "A fragile trickster who dives in, bursts and becomes untouchable at the right moment.",
     "paralelos": [
-      { "origem": "E – Becomes untouchable" },
-      { "origem": "Q – Dash to the target" },
-      { "origem": "R – Area burst" }
+      {
+        "origem": "E – Becomes untouchable"
+      },
+      {
+        "origem": "Q – Dash to the target"
+      },
+      {
+        "origem": "R – Area burst"
+      }
     ]
   },
   "Pantheon": {
     "motivo": "Arrives at the fight falling from the sky and holds the front with an impenetrable defense: Pantheon's ultimate and Ivy's Air Drop both crash down exploding, and his shield becomes her Stone Form. If you like the global leap, Mirage is the second pick.",
     "paralelos": [
-      { "origem": "R – Falls from the sky and explodes on landing" },
-      { "origem": "E – Shield that blocks everything in front" },
-      { "origem": "Empowered Q – Spear that slows" }
+      {
+        "origem": "R – Falls from the sky and explodes on landing"
+      },
+      {
+        "origem": "E – Shield that blocks everything in front"
+      },
+      {
+        "origem": "Empowered Q – Spear that slows"
+      }
     ]
   },
   "Cassiopeia": {
     "motivo": "A damage-over-time mage who lives on casting abilities nonstop and controlling the area. If what draws you to Cassiopeia is the serpent that petrifies, Vyper is the second pick.",
     "paralelos": [
-      { "origem": "E – Repeated damage over time on the target" },
-      { "origem": "W – Miasma that pins anyone passing through" },
-      { "origem": "R – Area control" }
+      {
+        "origem": "E – Repeated damage over time on the target"
+      },
+      {
+        "origem": "W – Miasma that pins anyone passing through"
+      },
+      {
+        "origem": "R – Area control"
+      }
     ]
   },
   "Zeri": {
     "motivo": "A highly mobile hypercarry shooter: glides across the map, pours out shots nonstop and scales to carry the team in the late game.",
     "paralelos": [
-      { "origem": "E – Slides and vaults walls" },
-      { "origem": "W – Shot that slows" }
+      {
+        "origem": "E – Slides and vaults walls"
+      },
+      {
+        "origem": "W – Shot that slows"
+      }
     ]
   },
   "Sylas": {
     "motivo": "Steals the enemy's ultimate. Sinclair copies the opponent's ultimate with Audience Participation.",
     "paralelos": [
-      { "origem": "R – Steals the enemy's ultimate" },
-      { "origem": "Q – Chains in an area" },
-      { "origem": "Style – Duelist mage" }
+      {
+        "origem": "R – Steals the enemy's ultimate"
+      },
+      {
+        "origem": "Q – Chains in an area"
+      },
+      {
+        "origem": "Style – Duelist mage"
+      }
     ]
   },
   "Vayne": {
     "motivo": "A night hunter who stacks hits for an extra bite of damage and flees with short mobility.",
     "paralelos": [
-      { "origem": "W – Third hit deals extra damage" },
-      { "origem": "Q – Roll" },
-      { "origem": "R – Invisibility and the hunt" }
+      {
+        "origem": "W – Third hit deals extra damage"
+      },
+      {
+        "origem": "Q – Roll"
+      },
+      {
+        "origem": "R – Invisibility and the hunt"
+      }
     ]
   },
   "Nocturne": {
     "motivo": "The ultimate darkens the enemy's vision and the hunter dives on the isolated target. Drifter does this with Eternal Night.",
     "paralelos": [
-      { "origem": "R – Darkness that limits vision" },
-      { "origem": "E – Fear after tethering to the target" },
-      { "origem": "Q – Trail that chases" }
+      {
+        "origem": "R – Darkness that limits vision"
+      },
+      {
+        "origem": "E – Fear after tethering to the target"
+      },
+      {
+        "origem": "Q – Trail that chases"
+      }
     ]
   },
   "Lucian": {
     "motivo": "A monster hunter with heavy weapons and plenty of bursts of damage.",
     "paralelos": [
-      { "origem": "R – Continuous burst" },
-      { "origem": "Passive – Double shot" },
-      { "origem": "W – Mark that explodes" }
+      {
+        "origem": "R – Continuous burst"
+      },
+      {
+        "origem": "Passive – Double shot"
+      },
+      {
+        "origem": "W – Mark that explodes"
+      }
     ]
   },
   "DrMundo": {
     "motivo": "Takes everything and doesn't die. Both are lab monsters who hurt themselves to get stronger.",
     "paralelos": [
-      { "origem": "Passive – Revives with the container" },
-      { "origem": "W – Damages himself and those around" },
-      { "origem": "R – Giant regeneration" }
+      {
+        "origem": "Passive – Revives with the container"
+      },
+      {
+        "origem": "W – Damages himself and those around"
+      },
+      {
+        "origem": "R – Giant regeneration"
+      }
     ]
   },
   "Karma": {
     "motivo": "A support who shields the ally and still deals good magic damage.",
     "paralelos": [
-      { "origem": "E – Shield on the ally" },
-      { "origem": "W – Roots the target after a while" },
-      { "origem": "Q – Area explosion" }
+      {
+        "origem": "E – Shield on the ally"
+      },
+      {
+        "origem": "W – Roots the target after a while"
+      },
+      {
+        "origem": "Q – Area explosion"
+      }
     ]
   },
   "Bard": {
     "motivo": "Portals across the map and an ultimate that temporarily removes targets from the fight. The Doorman is Deadlock's Bard.",
     "paralelos": [
-      { "origem": "E – Magic portal" },
-      { "origem": "R – Freezes everything in the area" },
-      { "origem": "Q – Pins against the wall" }
+      {
+        "origem": "E – Magic portal"
+      },
+      {
+        "origem": "R – Freezes everything in the area"
+      },
+      {
+        "origem": "Q – Pins against the wall"
+      }
     ]
   },
   "Alistar": {
     "motivo": "A horned brawler who headbutts and launches the target. Billy charges headfirst with Rising Ram.",
     "paralelos": [
-      { "origem": "W – Headbutt that sends the target flying" },
-      { "origem": "Q – Ground slam that knocks up" },
-      { "origem": "Fight initiator" }
+      {
+        "origem": "W – Headbutt that sends the target flying"
+      },
+      {
+        "origem": "Q – Ground slam that knocks up"
+      },
+      {
+        "origem": "Fight initiator"
+      }
     ]
   },
   "Yorick": {
     "motivo": "A necromancer with undead summons and area control.",
     "paralelos": [
-      { "origem": "Passive – Ghouls from the graves" },
-      { "origem": "W – Pins the target" },
-      { "origem": "R – Powerful summon" }
+      {
+        "origem": "Passive – Ghouls from the graves"
+      },
+      {
+        "origem": "W – Pins the target"
+      },
+      {
+        "origem": "R – Powerful summon"
+      }
     ]
   },
   "Fiora": {
     "motivo": "A duelist fencer. Fiora's Riposte and Apollo's both block the strike and punish the attacker.",
     "paralelos": [
-      { "origem": "W – Parry and return" },
-      { "origem": "Q – Thrust in any direction" },
-      { "origem": "R – Decisive challenge" }
+      {
+        "origem": "W – Parry and return"
+      },
+      {
+        "origem": "Q – Thrust in any direction"
+      },
+      {
+        "origem": "R – Decisive challenge"
+      }
     ]
   },
   "Corki": {
     "motivo": "A noisy pilot: missiles, flamethrower and flight across the map.",
     "paralelos": [
-      { "origem": "R – Missiles" },
-      { "origem": "E – Flamethrower that reduces resistance" },
-      { "origem": "W – Explosive flight" }
+      {
+        "origem": "R – Missiles"
+      },
+      {
+        "origem": "E – Flamethrower that reduces resistance"
+      },
+      {
+        "origem": "W – Explosive flight"
+      }
     ]
   },
   "Yuumi": {
     "motivo": "Small, cute and stuck to the ally. Rem hops onto allies to heal them.",
     "paralelos": [
-      { "origem": "W – Attaches to the ally" },
-      { "origem": "E – Heal", "destino": "Tag Along (heal)" },
-      { "origem": "R – Roots enemies" }
+      {
+        "origem": "W – Attaches to the ally"
+      },
+      {
+        "origem": "E – Heal",
+        "destino": "Tag Along (heal)"
+      },
+      {
+        "origem": "R – Roots enemies"
+      }
     ]
   },
   "Warwick": {
     "motivo": "A werewolf who gets more dangerous at low health and hunts wounded targets.",
     "paralelos": [
-      { "origem": "Passive – Stronger at low health", "destino": "Lycan Curse (bloodlust)" },
-      { "origem": "R – Pins the target" },
-      { "origem": "Q – Damage based on the target's health" }
+      {
+        "origem": "Passive – Stronger at low health",
+        "destino": "Lycan Curse (bloodlust)"
+      },
+      {
+        "origem": "R – Pins the target"
+      },
+      {
+        "origem": "Q – Damage based on the target's health"
+      }
     ]
   },
   "Lux": {
     "motivo": "A light mage with explosions from range and her own shield.",
     "paralelos": [
-      { "origem": "R – Laser of light" },
-      { "origem": "W – Shield" },
-      { "origem": "Passive – Light mark that deals extra damage" }
+      {
+        "origem": "R – Laser of light"
+      },
+      {
+        "origem": "W – Shield"
+      },
+      {
+        "origem": "Passive – Light mark that deals extra damage"
+      }
     ]
   },
   "JarvanIV": {
     "motivo": "A front-line king with a banner and armor that empowers the team.",
     "paralelos": [
-      { "origem": "E – Banner" },
-      { "origem": "W – Shield" },
-      { "origem": "Q – Reduces the target's armor" }
+      {
+        "origem": "E – Banner"
+      },
+      {
+        "origem": "W – Shield"
+      },
+      {
+        "origem": "Q – Reduces the target's armor"
+      }
     ]
   },
   "Azir": {
     "motivo": "A strategist emperor who positions pieces on the board and controls the area from a distance.",
     "paralelos": [
-      { "origem": "W – Positioned soldiers" },
-      { "origem": "R – Wall of soldiers" },
-      { "origem": "Area control" }
+      {
+        "origem": "W – Positioned soldiers"
+      },
+      {
+        "origem": "R – Wall of soldiers"
+      },
+      {
+        "origem": "Area control"
+      }
     ]
   },
   "Senna": {
     "motivo": "A shooter support who heals allies with her own shots and has a dark look.",
     "paralelos": [
-      { "origem": "Q – Shot that heals allies" },
-      { "origem": "W – Roots the target" },
-      { "origem": "R – Global shield" }
+      {
+        "origem": "Q – Shot that heals allies"
+      },
+      {
+        "origem": "W – Roots the target"
+      },
+      {
+        "origem": "R – Global shield"
+      }
+    ]
+  },
+  "Skarner": {
+    "motivo": "A tank who grabs the target and drags them into his team: Skarner's Impale is Abrams' Shoulder Charge, which pulls the enemies it hits, and the shield becomes Infernal Resilience. To hold a target in place with the ultimate, Mo & Krill's Combo is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Grabs and drags the target"
+      },
+      {
+        "origem": "W – Shield that protects"
+      },
+      {
+        "origem": "Q – Area strike that heals"
+      }
+    ]
+  },
+  "KSante": {
+    "motivo": "A tank who slams the enemy into a wall and stuns: K'Sante's Walls of Nazumah is Abrams' Shoulder Charge, which pins the target against the wall, and the dash shield becomes Infernal Resilience. To dive in and land on top of the target, Lash is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Slams the enemy into the wall and stuns"
+      },
+      {
+        "origem": "E – Dash that gives a shield"
+      }
+    ]
+  },
+  "Leona": {
+    "motivo": "A shield-and-control initiator tank: Leona's Eclipse gives defense and damage like Warden's Willpower, and Zenith Blade, which dashes and roots the target, is Binding Word. To stun the enemy team in an area with the ultimate, Dynamo's Singularity is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Shield that protects"
+      },
+      {
+        "origem": "E – Dash that roots the target"
+      }
+    ]
+  },
+  "Malphite": {
+    "motivo": "A tank who lands in the middle of the enemy team and launches everyone into the air: Malphite's Unstoppable Force is Abrams' Seismic Impact, and the granite shield of his passive becomes Infernal Resilience. To stack armor and barrier, Warden is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Charges in and launches everyone upward"
+      },
+      {
+        "origem": "Passive – Granite shield"
+      }
+    ]
+  },
+  "Maokai": {
+    "motivo": "A tank tree who controls the terrain and heals by taking hits: Maokai's Sapling Toss, with saplings that slow the area, becomes Viscous's Splatter, Twisted Advance, which dashes and roots, becomes Goo Ball, and the heal from his passive recalls The Cube. For slowing thorns and a stone form, Ivy is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Sapling that slows the area"
+      },
+      {
+        "origem": "W – Dashes and roots the target"
+      },
+      {
+        "origem": "Passive – Heals when taking damage"
+      }
+    ]
+  },
+  "Nautilus": {
+    "motivo": "The hook tank: Nautilus' Dredge Line is Bebop's Grapple Arm, and Depth Charge, which chases and launches the target, becomes Exploding Uppercut. To hold a target in place with the ultimate, Mo & Krill's Combo is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Hook"
+      },
+      {
+        "origem": "R – Wave that chases and launches the target"
+      }
+    ]
+  },
+  "Ornn": {
+    "motivo": "A tank blacksmith who empowers the team: Ornn's passive upgrades allies' items like Rat King's banner of Ratannia, and Volcanic Rupture, which raises a pillar and slows, becomes Scrap Grenade. For the charge of Call of the Forge God, Billy's Rising Ram is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive – Upgrades the allies' items"
+      },
+      {
+        "origem": "Q – Pillar that slows the area"
+      }
+    ]
+  },
+  "Rammus": {
+    "motivo": "An armored armadillo that returns the damage: Rammus' Defensive Ball Curl returns what he takes like Victor's Pain Battery, Powerball gains speed while rolling like Jumpstart, and the ultimate's tremors hurt anyone nearby like Aura of Suffering. For the roll that stuns, Viscous's Goo Ball is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Defensive ball that returns damage"
+      },
+      {
+        "origem": "Q – Rolls gaining speed"
+      },
+      {
+        "origem": "R – Tremors that hurt everyone around"
+      }
+    ]
+  },
+  "Sejuani": {
+    "motivo": "An ice knight who charges and pins the team: Sejuani's Arctic Assault dashes and launches the enemy like Billy's Rising Ram, Flail of the Northern Winds strikes in an arc like Bashdown, and Glacial Prison pins everyone like Chain Gang. For the ice theme, Kelvin is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Charge that launches the enemy"
+      },
+      {
+        "origem": "W – Arc strike on the ground"
+      },
+      {
+        "origem": "R – Ice prison that pins the enemy team"
+      }
+    ]
+  },
+  "Shen": {
+    "motivo": "A tank who protects the ally from afar and goes to them: Shen's Stand United protects the team like Kelvin's Frozen Shelter, and the dash that draws attention recalls Ice Path. For the taunt of Shadow Dash, Warden's Binding Word is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Protects the ally and goes to them"
+      },
+      {
+        "origem": "E – Dash that draws attention"
+      }
+    ]
+  },
+  "Singed": {
+    "motivo": "A mad chemist who runs leaving poison and takes everything: Singed's Poison Trail is Infernus' Flame Dash trail, damage over time wherever he passes, and the Mega Adhesive that slows the area becomes Napalm. For the puddles that slow, Viscous is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Poison trail"
+      },
+      {
+        "origem": "W – Puddle that slows the area"
+      }
     ]
   }
 }

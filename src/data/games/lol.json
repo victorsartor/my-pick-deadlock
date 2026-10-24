@@ -115,6 +115,17 @@
     { "id": "Shaco", "funcao": "Selva", "dificuldade": 4, "vetor": [2, 7, 8, 4, 2, 1, 5, 0, 9, 6, 4] },
     { "id": "Talon", "funcao": "Meio", "dificuldade": 3, "vetor": [2, 9, 9, 6, 3, 1, 2, 0, 4, 7, 1] },
     { "id": "Aurora", "funcao": "Meio", "dificuldade": 3, "vetor": [6, 8, 8, 5, 2, 4, 5, 0, 4, 0, 5] },
-    { "id": "Syndra", "funcao": "Meio", "dificuldade": 3, "vetor": [8, 3, 10, 4, 2, 1, 7, 0, 0, 0, 5] }
+    { "id": "Syndra", "funcao": "Meio", "dificuldade": 3, "vetor": [8, 3, 10, 4, 2, 1, 7, 0, 0, 0, 5] },
+    { "id": "Skarner", "funcao": "Selva", "dificuldade": 2, "vetor": [1, 6, 5, 5, 8, 4, 9, 1, 0, 2, 2] },
+    { "id": "KSante", "funcao": "Topo", "dificuldade": 4, "vetor": [1, 8, 6, 5, 9, 3, 7, 1, 0, 3, 2] },
+    { "id": "Leona", "funcao": "Suporte", "dificuldade": 2, "vetor": [1, 6, 5, 3, 9, 2, 9, 6, 0, 1, 3] },
+    { "id": "Malphite", "funcao": "Topo", "dificuldade": 1, "vetor": [2, 5, 7, 4, 9, 3, 9, 2, 0, 1, 4] },
+    { "id": "Maokai", "funcao": "Topo", "dificuldade": 1, "vetor": [3, 4, 5, 5, 9, 6, 8, 3, 0, 1, 7] },
+    { "id": "Nautilus", "funcao": "Suporte", "dificuldade": 2, "vetor": [3, 5, 5, 4, 9, 2, 9, 5, 0, 1, 3] },
+    { "id": "Ornn", "funcao": "Topo", "dificuldade": 3, "vetor": [2, 5, 6, 4, 9, 2, 8, 5, 0, 2, 6] },
+    { "id": "Rammus", "funcao": "Selva", "dificuldade": 1, "vetor": [1, 8, 4, 5, 10, 2, 8, 1, 0, 2, 2] },
+    { "id": "Sejuani", "funcao": "Selva", "dificuldade": 2, "vetor": [1, 7, 5, 5, 9, 2, 9, 4, 0, 2, 3] },
+    { "id": "Shen", "funcao": "Topo", "dificuldade": 3, "vetor": [2, 6, 3, 3, 9, 2, 7, 8, 0, 2, 4] },
+    { "id": "Singed", "funcao": "Topo", "dificuldade": 3, "vetor": [2, 6, 4, 9, 8, 4, 6, 1, 3, 1, 6] }
   ]
 }

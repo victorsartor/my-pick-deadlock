@@ -829,6 +829,109 @@
         { "origem": "R – Despeja todas as esferas no alvo", "destino": "Shining Wonder" }
       ]
     },
+    "Skarner": {
+      "heroi": 6,
+      "segunda": 18,
+      "motivo": "Tanque que agarra o alvo e o arrasta para dentro do seu time: o Impale do Skarner é o Shoulder Charge do Abrams, que puxa os inimigos que acerta, e o escudo vira o Infernal Resilience. Para segurar um alvo no lugar com a ultimate, o Combo do Mo & Krill é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Agarra e arrasta o alvo", "destino": "Shoulder Charge" },
+        { "origem": "W – Escudo que protege", "destino": "Infernal Resilience" },
+        { "origem": "Q – Golpe em área que cura", "destino": "Siphon Life" }
+      ]
+    },
+    "KSante": {
+      "heroi": 6,
+      "segunda": 31,
+      "motivo": "Tanque que lança o inimigo contra a parede e atordoa: o Muros de Nazumah do K'Sante é o Shoulder Charge do Abrams, que prende o alvo contra a parede, e o escudo do avanço vira o Infernal Resilience. Para investir e cair em cima do alvo, o Lash é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Lança o inimigo na parede e atordoa", "destino": "Shoulder Charge" },
+        { "origem": "E – Avanço que dá escudo", "destino": "Infernal Resilience" }
+      ]
+    },
+    "Leona": {
+      "heroi": 25,
+      "segunda": 11,
+      "motivo": "Tanque iniciadora de escudo e controle: o Eclipse da Leona dá defesa e dano como a Willpower do Warden, e o Zenith Blade, que avança e prende o alvo, é o Binding Word. Para atordoar o time inimigo em área com a ultimate, a Singularity do Dynamo é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Escudo que protege", "destino": "Willpower" },
+        { "origem": "E – Avanço que prende o alvo", "destino": "Binding Word" }
+      ]
+    },
+    "Malphite": {
+      "heroi": 6,
+      "segunda": 25,
+      "motivo": "Tanque que cai no meio do time inimigo e lança todo mundo para cima: o Unstoppable Force do Malphite é o Seismic Impact do Abrams, e o escudo de granito da passiva vira o Infernal Resilience. Para empilhar armadura e barreira, o Warden é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Avança e lança todos para cima", "destino": "Seismic Impact" },
+        { "origem": "Passiva – Escudo de granito", "destino": "Infernal Resilience" }
+      ]
+    },
+    "Maokai": {
+      "heroi": 35,
+      "segunda": 20,
+      "motivo": "Árvore tanque que controla o terreno e se cura apanhando: o Sapling Toss do Maokai, com mudas que desaceleram a área, vira o Splatter do Viscous, o Twisted Advance, que avança e prende, vira o Goo Ball, e a cura da passiva lembra o The Cube. Para espinhos que desaceleram e uma forma de pedra, a Ivy é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Muda que desacelera a área", "destino": "Splatter" },
+        { "origem": "W – Avança e prende o alvo", "destino": "Goo Ball" },
+        { "origem": "Passiva – Cura quando sofre dano", "destino": "The Cube" }
+      ]
+    },
+    "Nautilus": {
+      "heroi": 15,
+      "segunda": 18,
+      "motivo": "Tanque do gancho: o Dredge Line do Nautilus é o Grapple Arm do Bebop, e o Depth Charge, que persegue e lança o alvo, vira o Exploding Uppercut. Para prender um alvo no lugar com a ultimate, o Combo do Mo & Krill é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Gancho", "destino": "Grapple Arm" },
+        { "origem": "R – Onda que persegue e lança o alvo", "destino": "Exploding Uppercut" }
+      ]
+    },
+    "Ornn": {
+      "heroi": 84,
+      "segunda": 72,
+      "motivo": "Ferreiro tanque que fortalece o time: a passiva do Ornn melhora os itens dos aliados como o estandarte de Ratannia do Rat King, e o Volcanic Rupture, que levanta um pilar e desacelera, vira o Scrap Grenade. Pela carga do Call of the Forge God, o Rising Ram do Billy é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Fortalece os itens dos aliados", "destino": "Rule, Ratannia!" },
+        { "origem": "Q – Pilar que desacelera a área", "destino": "Scrap Grenade" }
+      ]
+    },
+    "Rammus": {
+      "heroi": 66,
+      "segunda": 35,
+      "motivo": "Tatu de armadura que devolve o dano: o Defensive Ball Curl do Rammus devolve o que recebe como a Pain Battery do Victor, o Powerball ganha velocidade rolando como o Jumpstart, e os tremores da ultimate ferem quem está perto como a Aura of Suffering. Pelo rolamento que atordoa, o Goo Ball do Viscous é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Bola defensiva que devolve dano", "destino": "Pain Battery" },
+        { "origem": "Q – Rola ganhando velocidade", "destino": "Jumpstart" },
+        { "origem": "R – Tremores que ferem ao redor", "destino": "Aura of Suffering" }
+      ]
+    },
+    "Sejuani": {
+      "heroi": 72,
+      "segunda": 12,
+      "motivo": "Cavaleira de gelo que investe e prende o time: o Arctic Assault da Sejuani avança e lança o inimigo como o Rising Ram do Billy, o Flail of the Northern Winds golpeia em arco como o Bashdown, e a Glacial Prison prende todo mundo como o Chain Gang. Pelo tema de gelo, o Kelvin é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Investida que lança o inimigo", "destino": "Rising Ram" },
+        { "origem": "W – Golpe em arco no chão", "destino": "Bashdown" },
+        { "origem": "R – Prisão de gelo que prende o time inimigo", "destino": "Chain Gang" }
+      ]
+    },
+    "Shen": {
+      "heroi": 12,
+      "segunda": 25,
+      "motivo": "Tanque que protege o aliado de longe e vai até ele: o Stand United do Shen protege o time como o Frozen Shelter do Kelvin, e o avanço que chama a atenção lembra o Ice Path. Pelo taunt do Shadow Dash, o Binding Word do Warden é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Protege o aliado e vai até ele", "destino": "Frozen Shelter" },
+        { "origem": "E – Avanço que chama a atenção", "destino": "Ice Path" }
+      ]
+    },
+    "Singed": {
+      "heroi": 1,
+      "segunda": 35,
+      "motivo": "Químico maluco que corre deixando veneno e aguenta tudo: o Poison Trail do Singed é o rastro do Flame Dash do Infernus, dano ao longo do tempo por onde ele passa, e o Mega Adhesive que desacelera a área vira o Napalm. Pelas poças que desaceleram, o Viscous é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Rastro de veneno", "destino": "Flame Dash" },
+        { "origem": "W – Poça que desacelera a área", "destino": "Napalm" }
+      ]
+    },
     "Poppy": {
       "heroi": 6,
       "segunda": 65,
