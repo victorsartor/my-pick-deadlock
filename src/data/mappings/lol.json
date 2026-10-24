@@ -835,7 +835,6 @@
       "motivo": "Tanque que agarra o alvo e o arrasta para dentro do seu time: o Impale do Skarner é o Shoulder Charge do Abrams, que puxa os inimigos que acerta, e o escudo vira o Infernal Resilience. Para segurar um alvo no lugar com a ultimate, o Combo do Mo & Krill é a segunda opção.",
       "paralelos": [
         { "origem": "E – Avanço que acerta o inimigo", "destino": "Shoulder Charge" },
-        { "origem": "R – Agarra e arrasta o alvo", "destino": "Shoulder Charge" },
         { "origem": "W – Escudo que protege", "destino": "Infernal Resilience" },
         { "origem": "Q – Golpe em área que cura", "destino": "Siphon Life" }
       ]
