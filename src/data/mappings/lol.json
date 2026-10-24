@@ -580,13 +580,14 @@
       ]
     },
     "Zilean": {
-      "heroi": 10,
+      "heroi": 12,
       "segunda": 67,
-      "bonus": 19,
-      "motivo": "Mestre do tempo: a Bomba-Relógio do Zilean gruda e explode como a Pulse Grenade da Paradox, e a Distorção Temporal desacelera inimigos e acelera aliados como a Time Wall. Para o lado suporte que protege o time, a Paige é a segunda opção.",
+      "bonus": 16,
+      "motivo": "Suporte que controla o ritmo da luta e salva o aliado na hora certa: a Bomba-Relógio do Zilean vira a Frost Grenade do Kelvin, a Distorção Temporal acelera aliados e desacelera inimigos como o Ice Path, e o Retrocesso Temporal protege o aliado como o Frozen Shelter. Para o lado suporte que cura e dá escudo, a Paige é a segunda opção.",
       "paralelos": [
-        { "origem": "Q – Bomba que explode depois de um tempo", "destino": "Pulse Grenade" },
-        { "origem": "E – Desacelera inimigos e acelera aliados", "destino": "Time Wall" }
+        { "origem": "Q – Bomba arremessada que explode", "destino": "Frost Grenade" },
+        { "origem": "E – Acelera aliados e desacelera inimigos", "destino": "Ice Path" },
+        { "origem": "R – Protege o aliado de morrer", "destino": "Frozen Shelter" }
       ]
     },
     "Xerath": {
@@ -634,6 +635,91 @@
         { "origem": "Q – Bola que fica e pulsa na área", "destino": "Pulse Grenade" },
         { "origem": "W – Acelera aliados e desacelera inimigos", "destino": "Time Wall" },
         { "origem": "R – Onda que puxa os inimigos", "destino": "Paradoxical Swap" }
+      ]
+    },
+    "Ivern": {
+      "heroi": 67,
+      "segunda": 76,
+      "motivo": "Suporte amigo da natureza que protege o aliado e prende o inimigo: a Semente Disparadora do Ivern dá escudo que explode, como o Plot Armor da Paige, e a raiz vira o Captivating Read. Para quem gosta da Daisy lutando sozinha, as invocações da Graves são a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Escudo no aliado que explode", "destino": "Plot Armor" },
+        { "origem": "Q – Raiz que prende o inimigo", "destino": "Captivating Read" }
+      ]
+    },
+    "Lulu": {
+      "heroi": 67,
+      "segunda": 60,
+      "motivo": "Suporte encantadora que protege e fortalece o carregador: o escudo da Pix vira o Plot Armor da Paige, e a lança que desacelera vira o Captivating Read. Para transformar o inimigo em bicho como o Capricho, o Rabbit Hex do Sinclair é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Escudo da Pix no aliado", "destino": "Plot Armor" },
+        { "origem": "Q – Lança que desacelera", "destino": "Captivating Read" },
+        { "origem": "R – Fortalece o aliado no meio da luta", "destino": "Rallying Charge" }
+      ]
+    },
+    "Milio": {
+      "heroi": 79,
+      "segunda": 87,
+      "motivo": "Suporte pequeno e fofo que cura e acompanha o aliado: a Fogueira Aconchegante do Milio cura quem ele apoia como o Tag Along do Rem, e o chute que empurra vira o Pillow Toss. Para curar com tiros, a Nurse Harrow é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Chute que empurra o inimigo", "destino": "Pillow Toss" },
+        { "origem": "W – Cura e acompanha o aliado", "destino": "Tag Along" },
+        { "origem": "E – Escudos para os aliados", "destino": "Lil Helpers" }
+      ]
+    },
+    "Morgana": {
+      "heroi": 4,
+      "segunda": 67,
+      "motivo": "Feiticeira sombria que prende e drena o inimigo: as Correntes da Alma da Morgana prendem e ferem quem está por perto como o Life Drain da Lady Geist, e a raiz que deixa o alvo vulnerável vira o Malice. Para o lado escudo e raiz, a Paige é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Correntes que drenam quem está perto", "destino": "Life Drain" },
+        { "origem": "Q – Raiz que deixa o alvo vulnerável", "destino": "Malice" }
+      ]
+    },
+    "Rakan": {
+      "heroi": 20,
+      "segunda": 11,
+      "motivo": "Suporte que joga em dupla e entra voando na luta: a Dança de Batalha do Rakan avança até o aliado e dá escudo como o Kudzu Connection da Ivy, e a Grande Entrada cai lançando os inimigos como o Air Drop. Para iniciar lutas em área, o Dynamo é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Avança até o aliado e dá escudo", "destino": "Kudzu Connection" },
+        { "origem": "W – Salta e lança os inimigos", "destino": "Air Drop" }
+      ]
+    },
+    "Renata": {
+      "heroi": 69,
+      "segunda": 87,
+      "motivo": "Suporte de jogo mental que bagunça o time inimigo: o Aperto de Mão da Renata puxa e arremessa como o Luggage Cart do The Doorman, e a Aquisição Hostil tira o inimigo da luta como o Hotel Guest. Pelo lado química e vapores, a Nurse Harrow é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Puxa e arremessa o inimigo", "destino": "Luggage Cart" },
+        { "origem": "R – Confunde o time inimigo", "destino": "Hotel Guest" }
+      ]
+    },
+    "Sona": {
+      "heroi": 67,
+      "segunda": 87,
+      "motivo": "Suporte de auras que protege o time e atordoa em linha: a Ária de Perseverança cura e dá escudo como o Plot Armor da Paige, e o Crescendo prende os inimigos como o Captivating Read. Para curar com tiros, a Nurse Harrow é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Cura e escudo para os aliados", "destino": "Plot Armor" },
+        { "origem": "R – Onda em linha que atordoa", "destino": "Captivating Read" },
+        { "origem": "Q – Notas que ferem os inimigos", "destino": "Bookwyrm" }
+      ]
+    },
+    "Soraka": {
+      "heroi": 87,
+      "segunda": 67,
+      "motivo": "Curandeira pura: o Infundir da Soraka cura o aliado como as Healing Needles da Nurse Harrow, e as duas vivem de manter o time de pé. Para a cura global da ultimate, a Rallying Charge da Paige é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Cura o aliado", "destino": "Healing Needles" },
+        { "origem": "Q – Estrela que fere e recupera", "destino": "Leech Therapy" }
+      ]
+    },
+    "Thresh": {
+      "heroi": 15,
+      "segunda": 69,
+      "bonus": 16,
+      "motivo": "O carcereiro do gancho: a Sentença de Morte do Thresh é o Grapple Arm do Bebop, e o Esfolar que joga o inimigo para trás vira o Exploding Uppercut. Pela lanterna que puxa aliados e pela caixa que prende, o The Doorman é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Gancho", "destino": "Grapple Arm" },
+        { "origem": "E – Golpe que empurra o inimigo", "destino": "Exploding Uppercut" }
       ]
     },
     "Poppy": {

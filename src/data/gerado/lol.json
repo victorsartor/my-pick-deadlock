@@ -372,6 +372,42 @@
   "Orianna": {
    "nome": "Orianna",
    "titulo": "a Donzela Mecânica"
+  },
+  "Ivern": {
+   "nome": "Ivern",
+   "titulo": "o Pai do Verde"
+  },
+  "Lulu": {
+   "nome": "Lulu",
+   "titulo": "a Fada Feiticeira"
+  },
+  "Milio": {
+   "nome": "Milio",
+   "titulo": "A Chama Gentil"
+  },
+  "Morgana": {
+   "nome": "Morgana",
+   "titulo": "a Caída"
+  },
+  "Rakan": {
+   "nome": "Rakan",
+   "titulo": "O Charmoso"
+  },
+  "Renata": {
+   "nome": "Renata Glasc",
+   "titulo": "a Baronesa da Química"
+  },
+  "Sona": {
+   "nome": "Sona",
+   "titulo": "a Mestra das Cordas"
+  },
+  "Soraka": {
+   "nome": "Soraka",
+   "titulo": "a Filha das Estrelas"
+  },
+  "Thresh": {
+   "nome": "Thresh",
+   "titulo": "o Guardião das Correntes"
   }
  }
 }
