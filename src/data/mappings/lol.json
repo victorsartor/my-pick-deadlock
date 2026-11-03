@@ -1300,6 +1300,129 @@
         { "origem": "Q – Mais cadência e dano mágico no tiro", "destino": "Full Auto" },
         { "origem": "E – Fica fantasma e avança", "destino": "Project Mind" }
       ]
+    },
+    "Ahri": {
+      "heroi": 52,
+      "segunda": 14,
+      "motivo": "Maga de mobilidade que persegue o alvo e rouba vida: as três chamas do W da Ahri, que miram sozinhas, lembram o Fire Scarabs do Mirage, que rouba a vida do inimigo, e os dashes em sequência do R viram o Dust Devil. Para puxar o alvo e prendê-lo no meio da luta como o Charm, o Spirit Lasso da Holliday é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Chamas que miram sozinhas e roubam vida", "destino": "Fire Scarabs" },
+        { "origem": "R – Dashes em sequência", "destino": "Dust Devil" }
+      ]
+    },
+    "Anivia": {
+      "heroi": 12,
+      "segunda": 10,
+      "bonus": 16,
+      "motivo": "Maga de controle que domina o espaço e segura quem tenta avançar: a tempestade do R da Anivia, que lenta toda a área, é o Frost Grenade do Kelvin, e a rajada do E que congela o alvo vira o Arctic Beam. Para uma parede que para tudo o que encosta, o Time Wall do Paradox é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Tempestade que lenta toda a área", "destino": "Frost Grenade" },
+        { "origem": "E – Rajada que congela o alvo", "destino": "Arctic Beam" }
+      ]
+    },
+    "AurelionSol": {
+      "heroi": 11,
+      "segunda": 15,
+      "motivo": "Mago de longo alcance que puxa os inimigos para um ponto e os castiga ali: o buraco negro do E do Aurelion Sol é o Singularity do Dynamo, e o voo do W, que muda a posição dele no meio da luta, lembra o Quantum Entanglement. Para um raio contínuo de longe, o Hyper Beam do Bebop é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Buraco negro que puxa os inimigos", "destino": "Singularity" },
+        { "origem": "W – Voo que muda de posição", "destino": "Quantum Entanglement" }
+      ]
+    },
+    "Karthus": {
+      "heroi": 50,
+      "segunda": 66,
+      "motivo": "Mago parado que castiga quem está por perto e acerta de longe: a aura do E do Karthus, que causa dano contínuo ao redor, é o Affliction do Pocket, e a explosão atrasada do Q lembra o Enchanter's Satchel. As habilidades também lembram as do Victor, com o Aura of Suffering e o Shocking Reanimation, que age depois da morte como o espírito do Karthus. Mas o estilo é bem diferente: o Karthus é um mago de dano e o Victor é um tanque.",
+      "paralelos": [
+        { "origem": "E – Aura que causa dano contínuo ao redor", "destino": "Affliction" },
+        { "origem": "Q – Explosão atrasada em área", "destino": "Enchanter's Satchel" }
+      ]
+    },
+    "Malzahar": {
+      "heroi": 76,
+      "segunda": 69,
+      "motivo": "Mago que invoca ajudantes e castiga o alvo aos poucos: os Voidlings do W do Malzahar são o Ghoul do Grasping Hands do Graves, e o E que drena o alvo com o tempo lembra o Essence Theft. Para tirar o alvo da luta, como o R que o suprime, o Hotel Guest do Doorman é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Invoca ajudantes que atacam", "destino": "Grasping Hands" },
+        { "origem": "E – Drena o alvo aos poucos", "destino": "Essence Theft" }
+      ]
+    },
+    "Mel": {
+      "heroi": 81,
+      "segunda": 25,
+      "motivo": "Maga de luz que se protege e castiga a área: a barreira do W da Mel, que reflete o que vem na direção dela, é o Dazzling Trick da Celeste, e a chuva de projéteis em área do Q lembra o Radiant Daggers. Para barreira com velocidade na hora do aperto, o Willpower do Warden é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Barreira que reflete o que vem", "destino": "Dazzling Trick" },
+        { "origem": "Q – Chuva de projéteis em área", "destino": "Radiant Daggers" },
+        { "origem": "E – Orbe que prende e lenta", "destino": "Shining Wonder" }
+      ]
+    },
+    "Neeko": {
+      "heroi": 14,
+      "segunda": 60,
+      "motivo": "Maga de controle que prende o alvo e arremessa todo mundo para cima: o pulo do R da Neeko, que lança os inimigos pelo ar, é o knockup do Powder Keg da Holliday, e o laço do E que prende o alvo lembra o Spirit Lasso. Para enganar e transformar o alvo, como o disfarce dela, o Rabbit Hex do Sinclair é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Pulo que lança todos para cima", "destino": "Powder Keg" },
+        { "origem": "E – Laço que prende o alvo", "destino": "Spirit Lasso" }
+      ]
+    },
+    "Ryze": {
+      "heroi": 69,
+      "segunda": 60,
+      "bonus": 16,
+      "motivo": "Mago de combos que prende o alvo e abre caminho para o time: o portal do R do Ryze, que leva os aliados para outro lugar, é o Doorway do Doorman, e a gaiola do W que prende o alvo lembra o Hotel Guest. Para encadear feitiços em sequência, o Vexing Bolt e o Rabbit Hex do Sinclair são a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Portal que leva o time para outro lugar", "destino": "Doorway" },
+        { "origem": "W – Gaiola que prende o alvo", "destino": "Hotel Guest" }
+      ]
+    },
+    "Taliyah": {
+      "heroi": 12,
+      "segunda": 86,
+      "bonus": 22,
+      "motivo": "Maga que domina o terreno e se desloca por ele: o R da Taliyah, a parede longa que ela surfa, é o Ice Path do Kelvin, a trilha que dá velocidade a quem passa, e o campo minado do E que lenta quem passa lembra o Frost Grenade. Para uma trilha de tinta que lenta os inimigos e acelera os aliados, o Flow State da Violet é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Parede longa que ela surfa", "destino": "Ice Path" },
+        { "origem": "E – Campo que lenta quem passa", "destino": "Frost Grenade" }
+      ]
+    },
+    "Veigar": {
+      "heroi": 2,
+      "segunda": 4,
+      "motivo": "Mago de explosão que escolhe o alvo e o elimina de uma vez: o R do Veigar, que causa dano enorme no alvo escolhido, é o Static Charge do Seven, que explode e atordoa depois de um instante, e o projétil em linha do Q vira o Lightning Ball. Para uma bomba grande que cobra um preço de quem a lança, o Essence Bomb da Lady Geist é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Dano enorme no alvo escolhido", "destino": "Static Charge" },
+        { "origem": "Q – Projétil em linha", "destino": "Lightning Ball" }
+      ]
+    },
+    "Vex": {
+      "heroi": 86,
+      "segunda": 16,
+      "motivo": "Maga sombria que marca o alvo e castiga a área: o R da Vex, que marca um campeão e vai atrás dele, é o Still Life da Violet, e a zona escura do E que lenta é o Abstract Landscape. Para jogar bombas que explodem depois de um instante, o Gloom Bombs do Calico é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Marca o alvo e vai atrás dele", "destino": "Still Life" },
+        { "origem": "E – Zona escura que lenta", "destino": "Abstract Landscape" },
+        { "origem": "Q – Projétil que acelera no caminho", "destino": "Flow State" }
+      ]
+    },
+    "Viktor": {
+      "heroi": 10,
+      "segunda": 2,
+      "motivo": "Mago que controla o espaço com campos e raios: o campo do W do Viktor, que lenta quem fica dentro, é o Time Wall do Paradox, o raio do E lembra o Kinetic Carbine e a tempestade do R que castiga a área vira o Pulse Grenade. Para reforçar o ataque com um choque, o Power Surge do Seven é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Campo que lenta quem fica dentro", "destino": "Time Wall" },
+        { "origem": "E – Raio em linha", "destino": "Kinetic Carbine" },
+        { "origem": "R – Tempestade que castiga a área", "destino": "Pulse Grenade" }
+      ]
+    },
+    "Zoe": {
+      "heroi": 60,
+      "segunda": 13,
+      "motivo": "Maga de tiro à distância que conduz o projétil e rouba o poder do inimigo: o Q da Zoe, que cresce com a distância e pode ser redirecionado, é o Vexing Bolt do Sinclair, e o W que pega os feitiços do inimigo lembra o Audience Participation, que copia a ultimate dele. Para dormir o alvo, como o E, o Sleep Dagger da Haze é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Projétil que cresce com a distância", "destino": "Vexing Bolt" },
+        { "origem": "W – Pega os feitiços do inimigo", "destino": "Audience Participation" }
+      ]
     }
   }
 }

@@ -1780,5 +1780,157 @@
         "origem": "E – Becomes ghosted and dashes"
       }
     ]
+  },
+  "Ahri": {
+    "motivo": "A mobile mage who chases the target and steals life: the three fox-fires of Ahri's W, which aim on their own, recall Mirage's Fire Scarabs, which steals the enemy's life, and the chained dashes of the R become Dust Devil. To pull the target and pin them in the middle of the fight like the Charm, Holliday's Spirit Lasso is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Flames that aim on their own and steal life"
+      },
+      {
+        "origem": "R – Chained dashes"
+      }
+    ]
+  },
+  "Anivia": {
+    "motivo": "A control mage who owns the space and holds back anyone trying to advance: the storm of Anivia's R, which slows the whole area, is Kelvin's Frost Grenade, and the E's blast that freezes the target becomes Arctic Beam. For a wall that stops everything that touches it, Paradox's Time Wall is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Storm that slows the whole area"
+      },
+      {
+        "origem": "E – Blast that freezes the target"
+      }
+    ]
+  },
+  "AurelionSol": {
+    "motivo": "A long-range mage who pulls enemies to one spot and punishes them there: the black hole of Aurelion Sol's E is Dynamo's Singularity, and the W's flight, which changes his position mid-fight, recalls Quantum Entanglement. For a continuous beam from afar, Bebop's Hyper Beam is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Black hole that pulls enemies in"
+      },
+      {
+        "origem": "W – Flight that changes position"
+      }
+    ]
+  },
+  "Karthus": {
+    "motivo": "A stationary mage who punishes anyone nearby and hits from afar: the aura of Karthus' E, which deals damage over time around him, is Pocket's Affliction, and the delayed blast of the Q recalls Enchanter's Satchel. The abilities also recall Victor's, with Aura of Suffering and Shocking Reanimation, which acts after death like Karthus' spirit. But the style is very different: Karthus is a damage mage and Victor is a tank.",
+    "paralelos": [
+      {
+        "origem": "E – Aura that deals damage over time around him"
+      },
+      {
+        "origem": "Q – Delayed blast over an area"
+      }
+    ]
+  },
+  "Malzahar": {
+    "motivo": "A mage who summons helpers and wears the target down: the Voidlings of Malzahar's W are the Ghoul from Graves' Grasping Hands, and the E that drains the target over time recalls Essence Theft. To take the target out of the fight, like the R that suppresses them, Doorman's Hotel Guest is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Summons helpers that attack"
+      },
+      {
+        "origem": "E – Drains the target over time"
+      }
+    ]
+  },
+  "Mel": {
+    "motivo": "A light mage who protects herself and punishes the area: the barrier of Mel's W, which reflects what comes at her, is Celeste's Dazzling Trick, and the rain of projectiles over an area from the Q recalls Radiant Daggers. For a barrier with speed in a pinch, Warden's Willpower is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Barrier that reflects what comes at her"
+      },
+      {
+        "origem": "Q – Rain of projectiles over an area"
+      },
+      {
+        "origem": "E – Orb that roots and slows"
+      }
+    ]
+  },
+  "Neeko": {
+    "motivo": "A control mage who pins the target and throws everyone into the air: the leap of Neeko's R, which launches enemies upward, is the knockup of Holliday's Powder Keg, and the E's tangle that roots the target recalls Spirit Lasso. To trick and transform the target, like her disguise, Sinclair's Rabbit Hex is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Leap that launches everyone upward"
+      },
+      {
+        "origem": "E – Tangle that roots the target"
+      }
+    ]
+  },
+  "Ryze": {
+    "motivo": "A combo mage who pins the target and opens the way for the team: the portal of Ryze's R, which takes allies somewhere else, is the Doorman's Doorway, and the W's cage that holds the target recalls Hotel Guest. To chain spells in sequence, Sinclair's Vexing Bolt and Rabbit Hex are the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Portal that takes the team somewhere else"
+      },
+      {
+        "origem": "W – Cage that holds the target"
+      }
+    ]
+  },
+  "Taliyah": {
+    "motivo": "A mage who owns the terrain and moves across it: Taliyah's R, the long wall she surfs, is Kelvin's Ice Path, the trail that gives speed to whoever crosses it, and the E's minefield that slows whoever walks over it recalls Frost Grenade. For an ink trail that slows enemies and speeds up allies, Violet's Flow State is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Long wall she surfs"
+      },
+      {
+        "origem": "E – Field that slows whoever crosses it"
+      }
+    ]
+  },
+  "Veigar": {
+    "motivo": "A burst mage who picks the target and takes them out in one go: Veigar's R, which deals huge damage to the chosen target, is Seven's Static Charge, which goes off and stuns after a moment, and the Q's line projectile becomes Lightning Ball. For a big bomb that costs the one who throws it, Lady Geist's Essence Bomb is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Huge damage to the chosen target"
+      },
+      {
+        "origem": "Q – Line projectile"
+      }
+    ]
+  },
+  "Vex": {
+    "motivo": "A dark mage who marks the target and punishes the area: Vex's R, which marks a champion and goes after them, is Violet's Still Life, and the E's dark zone that slows is Abstract Landscape. To throw bombs that go off after a moment, Calico's Gloom Bombs is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Marks the target and goes after them"
+      },
+      {
+        "origem": "E – Dark zone that slows"
+      },
+      {
+        "origem": "Q – Projectile that accelerates along the way"
+      }
+    ]
+  },
+  "Viktor": {
+    "motivo": "A mage who controls space with fields and beams: the field of Viktor's W, which slows anyone inside, is Paradox's Time Wall, the E's beam recalls Kinetic Carbine, and the R's storm that punishes the area becomes Pulse Grenade. To empower the attack with a shock, Seven's Power Surge is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Field that slows anyone inside"
+      },
+      {
+        "origem": "E – Line beam"
+      },
+      {
+        "origem": "R – Storm that punishes the area"
+      }
+    ]
+  },
+  "Zoe": {
+    "motivo": "A long-range mage who steers her missile and steals the enemy's power: Zoe's Q, which grows with distance and can be redirected, is Sinclair's Vexing Bolt, and the W that picks up the enemy's spells recalls Audience Participation, which copies their ultimate. To put the target to sleep, like the E, Haze's Sleep Dagger is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Missile that grows with distance"
+      },
+      {
+        "origem": "W – Picks up the enemy's spells"
+      }
+    ]
   }
 }

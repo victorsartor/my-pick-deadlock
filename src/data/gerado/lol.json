@@ -685,6 +685,71 @@
    "nome": "Yunara",
    "nomeEn": "Yunara",
    "titulo": "a Fé Inabalável"
+  },
+  "Ahri": {
+   "nome": "Ahri",
+   "nomeEn": "Ahri",
+   "titulo": "a Raposa de Nove Caudas"
+  },
+  "Anivia": {
+   "nome": "Anivia",
+   "nomeEn": "Anivia",
+   "titulo": "a Criofênix"
+  },
+  "AurelionSol": {
+   "nome": "Aurelion Sol",
+   "nomeEn": "Aurelion Sol",
+   "titulo": "o Forjador de Estrelas"
+  },
+  "Karthus": {
+   "nome": "Karthus",
+   "nomeEn": "Karthus",
+   "titulo": "a Voz Mortal"
+  },
+  "Malzahar": {
+   "nome": "Malzahar",
+   "nomeEn": "Malzahar",
+   "titulo": "o Profeta do Vazio"
+  },
+  "Mel": {
+   "nome": "Mel",
+   "nomeEn": "Mel",
+   "titulo": "o Reflexo da Alma"
+  },
+  "Neeko": {
+   "nome": "Neeko",
+   "nomeEn": "Neeko",
+   "titulo": "a Camaleoa Curiosa"
+  },
+  "Ryze": {
+   "nome": "Ryze",
+   "nomeEn": "Ryze",
+   "titulo": "o Mago Rúnico"
+  },
+  "Taliyah": {
+   "nome": "Taliyah",
+   "nomeEn": "Taliyah",
+   "titulo": "a Tecelã de Pedras"
+  },
+  "Veigar": {
+   "nome": "Veigar",
+   "nomeEn": "Veigar",
+   "titulo": "o Pequeno Mestre do Mal"
+  },
+  "Vex": {
+   "nome": "Vex",
+   "nomeEn": "Vex",
+   "titulo": "a Melancolista"
+  },
+  "Viktor": {
+   "nome": "Viktor",
+   "nomeEn": "Viktor",
+   "titulo": "o Arauto do Arcano"
+  },
+  "Zoe": {
+   "nome": "Zoe",
+   "nomeEn": "Zoe",
+   "titulo": "o Aspecto do Crepúsculo"
   }
  }
 }
