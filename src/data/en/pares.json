@@ -1634,5 +1634,151 @@
         "origem": "W – Puddle that slows the area"
       }
     ]
+  },
+  "Akshan": {
+    "motivo": "A movement shooter who launches through the air and keeps firing: Akshan's grappling hook becomes Holliday's Bounce Pad, which sends you flying, and the ultimate that stores bullets and unloads them on the target recalls Crackshot, which rewards the precise shot. To shoot mid-flight and finish the target from far away, Vindicta's Flight and Assassinate are the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Grappling hook that swings and shoots"
+      },
+      {
+        "origem": "R – Stores bullets and fires at the target"
+      }
+    ]
+  },
+  "Aphelios": {
+    "motivo": "A shooter with several weapons, each with its own effect, who picks the right tool for the fight: Venator also switches between grenade, shotgun and trap, and Ira Domini's crossbow is Aphelios' concentrated blast from the R. For effects that change unpredictably, Wraith's Card Trick is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Each weapon has a different effect"
+      },
+      {
+        "origem": "R – Concentrated, devastating shot"
+      }
+    ]
+  },
+  "Draven": {
+    "motivo": "An aggressive shooter who grows with every hit: Draven's passive, which adds damage the more he hits the target, is Haze's Fixation, and the W's run with extra attack speed becomes Smoke Bomb's sprint. For more fire rate with spirit damage, Wraith's Full Auto is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive – More damage the more it hits"
+      },
+      {
+        "origem": "W – Run with extra fire rate"
+      }
+    ]
+  },
+  "Kaisa": {
+    "motivo": "A shooter who stacks damage with her shots and dives to finish the target: Kai'Sa's Second Skin, which stacks damage until it bursts, is Mina's Love Bites, and the R's dive recalls Sanguine Retreat. To stack damage on the same target and slip in and out of the fight, Haze's Fixation and Smoke Bomb are the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive – Shots stack damage and burst"
+      },
+      {
+        "origem": "R – Dashes close to the target"
+      }
+    ]
+  },
+  "Kayle": {
+    "motivo": "A ranged fighter who grows over time and mixes weapon and spell: the Q's blade that pierces and slows is Seven's Lightning Ball, the E's attack empowered with magic damage is Power Surge, and the R's holy rain becomes Storm Cloud. For more fire rate with spirit damage, Wraith's Full Auto is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Blade that pierces and slows"
+      },
+      {
+        "origem": "E – Attack empowered with magic damage"
+      },
+      {
+        "origem": "R – Holy rain over an area"
+      }
+    ]
+  },
+  "Kindred": {
+    "motivo": "An agile hunter who marks targets and chases them with shots on the move: Kindred's passive, which stacks hunt marks, is Mirage's Djinn's Mark, and the Q's roll that fires arrows recalls Dust Devil. To mark the target and punish with strong shots, Venator is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive – Hunt marks that stack"
+      },
+      {
+        "origem": "Q – Roll that fires arrows"
+      }
+    ]
+  },
+  "KogMaw": {
+    "motivo": "A stationary shooter with huge range who melts the target from afar: Kog'Maw's R, the long-range artillery, is Grey Talon's Charged Shot, and the E's goo that leaves a slow on the ground becomes Spirit Snare. To empower the weapon with a shock that jumps between targets, Seven's Power Surge is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Long-range artillery shot"
+      },
+      {
+        "origem": "E – Goo that leaves a slow on the ground"
+      }
+    ]
+  },
+  "Quinn": {
+    "motivo": "A shooter who flies and drops on the target with the help of her bird: Quinn's R, which flies and ends with a strike, is Vindicta's Flight, and the bird that blinds and weakens the target is Crow Familiar. To slip in and out of the fight with a teleport, Wraith's Project Mind is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Flies and drops on the target"
+      },
+      {
+        "origem": "Q – Bird that marks and weakens the target"
+      }
+    ]
+  },
+  "Sivir": {
+    "motivo": "A shooter whose shots hit several targets: the W's ricochet, where attacks bounce between enemies, is Seven's Power Surge, and the Q's boomerang that pierces and returns becomes Lightning Ball. To gain a barrier and speed in a pinch, Warden's Willpower is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Attacks that ricochet between targets"
+      },
+      {
+        "origem": "Q – Boomerang that goes and returns"
+      }
+    ]
+  },
+  "Smolder": {
+    "motivo": "A fire shooter who burns the target and grows over time: Smolder's Q breath is Infernus' Napalm, and the burning damage that stacks with every hit becomes Afterburn. To fly and bombard from above, Deadman Danny's Chimera Mk1 is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Fire breath that grows with hits"
+      },
+      {
+        "origem": "Passive – Burning damage that stacks"
+      }
+    ]
+  },
+  "Tristana": {
+    "motivo": "A shooter who rocket-jumps and blows up the area where she lands: Tristana's Rocket Jump is Deadman Danny's Chimera Mk1, which flies and ends in an explosion, and the E's explosive charge recalls Strix Salvo. To launch yourself into the air and blow up anyone nearby, Holliday's Bounce Pad and Powder Keg are the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Rocket jump that explodes on landing"
+      },
+      {
+        "origem": "E – Explosive charge that detonates later"
+      }
+    ]
+  },
+  "Xayah": {
+    "motivo": "A dagger shooter who roots and stacks damage: Xayah's Q daggers are Vyper's Screwjab Dagger, which stacks damage and slow, and the E's feathers that root everyone at once recall Petrifying Bola. To become untouchable at the right moment, Mina's Sanguine Retreat is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Daggers that stack damage"
+      },
+      {
+        "origem": "E – Roots everyone at once"
+      }
+    ]
+  },
+  "Yunara": {
+    "motivo": "A shooter who speeds up her shots and enters a stronger state: Yunara's Q, with extra fire rate and magic damage on the shot, is Wraith's Full Auto, and the E that makes her ghosted and dashes recalls Project Mind. To shoot on the move and vanish from the fight, Haze's Smoke Bomb is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Extra fire rate and magic damage on the shot"
+      },
+      {
+        "origem": "E – Becomes ghosted and dashes"
+      }
+    ]
   }
 }

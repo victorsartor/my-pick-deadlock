@@ -620,6 +620,71 @@
    "nome": "Singed",
    "nomeEn": "Singed",
    "titulo": "o Químico Louco"
+  },
+  "Akshan": {
+   "nome": "Akshan",
+   "nomeEn": "Akshan",
+   "titulo": "o Sentinela Rebelde"
+  },
+  "Aphelios": {
+   "nome": "Aphelios",
+   "nomeEn": "Aphelios",
+   "titulo": "a Arma dos Devotos"
+  },
+  "Draven": {
+   "nome": "Draven",
+   "nomeEn": "Draven",
+   "titulo": "o Carrasco de Noxus"
+  },
+  "Kaisa": {
+   "nome": "Kai'Sa",
+   "nomeEn": "Kai'Sa",
+   "titulo": "a Filha do Vazio"
+  },
+  "Kayle": {
+   "nome": "Kayle",
+   "nomeEn": "Kayle",
+   "titulo": "a Justa"
+  },
+  "Kindred": {
+   "nome": "Kindred",
+   "nomeEn": "Kindred",
+   "titulo": "os Caçadores Eternos"
+  },
+  "KogMaw": {
+   "nome": "Kog'Maw",
+   "nomeEn": "Kog'Maw",
+   "titulo": "a Boca do Abismo"
+  },
+  "Quinn": {
+   "nome": "Quinn",
+   "nomeEn": "Quinn",
+   "titulo": "as Asas de Demacia"
+  },
+  "Sivir": {
+   "nome": "Sivir",
+   "nomeEn": "Sivir",
+   "titulo": "a Mestra da Batalha"
+  },
+  "Smolder": {
+   "nome": "Smolder",
+   "nomeEn": "Smolder",
+   "titulo": "o Filhote Flamejante"
+  },
+  "Tristana": {
+   "nome": "Tristana",
+   "nomeEn": "Tristana",
+   "titulo": "a Artilheira Yordle"
+  },
+  "Xayah": {
+   "nome": "Xayah",
+   "nomeEn": "Xayah",
+   "titulo": "a Rebelde"
+  },
+  "Yunara": {
+   "nome": "Yunara",
+   "nomeEn": "Yunara",
+   "titulo": "a Fé Inabalável"
   }
  }
 }

@@ -1182,6 +1182,124 @@
         { "origem": "W – Prende o alvo", "destino": "Leech Therapy" },
         { "origem": "R – Escudo global", "destino": "Wretched Vapors" }
       ]
+    },
+    "Akshan": {
+      "heroi": 14,
+      "segunda": 3,
+      "motivo": "Atirador de movimento que se lança pelo ar e continua atirando: o gancho do Akshan vira o Bounce Pad da Holliday, que dispara você pelo ar, e a ultimate que guarda balas e as solta no alvo lembra o Crackshot, que premia o tiro certeiro. Para atirar em pleno voo e fechar o alvo de longe, o Flight e o Assassinate da Vindicta são a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Gancho que se balança e atira", "destino": "Bounce Pad" },
+        { "origem": "R – Guarda balas e dispara no alvo", "destino": "Crackshot" }
+      ]
+    },
+    "Aphelios": {
+      "heroi": 65,
+      "segunda": 7,
+      "motivo": "Atirador com várias armas, cada uma com um efeito, que escolhe a ferramenta certa para a luta: o Venator também alterna entre granada, espingarda e armadilha, e a besta do Ira Domini é a carga concentrada do R do Aphelios. Para efeitos que mudam de forma imprevisível, o Card Trick da Wraith é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Cada arma tem um efeito diferente", "destino": "Gutshot" },
+        { "origem": "R – Disparo concentrado e devastador", "destino": "Ira Domini" }
+      ]
+    },
+    "Draven": {
+      "heroi": 13,
+      "segunda": 7,
+      "motivo": "Atirador agressivo que cresce a cada acerto: a passiva do Draven, que dá mais dano quanto mais ele acerta o alvo, é o Fixation da Haze, e a corrida com mais cadência do W vira o sprint do Smoke Bomb. Para mais cadência de tiro com dano de espírito, o Full Auto da Wraith é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Mais dano quanto mais acerta", "destino": "Fixation" },
+        { "origem": "W – Corrida com mais cadência de tiro", "destino": "Smoke Bomb" }
+      ]
+    },
+    "Kaisa": {
+      "heroi": 63,
+      "segunda": 13,
+      "motivo": "Atiradora que acumula dano nos tiros e mergulha para fechar o alvo: o Second Skin da Kai'Sa, que empilha dano até explodir, é o Love Bites da Mina, e o mergulho do R lembra o Sanguine Retreat. Para empilhar dano no mesmo alvo e entrar e sair da luta, o Fixation e o Smoke Bomb da Haze são a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Tiros empilham dano e explodem", "destino": "Love Bites" },
+        { "origem": "R – Avança até perto do alvo", "destino": "Sanguine Retreat" }
+      ]
+    },
+    "Kayle": {
+      "heroi": 2,
+      "segunda": 7,
+      "motivo": "Atiradora de alcance que cresce com o tempo e mistura arma e feitiço: a lâmina do Q que atravessa e retarda é o Lightning Ball do Seven, o ataque reforçado com dano mágico do E é o Power Surge e a chuva sagrada do R vira o Storm Cloud. Para mais cadência de tiro com dano de espírito, o Full Auto da Wraith é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Lâmina que atravessa e retarda", "destino": "Lightning Ball" },
+        { "origem": "E – Ataque reforçado com dano mágico", "destino": "Power Surge" },
+        { "origem": "R – Chuva sagrada em área", "destino": "Storm Cloud" }
+      ]
+    },
+    "Kindred": {
+      "heroi": 52,
+      "segunda": 65,
+      "motivo": "Caçadora ágil que marca alvos e os persegue com tiros em movimento: a passiva do Kindred, que acumula marcas de caça, é o Djinn's Mark do Mirage, e o rolamento do Q que dispara flechas lembra o Dust Devil. Para marcar o alvo e punir com tiros fortes, o Venator é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Marcas de caça que se acumulam", "destino": "Djinn's Mark" },
+        { "origem": "Q – Rolamento que dispara flechas", "destino": "Dust Devil" }
+      ]
+    },
+    "KogMaw": {
+      "heroi": 17,
+      "segunda": 2,
+      "motivo": "Atirador parado de alcance enorme que derrete o alvo à distância: o R do Kog'Maw, a artilharia de longe, é o Charged Shot do Grey Talon, e a gosma do E que deixa lentidão no chão vira o Spirit Snare. Para reforçar a arma com um choque que pula entre os alvos, o Power Surge do Seven é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Tiro de artilharia de longe", "destino": "Charged Shot" },
+        { "origem": "E – Gosma que deixa lentidão no chão", "destino": "Spirit Snare" }
+      ]
+    },
+    "Quinn": {
+      "heroi": 3,
+      "segunda": 7,
+      "motivo": "Atiradora que voa e cai em cima do alvo com a ajuda da ave: o R da Quinn, que voa e termina com um golpe, é o Flight da Vindicta, e a ave que cega e enfraquece o alvo é o Crow Familiar. Para entrar e sair da luta com teleporte, o Project Mind da Wraith é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Voa e cai sobre o alvo", "destino": "Flight" },
+        { "origem": "Q – Ave que marca e enfraquece o alvo", "destino": "Crow Familiar" }
+      ]
+    },
+    "Sivir": {
+      "heroi": 2,
+      "segunda": 25,
+      "motivo": "Atiradora de tiros que atingem vários alvos: o ricochete do W, em que os ataques pulam entre os inimigos, é o Power Surge do Seven, e o bumerangue do Q que atravessa e volta vira o Lightning Ball. Para ganhar barreira e velocidade na hora do aperto, o Willpower do Warden é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Ataques que ricocheteiam entre os alvos", "destino": "Power Surge" },
+        { "origem": "Q – Bumerangue que vai e volta", "destino": "Lightning Ball" }
+      ]
+    },
+    "Smolder": {
+      "heroi": 1,
+      "segunda": 78,
+      "motivo": "Atirador de fogo que queima o alvo e cresce com o tempo: o sopro do Q do Smolder é o Napalm do Infernus, e o dano em chamas que empilha a cada acerto vira o Afterburn. Para voar bombardeando de cima, o Chimera Mk1 do Deadman Danny é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Sopro de fogo que cresce com os acertos", "destino": "Napalm" },
+        { "origem": "Passiva – Dano em chamas que empilha", "destino": "Afterburn" }
+      ]
+    },
+    "Tristana": {
+      "heroi": 78,
+      "segunda": 14,
+      "motivo": "Atiradora que salta com foguete e explode a área onde cai: o Rocket Jump da Tristana é o Chimera Mk1 do Deadman Danny, que voa e termina em explosão, e a carga explosiva do E lembra o Strix Salvo. Para se lançar pelo ar e explodir quem estiver perto, o Bounce Pad e o Powder Keg da Holliday são a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Salto de foguete que explode ao cair", "destino": "Chimera Mk1" },
+        { "origem": "E – Carga explosiva que detona depois", "destino": "Strix Salvo" }
+      ]
+    },
+    "Xayah": {
+      "heroi": 58,
+      "segunda": 63,
+      "motivo": "Atiradora de adagas que prende e acumula dano: as adagas do Q da Xayah são o Screwjab Dagger da Vyper, que empilha dano e lentidão, e as penas do E que prendem todo mundo de uma vez lembram o Petrifying Bola. Para ficar intocável no momento certo, o Sanguine Retreat da Mina é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Adagas que acumulam dano", "destino": "Screwjab Dagger" },
+        { "origem": "E – Prende todo mundo de uma vez", "destino": "Petrifying Bola" }
+      ]
+    },
+    "Yunara": {
+      "heroi": 7,
+      "segunda": 13,
+      "motivo": "Atiradora que acelera os tiros e entra em um estado mais forte: o Q da Yunara, com mais cadência e dano mágico no tiro, é o Full Auto da Wraith, e o E que deixa fantasma e avança lembra o Project Mind. Para atirar em movimento e sumir da luta, o Smoke Bomb da Haze é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Mais cadência e dano mágico no tiro", "destino": "Full Auto" },
+        { "origem": "E – Fica fantasma e avança", "destino": "Project Mind" }
+      ]
     }
   }
 }
