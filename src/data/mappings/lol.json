@@ -1423,6 +1423,216 @@
         { "origem": "Q – Projétil que cresce com a distância", "destino": "Vexing Bolt" },
         { "origem": "W – Pega os feitiços do inimigo", "destino": "Audience Participation" }
       ]
+    },
+    "Belveth": {
+      "heroi": 80,
+      "segunda": 27,
+      "motivo": "Lutadora que ganha velocidade de ataque a cada luta e vira outra coisa no fim: a passiva da Bel'Veth, que empilha velocidade de ataque, é o Slam Fire do Silver, que acelera os tiros, e a forma verdadeira do R, que aumenta a vida máxima, é o Lycan Curse, que também se ativa ao acumular dano. Para uma transformação com habilidades mais rápidas e imunidade a controle, o Shadow Transformation do Yamato é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva – Velocidade de ataque que cresce na luta", "destino": "Slam Fire" },
+        { "origem": "R – Forma verdadeira com mais vida", "destino": "Lycan Curse" }
+      ]
+    },
+    "Briar": {
+      "heroi": 64,
+      "segunda": 19,
+      "motivo": "Lutadora que sangra o alvo e se cura enquanto bate: o R da Briar, que marca o primeiro campeão atingido e vai atrás dele, é o Stalker's Mark do Drifter, que sangra o alvo e leva o Drifter até as costas dele, e o grito em cone do E, que fere de perto, lembra o Rend. Para um sangramento que cresce a cada acerto, o Serrated Knives do Shiv é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Marca o primeiro inimigo e vai atrás dele", "destino": "Stalker's Mark" },
+        { "origem": "E – Golpe em cone que fere de perto", "destino": "Rend" }
+      ]
+    },
+    "Diana": {
+      "heroi": 77,
+      "segunda": 72,
+      "motivo": "Lutadora que corta em arco e avança no alvo marcado: o E da Diana, que a leva até o inimigo e reinicia ao acertar uma marca, é o Flawless Advance do Apollo, uma sequência de investidas, e as esferas do W, que giram e explodem em volta, lembram o Disengaging Sigil. Para puxar todos os inimigos para perto, como o R, o Chain Gang do Billy é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Investida até o alvo marcado", "destino": "Flawless Advance" },
+        { "origem": "W – Esferas que explodem em volta", "destino": "Disengaging Sigil" }
+      ]
+    },
+    "Gangplank": {
+      "heroi": 14,
+      "segunda": 1,
+      "motivo": "Lutador de barris e pólvora que domina o espaço: o E do Gangplank, os barris que explodem em cadeia, é o Powder Keg da Holliday, e o tiro de pistola do Q lembra o Crackshot, que cobra mais de quem leva o tiro certo. Mas o estilo é diferente: o Gangplank luta de perto com a espada e a Holliday atira de longe. Para queimar o alvo a cada golpe, como a passiva dele, o Afterburn do Infernus é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Barris que explodem em cadeia", "destino": "Powder Keg" },
+        { "origem": "Q – Tiro de pistola no alvo", "destino": "Crackshot" }
+      ]
+    },
+    "Garen": {
+      "heroi": 25,
+      "segunda": 6,
+      "motivo": "Lutador resistente que gira a espada e termina o alvo: o W do Garen, que dá defesa e o protege, é o Willpower do Warden, uma barreira com velocidade, e o giro do E, que fere tudo em volta, lembra o Last Stand, que causa dano em pulsos e cura. Para ficar de pé trocando dano, o Infernal Resilience do Abrams, que regenera ao receber dano, é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Defesa e proteção na hora do aperto", "destino": "Willpower" },
+        { "origem": "E – Giro que fere tudo em volta", "destino": "Last Stand" }
+      ]
+    },
+    "Gnar": {
+      "heroi": 72,
+      "segunda": 27,
+      "motivo": "Lutador que vira uma força bruta e arremessa todo mundo: o R do Mega Gnar, que lança os inimigos para longe, é o Rising Ram do Billy, que carrega o alvo pelo ar, e a pancada em área do W lembra o Bashdown. Para uma transformação que muda o jogo no meio da luta, como a do Mega Gnar, o Shadow Transformation do Yamato é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Lança os inimigos para longe", "destino": "Rising Ram" },
+        { "origem": "W – Pancada em área do Mega Gnar", "destino": "Bashdown" }
+      ]
+    },
+    "Gwen": {
+      "heroi": 16,
+      "segunda": 63,
+      "motivo": "Lutadora de cortes rápidos que some na névoa: o E da Gwen, um dash curto que melhora o ataque, é o Leaping Slash da Calico, que corta em círculo e cura ao acertar, e a névoa do W, que a deixa fora do alcance, lembra o Return to Shadows, que a deixa intocável por um instante. Para somar dano extra a cada acerto, como a passiva dela, o Love Bites da Mina é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Dash curto que melhora os ataques", "destino": "Leaping Slash" },
+        { "origem": "W – Névoa que a deixa fora do alcance", "destino": "Return to Shadows" }
+      ]
+    },
+    "Hecarim": {
+      "heroi": 72,
+      "segunda": 67,
+      "motivo": "Lutador de investida que atropela quem estiver no caminho: o E do Hecarim, que dá velocidade e lança o alvo ao bater, é o Rising Ram do Billy, e o golpe em área do Q lembra o Bashdown. O R de cavaleiros espectrais lembra o Rallying Charge da Paige, mas ela é suporte e o Hecarim é um lutador, e por isso a Paige fica como segunda opção.",
+      "paralelos": [
+        { "origem": "E – Investida que atropela e lança o alvo", "destino": "Rising Ram" },
+        { "origem": "Q – Golpe em área ao redor", "destino": "Bashdown" }
+      ]
+    },
+    "Illaoi": {
+      "heroi": 76,
+      "segunda": 18,
+      "motivo": "Lutadora que enche o chão de tentáculos e prende quem chega perto: os tentáculos que a Illaoi faz surgir do chão são o Jar of Dead do Graves, que invoca ajudantes que castigam o alvo, e o tentáculo do Q que brota sob o alvo lembra o Grasping Hands, que faz surgir mãos do chão para prender. Para arrancar o alvo do lugar e segurá-lo, como o E, o Combo do Mo & Krill é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva e R – Tentáculos que surgem do chão e atacam", "destino": "Jar of Dead" },
+        { "origem": "Q – Tentáculo que brota sob o alvo", "destino": "Grasping Hands" }
+      ]
+    },
+    "Irelia": {
+      "heroi": 27,
+      "segunda": 77,
+      "motivo": "Lutadora de dashes que se joga no alvo e se reinicia: o Q da Irelia, que avança no inimigo e cura ao acertar, é o Flying Slash do Yamato, que puxa quem o lança até o alvo, e a lâmina carregada do W lembra o Power Slash, que cresce enquanto é preparado. Para uma sequência de investidas no alvo, o Flawless Advance do Apollo é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Dash no alvo que cura ao acertar", "destino": "Flying Slash" },
+        { "origem": "W – Golpe que cresce enquanto é preparado", "destino": "Power Slash" }
+      ]
+    },
+    "Jax": {
+      "heroi": 77,
+      "segunda": 31,
+      "motivo": "Lutador que esquiva o golpe do inimigo e responde na hora: o E do Jax, que evita todos os ataques e atordoa quem está em volta, é o Riposte do Apollo, que desvia o próximo golpe e leva o Apollo até o alvo, e o salto do Q lembra o Flawless Advance. Para saltar direto no alvo, o Grapple do Lash é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Evita os ataques e responde", "destino": "Riposte" },
+        { "origem": "Q – Salto que acerta o alvo", "destino": "Flawless Advance" }
+      ]
+    },
+    "Jayce": {
+      "heroi": 80,
+      "segunda": 72,
+      "motivo": "Lutador que troca entre tiro e porrada: o canhão do Jayce, que dispara de longe, é o Slam Fire do Silver, e o martelo, que empurra o alvo para longe, lembra o Boot Kick. Para alternar entre atirar e bater, o Blasted do Billy, em que os golpes corpo a corpo recarregam a munição, é a segunda opção.",
+      "paralelos": [
+        { "origem": "Canhão – Tiros potentes de longe", "destino": "Slam Fire" },
+        { "origem": "Martelo – Golpe que empurra o alvo", "destino": "Boot Kick" }
+      ]
+    },
+    "Lillia": {
+      "heroi": 81,
+      "segunda": 63,
+      "motivo": "Lutadora que lenta, castiga a área e põe todo mundo para dormir: a semente do E da Lillia, que acerta e lenta quem está no caminho, é o Shining Wonder da Celeste, e o W, que bate mais forte no centro da área, lembra o Radiant Daggers. Para somar dano a cada habilidade que acerta, como a passiva, o Love Bites da Mina é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Semente que acerta e lenta", "destino": "Shining Wonder" },
+        { "origem": "W – Área que bate mais forte no centro", "destino": "Radiant Daggers" }
+      ]
+    },
+    "Nasus": {
+      "heroi": 6,
+      "segunda": 18,
+      "motivo": "Lutador que rouba a vida do alvo e fica mais forte com o tempo: a passiva e o Q do Nasus, que roubam vida a cada golpe, são o Siphon Life do Abrams, e a tempestade de areia do R, que o deixa mais resistente enquanto dura, lembra o Infernal Resilience. Para a areia que castiga quem está perto, o Sand Blast do Mo & Krill é a segunda opção.",
+      "paralelos": [
+        { "origem": "Passiva e Q – Rouba a vida do alvo", "destino": "Siphon Life" },
+        { "origem": "R – Tempestade que o deixa mais resistente", "destino": "Infernal Resilience" }
+      ]
+    },
+    "Nilah": {
+      "heroi": 31,
+      "segunda": 77,
+      "motivo": "Lutadora de chicote que corta em linha, avança e puxa todo mundo: o Q da Nilah, o chicote que acerta tudo à frente, é o Flog do Lash, que cura ao acertar, o dash do E até o alvo é o Grapple e o R, que fere em volta e puxa os inimigos, lembra o Death Slam. Para esquivar do golpe e partir para cima, o Riposte do Apollo é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Chicote que acerta tudo à frente", "destino": "Flog" },
+        { "origem": "E – Dash até o alvo", "destino": "Grapple" },
+        { "origem": "R – Fere em volta e puxa os inimigos", "destino": "Death Slam" }
+      ]
+    },
+    "Olaf": {
+      "heroi": 66,
+      "segunda": 4,
+      "motivo": "Lutador que se fere para bater mais forte e fica mais perigoso com pouca vida: o E do Olaf, que causa dano a ele mesmo, é o Jumpstart do Victor, que tira vida de quem o usa e devolve regeneração e velocidade, e a passiva, que cresce conforme ele perde vida, lembra o Pain Battery, que carrega ao receber dano. Para gastar a própria vida em um ataque mais forte, o Essence Bomb da Lady Geist é a segunda opção.",
+      "paralelos": [
+        { "origem": "E – Fere a si mesmo para bater mais forte", "destino": "Jumpstart" },
+        { "origem": "Passiva – Fica mais forte quando perde vida", "destino": "Pain Battery" }
+      ]
+    },
+    "Shyvana": {
+      "heroi": 80,
+      "segunda": 1,
+      "motivo": "Lutadora que se transforma em dragão e queima tudo: a forma de dragão do R da Shyvana, que dá mais vida, é o Lycan Curse do Silver, e a bola de fogo do E, que acerta e lenta, lembra o Entangling Bola. Para o fogo que queima o alvo aos poucos, o Napalm e o Afterburn do Infernus são a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Forma de dragão com mais vida", "destino": "Lycan Curse" },
+        { "origem": "E – Bola de fogo que acerta e lenta", "destino": "Entangling Bola" }
+      ]
+    },
+    "Tryndamere": {
+      "heroi": 66,
+      "segunda": 77,
+      "motivo": "Lutador que não cai enquanto há fúria: o R do Tryndamere, que o impede de morrer por um tempo, é o Shocking Reanimation do Victor, que o traz de volta depois da morte, e o Q, que o cura conforme a fúria, lembra o Jumpstart, que devolve regeneração. Para avançar atravessando os inimigos com cortes, como o E, o Flawless Advance do Apollo é a segunda opção.",
+      "paralelos": [
+        { "origem": "R – Não morre por um tempo", "destino": "Shocking Reanimation" },
+        { "origem": "Q – Cura conforme a fúria", "destino": "Jumpstart" }
+      ]
+    },
+    "Udyr": {
+      "heroi": 84,
+      "segunda": 6,
+      "bonus": 18,
+      "motivo": "Lutador de posturas que troca entre atacar e se proteger: o W do Udyr, que dá escudo e cura nos golpes seguintes, é o Royal Pestments do Rat King, uma barreira que protege, e a tempestade do R, que fere e lenta quem está perto, lembra o Rat Swarm, que castiga com dano contínuo. Para se curar enquanto bate no alvo, o Siphon Life do Abrams é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Escudo e cura nos golpes seguintes", "destino": "Royal Pestments" },
+        { "origem": "R – Tempestade que fere quem está perto", "destino": "Rat Swarm" }
+      ]
+    },
+    "Urgot": {
+      "heroi": 15,
+      "segunda": 72,
+      "motivo": "Lutador pesado que se arrasta atirando e prende o alvo: a carga explosiva do Q do Urgot é o Sticky Bomb do Bebop, uma bomba que explode depois de um instante, o W, que despeja a arma em quem está perto, lembra o Hyper Beam, e o R, que crava o alvo e o puxa, é o Grapple Arm. Para prender os inimigos a si e puxá-los, o Chain Gang do Billy é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Carga explosiva no local", "destino": "Sticky Bomb" },
+        { "origem": "W – Despeja a arma em quem está perto", "destino": "Hyper Beam" },
+        { "origem": "R – Crava o alvo e o puxa", "destino": "Grapple Arm" }
+      ]
+    },
+    "MonkeyKing": {
+      "heroi": 13,
+      "segunda": 27,
+      "motivo": "Lutador que some, deixa um clone e gira atingindo todos: o W do Wukong, que o deixa invisível com um dash e um clone, é o Smoke Bomb da Haze, e o giro do R, que fere todos em volta, lembra o Bullet Dance. Para o dash até o alvo, o Flying Slash do Yamato é a segunda opção.",
+      "paralelos": [
+        { "origem": "W – Fica invisível e deixa um clone", "destino": "Smoke Bomb" },
+        { "origem": "R – Giro que fere todos em volta", "destino": "Bullet Dance" }
+      ]
+    },
+    "XinZhao": {
+      "heroi": 77,
+      "segunda": 25,
+      "motivo": "Lutador de golpes seguidos e investida: o Q do Xin Zhao, três golpes em sequência com o último lançando o alvo, e o E, que o leva até o inimigo, lembram o Flawless Advance do Apollo, uma sequência de investidas no alvo. Para desafiar o alvo e segurá-lo no lugar, como o R, o Binding Word do Warden é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q e E – Golpes seguidos e investida no alvo", "destino": "Flawless Advance" }
+      ]
+    },
+    "Zaahen": {
+      "heroi": 6,
+      "segunda": 31,
+      "motivo": "Lutador que se cura batendo e puxa o alvo para si: o Q do Zaahen, que fere duas vezes e cura, é o Siphon Life do Abrams, o W, que acerta e puxa o inimigo, lembra o Shoulder Charge, e o R, que sobe e crava o chão curando, é o Seismic Impact. Para bater e se curar em seguida, o Flog do Lash é a segunda opção.",
+      "paralelos": [
+        { "origem": "Q – Fere duas vezes e cura", "destino": "Siphon Life" },
+        { "origem": "W – Acerta e puxa o inimigo", "destino": "Shoulder Charge" },
+        { "origem": "R – Crava o chão ferindo e curando", "destino": "Seismic Impact" }
+      ]
     }
   }
 }

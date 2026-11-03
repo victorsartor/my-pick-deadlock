@@ -1,5 +1,5 @@
 {
- "versao": "16.21.1",
+ "versao": "16.22.1",
  "campeoes": {
   "Brand": {
    "nome": "Brand",
@@ -750,6 +750,121 @@
    "nome": "Zoe",
    "nomeEn": "Zoe",
    "titulo": "o Aspecto do Crepúsculo"
+  },
+  "Belveth": {
+   "nome": "Bel'Veth",
+   "nomeEn": "Bel'Veth",
+   "titulo": "a Imperatriz do Vazio"
+  },
+  "Briar": {
+   "nome": "Briar",
+   "nomeEn": "Briar",
+   "titulo": "a Fome Contida"
+  },
+  "Diana": {
+   "nome": "Diana",
+   "nomeEn": "Diana",
+   "titulo": "o Escárnio da Lua"
+  },
+  "Gangplank": {
+   "nome": "Gangplank",
+   "nomeEn": "Gangplank",
+   "titulo": "o Terror dos Doze Mares"
+  },
+  "Garen": {
+   "nome": "Garen",
+   "nomeEn": "Garen",
+   "titulo": "o Poder de Demacia"
+  },
+  "Gnar": {
+   "nome": "Gnar",
+   "nomeEn": "Gnar",
+   "titulo": "o Yordle Pré-Histórico"
+  },
+  "Gwen": {
+   "nome": "Gwen",
+   "nomeEn": "Gwen",
+   "titulo": "A Costureira Encantada"
+  },
+  "Hecarim": {
+   "nome": "Hecarim",
+   "nomeEn": "Hecarim",
+   "titulo": "a Sombra da Guerra"
+  },
+  "Illaoi": {
+   "nome": "Illaoi",
+   "nomeEn": "Illaoi",
+   "titulo": "a Sacerdotisa Cráquem"
+  },
+  "Irelia": {
+   "nome": "Irelia",
+   "nomeEn": "Irelia",
+   "titulo": "a Dançarina das Lâminas"
+  },
+  "Jax": {
+   "nome": "Jax",
+   "nomeEn": "Jax",
+   "titulo": "o Grão-Mestre das Armas"
+  },
+  "Jayce": {
+   "nome": "Jayce",
+   "nomeEn": "Jayce",
+   "titulo": "o Defensor do Amanhã"
+  },
+  "Lillia": {
+   "nome": "Lillia",
+   "nomeEn": "Lillia",
+   "titulo": "o Florir Receoso"
+  },
+  "Nasus": {
+   "nome": "Nasus",
+   "nomeEn": "Nasus",
+   "titulo": "o Curador das Areias"
+  },
+  "Nilah": {
+   "nome": "Nilah",
+   "nomeEn": "Nilah",
+   "titulo": "a Alegria Irrestrita"
+  },
+  "Olaf": {
+   "nome": "Olaf",
+   "nomeEn": "Olaf",
+   "titulo": "o Berserker"
+  },
+  "Shyvana": {
+   "nome": "Shyvana",
+   "nomeEn": "Shyvana",
+   "titulo": "a Meio-Dragão"
+  },
+  "Tryndamere": {
+   "nome": "Tryndamere",
+   "nomeEn": "Tryndamere",
+   "titulo": "o Rei Bárbaro"
+  },
+  "Udyr": {
+   "nome": "Udyr",
+   "nomeEn": "Udyr",
+   "titulo": "o Andarilho Espiritual"
+  },
+  "Urgot": {
+   "nome": "Urgot",
+   "nomeEn": "Urgot",
+   "titulo": "o Encouraçado"
+  },
+  "MonkeyKing": {
+   "nome": "Wukong",
+   "nomeEn": "Wukong",
+   "titulo": "o Macaco Rei"
+  },
+  "XinZhao": {
+   "nome": "Xin Zhao",
+   "nomeEn": "Xin Zhao",
+   "titulo": "o Senescal de Demacia"
+  },
+  "Zaahen": {
+   "nome": "Zaahen",
+   "nomeEn": "Zaahen",
+   "titulo": "O Indissociável"
   }
  }
 }

@@ -1932,5 +1932,264 @@
         "origem": "W – Picks up the enemy's spells"
       }
     ]
+  },
+  "Belveth": {
+    "motivo": "A fighter who gains attack speed with every fight and turns into something else at the end: Bel'Veth's passive, which stacks attack speed, is Silver's Slam Fire, which speeds up the shots, and the true form of the R, which raises max health, is Lycan Curse, which also triggers as damage builds up. For a transformation with faster abilities and immunity to crowd control, Yamato's Shadow Transformation is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive – Attack speed that grows in the fight"
+      },
+      {
+        "origem": "R – True form with more health"
+      }
+    ]
+  },
+  "Briar": {
+    "motivo": "A fighter who bleeds the target and heals while hitting: Briar's R, which marks the first champion hit and goes after them, is Drifter's Stalker's Mark, which bleeds the target and takes Drifter behind them, and the cone scream of the E, which hurts up close, recalls Rend. For a bleed that grows with every hit, Shiv's Serrated Knives is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Marks the first enemy and goes after them"
+      },
+      {
+        "origem": "E – Cone strike that hurts up close"
+      }
+    ]
+  },
+  "Diana": {
+    "motivo": "A fighter who slashes in an arc and rushes at the marked target: Diana's E, which takes her to the enemy and resets when it hits a mark, is Apollo's Flawless Advance, a series of lunges, and the spheres of the W, which orbit and explode around her, recall Disengaging Sigil. To pull every enemy close, like the R, Billy's Chain Gang is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Rush to the marked target"
+      },
+      {
+        "origem": "W – Spheres that explode around her"
+      }
+    ]
+  },
+  "Gangplank": {
+    "motivo": "A barrel-and-gunpowder fighter who owns the space: Gangplank's E, the barrels that explode in a chain, is Holliday's Powder Keg, and the pistol shot of the Q recalls Crackshot, which charges more from whoever takes the clean shot. But the style is different: Gangplank fights up close with the sword and Holliday shoots from afar. To set the target on fire with every hit, like his passive, Infernus' Afterburn is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Barrels that explode in a chain"
+      },
+      {
+        "origem": "Q – Pistol shot at the target"
+      }
+    ]
+  },
+  "Garen": {
+    "motivo": "A sturdy fighter who spins the sword and finishes the target: Garen's W, which gives defense and shields him, is Warden's Willpower, a barrier with speed, and the spin of the E, which hurts everything around him, recalls Last Stand, which deals damage in pulses and heals. To stay standing while trading damage, Abrams' Infernal Resilience, which regenerates when taking damage, is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Defense and protection in a pinch"
+      },
+      {
+        "origem": "E – Spin that hurts everything around him"
+      }
+    ]
+  },
+  "Gnar": {
+    "motivo": "A fighter who turns into a brute force and throws everyone around: the R of Mega Gnar, which hurls enemies away, is Billy's Rising Ram, which carries the target through the air, and the area slam of the W recalls Bashdown. For a transformation that changes the game mid-fight, like Mega Gnar's, Yamato's Shadow Transformation is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Hurls enemies away"
+      },
+      {
+        "origem": "W – Mega Gnar's area slam"
+      }
+    ]
+  },
+  "Gwen": {
+    "motivo": "A fighter of quick cuts who vanishes into the mist: Gwen's E, a short dash that improves her attacks, is Calico's Leaping Slash, which slashes in a circle and heals on hit, and the mist of the W, which keeps her out of reach, recalls Return to Shadows, which leaves her untouchable for a moment. To add extra damage with every hit, like her passive, Mina's Love Bites is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Short dash that improves her attacks"
+      },
+      {
+        "origem": "W – Mist that keeps her out of reach"
+      }
+    ]
+  },
+  "Hecarim": {
+    "motivo": "A charging fighter who runs over whoever is in the way: Hecarim's E, which gives speed and launches the target on hit, is Billy's Rising Ram, and the area strike of the Q recalls Bashdown. The R with spectral riders recalls Paige's Rallying Charge, but she is a support and Hecarim is a fighter, so Paige stays as the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Charge that runs over and launches the target"
+      },
+      {
+        "origem": "Q – Area strike around him"
+      }
+    ]
+  },
+  "Illaoi": {
+    "motivo": "A fighter who fills the ground with tentacles and pins whoever comes close: the tentacles Illaoi makes rise from the ground are Graves' Jar of Dead, which summons helpers that punish the target, and the tentacle of the Q that sprouts under the target recalls Grasping Hands, which makes hands rise from the ground to hold. To rip the target out of place and hold them, like the E, Mo & Krill's Combo is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive and R – Tentacles that rise from the ground and attack"
+      },
+      {
+        "origem": "Q – Tentacle that sprouts under the target"
+      }
+    ]
+  },
+  "Irelia": {
+    "motivo": "A dash fighter who throws herself at the target and resets: Irelia's Q, which rushes the enemy and heals on hit, is Yamato's Flying Slash, which pulls its user to the target, and the charged blade of the W recalls Power Slash, which grows while it is prepared. For a series of lunges at the target, Apollo's Flawless Advance is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Dash at the target that heals on hit"
+      },
+      {
+        "origem": "W – Strike that grows while prepared"
+      }
+    ]
+  },
+  "Jax": {
+    "motivo": "A fighter who dodges the enemy's blow and answers right away: Jax's E, which avoids every attack and stuns whoever is around, is Apollo's Riposte, which deflects the next hit and takes Apollo to the target, and the leap of the Q recalls Flawless Advance. To jump straight at the target, Lash's Grapple is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Avoids the attacks and answers"
+      },
+      {
+        "origem": "Q – Leap that hits the target"
+      }
+    ]
+  },
+  "Jayce": {
+    "motivo": "A fighter who swaps between shooting and brawling: Jayce's cannon, which fires from afar, is Silver's Slam Fire, and the hammer, which pushes the target away, recalls Boot Kick. To alternate between shooting and hitting, Billy's Blasted, where melee hits reload the ammo, is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Cannon – Powerful shots from afar"
+      },
+      {
+        "origem": "Hammer – Strike that pushes the target"
+      }
+    ]
+  },
+  "Lillia": {
+    "motivo": "A fighter who slows, punishes the area and puts everyone to sleep: the seed of Lillia's E, which hits and slows whoever is in the way, is Celeste's Shining Wonder, and the W, which hits harder in the center of the area, recalls Radiant Daggers. To add damage with every ability that lands, like her passive, Mina's Love Bites is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Seed that hits and slows"
+      },
+      {
+        "origem": "W – Area that hits harder in the center"
+      }
+    ]
+  },
+  "Nasus": {
+    "motivo": "A fighter who steals the target's life and grows stronger over time: Nasus' passive and Q, which steal life with every hit, are Abrams' Siphon Life, and the sandstorm of the R, which makes him sturdier while it lasts, recalls Infernal Resilience. For sand that punishes whoever is near, Mo & Krill's Sand Blast is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Passive and Q – Steals the target's life"
+      },
+      {
+        "origem": "R – Storm that makes him sturdier"
+      }
+    ]
+  },
+  "Nilah": {
+    "motivo": "A whip fighter who cuts in a line, rushes in and pulls everyone: Nilah's Q, the whip that hits everything ahead, is Lash's Flog, which heals on hit, the E's dash to the target is Grapple, and the R, which hurts around her and pulls enemies, recalls Death Slam. To dodge the blow and go on the offensive, Apollo's Riposte is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Whip that hits everything ahead"
+      },
+      {
+        "origem": "E – Dash to the target"
+      },
+      {
+        "origem": "R – Hurts around her and pulls enemies"
+      }
+    ]
+  },
+  "Olaf": {
+    "motivo": "A fighter who hurts himself to hit harder and gets more dangerous at low health: Olaf's E, which damages himself, is Victor's Jumpstart, which takes life from whoever uses it and gives back regeneration and speed, and the passive, which grows as he loses health, recalls Pain Battery, which charges when taking damage. To spend your own life on a stronger attack, Lady Geist's Essence Bomb is the second pick.",
+    "paralelos": [
+      {
+        "origem": "E – Hurts himself to hit harder"
+      },
+      {
+        "origem": "Passive – Grows stronger as he loses health"
+      }
+    ]
+  },
+  "Shyvana": {
+    "motivo": "A fighter who turns into a dragon and burns everything: the dragon form of Shyvana's R, which gives more health, is Silver's Lycan Curse, and the fireball of the E, which hits and slows, recalls Entangling Bola. For fire that burns the target bit by bit, Infernus' Napalm and Afterburn are the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Dragon form with more health"
+      },
+      {
+        "origem": "E – Fireball that hits and slows"
+      }
+    ]
+  },
+  "Tryndamere": {
+    "motivo": "A fighter who does not fall while there is fury: Tryndamere's R, which keeps him from dying for a while, is Victor's Shocking Reanimation, which brings him back after death, and the Q, which heals him according to his fury, recalls Jumpstart, which gives back regeneration. To advance through the enemies with slashes, like the E, Apollo's Flawless Advance is the second pick.",
+    "paralelos": [
+      {
+        "origem": "R – Cannot die for a while"
+      },
+      {
+        "origem": "Q – Heals according to fury"
+      }
+    ]
+  },
+  "Udyr": {
+    "motivo": "A stance fighter who swaps between attacking and protecting himself: Udyr's W, which gives a shield and heals on the following hits, is the Rat King's Royal Pestments, a barrier that protects, and the storm of the R, which hurts and slows whoever is near, recalls Rat Swarm, which punishes with damage over time. To heal while hitting the target, Abrams' Siphon Life is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Shield and healing on the following hits"
+      },
+      {
+        "origem": "R – Storm that hurts whoever is near"
+      }
+    ]
+  },
+  "Urgot": {
+    "motivo": "A heavy fighter who drags himself along shooting and pins the target: the explosive charge of Urgot's Q is Bebop's Sticky Bomb, a bomb that goes off after a moment, the W, which unloads the weapon on whoever is near, recalls Hyper Beam, and the R, which impales the target and pulls them, is Grapple Arm. To chain enemies to you and pull them, Billy's Chain Gang is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Explosive charge on the spot"
+      },
+      {
+        "origem": "W – Unloads the weapon on whoever is near"
+      },
+      {
+        "origem": "R – Impales the target and pulls them"
+      }
+    ]
+  },
+  "MonkeyKing": {
+    "motivo": "A fighter who vanishes, leaves a clone and spins hitting everyone: Wukong's W, which makes him invisible with a dash and a clone, is Haze's Smoke Bomb, and the spin of the R, which hurts everyone around him, recalls Bullet Dance. For the dash to the target, Yamato's Flying Slash is the second pick.",
+    "paralelos": [
+      {
+        "origem": "W – Turns invisible and leaves a clone"
+      },
+      {
+        "origem": "R – Spin that hurts everyone around him"
+      }
+    ]
+  },
+  "XinZhao": {
+    "motivo": "A fighter of chained strikes and charges: Xin Zhao's Q, three strikes in a row with the last one launching the target, and the E, which takes him to the enemy, recall Apollo's Flawless Advance, a series of lunges at the target. To challenge the target and hold them in place, like the R, Warden's Binding Word is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q and E – Chained strikes and a charge at the target"
+      }
+    ]
+  },
+  "Zaahen": {
+    "motivo": "A fighter who heals by hitting and pulls the target to himself: Zaahen's Q, which hits twice and heals, is Abrams' Siphon Life, the W, which hits and pulls the enemy, recalls Shoulder Charge, and the R, which rises and slams the ground healing, is Seismic Impact. To hit and heal right after, Lash's Flog is the second pick.",
+    "paralelos": [
+      {
+        "origem": "Q – Hits twice and heals"
+      },
+      {
+        "origem": "W – Hits and pulls the enemy"
+      },
+      {
+        "origem": "R – Slams the ground hurting and healing"
+      }
+    ]
   }
 }
