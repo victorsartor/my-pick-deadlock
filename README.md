@@ -2,7 +2,7 @@
 
 **Do seu main no LoL ao herói certo no Deadlock.**
 
-🔗 https://my-pick-deadlock.vercel.app
+🔗 https://mypickdeadlock.com.br
 
 ## A ideia
 
@@ -18,7 +18,7 @@ Para cada recomendação, o site mostra:
 - **Dificuldade** do herói, de Fácil a Extrema.
 - **Uma segunda opção**, para quem quiser explorar outro caminho.
 
-A estrutura já está pronta para receber jogadores de outros jogos no futuro, como Dota 2, Overwatch 2 e Valorant.
+Hoje o site cobre os **173 campeões** do League of Legends, cada um com um herói principal e uma segunda opção. A estrutura já está pronta para receber jogadores de outros jogos no futuro, como Dota 2, Overwatch 2 e Valorant.
 
 ## Como a porcentagem é calculada
 
@@ -56,7 +56,7 @@ O site está em **português** e **inglês**. O seletor **PT | EN** fica no cant
 
 ## Feedback da comunidade
 
-Cada recomendação tem os botões **Concordo** e **Não concordo**. Quem discorda pode indicar qual herói acha que combina mais. Esses votos são usados para revisar os pares.
+Cada recomendação tem os botões **Concordo** e **Não concordo**. Quem discorda pode indicar qual herói acha que combina mais. Esses votos são usados para revisar os pares. Os votos são anônimos: o banco só aceita pares válidos e limita a quantidade de votos por IP (só um hash do IP é guardado, por no máximo uma hora).
 
 Tem uma sugestão de par, encontrou algo estranho ou quer ver outro jogo no site? Me chama no X: **[@vitinhoosartor](https://x.com/vitinhoosartor)**.
 
@@ -66,9 +66,10 @@ Tem uma sugestão de par, encontrou algo estranho ou quer ver outro jogo no site
 - **[Deadlock API](https://deadlock-api.com)** (projeto da comunidade, não oficial): imagens, nomes e habilidades dos heróis do Deadlock. Como o jogo está em beta, o site se atualiza sozinho quando a Valve muda algo.
 - **[Community Dragon](https://www.communitydragon.org)**: ícones das posições do LoL.
 
-Para o site abrir rápido, o que quase nunca muda (versão do LoL, nomes dos campeões, ícones e imagens dos heróis) é baixado a cada publicação e servido pelo próprio site; os ícones dos campeões viram WebP de ~3 KB. As habilidades continuam vindo das APIs na hora, e são pré-carregadas quando o mouse passa sobre um campeão.
 - **[Supabase](https://supabase.com)**: armazenamento dos votos, de forma anônima.
 - **[Vercel](https://vercel.com)**: hospedagem do site.
+
+Para o site abrir rápido, o que quase nunca muda (versão do LoL, nomes dos campeões, ícones e imagens dos heróis) é baixado a cada publicação e servido pelo próprio site; os ícones dos campeões viram WebP de ~3 KB. As habilidades continuam vindo das APIs na hora, e são pré-carregadas quando o mouse passa sobre um campeão.
 
 ## Aviso legal
 
