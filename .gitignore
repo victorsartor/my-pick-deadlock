@@ -25,3 +25,7 @@ dist-ssr
 
 # Relatórios de votos gerados por npm run relatorio
 relatorios
+
+# Local: configuração do editor e SQL do banco (não vão para o GitHub)
+.claude/
+supabase/
